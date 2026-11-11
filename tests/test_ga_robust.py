@@ -133,6 +133,7 @@ class RobustTests(unittest.TestCase):
                 r=MujocoRobot()
                 for i,w in enumerate(('sx','dx')):
                     adr=int(r.m.joint('perno_'+w).dofadr[0])
-                    self.assertAlmostEqual(meta['physical_parameters']['joint_damping_Nm_s_rad'][adr],profile[w]['damping_Nm_s_rad']*s['damping_scale'][i])
+                    # Metadata is captured during startup with motors OFF.
+                    self.assertAlmostEqual(meta['physical_parameters']['joint_damping_Nm_s_rad'][adr],profile[w]['off_damping_Nm_s_rad']*s['damping_scale'][i])
 
 if __name__=='__main__':unittest.main()
