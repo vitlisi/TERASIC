@@ -1,0 +1,32 @@
+{
+  "status": "complete",
+  "scenario_policy": "new common bank per generation; physics fixed within rollout",
+  "unique_genomes": 56,
+  "training_evaluations": 84,
+  "shortlist_candidates": 8,
+  "best_selection_rank": [
+    11,
+    0.0,
+    0.7814819390874341
+  ],
+  "baseline_selection_rank": [
+    11,
+    0.0,
+    13.69897059173054
+  ],
+  "validation": {
+    "baseline": [
+      11,
+      0.0,
+      13.550557359248174
+    ],
+    "ga": [
+      11,
+      0.0,
+      0.7792422526623319
+    ]
+  },
+  "validation_improved": true,
+  "best_config": "/home/vittorio/terasic_robot/logs/mujoco/ga/uncertainties_2pct/ga_20261110_113003_e69593/best.json",
+  "note": "No active controller replaced; no external disturbances; no cross-generation training best rank."
+}

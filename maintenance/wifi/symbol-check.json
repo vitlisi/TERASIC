@@ -1,0 +1,8 @@
+{
+  "required_symbols": 371,
+  "kernel_export_records": 6367,
+  "missing_exports": [],
+  "pic_relocations": false,
+  "result": "PASS",
+  "limitation": "Export/metadata checks do not prove full ABI or runtime compatibility."
+}

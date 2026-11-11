@@ -1,0 +1,60 @@
+{
+  "population": 12,
+  "generations": 10,
+  "ga_seed": 42,
+  "train_seed": 10000,
+  "validation_seed": 30000,
+  "train_scenarios": 5,
+  "validation_scenarios": 11,
+  "protocol": {
+    "duration_s": 10.0,
+    "release_pitch_deg": 3.0,
+    "max_pwm": 50.0,
+    "feedback_delay_samples": 1,
+    "cost_weights": {
+      "pitch": 4.0,
+      "position": 1.0,
+      "yaw": 0.5,
+      "speed": 0.25,
+      "pwm": 0.05,
+      "slew": 0.02
+    }
+  },
+  "motor_parameters": "config/mujoco_motors_sx_dx_20261030.json",
+  "optimize_r": true,
+  "resample_each_generation": true,
+  "selection_seed": 20000,
+  "selection_scenarios": 11,
+  "uncertainties": {
+    "armature": 0.02,
+    "damping": 0.02,
+    "joint_friction": 0.02,
+    "motor": 0.02
+  },
+  "measurement_noise": {
+    "imu_accel_scale": 1.0,
+    "imu_gyro_scale": 1.0,
+    "encoder_std_counts_range": [
+      0.1,
+      1.0
+    ]
+  },
+  "r_scale": 1.0,
+  "source_sha256": {
+    "src_python/ga_lqr.py": "8723ba34df9c53c9a34161c66c1ec9eecfac90a43bcc864c73717eb2b13e58b3",
+    "src_python/motion_lqr.py": "ac70ef77bc969081fdcdecf1737d844aaef246d02943c8e03bbd14a0b5993171",
+    "src_python/mujoco_sim.py": "d3de1d954d9d6f0d8c0c19ef1d1e9a786a8ab6e9d07cf35da1a561edcc909f3d",
+    "src_python/mujoco_robot.py": "28f9d3611cf0f524269cfaa0bb10c860cd9c655616e65163a092c1b410703708",
+    "src_python/sensor_models.py": "5ad4b8bc655e06451d3e1eb007f443f7c779809b6d5e6c4a7cb0d41d2a209d12",
+    "src_python/lqr_controller.py": "eba5c99472803e84a31e230e0f632da6baa55a0b21d43c68909838490e2e1a09",
+    "src_python/balance_controller.py": "28449ca3eb93b68880de89d70eb740af9070924f10cf4725fcc902ebdb448cde",
+    "src_python/wheel_dynamics.py": "aad185248fe19c3f1c30f5b09ad13b14fc215f76cbd41deefe6b65bcf3becf32",
+    "src_python/ga_robust.py": "9d5e8839f1a1df3ca8014b4841abf757b5f64702f61886c835c56d6ba018fec7",
+    "src_python/stribeck_motor.py": "c21c384c4a2485f0267b5d852243c421f8bb656f27c557ca66c62e35234574cf",
+    "scripts/ga/tune_lqr_ga.py": "5fb88fc9b20c8f5f9567a86259287121982592614e7b8b6dfb64909c558f0302",
+    "models/verifica.xml": "d2e22f32f5c8d2fe645a0c8d43bf3e9364eebd1289685898a6c4b4190a19a5ec",
+    "config/mujoco_sensors_mpu6500.json": "48a318ae9dca31850f0b9bd298ea0c902f4420f6f5495f36ee419defedd53d76",
+    "config/mujoco_robot01_stribeck.json": "9b2b606adba1ee7a6bad4cf5b4642377703970dd293e5b041335ad334de42521",
+    "/home/vittorio/terasic_robot/config/mujoco_motors_sx_dx_20261030.json": "f87fa812d88acf47c2b458b7d3bff7fbfad142219f2111650a402cc8a4ba1c1b"
+  }
+}

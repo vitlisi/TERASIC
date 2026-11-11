@@ -1,0 +1,51 @@
+Avvio: Mon Nov  9 20:35:57 UTC 2026
+Argomenti: run config/controllers/hinf_stand.txt 10 20
+Protocollo dichiarato: non specificato
+startup_protocol=inclined_initial_support_free_recovery; fixed_pitch_reference; gyro_bias_only
+Supporto iniziale: ruote a terra, telaio libero di staccarsi; sostenere prima dello stop.
+Configurazione:
+# wheel_convention=physical_sx_dx_v2; SX=left, DX=right in forward direction.
+# Hinf reale sperimentale: prove protette dallo stand; nessuna validazione generale.
+# Matrici incorporate nel binario, identiche all'export Simscape (non K LQR).
+# Initial inclined support only, wheels on ground, chassis free to recover.
+# Fixed pitch reference and gyro-bias calibration. Runtime baseline: CLI20, differential3.
+# Motors differ physically; the SX/DX profile belongs to MuJoCo, not a new real PWM compensation.
+counts_per_rev 1325
+gyro_sign 1
+motor_sign 1
+encoder_sx_sign -1
+encoder_dx_sign 1
+wheel_model_sign -1
+pitch_model_sign 1
+pitch_reference_deg 0.320
+shadow_only 0
+wheel_radius_m 0.032
+# Misura fisica corretta: 164.44 mm; vecchio export Hinf nominale .1644 m.
+wheel_track_m 0.16444
+max_differential_pwm 3
+1e9275c18fd963a8dd7b0f60f00d0e1781895ff9a7bfe5d5cb5ba325a0c82f63  /home/root/terasic_robot_final/build/robot/balance_hinf
+415447b6ae9cefec0ed70a5b18163a93a1d924dd76b4c5c88c2c2b7959b7380a  /home/root/terasic_robot_final/logs/final_campaign/08_hinf_twin_comparison/stand/real/runs/trial_001/hinf_20261109_203557_1628.config.txt
+
+Batteria PRIMA (a motori spenti): Mon Nov  9 20:35:57 UTC 2026
+wheel_convention=physical_sx_dx_v2
+ADC batteria: canale=1 campioni=16 raw_medio=2997.00 raw_min=2989 raw_max=2998
+Tensione pacco (scala nominale Terasic): 11.478 V [min 11.447, max 11.482]
+Percentuale di carica: non disponibile (nessun fuel gauge calibrato).
+Misura a motori spenti; confrontare una volta con un multimetro.
+exit_code_battery=0
+wheel_convention=physical_sx_dx_v2
+Scheduling SCHED_FIFO, priorita' 10.
+Avvio dal supporto iniziale: ruote a terra, recupero libero; il supporto non e' uno zero pitch.
+Calibrazione gyro: robot fermo 2 s; pitch entro +/-5 deg dal riferimento FISSO.
+Calibrazione: postura non valida al campione 5: ax=1391 ay=452 az=16402 |a|=1.005 g pitch=-4.85 deg.
+Calibrazione annullata: tenere il robot piu' fermo e verticale.
+
+Batteria DOPO (a motori spenti): Mon Nov  9 20:35:58 UTC 2026
+wheel_convention=physical_sx_dx_v2
+ADC batteria: canale=1 campioni=16 raw_medio=2996.38 raw_min=2982 raw_max=2998
+Tensione pacco (scala nominale Terasic): 11.475 V [min 11.420, max 11.482]
+Percentuale di carica: non disponibile (nessun fuel gauge calibrato).
+Misura a motori spenti; confrontare una volta con un multimetro.
+exit_code_battery=0
+
+exit_code=1

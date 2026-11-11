@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "duration_s": 10.0,
+  "dt_s": 0.01,
+  "max_pwm": 50.0,
+  "feedback_delay_samples": 1,
+  "pitch_limit_deg": 30.0,
+  "initial_pitch_range_deg": [-3.0, 3.0],
+  "randomize_model": true,
+  "observation_scales": [0.625, 0.08726646259971647, 0.08726646259971647, 1.5625, 0.5235987755982988, 0.5235987755982988],
+  "reward": {
+    "weights": {"pitch": 0.5, "pitch_rate": 0.15, "position": 0.1, "speed": 0.1, "yaw": 0.05, "yaw_rate": 0.03, "pwm": 0.07},
+    "scales": {"pitch_deg": 1.0, "pitch_rate_deg_s": 30.0, "position_m": 0.02, "speed_m_s": 0.05, "yaw_deg": 5.0, "yaw_rate_deg_s": 30.0},
+    "failure_reward": -20.0
+  },
+  "ppo": {"total_timesteps": 200000, "n_steps": 1024, "batch_size": 64, "n_epochs": 10, "learning_rate": 0.0003, "gamma": 0.999, "gae_lambda": 0.95, "clip_range": 0.2, "ent_coef": 0.001, "vf_coef": 0.5, "max_grad_norm": 0.5, "target_kl": 0.02},
+  "seed": 42,
+  "evaluation_seed": 5000,
+  "evaluation_angles_deg": [-3.0, 3.0]
+}

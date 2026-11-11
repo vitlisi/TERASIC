@@ -1,0 +1,53 @@
+{
+  "source_run": "/home/vittorio/terasic_robot/logs/mujoco/ga/uncertainties_2pct/ga_20261110_113003_e69593",
+  "scenario_count": 11,
+  "validation_improved": true,
+  "aggregate": {
+    "baseline": {
+      "completed": 11,
+      "settled": 0,
+      "rank": [
+        11,
+        0.0,
+        13.550557359248174
+      ],
+      "means": {
+        "cost": 8.877230323297727,
+        "pitch_rms_deg": 0.7906097392674053,
+        "position_rms_m": 0.026707705680123896,
+        "pwm_rms_percent": 43.53149247846003,
+        "saturation_fraction": 0.614
+      },
+      "metric_counts": {
+        "cost": 11,
+        "pitch_rms_deg": 11,
+        "position_rms_m": 11,
+        "pwm_rms_percent": 11,
+        "saturation_fraction": 11
+      }
+    },
+    "ga": {
+      "completed": 11,
+      "settled": 0,
+      "rank": [
+        11,
+        0.0,
+        0.7792422526623319
+      ],
+      "means": {
+        "cost": 0.5133044422045316,
+        "pitch_rms_deg": 0.6754055064663322,
+        "position_rms_m": 0.003979459141686324,
+        "pwm_rms_percent": 5.090545594109684,
+        "saturation_fraction": 0.0
+      },
+      "metric_counts": {
+        "cost": 11,
+        "pitch_rms_deg": 11,
+        "position_rms_m": 11,
+        "pwm_rms_percent": 11,
+        "saturation_fraction": 11
+      }
+    }
+  }
+}

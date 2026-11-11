@@ -1,0 +1,246 @@
+{
+  "training": [
+    {
+      "name": "train_00",
+      "seed": 1000,
+      "motor_scale": [
+        1.0,
+        1.0
+      ],
+      "friction_scale": 1.0,
+      "armature_scale": [
+        1.0,
+        1.0
+      ],
+      "chassis_inertia_scale": 1.0,
+      "encoder_noise_std_counts": 0.0
+    },
+    {
+      "name": "train_01",
+      "seed": 1001,
+      "motor_scale": [
+        1.0042771475950125,
+        1.020768369401266
+      ],
+      "friction_scale": 0.9941883594644508,
+      "armature_scale": [
+        0.9406495885089358,
+        1.0057518051240106
+      ],
+      "chassis_inertia_scale": 0.9382072560161578,
+      "encoder_noise_std_counts": 0.35339103877766653
+    },
+    {
+      "name": "train_02",
+      "seed": 1002,
+      "motor_scale": [
+        1.050736310438319,
+        1.010334355346243
+      ],
+      "friction_scale": 1.0727444151416778,
+      "armature_scale": [
+        1.0610744441811844,
+        0.9496745326412278
+      ],
+      "chassis_inertia_scale": 0.9379714824163081,
+      "encoder_noise_std_counts": 0.9855960237029548
+    },
+    {
+      "name": "train_03",
+      "seed": 1003,
+      "motor_scale": [
+        1.0339994331892464,
+        0.9560765659957577
+      ],
+      "friction_scale": 0.9407826468548403,
+      "armature_scale": [
+        1.0250129370904908,
+        1.0305208631724112
+      ],
+      "chassis_inertia_scale": 1.079761505749693,
+      "encoder_noise_std_counts": 0.9772874026364503
+    },
+    {
+      "name": "train_04",
+      "seed": 1004,
+      "motor_scale": [
+        0.9307864739004409,
+        1.039817855074021
+      ],
+      "friction_scale": 0.9894482893782042,
+      "armature_scale": [
+        0.9035026418209209,
+        0.9582049811188287
+      ],
+      "chassis_inertia_scale": 0.976247322186176,
+      "encoder_noise_std_counts": 0.38892512092483134
+    }
+  ],
+  "validation": [
+    {
+      "name": "validation_00",
+      "seed": 2000,
+      "motor_scale": [
+        1.0,
+        1.0
+      ],
+      "friction_scale": 1.0,
+      "armature_scale": [
+        1.0,
+        1.0
+      ],
+      "chassis_inertia_scale": 1.0,
+      "encoder_noise_std_counts": 0.0
+    },
+    {
+      "name": "validation_01",
+      "seed": 2001,
+      "motor_scale": [
+        1.0150272637715274,
+        1.0312849218585776
+      ],
+      "friction_scale": 0.9054075407878496,
+      "armature_scale": [
+        1.0013114457237497,
+        1.0294336951548575
+      ],
+      "chassis_inertia_scale": 0.953810116580824,
+      "encoder_noise_std_counts": 0.9653123194398794
+    },
+    {
+      "name": "validation_02",
+      "seed": 2002,
+      "motor_scale": [
+        0.982022887184329,
+        1.007052997926746
+      ],
+      "friction_scale": 0.9124056004914762,
+      "armature_scale": [
+        0.9210766801176876,
+        1.0086387295864063
+      ],
+      "chassis_inertia_scale": 0.9487252524089723,
+      "encoder_noise_std_counts": 0.7680834807784447
+    },
+    {
+      "name": "validation_03",
+      "seed": 2003,
+      "motor_scale": [
+        0.9004507418875135,
+        0.9734494197591111
+      ],
+      "friction_scale": 0.9733953168163726,
+      "armature_scale": [
+        0.9127398080503116,
+        0.9235159055096723
+      ],
+      "chassis_inertia_scale": 1.0555641492462,
+      "encoder_noise_std_counts": 0.5434445116459784
+    },
+    {
+      "name": "validation_04",
+      "seed": 2004,
+      "motor_scale": [
+        0.9534057958931117,
+        1.073604076244098
+      ],
+      "friction_scale": 1.0390732236185918,
+      "armature_scale": [
+        1.0142006404928423,
+        0.9911486015309714
+      ],
+      "chassis_inertia_scale": 0.9602051481802389,
+      "encoder_noise_std_counts": 0.5439783372810383
+    },
+    {
+      "name": "validation_05",
+      "seed": 2005,
+      "motor_scale": [
+        0.9302390056285188,
+        1.0142049676790574
+      ],
+      "friction_scale": 1.0209263891565545,
+      "armature_scale": [
+        0.9663671632074864,
+        0.9797357321270241
+      ],
+      "chassis_inertia_scale": 0.9503558806418756,
+      "encoder_noise_std_counts": 0.6934978189807848
+    },
+    {
+      "name": "validation_06",
+      "seed": 2006,
+      "motor_scale": [
+        0.9323217369258341,
+        0.931774069677183
+      ],
+      "friction_scale": 0.9173015780960381,
+      "armature_scale": [
+        1.0562064705851812,
+        1.0682026186639986
+      ],
+      "chassis_inertia_scale": 1.0916966111732418,
+      "encoder_noise_std_counts": 0.9316491614524478
+    },
+    {
+      "name": "validation_07",
+      "seed": 2007,
+      "motor_scale": [
+        0.9502971490621397,
+        0.9870328128212201
+      ],
+      "friction_scale": 1.0046005910687676,
+      "armature_scale": [
+        1.003551056481413,
+        1.0515010634892574
+      ],
+      "chassis_inertia_scale": 1.0476725540180518,
+      "encoder_noise_std_counts": 0.13310636411695576
+    },
+    {
+      "name": "validation_08",
+      "seed": 2008,
+      "motor_scale": [
+        1.0789258775063348,
+        0.9903152685704222
+      ],
+      "friction_scale": 1.0810919274724062,
+      "armature_scale": [
+        0.9830582887084588,
+        0.9518710216484708
+      ],
+      "chassis_inertia_scale": 1.0407731581969368,
+      "encoder_noise_std_counts": 0.41413831875206997
+    },
+    {
+      "name": "validation_09",
+      "seed": 2009,
+      "motor_scale": [
+        0.9993303643776581,
+        1.0637567951948657
+      ],
+      "friction_scale": 1.023031856762912,
+      "armature_scale": [
+        0.943097597162244,
+        0.9200330748946401
+      ],
+      "chassis_inertia_scale": 1.0095215636532837,
+      "encoder_noise_std_counts": 0.4153878533239107
+    },
+    {
+      "name": "validation_10",
+      "seed": 2010,
+      "motor_scale": [
+        1.002581561787992,
+        1.0252826976169302
+      ],
+      "friction_scale": 0.9663970472088628,
+      "armature_scale": [
+        0.9081018152510054,
+        1.0590741050101764
+      ],
+      "chassis_inertia_scale": 0.923409520835325,
+      "encoder_noise_std_counts": 0.41927521526724154
+    }
+  ]
+}

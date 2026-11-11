@@ -1,0 +1,1547 @@
+[
+  {
+    "old": "logs/mujoco/pd/stand_195e5fc3ba9c_pd_20261110_002622_63f1277d.pdf",
+    "new": "logs/mujoco/pd/plot/stand_195e5fc3ba9c_pd_20261110_002622_63f1277d.pdf",
+    "sha256": "3d1479aad2ae9b8a4aac307375154af8f264b0d95883f551aa07bdec46a0b139"
+  },
+  {
+    "old": "logs/mujoco/pd/stand_195e5fc3ba9c_pd_20261110_002622_63f1277d.svg",
+    "new": "logs/mujoco/pd/plot/stand_195e5fc3ba9c_pd_20261110_002622_63f1277d.svg",
+    "sha256": "32656082c04131866ad9b6f421c125b9b15b6f570feb937260b0cf74922b5881"
+  },
+  {
+    "old": "logs/mujoco/pd/stand_4c2ed8b813f2_pd_20261110_095843_39b4a1f7.pdf",
+    "new": "logs/mujoco/pd/plot/stand_4c2ed8b813f2_pd_20261110_095843_39b4a1f7.pdf",
+    "sha256": "5b3c21d6dfe67b504ebb8b98b330713ce35d5a53647635e9a6aa95e9fd205e22"
+  },
+  {
+    "old": "logs/mujoco/pd/stand_4c2ed8b813f2_pd_20261110_095843_39b4a1f7.svg",
+    "new": "logs/mujoco/pd/plot/stand_4c2ed8b813f2_pd_20261110_095843_39b4a1f7.svg",
+    "sha256": "1f91c476ca71c7bce9a80b937d96bd60546b8841af26b2197aed2fe4db00152d"
+  },
+  {
+    "old": "logs/mujoco/pd/stand_bf511774fbab_pd_20261110_095925_3bbae0c9.pdf",
+    "new": "logs/mujoco/pd/plot/stand_bf511774fbab_pd_20261110_095925_3bbae0c9.pdf",
+    "sha256": "50477d652b0574baeb2eac47d93a1d0e08b3d387dc7be3ebaeb60e0c539321e9"
+  },
+  {
+    "old": "logs/mujoco/pd/stand_bf511774fbab_pd_20261110_095925_3bbae0c9.svg",
+    "new": "logs/mujoco/pd/plot/stand_bf511774fbab_pd_20261110_095925_3bbae0c9.svg",
+    "sha256": "b713d1a97e66c721a3abeb24336777cae92c231c39f4870c1042973fa3605422"
+  },
+  {
+    "old": "logs/mujoco/pd-outer/stand_d8d014e70a3c_pd-outer_20261110_002652_fa3288f8.pdf",
+    "new": "logs/mujoco/pd-outer/plot/stand_d8d014e70a3c_pd-outer_20261110_002652_fa3288f8.pdf",
+    "sha256": "ae45c6a75c32ebf3044d78e889289084c194a4acac3250e1e1d915db33edf11c"
+  },
+  {
+    "old": "logs/mujoco/pd-outer/stand_d8d014e70a3c_pd-outer_20261110_002652_fa3288f8.svg",
+    "new": "logs/mujoco/pd-outer/plot/stand_d8d014e70a3c_pd-outer_20261110_002652_fa3288f8.svg",
+    "sha256": "5a1f839c156879149dc164ad23e87c5976e8cb24294980d54486c1260ba76264"
+  },
+  {
+    "old": "logs/mujoco/lqr/path_0249360a55ad_simulation.pdf",
+    "new": "logs/mujoco/lqr/plot/path_0249360a55ad_simulation.pdf",
+    "sha256": "efe034a8b9a84a8e91caa33400aae15261e8794c726a27ea314c16bb7a941a4a"
+  },
+  {
+    "old": "logs/mujoco/lqr/path_0249360a55ad_simulation.png",
+    "new": "logs/mujoco/lqr/plot/path_0249360a55ad_simulation.png",
+    "sha256": "2a01602ffcb0c26a28dc73f5019e62a4258c8268c79464992e638c31dda19111"
+  },
+  {
+    "old": "logs/mujoco/lqr/path_0249360a55ad_simulation.svg",
+    "new": "logs/mujoco/lqr/plot/path_0249360a55ad_simulation.svg",
+    "sha256": "284dc56cc75394624c869e333370e97e800662bec218c47f943a6194e321b5e0"
+  },
+  {
+    "old": "logs/mujoco/lqr/path_0249360a55ad_simulation_torque.svg",
+    "new": "logs/mujoco/lqr/plot/path_0249360a55ad_simulation_torque.svg",
+    "sha256": "41516588599f0dee1dc5112bee24cdea390250f0b3e850cadc54eec1c8af190a"
+  },
+  {
+    "old": "logs/mujoco/lqr/path_0249360a55ad_simulation_xy.svg",
+    "new": "logs/mujoco/lqr/plot/path_0249360a55ad_simulation_xy.svg",
+    "sha256": "daf364a9315519a39cfcfa7dc1a315a7b15328847e3a4c3db0cae509be298904"
+  },
+  {
+    "old": "logs/mujoco/lqr/path_3038dbfd1c00_simulation.pdf",
+    "new": "logs/mujoco/lqr/plot/path_3038dbfd1c00_simulation.pdf",
+    "sha256": "a7ef9666f2b61f65963f7dac6a887d90f0ad67a98a33159d7d5f3e3bd810cb66"
+  },
+  {
+    "old": "logs/mujoco/lqr/path_3038dbfd1c00_simulation.png",
+    "new": "logs/mujoco/lqr/plot/path_3038dbfd1c00_simulation.png",
+    "sha256": "014085b053b4be96a0852dee52c8a6f140c0f8671e2a031dfbad2afd6b05fa03"
+  },
+  {
+    "old": "logs/mujoco/lqr/path_3038dbfd1c00_simulation.svg",
+    "new": "logs/mujoco/lqr/plot/path_3038dbfd1c00_simulation.svg",
+    "sha256": "d8158f4037638696e758b81be8b02f1b21adc22109c133f8430bfd792cac0d81"
+  },
+  {
+    "old": "logs/mujoco/lqr/path_3038dbfd1c00_simulation_torque.svg",
+    "new": "logs/mujoco/lqr/plot/path_3038dbfd1c00_simulation_torque.svg",
+    "sha256": "c6d159b44e7e57cdf256254bf064de6aa39c8ca45d2fe556478d50a1ff4b0199"
+  },
+  {
+    "old": "logs/mujoco/lqr/path_3038dbfd1c00_simulation_xy.svg",
+    "new": "logs/mujoco/lqr/plot/path_3038dbfd1c00_simulation_xy.svg",
+    "sha256": "fa278ae951b64cabf6186c4668aaaf24469ed11b6d1c3139cd03469e59ee3e56"
+  },
+  {
+    "old": "logs/mujoco/lqr/path_59616a5aa0e4_simulation.pdf",
+    "new": "logs/mujoco/lqr/plot/path_59616a5aa0e4_simulation.pdf",
+    "sha256": "bf617e6021acd41ca1e0d940b859abaa804c5c950b1832ece8bfcf1f54f59704"
+  },
+  {
+    "old": "logs/mujoco/lqr/path_59616a5aa0e4_simulation.png",
+    "new": "logs/mujoco/lqr/plot/path_59616a5aa0e4_simulation.png",
+    "sha256": "20e9c1df848b0d0492395b6677def9965258cf91877f9258f7d09f310485e426"
+  },
+  {
+    "old": "logs/mujoco/lqr/path_59616a5aa0e4_simulation.svg",
+    "new": "logs/mujoco/lqr/plot/path_59616a5aa0e4_simulation.svg",
+    "sha256": "33c2dd2b43133f880a53eed4b7f42ebd60b1b5e66495187f325e0fea814cbc1c"
+  },
+  {
+    "old": "logs/mujoco/lqr/path_59616a5aa0e4_simulation_torque.svg",
+    "new": "logs/mujoco/lqr/plot/path_59616a5aa0e4_simulation_torque.svg",
+    "sha256": "4d0e7bc1008955154c77687e423d355b19bae45d1923d17b8cd82e5376bd480d"
+  },
+  {
+    "old": "logs/mujoco/lqr/path_59616a5aa0e4_simulation_xy.svg",
+    "new": "logs/mujoco/lqr/plot/path_59616a5aa0e4_simulation_xy.svg",
+    "sha256": "3b8c0b03b1771009c43d71d292ec980d32bf87685407e21aab32a14c4cc60518"
+  },
+  {
+    "old": "logs/mujoco/lqr/path_fc2ab4bc65c7_simulation.pdf",
+    "new": "logs/mujoco/lqr/plot/path_fc2ab4bc65c7_simulation.pdf",
+    "sha256": "321bd47fed9873e55ec076cc491cf28419d75d6f3411ad3ae77702cb997725ff"
+  },
+  {
+    "old": "logs/mujoco/lqr/path_fc2ab4bc65c7_simulation.png",
+    "new": "logs/mujoco/lqr/plot/path_fc2ab4bc65c7_simulation.png",
+    "sha256": "2d9a5a9346cfc9b53e5766256c3507c7ab21dbc3a1244db8303486699dd2b48f"
+  },
+  {
+    "old": "logs/mujoco/lqr/path_fc2ab4bc65c7_simulation.svg",
+    "new": "logs/mujoco/lqr/plot/path_fc2ab4bc65c7_simulation.svg",
+    "sha256": "fe03cd84b710cce408489fef32894fa3bf182002a894ac3426e3499791f2a883"
+  },
+  {
+    "old": "logs/mujoco/lqr/path_fc2ab4bc65c7_simulation_torque.svg",
+    "new": "logs/mujoco/lqr/plot/path_fc2ab4bc65c7_simulation_torque.svg",
+    "sha256": "5886b21eaa40612272e930dd3449066601f286b155c45e2d7640ae79b02001e4"
+  },
+  {
+    "old": "logs/mujoco/lqr/path_fc2ab4bc65c7_simulation_xy.svg",
+    "new": "logs/mujoco/lqr/plot/path_fc2ab4bc65c7_simulation_xy.svg",
+    "sha256": "e55cb44158eb8e0c2031f224ced60ad3529437435a0e8a202947a73ea0bbf34d"
+  },
+  {
+    "old": "logs/mujoco/lqr/path_fe93c06aec43_simulation.pdf",
+    "new": "logs/mujoco/lqr/plot/path_fe93c06aec43_simulation.pdf",
+    "sha256": "a9907d4850dca079dfc0e52cfd2997d14d0a4ca9c45ae708d0e15578fe8b67cc"
+  },
+  {
+    "old": "logs/mujoco/lqr/path_fe93c06aec43_simulation.png",
+    "new": "logs/mujoco/lqr/plot/path_fe93c06aec43_simulation.png",
+    "sha256": "62f3efde65175dfa61305441514bc896ae7f995be069d0d4050623c189410af1"
+  },
+  {
+    "old": "logs/mujoco/lqr/path_fe93c06aec43_simulation.svg",
+    "new": "logs/mujoco/lqr/plot/path_fe93c06aec43_simulation.svg",
+    "sha256": "34c15393084ac80fb7c1608c1f32f3932df4041ee4f048a6599844477d39919b"
+  },
+  {
+    "old": "logs/mujoco/lqr/path_fe93c06aec43_simulation_torque.svg",
+    "new": "logs/mujoco/lqr/plot/path_fe93c06aec43_simulation_torque.svg",
+    "sha256": "4672160c1a47a4effd3b5514adb1096ad0aa1a83c6575e2b0a1eb7350e674483"
+  },
+  {
+    "old": "logs/mujoco/lqr/path_fe93c06aec43_simulation_xy.svg",
+    "new": "logs/mujoco/lqr/plot/path_fe93c06aec43_simulation_xy.svg",
+    "sha256": "41464b94fccdd3b10f53bc1ed0fe2d863cc98be0f1df38ef6dae3f0951132b18"
+  },
+  {
+    "old": "logs/mujoco/lqr/stand_da6d767c3c4f_simulation.pdf",
+    "new": "logs/mujoco/lqr/plot/stand_da6d767c3c4f_simulation.pdf",
+    "sha256": "d24f65b2c523e38e718dd74423ea29d73205df38c0da781f1888006243133568"
+  },
+  {
+    "old": "logs/mujoco/lqr/stand_da6d767c3c4f_simulation.png",
+    "new": "logs/mujoco/lqr/plot/stand_da6d767c3c4f_simulation.png",
+    "sha256": "da650e21a76060d5e6424797d977ed6248d9155cd56a569a5e90c9814cfe313d"
+  },
+  {
+    "old": "logs/mujoco/lqr/stand_da6d767c3c4f_simulation.svg",
+    "new": "logs/mujoco/lqr/plot/stand_da6d767c3c4f_simulation.svg",
+    "sha256": "abfd99e10021ae99bc842e619dbcb7c0aa55d0d29b4a1c4a9a0ffacab8902450"
+  },
+  {
+    "old": "logs/mujoco/lqr/stand_da6d767c3c4f_simulation_torque.svg",
+    "new": "logs/mujoco/lqr/plot/stand_da6d767c3c4f_simulation_torque.svg",
+    "sha256": "389a61694a133d936c803c778a9165777043c3f96f9339cd48ed8bd33db4b528"
+  },
+  {
+    "old": "logs/mujoco/lqr/stand_da6d767c3c4f_simulation_xy.svg",
+    "new": "logs/mujoco/lqr/plot/stand_da6d767c3c4f_simulation_xy.svg",
+    "sha256": "3ce7347653dbd45281f2e738b26062f0d1694336880c7c06f67f25e5f3457af5"
+  },
+  {
+    "old": "logs/mujoco/lqr/stand_efc8a8d3ca10_simulation.pdf",
+    "new": "logs/mujoco/lqr/plot/stand_efc8a8d3ca10_simulation.pdf",
+    "sha256": "5fc7081aa95edbf9f546572d9f606a7c6918ea51e4923f50e83172d5e99ce9e9"
+  },
+  {
+    "old": "logs/mujoco/lqr/stand_efc8a8d3ca10_simulation.png",
+    "new": "logs/mujoco/lqr/plot/stand_efc8a8d3ca10_simulation.png",
+    "sha256": "d9b47ef7ffd81fbdc5d9d61a591a9b047982bc09ad1fb932a7ea012bbb08233a"
+  },
+  {
+    "old": "logs/mujoco/lqr/stand_efc8a8d3ca10_simulation.svg",
+    "new": "logs/mujoco/lqr/plot/stand_efc8a8d3ca10_simulation.svg",
+    "sha256": "d53acfd499b3f30c6c706736e83a1edb5692e1abd8a99cae5fe7eecc538ed709"
+  },
+  {
+    "old": "logs/mujoco/lqr/stand_efc8a8d3ca10_simulation_torque.svg",
+    "new": "logs/mujoco/lqr/plot/stand_efc8a8d3ca10_simulation_torque.svg",
+    "sha256": "8382c80a5ad5c1871f924c633799756f7237f1412cc82724f1fd915a5bc3a0fc"
+  },
+  {
+    "old": "logs/mujoco/lqr/stand_efc8a8d3ca10_simulation_xy.svg",
+    "new": "logs/mujoco/lqr/plot/stand_efc8a8d3ca10_simulation_xy.svg",
+    "sha256": "35a27df51f1437c45f8f2378824d136bf14dac25ca6f0aff7f40f6883184f63c"
+  },
+  {
+    "old": "logs/mujoco/hinf/path_162a11a91c11_simulation.pdf",
+    "new": "logs/mujoco/hinf/plot/path_162a11a91c11_simulation.pdf",
+    "sha256": "1808fa80590863927eea740cc7da58136ebb4242fdc1ac50c01af61c9f617671"
+  },
+  {
+    "old": "logs/mujoco/hinf/path_162a11a91c11_simulation.png",
+    "new": "logs/mujoco/hinf/plot/path_162a11a91c11_simulation.png",
+    "sha256": "2b586c3ce145a40dd1fc1da11f0221252015acbb9ba2079edb571c83ec7c1144"
+  },
+  {
+    "old": "logs/mujoco/hinf/path_162a11a91c11_simulation.svg",
+    "new": "logs/mujoco/hinf/plot/path_162a11a91c11_simulation.svg",
+    "sha256": "95f5778aa2ef22d2102a2b60724f120ce6b40305b6a05fec912aa9a840dff96b"
+  },
+  {
+    "old": "logs/mujoco/hinf/path_162a11a91c11_simulation_torque.svg",
+    "new": "logs/mujoco/hinf/plot/path_162a11a91c11_simulation_torque.svg",
+    "sha256": "dcac5537c9bdd40c7551a7c75aff04f8a4146dbc50b8df04e806c875d8da87d7"
+  },
+  {
+    "old": "logs/mujoco/hinf/path_162a11a91c11_simulation_xy.svg",
+    "new": "logs/mujoco/hinf/plot/path_162a11a91c11_simulation_xy.svg",
+    "sha256": "fbf127e92c68ce200a8b78012dcc9b5b5955a60c09c8c957d6e0375c00c05b46"
+  },
+  {
+    "old": "logs/mujoco/hinf/path_3ab2f9472edf_simulation.pdf",
+    "new": "logs/mujoco/hinf/plot/path_3ab2f9472edf_simulation.pdf",
+    "sha256": "80a65b0f05ca421c2ade40c9f7ff7fd43da95f78e00f736eb3570b93a982ca5d"
+  },
+  {
+    "old": "logs/mujoco/hinf/path_3ab2f9472edf_simulation.png",
+    "new": "logs/mujoco/hinf/plot/path_3ab2f9472edf_simulation.png",
+    "sha256": "b88c5aaf0c6299e0765099fcba4ca2d8eb5d69f68c85dcf53dd2320d3235cdf2"
+  },
+  {
+    "old": "logs/mujoco/hinf/path_3ab2f9472edf_simulation.svg",
+    "new": "logs/mujoco/hinf/plot/path_3ab2f9472edf_simulation.svg",
+    "sha256": "c7b7e9b9e655f62be5b0b20632c12b09259d22b7f40c39f9a81e84a36d7c952d"
+  },
+  {
+    "old": "logs/mujoco/hinf/path_3ab2f9472edf_simulation_torque.svg",
+    "new": "logs/mujoco/hinf/plot/path_3ab2f9472edf_simulation_torque.svg",
+    "sha256": "e46de1df4573eee09013be84298f919eed3fa0823d331c51dcb2f89f5a22e592"
+  },
+  {
+    "old": "logs/mujoco/hinf/path_3ab2f9472edf_simulation_xy.svg",
+    "new": "logs/mujoco/hinf/plot/path_3ab2f9472edf_simulation_xy.svg",
+    "sha256": "cdf0f1a13aeab7bb57bcea4d636c35aa507ab28fca0ceb11887736ed40e2b08b"
+  },
+  {
+    "old": "logs/mujoco/hinf/path_40c99c45dd51_simulation.pdf",
+    "new": "logs/mujoco/hinf/plot/path_40c99c45dd51_simulation.pdf",
+    "sha256": "d9b3bde1571fdadfc3454b67f5a11a3a98167882730a9a989bd78e279e8c6d07"
+  },
+  {
+    "old": "logs/mujoco/hinf/path_40c99c45dd51_simulation.png",
+    "new": "logs/mujoco/hinf/plot/path_40c99c45dd51_simulation.png",
+    "sha256": "7e3e64654f5b111ab49001f6a94656fc991da7d93e7a6bd21eceb3c194dd2846"
+  },
+  {
+    "old": "logs/mujoco/hinf/path_40c99c45dd51_simulation.svg",
+    "new": "logs/mujoco/hinf/plot/path_40c99c45dd51_simulation.svg",
+    "sha256": "ac89af9468fd4516b144e23010112a80d33df0130b0189d913e8f3c70a66b334"
+  },
+  {
+    "old": "logs/mujoco/hinf/path_40c99c45dd51_simulation_torque.svg",
+    "new": "logs/mujoco/hinf/plot/path_40c99c45dd51_simulation_torque.svg",
+    "sha256": "7e78b659b92428fb1ffdfb2193b7e36f132f067cb4cae8a7d919d73772cbae41"
+  },
+  {
+    "old": "logs/mujoco/hinf/path_40c99c45dd51_simulation_xy.svg",
+    "new": "logs/mujoco/hinf/plot/path_40c99c45dd51_simulation_xy.svg",
+    "sha256": "9b1ecc2c1e65c15f582c84cd8f1e3477ad4a84ca068e24d6f601b9f0737da92a"
+  },
+  {
+    "old": "logs/mujoco/hinf/path_444fad333b78_simulation.pdf",
+    "new": "logs/mujoco/hinf/plot/path_444fad333b78_simulation.pdf",
+    "sha256": "7151699fffe815789ed319943fccf7d92d777800e18034bb87f42b57098f7037"
+  },
+  {
+    "old": "logs/mujoco/hinf/path_444fad333b78_simulation.png",
+    "new": "logs/mujoco/hinf/plot/path_444fad333b78_simulation.png",
+    "sha256": "97a010e51313a724570f446c988c8fb86e26aaa245dd729e0ab3f01362eb4665"
+  },
+  {
+    "old": "logs/mujoco/hinf/path_444fad333b78_simulation.svg",
+    "new": "logs/mujoco/hinf/plot/path_444fad333b78_simulation.svg",
+    "sha256": "60c39d6a3d4b6aedfd3b6af85fa452d174e8e55ef242d7f8a77892d696a6740a"
+  },
+  {
+    "old": "logs/mujoco/hinf/path_444fad333b78_simulation_torque.svg",
+    "new": "logs/mujoco/hinf/plot/path_444fad333b78_simulation_torque.svg",
+    "sha256": "7f8935c1bab93e2118ce52e36aa06af18dd431937c22daf3f6d7968e47ff6e93"
+  },
+  {
+    "old": "logs/mujoco/hinf/path_444fad333b78_simulation_xy.svg",
+    "new": "logs/mujoco/hinf/plot/path_444fad333b78_simulation_xy.svg",
+    "sha256": "7ff8dd4456c62597d3fbac6a81658dad1033bd6e3e83096f43a24ea056654304"
+  },
+  {
+    "old": "logs/mujoco/hinf/path_a35fd6adea41_simulation.pdf",
+    "new": "logs/mujoco/hinf/plot/path_a35fd6adea41_simulation.pdf",
+    "sha256": "6d5f5719962b26ce481c10022d952c8819b9367bcec8cbb8524bad9173847ad8"
+  },
+  {
+    "old": "logs/mujoco/hinf/path_a35fd6adea41_simulation.png",
+    "new": "logs/mujoco/hinf/plot/path_a35fd6adea41_simulation.png",
+    "sha256": "a4abd713d6f9ecc42bcece6c434ea7ff994d3b4176d18b61f1eea785cb3a948c"
+  },
+  {
+    "old": "logs/mujoco/hinf/path_a35fd6adea41_simulation.svg",
+    "new": "logs/mujoco/hinf/plot/path_a35fd6adea41_simulation.svg",
+    "sha256": "bdbe5ffe9fde48ed6ec801c7b3332a682eef25069f468751ad013f896b3a8a58"
+  },
+  {
+    "old": "logs/mujoco/hinf/path_a35fd6adea41_simulation_torque.svg",
+    "new": "logs/mujoco/hinf/plot/path_a35fd6adea41_simulation_torque.svg",
+    "sha256": "6d8c8431622b0453018169eaafff762577d23207237ac3510c53bc690cdcf11e"
+  },
+  {
+    "old": "logs/mujoco/hinf/path_a35fd6adea41_simulation_xy.svg",
+    "new": "logs/mujoco/hinf/plot/path_a35fd6adea41_simulation_xy.svg",
+    "sha256": "bba1016f12521af0483877e8709a87ab499533264d3cdec79eec71c798df8126"
+  },
+  {
+    "old": "logs/mujoco/hinf/path_a770034d035a_simulation.pdf",
+    "new": "logs/mujoco/hinf/plot/path_a770034d035a_simulation.pdf",
+    "sha256": "207b3ebc800f63638d302139232b1841503a20abdbb631f23e9d610aaa2d7e00"
+  },
+  {
+    "old": "logs/mujoco/hinf/path_a770034d035a_simulation.png",
+    "new": "logs/mujoco/hinf/plot/path_a770034d035a_simulation.png",
+    "sha256": "71b0be310e6888ca6828e14347c1017fc707156ae0ca4937e0a4e043ae8212ff"
+  },
+  {
+    "old": "logs/mujoco/hinf/path_a770034d035a_simulation.svg",
+    "new": "logs/mujoco/hinf/plot/path_a770034d035a_simulation.svg",
+    "sha256": "91bb739241c34f57c344c033fc89e64040aed4f308c430894312e5c4e2b8d06d"
+  },
+  {
+    "old": "logs/mujoco/hinf/path_a770034d035a_simulation_torque.svg",
+    "new": "logs/mujoco/hinf/plot/path_a770034d035a_simulation_torque.svg",
+    "sha256": "f1d2b9547393c2aa88354e85cbb8cb892cd4ac1c9029816fbb43ef3502fb972e"
+  },
+  {
+    "old": "logs/mujoco/hinf/path_a770034d035a_simulation_xy.svg",
+    "new": "logs/mujoco/hinf/plot/path_a770034d035a_simulation_xy.svg",
+    "sha256": "5f0602355e346a6e0c75a4f65737186ed9cf8dd364dabfee14cee7f4e24445bb"
+  },
+  {
+    "old": "logs/mujoco/hinf/path_acc7fa385e4a_simulation.pdf",
+    "new": "logs/mujoco/hinf/plot/path_acc7fa385e4a_simulation.pdf",
+    "sha256": "59c65002eb7cd206d70f025b1b632b240adc4d9e1671f9f3d261c22a45cb99e4"
+  },
+  {
+    "old": "logs/mujoco/hinf/path_acc7fa385e4a_simulation.png",
+    "new": "logs/mujoco/hinf/plot/path_acc7fa385e4a_simulation.png",
+    "sha256": "cf8f3eaddc5c83ac5e15daf28590646772ad6b9a71b0dec2b0e3fd82dc7b9b0d"
+  },
+  {
+    "old": "logs/mujoco/hinf/path_acc7fa385e4a_simulation.svg",
+    "new": "logs/mujoco/hinf/plot/path_acc7fa385e4a_simulation.svg",
+    "sha256": "a90a2f2e2ed3d3356583c8f285dfe00d30bbd0bd0815e7f9ffd84c02293b17bc"
+  },
+  {
+    "old": "logs/mujoco/hinf/path_acc7fa385e4a_simulation_torque.svg",
+    "new": "logs/mujoco/hinf/plot/path_acc7fa385e4a_simulation_torque.svg",
+    "sha256": "78750de27c63015c28cbe06b363de04cb1b3784bcabd78508d55260594f28e53"
+  },
+  {
+    "old": "logs/mujoco/hinf/path_acc7fa385e4a_simulation_xy.svg",
+    "new": "logs/mujoco/hinf/plot/path_acc7fa385e4a_simulation_xy.svg",
+    "sha256": "b419e3a474e674d40ab6481c081b674bff218ed927bc1256884b4a58d506f9ab"
+  },
+  {
+    "old": "logs/mujoco/hinf/path_b2ce2b4f28e0_simulation.pdf",
+    "new": "logs/mujoco/hinf/plot/path_b2ce2b4f28e0_simulation.pdf",
+    "sha256": "7be8ff382e18909eb8c9c43ed0895d37afee9496ed8f8af26c8cca8a3aa8c468"
+  },
+  {
+    "old": "logs/mujoco/hinf/path_b2ce2b4f28e0_simulation.png",
+    "new": "logs/mujoco/hinf/plot/path_b2ce2b4f28e0_simulation.png",
+    "sha256": "cf8f3eaddc5c83ac5e15daf28590646772ad6b9a71b0dec2b0e3fd82dc7b9b0d"
+  },
+  {
+    "old": "logs/mujoco/hinf/path_b2ce2b4f28e0_simulation.svg",
+    "new": "logs/mujoco/hinf/plot/path_b2ce2b4f28e0_simulation.svg",
+    "sha256": "df9a534d21f72840c84334620033d517fe205a703ea9644a04805fe2c153ae7e"
+  },
+  {
+    "old": "logs/mujoco/hinf/path_b2ce2b4f28e0_simulation_torque.svg",
+    "new": "logs/mujoco/hinf/plot/path_b2ce2b4f28e0_simulation_torque.svg",
+    "sha256": "5652cdc4bd2f623f9294cbc74590c225f7702d9bcbffbb5dbe398215e4e96456"
+  },
+  {
+    "old": "logs/mujoco/hinf/path_b2ce2b4f28e0_simulation_xy.svg",
+    "new": "logs/mujoco/hinf/plot/path_b2ce2b4f28e0_simulation_xy.svg",
+    "sha256": "5a5bf54be9007b140171ca133dd6d2c3fc009512262b6556652729a18f7027f7"
+  },
+  {
+    "old": "logs/mujoco/hinf/path_b457d2f62399_simulation.pdf",
+    "new": "logs/mujoco/hinf/plot/path_b457d2f62399_simulation.pdf",
+    "sha256": "e1a129c6bf29242b0f6f622171443a6b536837a5c0f7b679603d7355c0505e6d"
+  },
+  {
+    "old": "logs/mujoco/hinf/path_b457d2f62399_simulation.png",
+    "new": "logs/mujoco/hinf/plot/path_b457d2f62399_simulation.png",
+    "sha256": "e0513803583397bc9a01235aa6a5d452672bc4e9dc5e220ee0a90cc0209517ca"
+  },
+  {
+    "old": "logs/mujoco/hinf/path_b457d2f62399_simulation.svg",
+    "new": "logs/mujoco/hinf/plot/path_b457d2f62399_simulation.svg",
+    "sha256": "87ad4d07e0a721bc57b76a5be530e5079690da17a9544387c431ea64f995a49a"
+  },
+  {
+    "old": "logs/mujoco/hinf/path_b457d2f62399_simulation_torque.svg",
+    "new": "logs/mujoco/hinf/plot/path_b457d2f62399_simulation_torque.svg",
+    "sha256": "b2b35ce4df5a9309d602f39134b065fc1cd6d07eda574490d70e55f5288921ca"
+  },
+  {
+    "old": "logs/mujoco/hinf/path_b457d2f62399_simulation_xy.svg",
+    "new": "logs/mujoco/hinf/plot/path_b457d2f62399_simulation_xy.svg",
+    "sha256": "7c5538b75a70ab697d2f970b5efa62c99ec8f3279d558a6a1fd232bfc9ff6a1f"
+  },
+  {
+    "old": "logs/mujoco/hinf/path_c0eed327713c_simulation.pdf",
+    "new": "logs/mujoco/hinf/plot/path_c0eed327713c_simulation.pdf",
+    "sha256": "5c8cb62d156291ed72daa6c4ed5798b39344ae21d6f8a8dbe0a931b7f720f31e"
+  },
+  {
+    "old": "logs/mujoco/hinf/path_c0eed327713c_simulation.png",
+    "new": "logs/mujoco/hinf/plot/path_c0eed327713c_simulation.png",
+    "sha256": "3a6e699f8a1f32fa225abbf775cd73e7c0902109a53cda6e80e19bfecb84da2b"
+  },
+  {
+    "old": "logs/mujoco/hinf/path_c0eed327713c_simulation.svg",
+    "new": "logs/mujoco/hinf/plot/path_c0eed327713c_simulation.svg",
+    "sha256": "61cc99ddeb13352cc2c64eec48e132ad912706c2bd7e2c1cae990b358515b5a0"
+  },
+  {
+    "old": "logs/mujoco/hinf/path_c0eed327713c_simulation_torque.svg",
+    "new": "logs/mujoco/hinf/plot/path_c0eed327713c_simulation_torque.svg",
+    "sha256": "bda2bb4d0367c6b28f59665a959f157d0462fc00f3b2662c0821fa821f9ee612"
+  },
+  {
+    "old": "logs/mujoco/hinf/path_c0eed327713c_simulation_xy.svg",
+    "new": "logs/mujoco/hinf/plot/path_c0eed327713c_simulation_xy.svg",
+    "sha256": "4ce9d79367c8c3eac981b1527c91f493b3d058333bdca529deeeb9536da3de67"
+  },
+  {
+    "old": "logs/mujoco/hinf/path_fd626d452c86_simulation.pdf",
+    "new": "logs/mujoco/hinf/plot/path_fd626d452c86_simulation.pdf",
+    "sha256": "e7462afb8aaa83e3e8b23eb48ae1051840d5049b8367e61ec2f0a71f715fc6bb"
+  },
+  {
+    "old": "logs/mujoco/hinf/path_fd626d452c86_simulation.png",
+    "new": "logs/mujoco/hinf/plot/path_fd626d452c86_simulation.png",
+    "sha256": "3a6e699f8a1f32fa225abbf775cd73e7c0902109a53cda6e80e19bfecb84da2b"
+  },
+  {
+    "old": "logs/mujoco/hinf/path_fd626d452c86_simulation.svg",
+    "new": "logs/mujoco/hinf/plot/path_fd626d452c86_simulation.svg",
+    "sha256": "58e9848ab380cff9944960023e125a148f016fcaf4f612a156fa26e1d0d0cc2e"
+  },
+  {
+    "old": "logs/mujoco/hinf/path_fd626d452c86_simulation_torque.svg",
+    "new": "logs/mujoco/hinf/plot/path_fd626d452c86_simulation_torque.svg",
+    "sha256": "633d7135813d570aecb50843abe1ef239552f148b971834dc74c4636f2c67fa9"
+  },
+  {
+    "old": "logs/mujoco/hinf/path_fd626d452c86_simulation_xy.svg",
+    "new": "logs/mujoco/hinf/plot/path_fd626d452c86_simulation_xy.svg",
+    "sha256": "86bae7729ec45bcd2dce61f745c636e9ad385623c2ab888d67dffe9276786376"
+  },
+  {
+    "old": "logs/mujoco/hinf/stand_0bda1d9ce7ae_simulation.pdf",
+    "new": "logs/mujoco/hinf/plot/stand_0bda1d9ce7ae_simulation.pdf",
+    "sha256": "928c0e131a51f7029445be54cf051773b159c7a97a9768c858e0570a778f259d"
+  },
+  {
+    "old": "logs/mujoco/hinf/stand_0bda1d9ce7ae_simulation.png",
+    "new": "logs/mujoco/hinf/plot/stand_0bda1d9ce7ae_simulation.png",
+    "sha256": "60e5f756b280a8d877b115973859fc6cb04739bceaf6848cd3faa14656680d64"
+  },
+  {
+    "old": "logs/mujoco/hinf/stand_0bda1d9ce7ae_simulation.svg",
+    "new": "logs/mujoco/hinf/plot/stand_0bda1d9ce7ae_simulation.svg",
+    "sha256": "777ceb521f151d055c2259b10130142a0fd5edf970e9290965b4a30040afaf49"
+  },
+  {
+    "old": "logs/mujoco/hinf/stand_0bda1d9ce7ae_simulation_torque.svg",
+    "new": "logs/mujoco/hinf/plot/stand_0bda1d9ce7ae_simulation_torque.svg",
+    "sha256": "66d362aa40022f853044b72403bba66a4dd04cddc039b6b716f7844ce6e7bbc0"
+  },
+  {
+    "old": "logs/mujoco/hinf/stand_0bda1d9ce7ae_simulation_xy.svg",
+    "new": "logs/mujoco/hinf/plot/stand_0bda1d9ce7ae_simulation_xy.svg",
+    "sha256": "2b8bac3d630d3828212aeecc9a723ba14271bc573674b4be8c92811bbd445e76"
+  },
+  {
+    "old": "logs/mujoco/hinf/stand_5781351b54e3_simulation.pdf",
+    "new": "logs/mujoco/hinf/plot/stand_5781351b54e3_simulation.pdf",
+    "sha256": "af66efc6cd54f1d4be51cd6a1853fd81a6c0d85b229519336324e4c1c7d8c7bb"
+  },
+  {
+    "old": "logs/mujoco/hinf/stand_5781351b54e3_simulation.png",
+    "new": "logs/mujoco/hinf/plot/stand_5781351b54e3_simulation.png",
+    "sha256": "0f9a88c39289e10a3eafc918998ff176adbcf8b7d1a3cba18c1ff30006fe625d"
+  },
+  {
+    "old": "logs/mujoco/hinf/stand_5781351b54e3_simulation.svg",
+    "new": "logs/mujoco/hinf/plot/stand_5781351b54e3_simulation.svg",
+    "sha256": "866df99eadc2077b57932db9a879e9ed1d34d19b22118c68fbbe518b72b181ec"
+  },
+  {
+    "old": "logs/mujoco/hinf/stand_5781351b54e3_simulation_torque.svg",
+    "new": "logs/mujoco/hinf/plot/stand_5781351b54e3_simulation_torque.svg",
+    "sha256": "4e26e9ddb4b94a1ebc1327732ceec9a2864387f5507cfd9c5514248f30c0c0de"
+  },
+  {
+    "old": "logs/mujoco/hinf/stand_5781351b54e3_simulation_xy.svg",
+    "new": "logs/mujoco/hinf/plot/stand_5781351b54e3_simulation_xy.svg",
+    "sha256": "b215b5c5a07af3d72574d2eb3c86132b62487d58349130f7538f07e8ef136ac1"
+  },
+  {
+    "old": "logs/mujoco/hinf/stand_a0ace77b8a87_simulation.pdf",
+    "new": "logs/mujoco/hinf/plot/stand_a0ace77b8a87_simulation.pdf",
+    "sha256": "2b26acc10f74d724d7649c6804fb42adebbc7e0861ac0c9bebbb0817f56eb474"
+  },
+  {
+    "old": "logs/mujoco/hinf/stand_a0ace77b8a87_simulation.png",
+    "new": "logs/mujoco/hinf/plot/stand_a0ace77b8a87_simulation.png",
+    "sha256": "3839acc16a29e072f0eecfec9e6ca436051269388e80307f9cb39640fd8dcf19"
+  },
+  {
+    "old": "logs/mujoco/hinf/stand_a0ace77b8a87_simulation.svg",
+    "new": "logs/mujoco/hinf/plot/stand_a0ace77b8a87_simulation.svg",
+    "sha256": "85b59f433916e79be24128c2fe2681562bd6bc2dcde56c8c9e2985db8354d1f0"
+  },
+  {
+    "old": "logs/mujoco/hinf/stand_a0ace77b8a87_simulation_torque.svg",
+    "new": "logs/mujoco/hinf/plot/stand_a0ace77b8a87_simulation_torque.svg",
+    "sha256": "7be1161054d5fec71c1fd311bf8d080d234f250fdd3b0cb703f8af6b5f561f94"
+  },
+  {
+    "old": "logs/mujoco/hinf/stand_a0ace77b8a87_simulation_xy.svg",
+    "new": "logs/mujoco/hinf/plot/stand_a0ace77b8a87_simulation_xy.svg",
+    "sha256": "b5a0002c15521fa7bd03a78f01e41c8091e87470b42a55d4e1117bb35d457e50"
+  },
+  {
+    "old": "logs/mujoco/ga/path_75b56618961a_simulation.pdf",
+    "new": "logs/mujoco/ga/plot/path_75b56618961a_simulation.pdf",
+    "sha256": "a033de9591a4860ed15eeb474fe4e3644f1a45d441f3adaa9da00eff6359b871"
+  },
+  {
+    "old": "logs/mujoco/ga/path_75b56618961a_simulation.png",
+    "new": "logs/mujoco/ga/plot/path_75b56618961a_simulation.png",
+    "sha256": "98f48552262ed3aa6a81d60863955fc698860cdaf6b9601a6f8fd9b62c304266"
+  },
+  {
+    "old": "logs/mujoco/ga/path_75b56618961a_simulation.svg",
+    "new": "logs/mujoco/ga/plot/path_75b56618961a_simulation.svg",
+    "sha256": "d240e5613c26d154186ace6de970d505806ba10c9c731eb9e878d0f66e3da820"
+  },
+  {
+    "old": "logs/mujoco/ga/path_75b56618961a_simulation_torque.svg",
+    "new": "logs/mujoco/ga/plot/path_75b56618961a_simulation_torque.svg",
+    "sha256": "5c65d00996fd9210cd89701243c9a05bf764a28915400c83e5e3e00079357855"
+  },
+  {
+    "old": "logs/mujoco/ga/path_75b56618961a_simulation_xy.svg",
+    "new": "logs/mujoco/ga/plot/path_75b56618961a_simulation_xy.svg",
+    "sha256": "bfaaffe1755a1a54bda5d510ba39ef2a9363cfe19b710d9b4bd91c411ef23dd2"
+  },
+  {
+    "old": "logs/mujoco/ga/path_b95cb5beac81_simulation.pdf",
+    "new": "logs/mujoco/ga/plot/path_b95cb5beac81_simulation.pdf",
+    "sha256": "a00e38734b0f9d193859d83660dc538b49e9ef0514a8e4f96ff7a340e3068377"
+  },
+  {
+    "old": "logs/mujoco/ga/path_b95cb5beac81_simulation.png",
+    "new": "logs/mujoco/ga/plot/path_b95cb5beac81_simulation.png",
+    "sha256": "d43c22b9e42acd840fc3e8d275a52ffc13ba42ecd670ac6690ab100974283d5e"
+  },
+  {
+    "old": "logs/mujoco/ga/path_b95cb5beac81_simulation.svg",
+    "new": "logs/mujoco/ga/plot/path_b95cb5beac81_simulation.svg",
+    "sha256": "565d91898889eed85b47c249b2db893d661f23ca405ec73843c2c5f08d474ca2"
+  },
+  {
+    "old": "logs/mujoco/ga/path_b95cb5beac81_simulation_torque.svg",
+    "new": "logs/mujoco/ga/plot/path_b95cb5beac81_simulation_torque.svg",
+    "sha256": "014dbd1d10cade2a543ab4bf3bc020e85075464c99b485657af548a23a189aea"
+  },
+  {
+    "old": "logs/mujoco/ga/path_b95cb5beac81_simulation_xy.svg",
+    "new": "logs/mujoco/ga/plot/path_b95cb5beac81_simulation_xy.svg",
+    "sha256": "179c8f030a47d6c1ef66ffe935dd50f54554d3d3ea6ec2e05151f76b8854881a"
+  },
+  {
+    "old": "logs/mujoco/ga/stand_44544245aed5_simulation.pdf",
+    "new": "logs/mujoco/ga/plot/stand_44544245aed5_simulation.pdf",
+    "sha256": "afeb0788795acebec4011120495e006e67250f39c79102e8bd8b7a597f4eb5f1"
+  },
+  {
+    "old": "logs/mujoco/ga/stand_44544245aed5_simulation.png",
+    "new": "logs/mujoco/ga/plot/stand_44544245aed5_simulation.png",
+    "sha256": "341fac7ec0b4508968522af16192f39bc736adc2a6534056490411ab36b191dc"
+  },
+  {
+    "old": "logs/mujoco/ga/stand_44544245aed5_simulation.svg",
+    "new": "logs/mujoco/ga/plot/stand_44544245aed5_simulation.svg",
+    "sha256": "83801819f124a856f648eb8e4997b7b380017a24e4b6b5900fe9b402eada5819"
+  },
+  {
+    "old": "logs/mujoco/ga/stand_44544245aed5_simulation_torque.svg",
+    "new": "logs/mujoco/ga/plot/stand_44544245aed5_simulation_torque.svg",
+    "sha256": "bb9cd2234c3b3db0dc1a645feb5e38fc31ae50620ad9bce4b98eba72a0842624"
+  },
+  {
+    "old": "logs/mujoco/ga/stand_44544245aed5_simulation_xy.svg",
+    "new": "logs/mujoco/ga/plot/stand_44544245aed5_simulation_xy.svg",
+    "sha256": "0176bbafc392e1b9cbd295cf49b40d04f1724f41b0abe3bf2430c78eccb0314b"
+  },
+  {
+    "old": "logs/mujoco/ga/stand_e8adaa2bd12e_simulation.pdf",
+    "new": "logs/mujoco/ga/plot/stand_e8adaa2bd12e_simulation.pdf",
+    "sha256": "4c9c56d1f8ab4ce46dd63cc7c2c81ec35ed53d03f2aaaa37277e030845f5db33"
+  },
+  {
+    "old": "logs/mujoco/ga/stand_e8adaa2bd12e_simulation.png",
+    "new": "logs/mujoco/ga/plot/stand_e8adaa2bd12e_simulation.png",
+    "sha256": "f8eed276af8c7b8d1fada359241b6ab4dc95bfb8676e2385130c9de1e18a79d0"
+  },
+  {
+    "old": "logs/mujoco/ga/stand_e8adaa2bd12e_simulation.svg",
+    "new": "logs/mujoco/ga/plot/stand_e8adaa2bd12e_simulation.svg",
+    "sha256": "3597711fbbb0779fe6fbb6bdf7353562e45f87bcf3444e9af15009e0977fadc8"
+  },
+  {
+    "old": "logs/mujoco/ga/stand_e8adaa2bd12e_simulation_torque.svg",
+    "new": "logs/mujoco/ga/plot/stand_e8adaa2bd12e_simulation_torque.svg",
+    "sha256": "9bef743a6394b0b3a09bfefd7498edb224e1a96cea2ad0b9ec7066fe31a0b09c"
+  },
+  {
+    "old": "logs/mujoco/ga/stand_e8adaa2bd12e_simulation_xy.svg",
+    "new": "logs/mujoco/ga/plot/stand_e8adaa2bd12e_simulation_xy.svg",
+    "sha256": "19aad371067d4ded8c9e3218e20097f9ae0facfd6be29470fde1756537d27db4"
+  },
+  {
+    "old": "logs/mujoco/digital_twin/historical_analysis/compensated_trial/comparison/real_vs_mujoco_compensated.png",
+    "new": "logs/mujoco/digital_twin/plot/051b0bfed2f1_real_vs_mujoco_compensated.png",
+    "sha256": "b1e60f150ce28a0e6ab7d997aa7ea9c32e2b08d88d5b88de9973b5c4987abd33"
+  },
+  {
+    "old": "logs/mujoco/digital_twin/historical_analysis/compensated_trial/comparison/real_vs_mujoco_compensated.svg",
+    "new": "logs/mujoco/digital_twin/plot/051b0bfed2f1_real_vs_mujoco_compensated.svg",
+    "sha256": "dd8a4ccc615c987c0e527d2adf07a468cbc8227c36bc88e36a5aa147611a906e"
+  },
+  {
+    "old": "deliverables/pd/mujoco/20261110T105007Z_7c464135_stand_layout_check_pd_20261110_115008_14defe4b.pdf",
+    "new": "logs/mujoco/pd/plot/20261110T105007Z_7c464135_stand_layout_check_pd_20261110_115008_14defe4b.pdf",
+    "sha256": "1d1bb834630bfdace3b208ea852f5a32e0c3bb186f574cc03867dac1377b7dcd"
+  },
+  {
+    "old": "deliverables/pd/mujoco/20261110T105007Z_7c464135_stand_layout_check_pd_20261110_115008_14defe4b.svg",
+    "new": "logs/mujoco/pd/plot/20261110T105007Z_7c464135_stand_layout_check_pd_20261110_115008_14defe4b.svg",
+    "sha256": "3232ba5e2d90a0ccdce45e897e802b58435ed66ae1d8d5b36e2e5e1c74245aaf"
+  },
+  {
+    "old": "deliverables/pd-outer/mujoco/20261110T105011Z_1db84728_stand_layout_check_pd-outer_20261110_115012_a918d449.pdf",
+    "new": "logs/mujoco/pd-outer/plot/20261110T105011Z_1db84728_stand_layout_check_pd-outer_20261110_115012_a918d449.pdf",
+    "sha256": "6d7e2d4e40ba706c79828c724137300042ad5360dff77d83ba32a3ce9c6e948b"
+  },
+  {
+    "old": "deliverables/pd-outer/mujoco/20261110T105011Z_1db84728_stand_layout_check_pd-outer_20261110_115012_a918d449.svg",
+    "new": "logs/mujoco/pd-outer/plot/20261110T105011Z_1db84728_stand_layout_check_pd-outer_20261110_115012_a918d449.svg",
+    "sha256": "d118b60d7d9d9cd0717bee18b00c4deeee064fe7332ea24c134e93b796c8d36a"
+  },
+  {
+    "old": "deliverables/lqr/mujoco/20261110T105017Z_70eb0752_stand_layout_check_simulation.pdf",
+    "new": "logs/mujoco/lqr/plot/20261110T105017Z_70eb0752_stand_layout_check_simulation.pdf",
+    "sha256": "a5c700f928fdaa52a8643310cdacf73413c592c0c68567eb88052ff3b64f5fe9"
+  },
+  {
+    "old": "deliverables/lqr/mujoco/20261110T105017Z_70eb0752_stand_layout_check_simulation.png",
+    "new": "logs/mujoco/lqr/plot/20261110T105017Z_70eb0752_stand_layout_check_simulation.png",
+    "sha256": "0ee50072edf4485e15447727cbc23f21ab3a85460b66f20fa9a4341fc2b04e67"
+  },
+  {
+    "old": "deliverables/lqr/mujoco/20261110T105017Z_70eb0752_stand_layout_check_simulation.svg",
+    "new": "logs/mujoco/lqr/plot/20261110T105017Z_70eb0752_stand_layout_check_simulation.svg",
+    "sha256": "189f85b0b754b035b318c10031183715a5e83e3c69ee6d36f5efecf3dddc2883"
+  },
+  {
+    "old": "deliverables/lqr/mujoco/20261110T105017Z_70eb0752_stand_layout_check_simulation_torque.svg",
+    "new": "logs/mujoco/lqr/plot/20261110T105017Z_70eb0752_stand_layout_check_simulation_torque.svg",
+    "sha256": "b88adf2e3518c5bf605afa4382601b1493ed9248645d9b80fa696cbcf0e6c61d"
+  },
+  {
+    "old": "deliverables/lqr/mujoco/20261110T105017Z_70eb0752_stand_layout_check_simulation_xy.svg",
+    "new": "logs/mujoco/lqr/plot/20261110T105017Z_70eb0752_stand_layout_check_simulation_xy.svg",
+    "sha256": "c366e3380898e3e45bed3685d5461f7427209e58e4997f2779108fcfbe7d2fdc"
+  },
+  {
+    "old": "deliverables/hinf/mujoco/20261110T105024Z_9ef77f52_stand_layout_check_simulation.pdf",
+    "new": "logs/mujoco/hinf/plot/20261110T105024Z_9ef77f52_stand_layout_check_simulation.pdf",
+    "sha256": "017b424e7485f56b1ba6c92744ab83a914ea33310cf2e3b1216367dafa874e00"
+  },
+  {
+    "old": "deliverables/hinf/mujoco/20261110T105024Z_9ef77f52_stand_layout_check_simulation.png",
+    "new": "logs/mujoco/hinf/plot/20261110T105024Z_9ef77f52_stand_layout_check_simulation.png",
+    "sha256": "1481d36068df57c0bfa54465785054062f14bf63489d9ce453536f6a8e933a15"
+  },
+  {
+    "old": "deliverables/hinf/mujoco/20261110T105024Z_9ef77f52_stand_layout_check_simulation.svg",
+    "new": "logs/mujoco/hinf/plot/20261110T105024Z_9ef77f52_stand_layout_check_simulation.svg",
+    "sha256": "10975e70158af9397bfeb2ba2e4aa9eb0c2fe5c7b732a96eec35d1b518aacf0f"
+  },
+  {
+    "old": "deliverables/hinf/mujoco/20261110T105024Z_9ef77f52_stand_layout_check_simulation_torque.svg",
+    "new": "logs/mujoco/hinf/plot/20261110T105024Z_9ef77f52_stand_layout_check_simulation_torque.svg",
+    "sha256": "56e3b5b7764e705141a2a1f792327e7ef957b9166cb0716df67f14bcc2d7f4cb"
+  },
+  {
+    "old": "deliverables/hinf/mujoco/20261110T105024Z_9ef77f52_stand_layout_check_simulation_xy.svg",
+    "new": "logs/mujoco/hinf/plot/20261110T105024Z_9ef77f52_stand_layout_check_simulation_xy.svg",
+    "sha256": "a083d6cae02008ddac2741b930de267b459b0fe46fb3c2e39b539063d7fb8987"
+  },
+  {
+    "old": "deliverables/ga/mujoco/20261110T105032Z_09147b85_stand_layout_check_simulation.pdf",
+    "new": "logs/mujoco/ga/plot/20261110T105032Z_09147b85_stand_layout_check_simulation.pdf",
+    "sha256": "6084633c10aca1d6f3473367024daa2cd751f868f5bc564842da7f1042f0c004"
+  },
+  {
+    "old": "deliverables/ga/mujoco/20261110T105032Z_09147b85_stand_layout_check_simulation.png",
+    "new": "logs/mujoco/ga/plot/20261110T105032Z_09147b85_stand_layout_check_simulation.png",
+    "sha256": "e177b8817905776bbb76de7855b4c2bac84ce7c5c2d03310ce2e91d05447ee24"
+  },
+  {
+    "old": "deliverables/ga/mujoco/20261110T105032Z_09147b85_stand_layout_check_simulation.svg",
+    "new": "logs/mujoco/ga/plot/20261110T105032Z_09147b85_stand_layout_check_simulation.svg",
+    "sha256": "320ca9ca99869658e703fb1c1caf532c01568dd6aca56465c95098286aaa146a"
+  },
+  {
+    "old": "deliverables/ga/mujoco/20261110T105032Z_09147b85_stand_layout_check_simulation_torque.svg",
+    "new": "logs/mujoco/ga/plot/20261110T105032Z_09147b85_stand_layout_check_simulation_torque.svg",
+    "sha256": "925e4a27860c811dddb0dbad00270a62ca30f6384b323bf5ab45f78795a0b386"
+  },
+  {
+    "old": "deliverables/ga/mujoco/20261110T105032Z_09147b85_stand_layout_check_simulation_xy.svg",
+    "new": "logs/mujoco/ga/plot/20261110T105032Z_09147b85_stand_layout_check_simulation_xy.svg",
+    "sha256": "e4954b860076fcbcf45bb60e97dcf0d37f07d054c4e2eef72ebe7d0d3e8243f5"
+  },
+  {
+    "old": "deliverables/final_campaign/01_digital_twin/historical_report/01_nominal_motor_pulses.png",
+    "new": "logs/real/digital_twin/plot/3b37b0108408_01_nominal_motor_pulses.png",
+    "sha256": "c75cf2f954a338c3e097ae32008bc8cee7adb53eaa318838304fff297b7897bd"
+  },
+  {
+    "old": "deliverables/final_campaign/01_digital_twin/historical_report/01_nominal_motor_pulses.svg",
+    "new": "logs/real/digital_twin/plot/3b37b0108408_01_nominal_motor_pulses.svg",
+    "sha256": "bb6be39f8da3f42a64e14582b114a09dea5eaa7bdde7b89c50119c7778b424c1"
+  },
+  {
+    "old": "deliverables/final_campaign/01_digital_twin/historical_report/02_stribeck_motor_pulses.png",
+    "new": "logs/real/digital_twin/plot/3b37b0108408_02_stribeck_motor_pulses.png",
+    "sha256": "909aefd21d5c1a18a813b83676513c2b18fc44b67062f5df884d6a6ab62686cd"
+  },
+  {
+    "old": "deliverables/final_campaign/01_digital_twin/historical_report/02_stribeck_motor_pulses.svg",
+    "new": "logs/real/digital_twin/plot/3b37b0108408_02_stribeck_motor_pulses.svg",
+    "sha256": "312f248c7757128a47f409f8ae8352a2c09ba7f88ab465b331d8329628664d8a"
+  },
+  {
+    "old": "deliverables/final_campaign/01_digital_twin/historical_report/03_measured_hysteresis_full.png",
+    "new": "logs/real/digital_twin/plot/3b37b0108408_03_measured_hysteresis_full.png",
+    "sha256": "b5a88c363fd76427a0f1f34e36c0ff2dd0d9e75a60f9f1a897d9797086938ed6"
+  },
+  {
+    "old": "deliverables/final_campaign/01_digital_twin/historical_report/03_measured_hysteresis_full.svg",
+    "new": "logs/real/digital_twin/plot/3b37b0108408_03_measured_hysteresis_full.svg",
+    "sha256": "e569dfb3c7e36b50e285e03fddb85df99b544f597b3db0a206180b7de686a271"
+  },
+  {
+    "old": "deliverables/final_campaign/01_digital_twin/historical_report/04_nominal_hysteresis_full.png",
+    "new": "logs/real/digital_twin/plot/3b37b0108408_04_nominal_hysteresis_full.png",
+    "sha256": "e04674cf1fbfc6a2e3a37dedc020cbd2fbee6c4e70f42b9f236acff3552c6b85"
+  },
+  {
+    "old": "deliverables/final_campaign/01_digital_twin/historical_report/04_nominal_hysteresis_full.svg",
+    "new": "logs/real/digital_twin/plot/3b37b0108408_04_nominal_hysteresis_full.svg",
+    "sha256": "7e3c1bf799bbdca132b03a50687a9ff379fc3add54788880b2b3cd6542c2b43f"
+  },
+  {
+    "old": "deliverables/final_campaign/01_digital_twin/historical_report/04_nominal_hysteresis_zoom.png",
+    "new": "logs/real/digital_twin/plot/3b37b0108408_04_nominal_hysteresis_zoom.png",
+    "sha256": "f6c7c88afbb7ed9492d8e8a145fc9779ea310cc0fc94755b1b5ab84c3c48aa78"
+  },
+  {
+    "old": "deliverables/final_campaign/01_digital_twin/historical_report/04_nominal_hysteresis_zoom.svg",
+    "new": "logs/real/digital_twin/plot/3b37b0108408_04_nominal_hysteresis_zoom.svg",
+    "sha256": "ccdc118c0829ff4ed2513ae79b4b0817c79de52978732106a8c112e32f20c274"
+  },
+  {
+    "old": "deliverables/final_campaign/01_digital_twin/historical_report/05_stribeck_hysteresis_full.png",
+    "new": "logs/real/digital_twin/plot/3b37b0108408_05_stribeck_hysteresis_full.png",
+    "sha256": "cf1c9c1b367957ebe17feaa3f3be5228b05b0373e5af700338e8c41a6aaa4345"
+  },
+  {
+    "old": "deliverables/final_campaign/01_digital_twin/historical_report/05_stribeck_hysteresis_full.svg",
+    "new": "logs/real/digital_twin/plot/3b37b0108408_05_stribeck_hysteresis_full.svg",
+    "sha256": "0d59bf213663efb4ec82421336eda5e1e98d08f1438aa0017bea3545d7140562"
+  },
+  {
+    "old": "deliverables/final_campaign/01_digital_twin/historical_report/05_stribeck_hysteresis_zoom.png",
+    "new": "logs/real/digital_twin/plot/3b37b0108408_05_stribeck_hysteresis_zoom.png",
+    "sha256": "3e56d30fd1e5c61ef5e2b1e7761ee8fde3ba1e805be0e0c62318700aa2f02f4d"
+  },
+  {
+    "old": "deliverables/final_campaign/01_digital_twin/historical_report/05_stribeck_hysteresis_zoom.svg",
+    "new": "logs/real/digital_twin/plot/3b37b0108408_05_stribeck_hysteresis_zoom.svg",
+    "sha256": "d8444805c5fff1feaf13283f715e2701199419bc733851fe8e9484cf73078374"
+  },
+  {
+    "old": "deliverables/final_campaign/01_digital_twin/historical_report/06_compensated_pulses_full.png",
+    "new": "logs/real/digital_twin/plot/3b37b0108408_06_compensated_pulses_full.png",
+    "sha256": "b1e60f150ce28a0e6ab7d997aa7ea9c32e2b08d88d5b88de9973b5c4987abd33"
+  },
+  {
+    "old": "deliverables/final_campaign/01_digital_twin/historical_report/06_compensated_pulses_full.svg",
+    "new": "logs/real/digital_twin/plot/3b37b0108408_06_compensated_pulses_full.svg",
+    "sha256": "dd8a4ccc615c987c0e527d2adf07a468cbc8227c36bc88e36a5aa147611a906e"
+  },
+  {
+    "old": "deliverables/final_campaign/01_digital_twin/historical_report/06_compensated_pulses_zoom.png",
+    "new": "logs/real/digital_twin/plot/3b37b0108408_06_compensated_pulses_zoom.png",
+    "sha256": "dae18aff49a4e6f8ffa35c23886cd759ea2231f9458f0ca1c88e4d6b4c2e4734"
+  },
+  {
+    "old": "deliverables/final_campaign/01_digital_twin/historical_report/06_compensated_pulses_zoom.svg",
+    "new": "logs/real/digital_twin/plot/3b37b0108408_06_compensated_pulses_zoom.svg",
+    "sha256": "f54d1f4e3879f8f66df1ba4dc934eba4e121dd8aaeebd7a58c46343ad77a2f3b"
+  },
+  {
+    "old": "deliverables/final_campaign/01_digital_twin/historical_report/07_static_lut_measured_linearization.png",
+    "new": "logs/real/digital_twin/plot/3b37b0108408_07_static_lut_measured_linearization.png",
+    "sha256": "b57a48e674a324d7811e44742047729bd013e73dfb5a34c8c2875f087b8ff354"
+  },
+  {
+    "old": "deliverables/final_campaign/01_digital_twin/historical_report/07_static_lut_measured_linearization.svg",
+    "new": "logs/real/digital_twin/plot/3b37b0108408_07_static_lut_measured_linearization.svg",
+    "sha256": "b60bcbac8bf252957ec810efb1448d1178355938c5a4b5a81b78a7ee9d0d2c73"
+  },
+  {
+    "old": "deliverables/final_campaign/01_digital_twin/historical_report/08_static_lut_real_vs_mujoco.png",
+    "new": "logs/real/digital_twin/plot/3b37b0108408_08_static_lut_real_vs_mujoco.png",
+    "sha256": "370bcfcf5f1a89b14e2b79e104959bfd732f6ec94002e45427ce520c230c6a6f"
+  },
+  {
+    "old": "deliverables/final_campaign/01_digital_twin/historical_report/08_static_lut_real_vs_mujoco.svg",
+    "new": "logs/real/digital_twin/plot/3b37b0108408_08_static_lut_real_vs_mujoco.svg",
+    "sha256": "ab92c920cded48f701df90e892ad8a7f726a1763d1d484e5dfe39da0788ae415"
+  },
+  {
+    "old": "deliverables/final_campaign/02_pd_real/simulation_preview/20261110T085843Z_e1a1b3e4/pd_20261110_095843_39b4a1f7.pdf",
+    "new": "logs/mujoco/pd/plot/905f7d580b71_pd_20261110_095843_39b4a1f7.pdf",
+    "sha256": "5b3c21d6dfe67b504ebb8b98b330713ce35d5a53647635e9a6aa95e9fd205e22"
+  },
+  {
+    "old": "deliverables/final_campaign/02_pd_real/simulation_preview/20261110T085843Z_e1a1b3e4/pd_20261110_095843_39b4a1f7.svg",
+    "new": "logs/mujoco/pd/plot/905f7d580b71_pd_20261110_095843_39b4a1f7.svg",
+    "sha256": "1f91c476ca71c7bce9a80b937d96bd60546b8841af26b2197aed2fe4db00152d"
+  },
+  {
+    "old": "deliverables/final_campaign/02_pd_real/simulation_preview/20261110T085924Z_c046a7e7/pd_20261110_095925_3bbae0c9.pdf",
+    "new": "logs/mujoco/pd/plot/fb7414cdfed6_pd_20261110_095925_3bbae0c9.pdf",
+    "sha256": "50477d652b0574baeb2eac47d93a1d0e08b3d387dc7be3ebaeb60e0c539321e9"
+  },
+  {
+    "old": "deliverables/final_campaign/02_pd_real/simulation_preview/20261110T085924Z_c046a7e7/pd_20261110_095925_3bbae0c9.svg",
+    "new": "logs/mujoco/pd/plot/fb7414cdfed6_pd_20261110_095925_3bbae0c9.svg",
+    "sha256": "b713d1a97e66c721a3abeb24336777cae92c231c39f4870c1042973fa3605422"
+  },
+  {
+    "old": "deliverables/final_campaign/02_pd_real/stand/20261109T232622Z_5e23eee1/pd_20261110_002622_63f1277d.pdf",
+    "new": "logs/real/pd/plot/87e4b01f2014_pd_20261110_002622_63f1277d.pdf",
+    "sha256": "3d1479aad2ae9b8a4aac307375154af8f264b0d95883f551aa07bdec46a0b139"
+  },
+  {
+    "old": "deliverables/final_campaign/02_pd_real/stand/20261109T232622Z_5e23eee1/pd_20261110_002622_63f1277d.svg",
+    "new": "logs/real/pd/plot/87e4b01f2014_pd_20261110_002622_63f1277d.svg",
+    "sha256": "32656082c04131866ad9b6f421c125b9b15b6f570feb937260b0cf74922b5881"
+  },
+  {
+    "old": "deliverables/final_campaign/02_pd_real/stand/observe_20261109_01/pd_observe.pdf",
+    "new": "logs/real/pd/plot/292de26f02cf_pd_observe.pdf",
+    "sha256": "70b4287ea425b8f59293e377e032705d6e0419b132af55fa1dd32c7755ea2266"
+  },
+  {
+    "old": "deliverables/final_campaign/02_pd_real/stand/observe_20261109_01/pd_observe.png",
+    "new": "logs/real/pd/plot/292de26f02cf_pd_observe.png",
+    "sha256": "7f486f1492fd73072d8a1195f8c3ba7e2d8870e7add2c6bfd25777733a8f659c"
+  },
+  {
+    "old": "deliverables/final_campaign/02_pd_real/stand/observe_20261109_01/pd_observe.svg",
+    "new": "logs/real/pd/plot/292de26f02cf_pd_observe.svg",
+    "sha256": "68d0cb79a13ce6ac7234a10635d5f147d92f4f919a618d7625ac2b2cd714844b"
+  },
+  {
+    "old": "deliverables/final_campaign/02_pd_real/stand/trial_001/pd_20261109_234802.pdf",
+    "new": "logs/real/pd/plot/7dfa29451c1e_pd_20261109_234802.pdf",
+    "sha256": "afe541ec2560a6a9926a7a4cb48110730bbfd25b81575ca2b6b243092e4ff9f8"
+  },
+  {
+    "old": "deliverables/final_campaign/02_pd_real/stand/trial_001/pd_20261109_234802.png",
+    "new": "logs/real/pd/plot/7dfa29451c1e_pd_20261109_234802.png",
+    "sha256": "532ba4e0298a163d282170ddb93b42fab785d40415dd74c8478d3518d173c7bd"
+  },
+  {
+    "old": "deliverables/final_campaign/02_pd_real/stand/trial_001/pd_20261109_234802.svg",
+    "new": "logs/real/pd/plot/7dfa29451c1e_pd_20261109_234802.svg",
+    "sha256": "3e90ffd79cdeaea175807c0891fe8b9ccbfc3b47fa1d062ee96355caa0124914"
+  },
+  {
+    "old": "deliverables/final_campaign/03_pd_outer_loop/stand/20261109T232651Z_51ad4859/pd-outer_20261110_002652_fa3288f8.pdf",
+    "new": "logs/real/pd-outer/plot/57f586475a9a_pd-outer_20261110_002652_fa3288f8.pdf",
+    "sha256": "ae45c6a75c32ebf3044d78e889289084c194a4acac3250e1e1d915db33edf11c"
+  },
+  {
+    "old": "deliverables/final_campaign/03_pd_outer_loop/stand/20261109T232651Z_51ad4859/pd-outer_20261110_002652_fa3288f8.svg",
+    "new": "logs/real/pd-outer/plot/57f586475a9a_pd-outer_20261110_002652_fa3288f8.svg",
+    "sha256": "5a1f839c156879149dc164ad23e87c5976e8cb24294980d54486c1260ba76264"
+  },
+  {
+    "old": "deliverables/final_campaign/03_pd_outer_loop/stand/trial_002/pd_outer_20261110_000427.pdf",
+    "new": "logs/real/pd-outer/plot/65ac458294fa_pd_outer_20261110_000427.pdf",
+    "sha256": "a3515da26c02d0bc14744f781d95c0b69dff3c105cc6ce7f44d1854568867d22"
+  },
+  {
+    "old": "deliverables/final_campaign/03_pd_outer_loop/stand/trial_002/pd_outer_20261110_000427.png",
+    "new": "logs/real/pd-outer/plot/65ac458294fa_pd_outer_20261110_000427.png",
+    "sha256": "3f402468670bf8728e9f7d3457a96b4148e660068b5561bcaa83ccf1cb3f4450"
+  },
+  {
+    "old": "deliverables/final_campaign/03_pd_outer_loop/stand/trial_002/pd_outer_20261110_000427.svg",
+    "new": "logs/real/pd-outer/plot/65ac458294fa_pd_outer_20261110_000427.svg",
+    "sha256": "b0b5e4c5c778d696008b0d802d0bdaa9e41a6883fcb00c76d7fefbfff8304932"
+  },
+  {
+    "old": "deliverables/final_campaign/06_lqr_real/path/trial_002/lqr_path_simple_20261109_202235_1483.pdf",
+    "new": "logs/real/lqr/plot/801f08c68f38_lqr_path_simple_20261109_202235_1483.pdf",
+    "sha256": "520792d11cdf162f9468158f25ec17955f1c191908d1bb7124ce805485bab936"
+  },
+  {
+    "old": "deliverables/final_campaign/06_lqr_real/path/trial_002/lqr_path_simple_20261109_202235_1483.png",
+    "new": "logs/real/lqr/plot/801f08c68f38_lqr_path_simple_20261109_202235_1483.png",
+    "sha256": "2d255ac284f6cf4a77be6a4b8f0c56ce55aa6dfce5decccfe36a454b51d64a6e"
+  },
+  {
+    "old": "deliverables/final_campaign/06_lqr_real/path/trial_002/lqr_path_simple_20261109_202235_1483.svg",
+    "new": "logs/real/lqr/plot/801f08c68f38_lqr_path_simple_20261109_202235_1483.svg",
+    "sha256": "68c1a65ea91da0abec4e6f99d3ac0e4c7b72e754cb4524ff743e118a9d80c0c0"
+  },
+  {
+    "old": "deliverables/final_campaign/06_lqr_real/path/trial_003/lqr_path_simple_20261109_211224_1853.pdf",
+    "new": "logs/real/lqr/plot/dbb07ccaf85b_lqr_path_simple_20261109_211224_1853.pdf",
+    "sha256": "538517fa03701d913cbf8e08dc1f33a157e004a5be033ecdcc87dd9b9d644d82"
+  },
+  {
+    "old": "deliverables/final_campaign/06_lqr_real/path/trial_003/lqr_path_simple_20261109_211224_1853.png",
+    "new": "logs/real/lqr/plot/dbb07ccaf85b_lqr_path_simple_20261109_211224_1853.png",
+    "sha256": "356fc5a07076d29e0ee4e63e3450a38fea30053d5acb3272907da176a7e13709"
+  },
+  {
+    "old": "deliverables/final_campaign/06_lqr_real/path/trial_003/lqr_path_simple_20261109_211224_1853.svg",
+    "new": "logs/real/lqr/plot/dbb07ccaf85b_lqr_path_simple_20261109_211224_1853.svg",
+    "sha256": "947d5b0760cbf3de829213d03f67f6c3190b054feb80727416ef50b3bffba801"
+  },
+  {
+    "old": "deliverables/final_campaign/06_lqr_real/stand/trial_001/lqr_mimo_20261109_171507_1321.pdf",
+    "new": "logs/real/lqr/plot/4e069abc99c2_lqr_mimo_20261109_171507_1321.pdf",
+    "sha256": "336534fa4244999d8627f2b77eaff09ec8606fae251ec898df8ec92184e551a0"
+  },
+  {
+    "old": "deliverables/final_campaign/06_lqr_real/stand/trial_001/lqr_mimo_20261109_171507_1321.png",
+    "new": "logs/real/lqr/plot/4e069abc99c2_lqr_mimo_20261109_171507_1321.png",
+    "sha256": "d3204f45bc41d9401821aae8e080355acccd74363e2428c108c63c581ac291c2"
+  },
+  {
+    "old": "deliverables/final_campaign/06_lqr_real/stand/trial_001/lqr_mimo_20261109_171507_1321.svg",
+    "new": "logs/real/lqr/plot/4e069abc99c2_lqr_mimo_20261109_171507_1321.svg",
+    "sha256": "6c2a5a2880ec3e4ece394d973ab4a479893ea0b9efc1bc4af765807007479346"
+  },
+  {
+    "old": "deliverables/final_campaign/07_lqr_twin_comparison/path/20261109T204729Z_1e5dc039/path/simulation.pdf",
+    "new": "logs/real/lqr/plot/5b68d9ee0f7d_simulation.pdf",
+    "sha256": "a7ef9666f2b61f65963f7dac6a887d90f0ad67a98a33159d7d5f3e3bd810cb66"
+  },
+  {
+    "old": "deliverables/final_campaign/07_lqr_twin_comparison/path/20261109T204729Z_1e5dc039/path/simulation.png",
+    "new": "logs/real/lqr/plot/5b68d9ee0f7d_simulation.png",
+    "sha256": "014085b053b4be96a0852dee52c8a6f140c0f8671e2a031dfbad2afd6b05fa03"
+  },
+  {
+    "old": "deliverables/final_campaign/07_lqr_twin_comparison/path/20261109T204729Z_1e5dc039/path/simulation.svg",
+    "new": "logs/real/lqr/plot/5b68d9ee0f7d_simulation.svg",
+    "sha256": "d8158f4037638696e758b81be8b02f1b21adc22109c133f8430bfd792cac0d81"
+  },
+  {
+    "old": "deliverables/final_campaign/07_lqr_twin_comparison/path/20261109T204729Z_1e5dc039/path/simulation_torque.svg",
+    "new": "logs/real/lqr/plot/5b68d9ee0f7d_simulation_torque.svg",
+    "sha256": "c6d159b44e7e57cdf256254bf064de6aa39c8ca45d2fe556478d50a1ff4b0199"
+  },
+  {
+    "old": "deliverables/final_campaign/07_lqr_twin_comparison/path/20261109T204729Z_1e5dc039/path/simulation_xy.svg",
+    "new": "logs/real/lqr/plot/5b68d9ee0f7d_simulation_xy.svg",
+    "sha256": "fa278ae951b64cabf6186c4668aaaf24469ed11b6d1c3139cd03469e59ee3e56"
+  },
+  {
+    "old": "deliverables/final_campaign/07_lqr_twin_comparison/path/20261109T205201Z_d63b4631/path/simulation.pdf",
+    "new": "logs/real/lqr/plot/043ad0c12032_simulation.pdf",
+    "sha256": "a9907d4850dca079dfc0e52cfd2997d14d0a4ca9c45ae708d0e15578fe8b67cc"
+  },
+  {
+    "old": "deliverables/final_campaign/07_lqr_twin_comparison/path/20261109T205201Z_d63b4631/path/simulation.png",
+    "new": "logs/real/lqr/plot/043ad0c12032_simulation.png",
+    "sha256": "62f3efde65175dfa61305441514bc896ae7f995be069d0d4050623c189410af1"
+  },
+  {
+    "old": "deliverables/final_campaign/07_lqr_twin_comparison/path/20261109T205201Z_d63b4631/path/simulation.svg",
+    "new": "logs/real/lqr/plot/043ad0c12032_simulation.svg",
+    "sha256": "34c15393084ac80fb7c1608c1f32f3932df4041ee4f048a6599844477d39919b"
+  },
+  {
+    "old": "deliverables/final_campaign/07_lqr_twin_comparison/path/20261109T205201Z_d63b4631/path/simulation_torque.svg",
+    "new": "logs/real/lqr/plot/043ad0c12032_simulation_torque.svg",
+    "sha256": "4672160c1a47a4effd3b5514adb1096ad0aa1a83c6575e2b0a1eb7350e674483"
+  },
+  {
+    "old": "deliverables/final_campaign/07_lqr_twin_comparison/path/20261109T205201Z_d63b4631/path/simulation_xy.svg",
+    "new": "logs/real/lqr/plot/043ad0c12032_simulation_xy.svg",
+    "sha256": "41464b94fccdd3b10f53bc1ed0fe2d863cc98be0f1df38ef6dae3f0951132b18"
+  },
+  {
+    "old": "deliverables/final_campaign/07_lqr_twin_comparison/path/20261109T205226Z_7105f2e7/real_vs_mujoco.pdf",
+    "new": "logs/real/lqr/plot/276b58ffe2cf_real_vs_mujoco.pdf",
+    "sha256": "556e30cd2e210c8d81b87b6a85ada5e790251150164fd92458a4872d26848b9e"
+  },
+  {
+    "old": "deliverables/final_campaign/07_lqr_twin_comparison/path/20261109T205226Z_7105f2e7/real_vs_mujoco.png",
+    "new": "logs/real/lqr/plot/276b58ffe2cf_real_vs_mujoco.png",
+    "sha256": "8d3b0a58402903689c298c75324f504673c22f39756de2ae8bf89d1353f59d5b"
+  },
+  {
+    "old": "deliverables/final_campaign/07_lqr_twin_comparison/path/20261109T205226Z_7105f2e7/real_vs_mujoco.svg",
+    "new": "logs/real/lqr/plot/276b58ffe2cf_real_vs_mujoco.svg",
+    "sha256": "703ce59851496e343de1ded2d4f6d0faab53f19ed50f02e575b11355b1c6e2ce"
+  },
+  {
+    "old": "deliverables/final_campaign/07_lqr_twin_comparison/path/20261109T205226Z_7105f2e7/real_vs_mujoco_torque.svg",
+    "new": "logs/real/lqr/plot/276b58ffe2cf_real_vs_mujoco_torque.svg",
+    "sha256": "d2440e66ff061629e4db0e235908a809be61fe29687a373d07e5ed6ddc163eb3"
+  },
+  {
+    "old": "deliverables/final_campaign/07_lqr_twin_comparison/path/20261109T205226Z_7105f2e7/real_vs_mujoco_xy.svg",
+    "new": "logs/real/lqr/plot/276b58ffe2cf_real_vs_mujoco_xy.svg",
+    "sha256": "c8df4c8fbe4217c207cd8f1609e1c61135053eb66887379b750d725555228853"
+  },
+  {
+    "old": "deliverables/final_campaign/07_lqr_twin_comparison/path/20261109T210008Z_571fdd47/path/simulation.pdf",
+    "new": "logs/real/lqr/plot/4dd7db7e4667_simulation.pdf",
+    "sha256": "321bd47fed9873e55ec076cc491cf28419d75d6f3411ad3ae77702cb997725ff"
+  },
+  {
+    "old": "deliverables/final_campaign/07_lqr_twin_comparison/path/20261109T210008Z_571fdd47/path/simulation.png",
+    "new": "logs/real/lqr/plot/4dd7db7e4667_simulation.png",
+    "sha256": "2d9a5a9346cfc9b53e5766256c3507c7ab21dbc3a1244db8303486699dd2b48f"
+  },
+  {
+    "old": "deliverables/final_campaign/07_lqr_twin_comparison/path/20261109T210008Z_571fdd47/path/simulation.svg",
+    "new": "logs/real/lqr/plot/4dd7db7e4667_simulation.svg",
+    "sha256": "fe03cd84b710cce408489fef32894fa3bf182002a894ac3426e3499791f2a883"
+  },
+  {
+    "old": "deliverables/final_campaign/07_lqr_twin_comparison/path/20261109T210008Z_571fdd47/path/simulation_torque.svg",
+    "new": "logs/real/lqr/plot/4dd7db7e4667_simulation_torque.svg",
+    "sha256": "5886b21eaa40612272e930dd3449066601f286b155c45e2d7640ae79b02001e4"
+  },
+  {
+    "old": "deliverables/final_campaign/07_lqr_twin_comparison/path/20261109T210008Z_571fdd47/path/simulation_xy.svg",
+    "new": "logs/real/lqr/plot/4dd7db7e4667_simulation_xy.svg",
+    "sha256": "e55cb44158eb8e0c2031f224ced60ad3529437435a0e8a202947a73ea0bbf34d"
+  },
+  {
+    "old": "deliverables/final_campaign/07_lqr_twin_comparison/path/20261109T210035Z_d6de85a7/real_vs_mujoco.pdf",
+    "new": "logs/real/lqr/plot/7b660eb9bba2_real_vs_mujoco.pdf",
+    "sha256": "302609619b0121428e341c6e47fde5e25f2022ef10f31bd5a0c39aa8dc3daad8"
+  },
+  {
+    "old": "deliverables/final_campaign/07_lqr_twin_comparison/path/20261109T210035Z_d6de85a7/real_vs_mujoco.png",
+    "new": "logs/real/lqr/plot/7b660eb9bba2_real_vs_mujoco.png",
+    "sha256": "fab0e920634288b8603713e9f197bcb4380d1efea2c0f94ca1c72c3e89cc96ab"
+  },
+  {
+    "old": "deliverables/final_campaign/07_lqr_twin_comparison/path/20261109T210035Z_d6de85a7/real_vs_mujoco.svg",
+    "new": "logs/real/lqr/plot/7b660eb9bba2_real_vs_mujoco.svg",
+    "sha256": "9662abc941ba90be71101b30ea1ec46cfee16e4e7c27b43597cf726d92e8b5f4"
+  },
+  {
+    "old": "deliverables/final_campaign/07_lqr_twin_comparison/path/20261109T210035Z_d6de85a7/real_vs_mujoco_torque.svg",
+    "new": "logs/real/lqr/plot/7b660eb9bba2_real_vs_mujoco_torque.svg",
+    "sha256": "2b896780074986f4d5785984fbecd601b759641b9ee5e603af4e5aee48647dcf"
+  },
+  {
+    "old": "deliverables/final_campaign/07_lqr_twin_comparison/path/20261109T210035Z_d6de85a7/real_vs_mujoco_xy.svg",
+    "new": "logs/real/lqr/plot/7b660eb9bba2_real_vs_mujoco_xy.svg",
+    "sha256": "daf8bc0c81c899c9014ef85b75d7bcb3485ed326f13feb2e942574115a6a7315"
+  },
+  {
+    "old": "deliverables/final_campaign/07_lqr_twin_comparison/path/20261109T210223Z_7dd55470/path/simulation.pdf",
+    "new": "logs/real/lqr/plot/832085f87236_simulation.pdf",
+    "sha256": "efe034a8b9a84a8e91caa33400aae15261e8794c726a27ea314c16bb7a941a4a"
+  },
+  {
+    "old": "deliverables/final_campaign/07_lqr_twin_comparison/path/20261109T210223Z_7dd55470/path/simulation.png",
+    "new": "logs/real/lqr/plot/832085f87236_simulation.png",
+    "sha256": "2a01602ffcb0c26a28dc73f5019e62a4258c8268c79464992e638c31dda19111"
+  },
+  {
+    "old": "deliverables/final_campaign/07_lqr_twin_comparison/path/20261109T210223Z_7dd55470/path/simulation.svg",
+    "new": "logs/real/lqr/plot/832085f87236_simulation.svg",
+    "sha256": "284dc56cc75394624c869e333370e97e800662bec218c47f943a6194e321b5e0"
+  },
+  {
+    "old": "deliverables/final_campaign/07_lqr_twin_comparison/path/20261109T210223Z_7dd55470/path/simulation_torque.svg",
+    "new": "logs/real/lqr/plot/832085f87236_simulation_torque.svg",
+    "sha256": "41516588599f0dee1dc5112bee24cdea390250f0b3e850cadc54eec1c8af190a"
+  },
+  {
+    "old": "deliverables/final_campaign/07_lqr_twin_comparison/path/20261109T210223Z_7dd55470/path/simulation_xy.svg",
+    "new": "logs/real/lqr/plot/832085f87236_simulation_xy.svg",
+    "sha256": "daf364a9315519a39cfcfa7dc1a315a7b15328847e3a4c3db0cae509be298904"
+  },
+  {
+    "old": "deliverables/final_campaign/07_lqr_twin_comparison/path/20261109T211743Z_c5f8cb68/path/simulation.pdf",
+    "new": "logs/real/lqr/plot/8c9543ef342d_simulation.pdf",
+    "sha256": "bf617e6021acd41ca1e0d940b859abaa804c5c950b1832ece8bfcf1f54f59704"
+  },
+  {
+    "old": "deliverables/final_campaign/07_lqr_twin_comparison/path/20261109T211743Z_c5f8cb68/path/simulation.png",
+    "new": "logs/real/lqr/plot/8c9543ef342d_simulation.png",
+    "sha256": "20e9c1df848b0d0492395b6677def9965258cf91877f9258f7d09f310485e426"
+  },
+  {
+    "old": "deliverables/final_campaign/07_lqr_twin_comparison/path/20261109T211743Z_c5f8cb68/path/simulation.svg",
+    "new": "logs/real/lqr/plot/8c9543ef342d_simulation.svg",
+    "sha256": "33c2dd2b43133f880a53eed4b7f42ebd60b1b5e66495187f325e0fea814cbc1c"
+  },
+  {
+    "old": "deliverables/final_campaign/07_lqr_twin_comparison/path/20261109T211743Z_c5f8cb68/path/simulation_torque.svg",
+    "new": "logs/real/lqr/plot/8c9543ef342d_simulation_torque.svg",
+    "sha256": "4d0e7bc1008955154c77687e423d355b19bae45d1923d17b8cd82e5376bd480d"
+  },
+  {
+    "old": "deliverables/final_campaign/07_lqr_twin_comparison/path/20261109T211743Z_c5f8cb68/path/simulation_xy.svg",
+    "new": "logs/real/lqr/plot/8c9543ef342d_simulation_xy.svg",
+    "sha256": "3b8c0b03b1771009c43d71d292ec980d32bf87685407e21aab32a14c4cc60518"
+  },
+  {
+    "old": "deliverables/final_campaign/07_lqr_twin_comparison/path/20261109T211801Z_0ee976cf/real_vs_mujoco.pdf",
+    "new": "logs/real/lqr/plot/e2edd43c0a40_real_vs_mujoco.pdf",
+    "sha256": "9aeae07b7925d2a05c0aa89b07e6d79edd8a8ba09260b5e5976a4193663eff0f"
+  },
+  {
+    "old": "deliverables/final_campaign/07_lqr_twin_comparison/path/20261109T211801Z_0ee976cf/real_vs_mujoco.png",
+    "new": "logs/real/lqr/plot/e2edd43c0a40_real_vs_mujoco.png",
+    "sha256": "1408649eea901719e950dd7be65cb1626e9ed306f4e15ba338300f77e3986ca2"
+  },
+  {
+    "old": "deliverables/final_campaign/07_lqr_twin_comparison/path/20261109T211801Z_0ee976cf/real_vs_mujoco.svg",
+    "new": "logs/real/lqr/plot/e2edd43c0a40_real_vs_mujoco.svg",
+    "sha256": "2d506869c5e2f25fc4c7a83d104b383e28c9df9cd985d4577f94a73002d6621e"
+  },
+  {
+    "old": "deliverables/final_campaign/07_lqr_twin_comparison/path/20261109T211801Z_0ee976cf/real_vs_mujoco_torque.svg",
+    "new": "logs/real/lqr/plot/e2edd43c0a40_real_vs_mujoco_torque.svg",
+    "sha256": "315ffde751c423a106734b15dd40fff2a39ea42a036a94d7795bee61eb7511b4"
+  },
+  {
+    "old": "deliverables/final_campaign/07_lqr_twin_comparison/path/20261109T211801Z_0ee976cf/real_vs_mujoco_xy.svg",
+    "new": "logs/real/lqr/plot/e2edd43c0a40_real_vs_mujoco_xy.svg",
+    "sha256": "27ea0e32e24d484e6ad6d6d0e68942c98944f2d97798185e8ef4b0af195789f4"
+  },
+  {
+    "old": "deliverables/final_campaign/07_lqr_twin_comparison/stand/20261109T204733Z_75b4dfcb/stand/simulation.pdf",
+    "new": "logs/real/lqr/plot/cd063e50bd51_simulation.pdf",
+    "sha256": "d24f65b2c523e38e718dd74423ea29d73205df38c0da781f1888006243133568"
+  },
+  {
+    "old": "deliverables/final_campaign/07_lqr_twin_comparison/stand/20261109T204733Z_75b4dfcb/stand/simulation.png",
+    "new": "logs/real/lqr/plot/cd063e50bd51_simulation.png",
+    "sha256": "da650e21a76060d5e6424797d977ed6248d9155cd56a569a5e90c9814cfe313d"
+  },
+  {
+    "old": "deliverables/final_campaign/07_lqr_twin_comparison/stand/20261109T204733Z_75b4dfcb/stand/simulation.svg",
+    "new": "logs/real/lqr/plot/cd063e50bd51_simulation.svg",
+    "sha256": "abfd99e10021ae99bc842e619dbcb7c0aa55d0d29b4a1c4a9a0ffacab8902450"
+  },
+  {
+    "old": "deliverables/final_campaign/07_lqr_twin_comparison/stand/20261109T204733Z_75b4dfcb/stand/simulation_torque.svg",
+    "new": "logs/real/lqr/plot/cd063e50bd51_simulation_torque.svg",
+    "sha256": "389a61694a133d936c803c778a9165777043c3f96f9339cd48ed8bd33db4b528"
+  },
+  {
+    "old": "deliverables/final_campaign/07_lqr_twin_comparison/stand/20261109T204733Z_75b4dfcb/stand/simulation_xy.svg",
+    "new": "logs/real/lqr/plot/cd063e50bd51_simulation_xy.svg",
+    "sha256": "3ce7347653dbd45281f2e738b26062f0d1694336880c7c06f67f25e5f3457af5"
+  },
+  {
+    "old": "deliverables/final_campaign/07_lqr_twin_comparison/stand/20261109T205201Z_bbfbbc1f/stand/simulation.pdf",
+    "new": "logs/real/lqr/plot/54894b652bdf_simulation.pdf",
+    "sha256": "5fc7081aa95edbf9f546572d9f606a7c6918ea51e4923f50e83172d5e99ce9e9"
+  },
+  {
+    "old": "deliverables/final_campaign/07_lqr_twin_comparison/stand/20261109T205201Z_bbfbbc1f/stand/simulation.png",
+    "new": "logs/real/lqr/plot/54894b652bdf_simulation.png",
+    "sha256": "d9b47ef7ffd81fbdc5d9d61a591a9b047982bc09ad1fb932a7ea012bbb08233a"
+  },
+  {
+    "old": "deliverables/final_campaign/07_lqr_twin_comparison/stand/20261109T205201Z_bbfbbc1f/stand/simulation.svg",
+    "new": "logs/real/lqr/plot/54894b652bdf_simulation.svg",
+    "sha256": "d53acfd499b3f30c6c706736e83a1edb5692e1abd8a99cae5fe7eecc538ed709"
+  },
+  {
+    "old": "deliverables/final_campaign/07_lqr_twin_comparison/stand/20261109T205201Z_bbfbbc1f/stand/simulation_torque.svg",
+    "new": "logs/real/lqr/plot/54894b652bdf_simulation_torque.svg",
+    "sha256": "8382c80a5ad5c1871f924c633799756f7237f1412cc82724f1fd915a5bc3a0fc"
+  },
+  {
+    "old": "deliverables/final_campaign/07_lqr_twin_comparison/stand/20261109T205201Z_bbfbbc1f/stand/simulation_xy.svg",
+    "new": "logs/real/lqr/plot/54894b652bdf_simulation_xy.svg",
+    "sha256": "35a27df51f1437c45f8f2378824d136bf14dac25ca6f0aff7f40f6883184f63c"
+  },
+  {
+    "old": "deliverables/final_campaign/07_lqr_twin_comparison/stand/20261109T205226Z_7eb1ba64/real_vs_mujoco.pdf",
+    "new": "logs/real/lqr/plot/c07f640d7060_real_vs_mujoco.pdf",
+    "sha256": "e86d9dd8ba0fbdebd49f0001c1cc68fca093aca89236b3e316f11d223f7e3031"
+  },
+  {
+    "old": "deliverables/final_campaign/07_lqr_twin_comparison/stand/20261109T205226Z_7eb1ba64/real_vs_mujoco.png",
+    "new": "logs/real/lqr/plot/c07f640d7060_real_vs_mujoco.png",
+    "sha256": "61a738c51246dd0242a54f9b6f8038ddf02ea77f3d19ee0d108d40fae7b22434"
+  },
+  {
+    "old": "deliverables/final_campaign/07_lqr_twin_comparison/stand/20261109T205226Z_7eb1ba64/real_vs_mujoco.svg",
+    "new": "logs/real/lqr/plot/c07f640d7060_real_vs_mujoco.svg",
+    "sha256": "6e0c94a1dd07d35492712a4f059e33d753c9ea8666e89e629c6330b3b818d225"
+  },
+  {
+    "old": "deliverables/final_campaign/07_lqr_twin_comparison/stand/20261109T205226Z_7eb1ba64/real_vs_mujoco_torque.svg",
+    "new": "logs/real/lqr/plot/c07f640d7060_real_vs_mujoco_torque.svg",
+    "sha256": "961c2f63938a6c62299ee68d64efd1b483238b738fdda14364de23f508bc0765"
+  },
+  {
+    "old": "deliverables/final_campaign/07_lqr_twin_comparison/stand/20261109T205226Z_7eb1ba64/real_vs_mujoco_xy.svg",
+    "new": "logs/real/lqr/plot/c07f640d7060_real_vs_mujoco_xy.svg",
+    "sha256": "4ca8f7d380355dc2e2a9171684691ff819b5b24725865a9104ebee95a03b7d02"
+  },
+  {
+    "old": "deliverables/final_campaign/08_hinf_twin_comparison/path/offline_cap12_20261109/simulation.pdf",
+    "new": "logs/real/hinf/plot/93a4020b0011_simulation.pdf",
+    "sha256": "e7462afb8aaa83e3e8b23eb48ae1051840d5049b8367e61ec2f0a71f715fc6bb"
+  },
+  {
+    "old": "deliverables/final_campaign/08_hinf_twin_comparison/path/offline_cap12_20261109/simulation.png",
+    "new": "logs/real/hinf/plot/93a4020b0011_simulation.png",
+    "sha256": "3a6e699f8a1f32fa225abbf775cd73e7c0902109a53cda6e80e19bfecb84da2b"
+  },
+  {
+    "old": "deliverables/final_campaign/08_hinf_twin_comparison/path/offline_cap12_20261109/simulation.svg",
+    "new": "logs/real/hinf/plot/93a4020b0011_simulation.svg",
+    "sha256": "58e9848ab380cff9944960023e125a148f016fcaf4f612a156fa26e1d0d0cc2e"
+  },
+  {
+    "old": "deliverables/final_campaign/08_hinf_twin_comparison/path/offline_cap12_20261109/simulation_xy.svg",
+    "new": "logs/real/hinf/plot/93a4020b0011_simulation_xy.svg",
+    "sha256": "86bae7729ec45bcd2dce61f745c636e9ad385623c2ab888d67dffe9276786376"
+  },
+  {
+    "old": "deliverables/final_campaign/08_hinf_twin_comparison/path/offline_yaw_reserve_comparison_20261110.pdf",
+    "new": "logs/real/hinf/plot/0108ddbd4f02_offline_yaw_reserve_comparison_20261110.pdf",
+    "sha256": "4971e5a88c9b7214f2046502ebd670a719d28745b72c095da6c732cbc4c69fd6"
+  },
+  {
+    "old": "deliverables/final_campaign/08_hinf_twin_comparison/path/offline_yaw_reserve_comparison_20261110.png",
+    "new": "logs/real/hinf/plot/0108ddbd4f02_offline_yaw_reserve_comparison_20261110.png",
+    "sha256": "f6f70e247c1f076f976ea391488a546571dcc9b2d93663ee916b7adb485ae7d3"
+  },
+  {
+    "old": "deliverables/final_campaign/08_hinf_twin_comparison/path/offline_yaw_reserve_comparison_20261110.svg",
+    "new": "logs/real/hinf/plot/0108ddbd4f02_offline_yaw_reserve_comparison_20261110.svg",
+    "sha256": "75d392a64f706b199ee3f786cb7ded28de35444c70504f319c4cdaaa14944e08"
+  },
+  {
+    "old": "deliverables/final_campaign/08_hinf_twin_comparison/stand/20261109T220522Z_62865302/real_vs_mujoco.pdf",
+    "new": "logs/real/hinf/plot/a3c2f9652a20_real_vs_mujoco.pdf",
+    "sha256": "4d947368606330f56a085e33268bc8d429ed1a8bb89fae5ecca4db57a09daebd"
+  },
+  {
+    "old": "deliverables/final_campaign/08_hinf_twin_comparison/stand/20261109T220522Z_62865302/real_vs_mujoco.png",
+    "new": "logs/real/hinf/plot/a3c2f9652a20_real_vs_mujoco.png",
+    "sha256": "4c349d0dad3e57c971794664c6960b6b46c82b598e75042c9f2eadcbb3c3104e"
+  },
+  {
+    "old": "deliverables/final_campaign/08_hinf_twin_comparison/stand/20261109T220522Z_62865302/real_vs_mujoco.svg",
+    "new": "logs/real/hinf/plot/a3c2f9652a20_real_vs_mujoco.svg",
+    "sha256": "ba41b04a60957e9389f5718fba7eb95de37f00d3bd75c79feef16796bca48732"
+  },
+  {
+    "old": "deliverables/final_campaign/08_hinf_twin_comparison/stand/20261109T220522Z_62865302/real_vs_mujoco_torque.svg",
+    "new": "logs/real/hinf/plot/a3c2f9652a20_real_vs_mujoco_torque.svg",
+    "sha256": "994ff26da57b8621dcbaf99a94666467a45c630fa64cfcb88f45eafa3bea953f"
+  },
+  {
+    "old": "deliverables/final_campaign/08_hinf_twin_comparison/stand/20261109T220522Z_62865302/real_vs_mujoco_xy.svg",
+    "new": "logs/real/hinf/plot/a3c2f9652a20_real_vs_mujoco_xy.svg",
+    "sha256": "0bab8a6903681e696bc53e80ce277ae5da8ee55f739d2a2d24c12a10f8c37020"
+  },
+  {
+    "old": "deliverables/final_campaign/08_hinf_twin_comparison/stand/20261109T225011Z_d7026260/hinf/simulation.pdf",
+    "new": "logs/real/hinf/plot/462d3395604e_simulation.pdf",
+    "sha256": "af66efc6cd54f1d4be51cd6a1853fd81a6c0d85b229519336324e4c1c7d8c7bb"
+  },
+  {
+    "old": "deliverables/final_campaign/08_hinf_twin_comparison/stand/20261109T225011Z_d7026260/hinf/simulation.png",
+    "new": "logs/real/hinf/plot/462d3395604e_simulation.png",
+    "sha256": "0f9a88c39289e10a3eafc918998ff176adbcf8b7d1a3cba18c1ff30006fe625d"
+  },
+  {
+    "old": "deliverables/final_campaign/08_hinf_twin_comparison/stand/20261109T225011Z_d7026260/hinf/simulation.svg",
+    "new": "logs/real/hinf/plot/462d3395604e_simulation.svg",
+    "sha256": "866df99eadc2077b57932db9a879e9ed1d34d19b22118c68fbbe518b72b181ec"
+  },
+  {
+    "old": "deliverables/final_campaign/08_hinf_twin_comparison/stand/20261109T225011Z_d7026260/hinf/simulation_torque.svg",
+    "new": "logs/real/hinf/plot/462d3395604e_simulation_torque.svg",
+    "sha256": "4e26e9ddb4b94a1ebc1327732ceec9a2864387f5507cfd9c5514248f30c0c0de"
+  },
+  {
+    "old": "deliverables/final_campaign/08_hinf_twin_comparison/stand/20261109T225011Z_d7026260/hinf/simulation_xy.svg",
+    "new": "logs/real/hinf/plot/462d3395604e_simulation_xy.svg",
+    "sha256": "b215b5c5a07af3d72574d2eb3c86132b62487d58349130f7538f07e8ef136ac1"
+  },
+  {
+    "old": "deliverables/final_campaign/08_hinf_twin_comparison/stand/20261109T225030Z_f36b76a3/real_vs_mujoco.pdf",
+    "new": "logs/real/hinf/plot/465ef2c14e79_real_vs_mujoco.pdf",
+    "sha256": "2c908ee93162fa12140d444e25070e9dbfe1c0ca677ca16c34978b5041478f64"
+  },
+  {
+    "old": "deliverables/final_campaign/08_hinf_twin_comparison/stand/20261109T225030Z_f36b76a3/real_vs_mujoco.png",
+    "new": "logs/real/hinf/plot/465ef2c14e79_real_vs_mujoco.png",
+    "sha256": "2fa9e6983f35d85522f8aea107b7065c1e8e77b145719edea2835b930fd1c6f7"
+  },
+  {
+    "old": "deliverables/final_campaign/08_hinf_twin_comparison/stand/20261109T225030Z_f36b76a3/real_vs_mujoco.svg",
+    "new": "logs/real/hinf/plot/465ef2c14e79_real_vs_mujoco.svg",
+    "sha256": "ddfa319d05c0b48a2ef43fb152ae3388525db6c0ca6688f9b86fd54670a1e340"
+  },
+  {
+    "old": "deliverables/final_campaign/08_hinf_twin_comparison/stand/20261109T225030Z_f36b76a3/real_vs_mujoco_torque.svg",
+    "new": "logs/real/hinf/plot/465ef2c14e79_real_vs_mujoco_torque.svg",
+    "sha256": "42919d84c3b87f5fd39f5107cbf2d2b346bd8a1d520035f911a2078574335de9"
+  },
+  {
+    "old": "deliverables/final_campaign/08_hinf_twin_comparison/stand/20261109T225030Z_f36b76a3/real_vs_mujoco_xy.svg",
+    "new": "logs/real/hinf/plot/465ef2c14e79_real_vs_mujoco_xy.svg",
+    "sha256": "c129eebad42e47c9f5dca8ca2646a2bd006b5c241dd6a634a50a2c3e8cb95ce8"
+  },
+  {
+    "old": "deliverables/final_campaign/08_hinf_twin_comparison/stand/diagnostic_20261109/hinf_20261109_203618_1646.pdf",
+    "new": "logs/real/hinf/plot/63e91b8af543_hinf_20261109_203618_1646.pdf",
+    "sha256": "de523627d63ea55fa3416aa5f47e9d6182bd791c6cfd4053a5087dee264a6ed2"
+  },
+  {
+    "old": "deliverables/final_campaign/08_hinf_twin_comparison/stand/diagnostic_20261109/hinf_20261109_203618_1646.png",
+    "new": "logs/real/hinf/plot/63e91b8af543_hinf_20261109_203618_1646.png",
+    "sha256": "ba1de4a4713d60d02646d08d2b8c48376b090151107060d88128e710ab0151a4"
+  },
+  {
+    "old": "deliverables/final_campaign/08_hinf_twin_comparison/stand/diagnostic_20261109/hinf_20261109_203618_1646.svg",
+    "new": "logs/real/hinf/plot/63e91b8af543_hinf_20261109_203618_1646.svg",
+    "sha256": "7d658b861ec5540dcf1616743c93f4d89d9fe90d77e377b51d41a95210d54cbf"
+  },
+  {
+    "old": "deliverables/final_campaign/08_hinf_twin_comparison/stand/diagnostic_20261109/hinf_20261109_203634_1664.pdf",
+    "new": "logs/real/hinf/plot/63e91b8af543_hinf_20261109_203634_1664.pdf",
+    "sha256": "50c442799e28634b20ff31263f4f63baa5b0a7cf2a8ee6e6cbbcd4b9cf227502"
+  },
+  {
+    "old": "deliverables/final_campaign/08_hinf_twin_comparison/stand/diagnostic_20261109/hinf_20261109_203634_1664.png",
+    "new": "logs/real/hinf/plot/63e91b8af543_hinf_20261109_203634_1664.png",
+    "sha256": "29cb6145e89916579af7245c98dc6b59c31e533025288f4ebd18e225e1d401d3"
+  },
+  {
+    "old": "deliverables/final_campaign/08_hinf_twin_comparison/stand/diagnostic_20261109/hinf_20261109_203634_1664.svg",
+    "new": "logs/real/hinf/plot/63e91b8af543_hinf_20261109_203634_1664.svg",
+    "sha256": "4a302ec1716659789cfc876c46667f6ea8f236dafaef024b46c92ba0fc6efefd"
+  },
+  {
+    "old": "deliverables/final_campaign/08_hinf_twin_comparison/stand/diagnostic_20261109/hinf_20261109_203651_1682.pdf",
+    "new": "logs/real/hinf/plot/63e91b8af543_hinf_20261109_203651_1682.pdf",
+    "sha256": "c952af17e3334c79e8d1f40c5e87c367153eb5d71d733cb9147e880a910e9bcf"
+  },
+  {
+    "old": "deliverables/final_campaign/08_hinf_twin_comparison/stand/diagnostic_20261109/hinf_20261109_203651_1682.png",
+    "new": "logs/real/hinf/plot/63e91b8af543_hinf_20261109_203651_1682.png",
+    "sha256": "ad34c1a14536eac50f604a8d29b9b203033e53141e73313af70405b85d0b9aa9"
+  },
+  {
+    "old": "deliverables/final_campaign/08_hinf_twin_comparison/stand/diagnostic_20261109/hinf_20261109_203651_1682.svg",
+    "new": "logs/real/hinf/plot/63e91b8af543_hinf_20261109_203651_1682.svg",
+    "sha256": "dfb89990318c97c66e4c97bb942abbf52ce0a04dcdb9c606d23662a9f8c91983"
+  },
+  {
+    "old": "deliverables/final_campaign/08_hinf_twin_comparison/stand/real_cap12_completed_20261109/hinf_20261109_224503_1432.pdf",
+    "new": "logs/real/hinf/plot/a914f584de95_hinf_20261109_224503_1432.pdf",
+    "sha256": "a0582734e1a8e37a03218bf29b28a862b5e7f486d5a78b328cf2105015b4ff33"
+  },
+  {
+    "old": "deliverables/final_campaign/08_hinf_twin_comparison/stand/real_cap12_completed_20261109/hinf_20261109_224503_1432.png",
+    "new": "logs/real/hinf/plot/a914f584de95_hinf_20261109_224503_1432.png",
+    "sha256": "ebd83c215c481f016d268d50ac7e33891ca2244eef49c532cc5bef702734da89"
+  },
+  {
+    "old": "deliverables/final_campaign/08_hinf_twin_comparison/stand/real_cap12_completed_20261109/hinf_20261109_224503_1432.svg",
+    "new": "logs/real/hinf/plot/a914f584de95_hinf_20261109_224503_1432.svg",
+    "sha256": "f6dbdee5b9620d122a085586f1631cbea1af36ea4c60869141d54ba608954a0b"
+  },
+  {
+    "old": "deliverables/final_campaign/08_hinf_twin_comparison/stand/real_cap12_trial_001/hinf_20261109_204408_1747.pdf",
+    "new": "logs/real/hinf/plot/d5f287d3aa86_hinf_20261109_204408_1747.pdf",
+    "sha256": "5e9f2d463777995b3f479520d0843b50c5a63e4e58a3f3a9c34478b99685d13f"
+  },
+  {
+    "old": "deliverables/final_campaign/08_hinf_twin_comparison/stand/real_cap12_trial_001/hinf_20261109_204408_1747.png",
+    "new": "logs/real/hinf/plot/d5f287d3aa86_hinf_20261109_204408_1747.png",
+    "sha256": "c0ac92448aaf8d7fd7e54357f30d3311ce8e00a14f614d8c46370589d14a325b"
+  },
+  {
+    "old": "deliverables/final_campaign/08_hinf_twin_comparison/stand/real_cap12_trial_001/hinf_20261109_204408_1747.svg",
+    "new": "logs/real/hinf/plot/d5f287d3aa86_hinf_20261109_204408_1747.svg",
+    "sha256": "bd8a330b54f669827681651e0ed78fe3fedb304a8196c306d469ea8ff354d4b8"
+  },
+  {
+    "old": "deliverables/final_campaign/09_ga/path/reproduced_20261110/lqr_vs_ga.pdf",
+    "new": "logs/mujoco/ga/plot/0f03143e7c0b_lqr_vs_ga.pdf",
+    "sha256": "9510e4c732a6bc6f07f5e847d1edcf7346a2dde26582ee04547ccca1bdf290eb"
+  },
+  {
+    "old": "deliverables/final_campaign/09_ga/path/reproduced_20261110/lqr_vs_ga.png",
+    "new": "logs/mujoco/ga/plot/0f03143e7c0b_lqr_vs_ga.png",
+    "sha256": "98a65f3847f70e7077c9b0726f6ceb33980535098f5cb602e46596604d9d41be"
+  },
+  {
+    "old": "deliverables/final_campaign/09_ga/path/reproduced_20261110/lqr_vs_ga.svg",
+    "new": "logs/mujoco/ga/plot/0f03143e7c0b_lqr_vs_ga.svg",
+    "sha256": "035857195f6ccc6b528ae4e30497d59edb8e780f3ef94e70bfbc046cff5b687a"
+  },
+  {
+    "old": "deliverables/final_campaign/09_ga/stand/optimization_20261110_99af40/all_validation_scenarios.pdf",
+    "new": "logs/mujoco/ga/plot/f9f312b0cd66_all_validation_scenarios.pdf",
+    "sha256": "a956f4985fc933389af3b6c211e528969ae38867a85f0dea44fbf43a7c778b7d"
+  },
+  {
+    "old": "deliverables/final_campaign/09_ga/stand/optimization_20261110_99af40/all_validation_scenarios.png",
+    "new": "logs/mujoco/ga/plot/f9f312b0cd66_all_validation_scenarios.png",
+    "sha256": "0ceed6b80c1981015bc426f4f0511b2ac4c617695b222ed2bcbe845a0d3cda5f"
+  },
+  {
+    "old": "deliverables/final_campaign/09_ga/stand/optimization_20261110_99af40/all_validation_scenarios.svg",
+    "new": "logs/mujoco/ga/plot/f9f312b0cd66_all_validation_scenarios.svg",
+    "sha256": "6dbc0f18a796fa860858834eb5108b52b8811ecadb9cd06534edde2cc88b6393"
+  },
+  {
+    "old": "deliverables/final_campaign/09_ga/stand/optimization_20261110_99af40/confronto_validation_00.pdf",
+    "new": "logs/mujoco/ga/plot/f9f312b0cd66_confronto_validation_00.pdf",
+    "sha256": "e3438483fd08fc8010dcf882180b50f576924d2f0a21ec286bbaee07330538fc"
+  },
+  {
+    "old": "deliverables/final_campaign/09_ga/stand/optimization_20261110_99af40/confronto_validation_00.png",
+    "new": "logs/mujoco/ga/plot/f9f312b0cd66_confronto_validation_00.png",
+    "sha256": "3097cf09dd0d019ea2c9db27c091440db4ea52552cb1e442c418a7128c8ce42d"
+  },
+  {
+    "old": "deliverables/final_campaign/09_ga/stand/optimization_20261110_99af40/confronto_validation_00.svg",
+    "new": "logs/mujoco/ga/plot/f9f312b0cd66_confronto_validation_00.svg",
+    "sha256": "018fdd7878e8ecdaffc104b1ebd107ff9320f18f371b7ae1f2c0f00c6d633504"
+  },
+  {
+    "old": "deliverables/final_campaign/09_ga/stand/optimization_20261110_99af40/ga_training_progress.pdf",
+    "new": "logs/mujoco/ga/plot/f9f312b0cd66_ga_training_progress.pdf",
+    "sha256": "906433b685b08898031e3dda0f7b1668359e3db3161df8e7528416f8e3d524ea"
+  },
+  {
+    "old": "deliverables/final_campaign/09_ga/stand/optimization_20261110_99af40/ga_training_progress.png",
+    "new": "logs/mujoco/ga/plot/f9f312b0cd66_ga_training_progress.png",
+    "sha256": "a7519a90899703d21ea14380c382f12bb6b64a773a3d6c19f6bb5ccc36c0dfbf"
+  },
+  {
+    "old": "deliverables/final_campaign/09_ga/stand/optimization_20261110_99af40/ga_training_progress.svg",
+    "new": "logs/mujoco/ga/plot/f9f312b0cd66_ga_training_progress.svg",
+    "sha256": "a19660b270fb4f7696301e5035e4e53a1eeed87e394a0fd41fd396e760673528"
+  },
+  {
+    "old": "deliverables/final_campaign/09_ga/stand/reproduced_20261110/lqr_vs_ga.pdf",
+    "new": "logs/mujoco/ga/plot/1b22948fb9a2_lqr_vs_ga.pdf",
+    "sha256": "b04fe88f8a9035227261592cd48921525d321c71e634027a3d4e6bc1c50da2b2"
+  },
+  {
+    "old": "deliverables/final_campaign/09_ga/stand/reproduced_20261110/lqr_vs_ga.png",
+    "new": "logs/mujoco/ga/plot/1b22948fb9a2_lqr_vs_ga.png",
+    "sha256": "3e194ff43ac0794b75c2d1efa56cb1e2cde65218144c5fd61a6ddd032c2f21ce"
+  },
+  {
+    "old": "deliverables/final_campaign/09_ga/stand/reproduced_20261110/lqr_vs_ga.svg",
+    "new": "logs/mujoco/ga/plot/1b22948fb9a2_lqr_vs_ga.svg",
+    "sha256": "0612f7a643c35c324eecacb8f3143db10b0f27c4577cbb6df621b29ae01ce9c5"
+  }
+]

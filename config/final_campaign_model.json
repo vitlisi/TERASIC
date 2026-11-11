@@ -1,0 +1,44 @@
+{
+  "date": "2026-11-09",
+  "status": "Existing model frozen; report diagram list received. Acquisition protocols and matched controller/compensation settings pending.",
+  "robot": "robot01",
+  "stribeck_default": true,
+  "adopted_loaded_research_corrections": false,
+  "compensation": "Separate bounded +/-0.5 PWM percentage-point C++ option; not enabled by every launcher",
+  "planned_cases": [
+    "LQR stand",
+    "LQR path",
+    "Hinf stand",
+    "Hinf path",
+    "GA stand",
+    "GA path"
+  ],
+  "platforms": [
+    "MuJoCo",
+    "real robot"
+  ],
+  "final_acquisitions": [],
+  "figure_policy": "English; complete acquisition from t=0",
+  "sha256": {
+    "config/mujoco_robot01_stribeck.json": "9b2b606adba1ee7a6bad4cf5b4642377703970dd293e5b041335ad334de42521",
+    "config/mujoco_motors_sx_dx_20261030.json": "f87fa812d88acf47c2b458b7d3bff7fbfad142219f2111650a402cc8a4ba1c1b",
+    "config/mujoco_sensors_mpu6500.json": "48a318ae9dca31850f0b9bd298ea0c902f4420f6f5495f36ee419defedd53d76",
+    "config/mujoco_battery_3s_3000mah.json": "46915b8c16534b9bcf4f2dc9b75c54a378d91da58a32817bf00d9c28b707ad73",
+    "src_python/stribeck_motor.py": "c21c384c4a2485f0267b5d852243c421f8bb656f27c557ca66c62e35234574cf",
+    "models/verifica.xml": "d2e22f32f5c8d2fe645a0c8d43bf3e9364eebd1289685898a6c4b4190a19a5ec",
+    "diagnostics/stribeck_lut_compensation.h": "3c8e287c94807d386d72432c296950dc493c4fdf33cbf05082088db15626faac",
+    "diagnostics/stribeck_compensation_data.h": "afc30b129e705246a46f053f15987c6d3925c8765d1c57ff5b5b6c0d76a9d090",
+    "config/controllers/lqr_mimo.txt": "0c25a815be367283719facedd982de2d9e774f1c49a8f26b0213719b138becc5",
+    "config/controllers/lqr_path_40cm_28p5s.txt": "6afab3e999d329aab931168b15f9f7ccbc7a14ce7557ffcd60f58cbbafdc9b76",
+    "config/controllers/hinf_stand.txt": "415447b6ae9cefec0ed70a5b18163a93a1d924dd76b4c5c88c2c2b7959b7380a",
+    "config/controllers/hinf_path_40cm_28p5s.txt": "769bd8230bdfcbe28a639a15b1c596f7ba3903391b9421beb415fa29cdc6f9c1",
+    "config/motors/robot01_compensation_source_profile.json": "fd2a0bbc9462b63d6d9c7af30b1d978933a71f09bda69374c3d3f6d52be2beaf",
+    "config/motors/robot01_compensation_candidate.json": "85a1534241b010659e2a166021040f9a077e23cbe6487d6d4b4b5799ec63e7ea",
+    "config/controllers/ga_stand.txt": "4d0acc5699452f72555157f7e39599fd4c3a6c3f3176473add73b59288db9603",
+    "config/controllers/ga_path.txt": "5c633dd6c372e5ccc0d05971f819d27c743026d6847040e6bcd7b66bcbde6077",
+    "diagnostics/lqr_ga_feedback_delay.h": "45a275beab13ee39ae7ae204fc5dc32c6c96e27b6378aca16b73e1dd1a356c60",
+    "config/controllers/hinf_g035_r050_stand.txt": "79120fb467e377598ec8f63dc58b4ed184d83be4a41635752b9e075e13b8fdfd",
+    "config/controllers/hinf_g035_r050_path.txt": "f8f1f51ef0c700ec7fd9816e95efc34972f9975fc863b8d6f27ddf2d82619c08"
+  },
+  "report_campaign_plan": "config/report_campaign.json"
+}

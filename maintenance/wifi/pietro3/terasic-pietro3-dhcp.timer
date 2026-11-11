@@ -1,0 +1,7 @@
+[Unit]
+Description=Check 3 Pietro Wi-Fi DHCP
+[Timer]
+OnBootSec=50
+OnUnitActiveSec=30
+[Install]
+WantedBy=timers.target

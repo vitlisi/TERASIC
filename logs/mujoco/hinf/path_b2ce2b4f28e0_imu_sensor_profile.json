@@ -1,0 +1,54 @@
+{
+  "track_width_m": 0.16444,
+  "imu": {
+    "model": "MPU-6500",
+    "who_am_i": 112,
+    "i2c_address_7bit": 104,
+    "registers": {
+      "PWR_MGMT_1": 1,
+      "PWR_MGMT_2": 0,
+      "GYRO_CONFIG": 0,
+      "ACCEL_CONFIG": 0,
+      "CONFIG": 3,
+      "ACCEL_CONFIG2": 3,
+      "SMPLRT_DIV": 9
+    },
+    "internal_rate_hz": 1000,
+    "output_rate_hz": 100,
+    "accel_range_g": 2,
+    "gyro_range_deg_s": 250,
+    "accel_lsb_per_g": 16384,
+    "gyro_lsb_per_deg_s": 131,
+    "accel_bandwidth_hz": 41,
+    "gyro_bandwidth_hz": 41,
+    "accel_group_delay_s": 0.0118,
+    "gyro_group_delay_s": 0.0059,
+    "accel_noise_density_g_sqrt_hz": 0.00022,
+    "gyro_noise_density_deg_s_sqrt_hz": 0.01,
+    "accel_bias_g": [
+      0,
+      0,
+      0
+    ],
+    "gyro_bias_deg_s": [
+      0,
+      0,
+      0
+    ],
+    "provenance": "Registers match balance_lqr.cpp. MPU-6500 Register Map rev2.1 pp12-15 and Product Specification rev1.1 pp9-10 in bundled Datasheet/Sensor. DLPF approximated by first-order lowpass plus fractional delay matching low-frequency group delay; not exact proprietary filter. Register map gives accel noise 220 ug/sqrtHz; product spec gives 300 ug/sqrtHz under its conditions. Biases set to zero until measured. No thermal drift, I2C latency/jitter or DMP/magnetometer. Site pose remains existing CAD approximation."
+  },
+  "encoder": {
+    "motor_pulses_per_rev_per_channel": 11,
+    "quadrature_multiplier": 4,
+    "gear_ratio": 30,
+    "counter_bits": 16,
+    "counter_origin": 32768,
+    "counter_sign_from_joint": [
+      1,
+      -1
+    ],
+    "velocity_filter_tau_s": 0.05,
+    "provenance": "11 PPR is a provisional ASLONG JGB37-520B manufacturer reference, NOT verified on actual motors. FPGA motor_measure counts XOR(A,B) transitions (x4), saturates at 0/65535; output remains wheel-relative rad/rad_s after reduction. Opposite raw signs emulate documented SX/DX mounting; model joint sign remains +X for both. No missing pulses, backlash, A/B electrical waveform or FPGA input-filter latency simulated. Active bitstream and actual wheel CPR still need confirmation. Raw names now refer to physical left/right, with joint-to-counter signs [+1,-1], matching wheel map v2. Decoded joint angles are unchanged.",
+    "wheel_convention": "physical_sx_dx_v2"
+  }
+}

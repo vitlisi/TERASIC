@@ -1,0 +1,27 @@
+{
+  "run_id": "20261110T105024Z_9ef77f52",
+  "controller": "hinf",
+  "case": "stand",
+  "label": "layout_check",
+  "exit_code": 0,
+  "stribeck_enabled": true,
+  "friction_compensation": "OFF",
+  "real_core": true,
+  "note": "PD routes are independent Python controllers, not firmware parity tests.",
+  "files": [
+    "/home/vittorio/terasic_robot/logs/mujoco/hinf/20261110T105024Z_9ef77f52_stand_layout_check_simulation.config.txt",
+    "/home/vittorio/terasic_robot/logs/mujoco/hinf/20261110T105024Z_9ef77f52_stand_layout_check_imu_sensor_profile.json",
+    "/home/vittorio/terasic_robot/logs/mujoco/hinf/20261110T105024Z_9ef77f52_stand_layout_check_motor_friction_profile.json",
+    "/home/vittorio/terasic_robot/logs/mujoco/hinf/20261110T105024Z_9ef77f52_stand_layout_check_motor_parameters.json",
+    "/home/vittorio/terasic_robot/logs/mujoco/hinf/20261110T105024Z_9ef77f52_stand_layout_check_simulation.csv",
+    "/home/vittorio/terasic_robot/logs/mujoco/hinf/20261110T105024Z_9ef77f52_stand_layout_check_summary.json",
+    "/home/vittorio/terasic_robot/logs/mujoco/hinf/20261110T105024Z_9ef77f52_stand_layout_check_backend_summary.json"
+  ],
+  "figures": [
+    "/home/vittorio/terasic_robot/logs/mujoco/hinf/plot/20261110T105024Z_9ef77f52_stand_layout_check_simulation.pdf",
+    "/home/vittorio/terasic_robot/logs/mujoco/hinf/plot/20261110T105024Z_9ef77f52_stand_layout_check_simulation.png",
+    "/home/vittorio/terasic_robot/logs/mujoco/hinf/plot/20261110T105024Z_9ef77f52_stand_layout_check_simulation.svg",
+    "/home/vittorio/terasic_robot/logs/mujoco/hinf/plot/20261110T105024Z_9ef77f52_stand_layout_check_simulation_torque.svg",
+    "/home/vittorio/terasic_robot/logs/mujoco/hinf/plot/20261110T105024Z_9ef77f52_stand_layout_check_simulation_xy.svg"
+  ]
+}

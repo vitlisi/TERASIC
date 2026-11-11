@@ -1,0 +1,13 @@
+robot_id=robot01
+wheel=dx
+direction=reverse
+mode=cold
+pwm_magnitude_percent=2.5
+hold_s=3
+voltage_reference_v=11.78
+voltage_plateau_tolerance_v=0.3
+conditions_version=v005
+operator_declared_chassis_fixed=yes
+operator_declared_wheels_lifted=yes
+operator_declared_charger_disconnected=yes
+controller_pid=1548

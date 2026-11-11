@@ -1,0 +1,21 @@
+{
+  "series_cells": 3,
+  "parallel_cells": 1,
+  "cell_capacity_ah": 3.0,
+  "cell_resistance_ohm": 0.017,
+  "cell_cutoff_v": 2.5,
+  "electronics_power_w": 5.0,
+  "ocv_soc_points": [[0.0, 2.5], [0.02, 3.05], [0.05, 3.25], [0.1, 3.43], [0.2, 3.53], [0.3, 3.6], [0.4, 3.65], [0.5, 3.7], [0.6, 3.76], [0.7, 3.84], [0.8, 3.94], [0.9, 4.07], [1.0, 4.2]],
+  "provenance": {
+    "user_pack": "Three 18650 cells in series, declared 3.7 V and 3000 mAh each; manufacturer unknown",
+    "surrogate_cell": "Molicel INR-18650-P30B, datasheet v1.0: typical 3 Ah, DC impedance 17 mOhm at 50% SOC, 4.2 V charge, 2.5 V discharge, nominal 3.6 V",
+    "datasheet_url": "https://www.molicel.com/wp-content/uploads/Product-Data-Sheet-of-INR-18650-P30B-80111-1.pdf",
+    "ocv_curve": "Generic monotone engineering approximation; NOT measured OCV and NOT digitized from the datasheet discharge graphs",
+    "electronics_load": "5 W constant pack-side budget for all electronics/converters; scenario assumption, NOT a measured Terasic consumption",
+    "resistance": "Constant cell DC resistance surrogate; excludes unmeasured BMS, wiring and holder resistance, temperature and ageing",
+    "cutoff": "Simulation cutoff from surrogate datasheet; NOT identified real pack BMS threshold",
+    "motor_current": "Ideal effective output-shaft circuit inferred from existing torque-per-volt and joint damping; all viscous damping provisionally assigned to electrical braking. No added back-EMF torque",
+    "driver": "Ideal average PWM bridge, no additional conversion losses, regenerative battery charging disabled; negative bridge power is dissipated",
+    "thermal_model": "Fixed reference conditions; no thermal or RC polarization states"
+  }
+}

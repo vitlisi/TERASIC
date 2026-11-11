@@ -1,0 +1,175 @@
+{
+  "01_digital_twin/model_evolution": {
+    "real": {
+      "status": "historical_source_reference_available",
+      "csv_candidates": [],
+      "source_reference": "logs/final_campaign/01_digital_twin/historical_inputs/inputs_manifest.json"
+    },
+    "mujoco_nominal": {
+      "status": "historical_source_reference_available",
+      "csv_candidates": [],
+      "source_reference": "logs/final_campaign/01_digital_twin/historical_inputs/inputs_manifest.json"
+    },
+    "mujoco_stribeck": {
+      "status": "historical_source_reference_available",
+      "csv_candidates": [],
+      "source_reference": "logs/final_campaign/01_digital_twin/historical_inputs/inputs_manifest.json"
+    }
+  },
+  "01_digital_twin/hysteresis_off": {
+    "real": {
+      "status": "historical_source_reference_available",
+      "csv_candidates": [],
+      "source_reference": "logs/final_campaign/01_digital_twin/historical_inputs/inputs_manifest.json"
+    },
+    "mujoco": {
+      "status": "historical_source_reference_available",
+      "csv_candidates": [],
+      "source_reference": "logs/final_campaign/01_digital_twin/historical_inputs/inputs_manifest.json"
+    }
+  },
+  "01_digital_twin/pulses_off": {
+    "real": {
+      "status": "historical_source_reference_available",
+      "csv_candidates": [],
+      "source_reference": "logs/final_campaign/01_digital_twin/historical_inputs/inputs_manifest.json"
+    },
+    "mujoco": {
+      "status": "historical_source_reference_available",
+      "csv_candidates": [],
+      "source_reference": "logs/final_campaign/01_digital_twin/historical_inputs/inputs_manifest.json"
+    }
+  },
+  "01_digital_twin/pulses_on": {
+    "real": {
+      "status": "historical_source_reference_available",
+      "csv_candidates": [],
+      "source_reference": "logs/final_campaign/01_digital_twin/historical_inputs/inputs_manifest.json"
+    },
+    "mujoco": {
+      "status": "historical_source_reference_available",
+      "csv_candidates": [],
+      "source_reference": "logs/final_campaign/01_digital_twin/historical_inputs/inputs_manifest.json"
+    }
+  },
+  "01_digital_twin/hysteresis_on": {
+    "real": {
+      "status": "unavailable_no_new_acquisition_planned",
+      "csv_candidates": [],
+      "source_reference": "logs/final_campaign/01_digital_twin/historical_inputs/inputs_manifest.json"
+    },
+    "mujoco": {
+      "status": "unavailable_no_new_acquisition_planned",
+      "csv_candidates": [],
+      "source_reference": "logs/final_campaign/01_digital_twin/historical_inputs/inputs_manifest.json"
+    }
+  },
+  "02_pd_real/stand": {
+    "real": {
+      "status": "awaiting_inputs_or_source_reference",
+      "csv_candidates": []
+    }
+  },
+  "03_pd_outer_loop/stand": {
+    "real": {
+      "status": "awaiting_inputs_or_source_reference",
+      "csv_candidates": []
+    },
+    "mujoco": {
+      "status": "awaiting_inputs_or_source_reference",
+      "csv_candidates": []
+    }
+  },
+  "04_lqr_simulation/stand": {
+    "mujoco": {
+      "status": "awaiting_inputs_or_source_reference",
+      "csv_candidates": []
+    },
+    "simulink": {
+      "status": "awaiting_inputs_or_source_reference",
+      "csv_candidates": []
+    }
+  },
+  "05_hinf_simulation/stand": {
+    "mujoco": {
+      "status": "awaiting_inputs_or_source_reference",
+      "csv_candidates": []
+    },
+    "simulink": {
+      "status": "awaiting_inputs_or_source_reference",
+      "csv_candidates": []
+    }
+  },
+  "06_lqr_real/stand": {
+    "real": {
+      "status": "awaiting_inputs_or_source_reference",
+      "csv_candidates": []
+    }
+  },
+  "06_lqr_real/path": {
+    "real": {
+      "status": "awaiting_inputs_or_source_reference",
+      "csv_candidates": []
+    }
+  },
+  "07_lqr_twin_comparison/stand": {
+    "real": {
+      "status": "awaiting_inputs_or_source_reference",
+      "csv_candidates": []
+    },
+    "mujoco": {
+      "status": "awaiting_inputs_or_source_reference",
+      "csv_candidates": []
+    }
+  },
+  "07_lqr_twin_comparison/path": {
+    "real": {
+      "status": "awaiting_inputs_or_source_reference",
+      "csv_candidates": []
+    },
+    "mujoco": {
+      "status": "awaiting_inputs_or_source_reference",
+      "csv_candidates": []
+    }
+  },
+  "08_hinf_twin_comparison/stand": {
+    "real": {
+      "status": "awaiting_inputs_or_source_reference",
+      "csv_candidates": []
+    },
+    "mujoco": {
+      "status": "awaiting_inputs_or_source_reference",
+      "csv_candidates": []
+    }
+  },
+  "08_hinf_twin_comparison/path": {
+    "real": {
+      "status": "awaiting_inputs_or_source_reference",
+      "csv_candidates": []
+    },
+    "mujoco": {
+      "status": "awaiting_inputs_or_source_reference",
+      "csv_candidates": []
+    }
+  },
+  "09_ga/stand": {
+    "mujoco_baseline": {
+      "status": "awaiting_inputs_or_source_reference",
+      "csv_candidates": []
+    },
+    "mujoco_ga": {
+      "status": "awaiting_inputs_or_source_reference",
+      "csv_candidates": []
+    }
+  },
+  "09_ga/path": {
+    "mujoco_baseline": {
+      "status": "awaiting_inputs_or_source_reference",
+      "csv_candidates": []
+    },
+    "mujoco_ga": {
+      "status": "awaiting_inputs_or_source_reference",
+      "csv_candidates": []
+    }
+  }
+}

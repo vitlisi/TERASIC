@@ -1,0 +1,29 @@
+protocol_id=robot01_raw_dynamic_v1_guarded wheel=sx direction=forward mode=pulses pwm=8.0 hold_s=3.00 warmup_pwm=0 warmup_s=0.0 duration_s=26.00 compensation=OFF period=50000 sample_hz=100 live_adc_min_v=11.20
+progress t=0.00 stage=0 pwm=0.0 V=0.000
+progress t=1.00 stage=1 pwm=4.0 V=11.363
+progress t=2.00 stage=1 pwm=4.0 V=11.363
+progress t=3.00 stage=2 pwm=0.0 V=11.363
+progress t=4.00 stage=2 pwm=0.0 V=11.367
+progress t=5.00 stage=3 pwm=6.0 V=11.367
+progress t=6.00 stage=3 pwm=6.0 V=11.363
+progress t=7.00 stage=4 pwm=0.0 V=11.363
+progress t=8.00 stage=4 pwm=0.0 V=11.367
+progress t=9.00 stage=5 pwm=8.0 V=11.367
+progress t=10.00 stage=5 pwm=8.0 V=11.355
+progress t=11.00 stage=6 pwm=0.0 V=11.363
+progress t=12.00 stage=6 pwm=0.0 V=11.359
+progress t=13.00 stage=7 pwm=-4.0 V=11.363
+progress t=14.00 stage=7 pwm=-4.0 V=11.359
+progress t=15.00 stage=8 pwm=0.0 V=11.359
+progress t=16.00 stage=8 pwm=0.0 V=11.363
+progress t=17.00 stage=9 pwm=-6.0 V=11.363
+progress t=18.00 stage=9 pwm=-6.0 V=11.363
+progress t=19.00 stage=10 pwm=0.0 V=11.355
+progress t=20.00 stage=10 pwm=0.0 V=11.363
+progress t=21.00 stage=11 pwm=-8.0 V=11.363
+progress t=22.00 stage=11 pwm=-8.0 V=11.359
+progress t=23.00 stage=12 pwm=0.0 V=11.359
+progress t=24.00 stage=12 pwm=0.0 V=11.363
+progress t=25.00 stage=13 pwm=0.0 V=11.363
+progress t=26.00 stage=13 pwm=0.0 V=11.363
+samples=2601 final_control_sx=6 final_control_dx=6 reason=none watchdog=0 result=COMPLETED

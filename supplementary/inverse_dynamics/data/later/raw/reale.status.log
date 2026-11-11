@@ -1,0 +1,26 @@
+wheel_convention=physical_sx_dx_v2
+Scheduling SCHED_FIFO, priorita' 10.
+Avvio dal supporto iniziale: ruote a terra, recupero libero; il supporto non e' uno zero pitch.
+Calibrazione gyro: robot fermo 2 s; pitch entro +/-5 deg dal riferimento FISSO.
+Pitch iniziale assoluto=-3.228 deg; riferimento FISSO=0.320 deg; errore iniziale=-3.548 deg.
+Riferimento pitch=0.320 deg; bias gyro Y=1.533 deg/s.
+ARMATO MIMO: unico K 2x6, due PWM; durata=10 s limite=20.0% differenziale max=3.0%.
+Stati [s,psi,rho,v,psi_dot,rho_dot], SI; yaw solo encoder; zero dopo calibrazione.
+K SX=[-268.112796551 -736.564186534 -56.223050732 -363.200165177 -22.4136000371 -12.1423321711]
+K DX=[-268.112796551 -736.564186534 56.223050732 -363.200165177 -22.4136000371 12.1423321711]
+Raggio nominale=0.032000 m carreggiata nominale=0.164440 m CPR=1325.000
+Limite errore iniziale configurato=5.000 deg.
+GUARDED_STRIBECK_MODEL_MATCHING live_adc=11.20..12.10V cap20 duration<=10 correction_cap=.5percent LUT_sha256=85a1534241b010659e2a166021040f9a077e23cbe6487d6d4b4b5799ec63e7ea
+EXPERIMENT=stribeck_loss_model_matching_v1 delta_cap=.5percent slew=10percent_per_s filter=.05 stationary=.10 request=.03 identity_from=8 speed_inverse=no LUT_sha256=85a1534241b010659e2a166021040f9a077e23cbe6487d6d4b4b5799ec63e7ea
+t=0.00 s | s=+0.0000 m v=-0.0001 m/s | pitch=-3.545 deg | yaw enc=+0.00 deg | delta SX=+0 DX=+0 | PWM richiesta SX=-45.68 DX=-45.68 applicata SX=-20.00 DX=-20.00
+t=1.00 s | s=+0.0013 m v=+0.0218 m/s | pitch=-0.212 deg | yaw enc=-0.05 deg | delta SX=+3 DX=-4 | PWM richiesta SX=+3.48 DX=+3.62 applicata SX=+2.97 DX=+3.12
+t=2.00 s | s=-0.0016 m v=-0.0000 m/s | pitch=+0.361 deg | yaw enc=+0.53 deg | delta SX=+30 DX=-20 | PWM richiesta SX=+7.75 DX=+6.78 applicata SX=+7.75 DX=+6.78
+t=3.00 s | s=-0.0012 m v=-0.0137 m/s | pitch=+0.200 deg | yaw enc=+0.53 deg | delta SX=+27 DX=-17 | PWM richiesta SX=-0.71 DX=-2.29 applicata SX=-0.71 DX=-1.79
+t=4.00 s | s=+0.0034 m v=+0.0123 m/s | pitch=-0.496 deg | yaw enc=+0.63 deg | delta SX=-5 DX=+17 | PWM richiesta SX=-2.34 DX=-3.25 applicata SX=-2.34 DX=-3.25
+t=5.00 s | s=+0.0012 m v=+0.0120 m/s | pitch=+0.261 deg | yaw enc=+0.85 deg | delta SX=+14 DX=+2 | PWM richiesta SX=+5.63 DX=+4.80 applicata SX=+5.43 DX=+4.50
+t=6.00 s | s=+0.0007 m v=-0.0136 m/s | pitch=+0.231 deg | yaw enc=+0.79 deg | delta SX=+17 DX=-2 | PWM richiesta SX=-0.41 DX=-2.95 applicata SX=+0.00 DX=-2.95
+t=7.00 s | s=+0.0048 m v=+0.0062 m/s | pitch=-0.323 deg | yaw enc=+0.63 deg | delta SX=-14 DX=+26 | PWM richiesta SX=-0.49 DX=-2.11 applicata SX=+0.00 DX=-2.11
+t=8.00 s | s=+0.0025 m v=+0.0032 m/s | pitch=+0.189 deg | yaw enc=+0.79 deg | delta SX=+5 DX=+10 | PWM richiesta SX=+6.89 DX=+5.68 applicata SX=+6.89 DX=+5.67
+t=9.00 s | s=+0.0035 m v=-0.0172 m/s | pitch=-0.080 deg | yaw enc=+0.63 deg | delta SX=-4 DX=+16 | PWM richiesta SX=-5.15 DX=-5.69 applicata SX=-4.94 DX=-5.49
+LQR terminato; RUN SX=0 DX=0.
+Encoder delta SX=-29 DX=+38.

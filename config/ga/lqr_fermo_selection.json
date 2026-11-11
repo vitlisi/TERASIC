@@ -1,0 +1,22 @@
+{
+  "source_run": "logs/mujoco/ga/ga_20261103_113811_c763c8",
+  "selection": "Minimum lexicographic training rank; validation not used for selection",
+  "model_profile": "config/mujoco_motors_sx_dx_20261030.json",
+  "R_fixed": true,
+  "selected_design": "config/ga/lqr_fermo_selected.json",
+  "selected_sha256": "1ef8a33427d3cce7d721efde57981e631e6fc1e3c62e8acb15b36fc2db01bb09",
+  "validation": {
+    "baseline": [
+      11,
+      0.0,
+      15.507355343893032
+    ],
+    "ga": [
+      11,
+      0.0,
+      4.271754066526959
+    ]
+  },
+  "deployment": "Experimental MuJoCo LQR only; no hardware configuration changed",
+  "passed_all_validation": false
+}

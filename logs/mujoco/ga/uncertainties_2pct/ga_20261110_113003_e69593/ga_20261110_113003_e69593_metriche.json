@@ -1,0 +1,84 @@
+{
+  "scenario": "validation_00",
+  "baseline": {
+    "failed": true,
+    "survived": true,
+    "stabilized": false,
+    "missing_time_s": 0.0,
+    "cost": 8.655185687458335,
+    "cost_weights": {
+      "pitch": 4.0,
+      "position": 1.0,
+      "yaw": 0.5,
+      "speed": 0.25,
+      "pwm": 0.05,
+      "slew": 0.02
+    },
+    "stop_reason": "durata completata",
+    "actual_release_pitch_deg": 3.0073777470364056,
+    "pitch_rms_deg": 0.794599633501536,
+    "position_rms_m": 0.026290456363550846,
+    "pwm_rms_percent": 43.558168737149636,
+    "peak_pwm_percent": 50.0,
+    "saturation_fraction": 0.607,
+    "recovery_time_s": null,
+    "tail_max_pitch_error_deg": 1.1134284399748449,
+    "tail_max_position_m": 0.030130468186288725,
+    "csv": "/home/vittorio/terasic_robot/logs/mujoco/ga/uncertainties_2pct/ga_20261110_113003_e69593/validation/baseline/validation_00/validation_00_20261110_120038_700b74bc.csv",
+    "scenario": "validation_00"
+  },
+  "ga": {
+    "failed": true,
+    "survived": true,
+    "stabilized": false,
+    "missing_time_s": 0.0,
+    "cost": 0.5060612309219351,
+    "cost_weights": {
+      "pitch": 4.0,
+      "position": 1.0,
+      "yaw": 0.5,
+      "speed": 0.25,
+      "pwm": 0.05,
+      "slew": 0.02
+    },
+    "stop_reason": "durata completata",
+    "actual_release_pitch_deg": 3.0073777470364056,
+    "pitch_rms_deg": 0.6479263242389469,
+    "position_rms_m": 0.004174904038381799,
+    "pwm_rms_percent": 4.975894303941755,
+    "peak_pwm_percent": 34.17,
+    "saturation_fraction": 0.0,
+    "recovery_time_s": 5.21,
+    "tail_max_pitch_error_deg": 0.6787302359329699,
+    "tail_max_position_m": 0.003995213694789828,
+    "csv": "/home/vittorio/terasic_robot/logs/mujoco/ga/uncertainties_2pct/ga_20261110_113003_e69593/validation/ga/validation_00/validation_00_20261110_120117_1a7fbd28.csv",
+    "scenario": "validation_00"
+  },
+  "robust_validation": {
+    "baseline": [
+      11,
+      0.0,
+      13.550557359248174
+    ],
+    "ga": [
+      11,
+      0.0,
+      0.7792422526623319
+    ]
+  },
+  "source_run": "/home/vittorio/terasic_robot/logs/mujoco/ga/uncertainties_2pct/ga_20261110_113003_e69593",
+  "protocol": {
+    "duration_s": 10.0,
+    "release_pitch_deg": 3.0,
+    "max_pwm": 50.0,
+    "feedback_delay_samples": 1,
+    "cost_weights": {
+      "pitch": 4.0,
+      "position": 1.0,
+      "yaw": 0.5,
+      "speed": 0.25,
+      "pwm": 0.05,
+      "slew": 0.02
+    }
+  }
+}

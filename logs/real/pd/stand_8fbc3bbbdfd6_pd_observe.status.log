@@ -1,0 +1,10 @@
+wheel_convention=physical_sx_dx_v2
+Scheduling SCHED_FIFO, priorita' 10.
+Calibrazione IMU: tenere il robot fermo e verticale per 2 s.
+Riferimento pitch=-3.770 deg; bias gyro Y=1.511 deg/s.
+Solo osservazione: i motori restano spenti.
+PD terminato; RUN SX=0 DX=0.
+Encoder delta SX=+0 DX=+0.
+Correlazione movimento angolo/gyro grezzo: 1.967 (serve movimento manuale; segno non validato se vicino a 0).
+
+exit_code=0

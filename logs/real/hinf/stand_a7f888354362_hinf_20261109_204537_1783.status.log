@@ -1,0 +1,56 @@
+Avvio: Mon Nov  9 20:45:37 UTC 2026
+Argomenti: run config/controllers/hinf_stand.txt 10 0.5
+Protocollo dichiarato: non specificato
+startup_protocol=inclined_initial_support_free_recovery; fixed_pitch_reference; gyro_bias_only
+Supporto iniziale: ruote a terra, telaio libero di staccarsi; sostenere prima dello stop.
+Configurazione:
+# wheel_convention=physical_sx_dx_v2; SX=left, DX=right in forward direction.
+# Hinf reale sperimentale: prove protette dallo stand; nessuna validazione generale.
+# Matrici incorporate nel binario, identiche all'export Simscape (non K LQR).
+# Initial inclined support only, wheels on ground, chassis free to recover.
+# Fixed pitch reference and gyro-bias calibration. Runtime baseline: CLI20, differential3.
+# Motors differ physically; the SX/DX profile belongs to MuJoCo, not a new real PWM compensation.
+counts_per_rev 1325
+gyro_sign 1
+motor_sign 1
+encoder_sx_sign -1
+encoder_dx_sign 1
+wheel_model_sign -1
+pitch_model_sign 1
+pitch_reference_deg 0.320
+shadow_only 0
+wheel_radius_m 0.032
+# Misura fisica corretta: 164.44 mm; vecchio export Hinf nominale .1644 m.
+wheel_track_m 0.16444
+max_differential_pwm 3
+1e9275c18fd963a8dd7b0f60f00d0e1781895ff9a7bfe5d5cb5ba325a0c82f63  /home/root/terasic_robot_final/build/robot/balance_hinf
+415447b6ae9cefec0ed70a5b18163a93a1d924dd76b4c5c88c2c2b7959b7380a  /home/root/terasic_robot_final/logs/final_campaign/08_hinf_twin_comparison/stand/real/runs/trial_001/hinf_20261109_204537_1783.config.txt
+
+Batteria PRIMA (a motori spenti): Mon Nov  9 20:45:37 UTC 2026
+wheel_convention=physical_sx_dx_v2
+ADC batteria: canale=1 campioni=16 raw_medio=2935.31 raw_min=2926 raw_max=2937
+Tensione pacco (scala nominale Terasic): 11.242 V [min 11.206, max 11.248]
+Percentuale di carica: non disponibile (nessun fuel gauge calibrato).
+Misura a motori spenti; confrontare una volta con un multimetro.
+exit_code_battery=0
+wheel_convention=physical_sx_dx_v2
+Scheduling SCHED_FIFO, priorita' 10.
+Avvio dal supporto iniziale: ruote a terra, recupero libero; il supporto non e' uno zero pitch.
+Calibrazione gyro: robot fermo 2 s; pitch entro +/-5 deg dal riferimento FISSO.
+Pitch iniziale assoluto=-3.426 deg; riferimento FISSO=0.320 deg; errore iniziale=-3.746 deg.
+Riferimento pitch=0.320 deg; bias gyro Y=1.543 deg/s.
+ARMATO Hinf: dinamico 12 stati, due PWM; durata=10 s limite=0.5% differenziale max=3.0%.
+Stati [s,psi,rho,v,psi_dot,rho_dot], SI; yaw solo encoder; origine posizione/yaw all'avvio, pitch rispetto a riferimento fisso.
+Hinf: ordine 12, Ts=0.01 s, ritardo misura=1, uscita export R/L, duty->percento.
+Controller JSON SHA256=c442a2031b72095f7ae8d6d3ea0fbb7102a065a021feb0e748aeb8c1a088940f; track fisico=0.164440 m. Non validato sul robot.
+Raggio nominale=0.032000 m carreggiata nominale=0.164440 m CPR=1325.000
+t=0.00 s | s=+0.0000 m v=-0.0000 m/s | pitch=-3.746 deg | yaw enc=+0.00 deg | delta SX=+0 DX=+0 | PWM richiesta SX=+0.00 DX=+0.00 applicata SX=+0.00 DX=+0.00
+t=1.00 s | s=+0.0000 m v=+0.0001 m/s | pitch=-3.743 deg | yaw enc=+0.00 deg | delta SX=+0 DX=+0 | PWM richiesta SX=-163.59 DX=-163.59 applicata SX=-0.50 DX=-0.50
+t=2.00 s | s=+0.0000 m v=+0.0000 m/s | pitch=-3.725 deg | yaw enc=+0.00 deg | delta SX=+0 DX=+0 | PWM richiesta SX=-165.76 DX=-165.76 applicata SX=-0.50 DX=-0.50
+t=3.00 s | s=+0.0000 m v=-0.0000 m/s | pitch=-3.715 deg | yaw enc=+0.00 deg | delta SX=+0 DX=+0 | PWM richiesta SX=-166.37 DX=-166.37 applicata SX=-0.50 DX=-0.50
+t=4.00 s | s=+0.0000 m v=+0.0005 m/s | pitch=-3.736 deg | yaw enc=+0.00 deg | delta SX=+0 DX=+0 | PWM richiesta SX=-166.71 DX=-166.71 applicata SX=-0.50 DX=-0.50
+I2C: timeout/interruzione
+Hinf terminato; RUN SX=0 DX=0.
+Encoder delta SX=+0 DX=+0.
+
+Launcher interrotto; exit_code=130

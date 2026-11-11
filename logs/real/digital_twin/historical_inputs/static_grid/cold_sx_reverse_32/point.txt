@@ -1,0 +1,13 @@
+robot_id=robot01
+wheel=sx
+direction=reverse
+mode=cold
+pwm_magnitude_percent=16.0
+hold_s=3
+voltage_reference_v=11.65
+voltage_plateau_tolerance_v=0.45
+conditions_version=v006
+operator_declared_chassis_fixed=yes
+operator_declared_wheels_lifted=yes
+operator_declared_charger_disconnected=yes
+controller_pid=2895

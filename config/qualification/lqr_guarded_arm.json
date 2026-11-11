@@ -1,0 +1,10 @@
+{
+  "tests_passed": true,
+  "remote_work": "/home/root/terasic_robot/experiments/robot01_lut_prof/protocol/v014_guarded_balance_20261106_01",
+  "binary_sha256": "382df1e9edcf57bb1f5e269196a9f709628152a9d58c427add0d6c13e2bece7a",
+  "config_sha256": "0c25a815be367283719facedd982de2d9e774f1c49a8f26b0213719b138becc5",
+  "qualified_utc": "2026-11-06T17:34:49.489657+00:00",
+  "motor_commands": 0,
+  "floor_confirmation_pending": false,
+  "floor_readiness_confirmed_utc": "2026-11-06T18:02:22.764711+00:00"
+}

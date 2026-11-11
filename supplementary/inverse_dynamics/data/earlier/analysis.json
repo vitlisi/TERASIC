@@ -1,0 +1,29 @@
+{
+  "mode": "run",
+  "logging_complete": true,
+  "flags": [],
+  "samples": 1000,
+  "initial_error_deg": -3.918,
+  "battery_min_v": 11.355319149,
+  "battery_max_v": 11.389787234,
+  "pitch_rms_deg": 0.2672532820630513,
+  "gyro_rms_deg_s": 7.015527429222558,
+  "position_span_mm": 6.637574,
+  "peak_physical_pwm": 20.0,
+  "window_s": [
+    2,
+    9
+  ],
+  "operator_autonomy_confirmation": true,
+  "speed_lut": false,
+  "K_changed": false,
+  "compensation": "STRIBECK_MODEL_MATCHING_BOUNDED_0.5",
+  "candidate_sha256": "85a1534241b010659e2a166021040f9a077e23cbe6487d6d4b4b5799ec63e7ea",
+  "replay_samples": 1000,
+  "exact_compensator_source_replayed": true,
+  "maximum_physical_replay_difference_percent": 0.0020000000000000018,
+  "maximum_omega_replay_difference_rad_s": 4.997257961169427e-10,
+  "maximum_compensation_percent": 0.5000000000000004,
+  "operator_observation": "User explicitly confirmed autonomous recovery/balance without hands or support contact until automatic stop.",
+  "operator_confirmation_utc": "2026-11-09T12:02:45.071310+00:00"
+}

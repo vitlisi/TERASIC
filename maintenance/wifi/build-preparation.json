@@ -1,0 +1,15 @@
+{
+  "source_url": "https://github.com/terasic/linux-socfpga.git",
+  "branch": "socfpga-4.5",
+  "commit": "261670baa10c7c71308db76bca9e7cdea816f945",
+  "source_directory": "/tmp/terasic-wifi-linux-socfpga-4.5",
+  "usb_id": "148f:7601",
+  "driver": "mt7601u",
+  "status": "Three modules loaded temporarily on DE10. wlan0 created; passive scan detects eduroam at 2412 MHz, -43 dBm, 802.1X. EEPROM warnings present. No authentication or motor tests.",
+  "build_script": "scripts/build_wifi_modules.sh",
+  "build_options": {
+    "LOCALVERSION": "",
+    "HOSTCFLAGS": "-O2 -fcommon",
+    "KCFLAGS": "-march=armv7-a -mfpu=vfpv3-d16 -fno-pic -fno-pie"
+  }
+}

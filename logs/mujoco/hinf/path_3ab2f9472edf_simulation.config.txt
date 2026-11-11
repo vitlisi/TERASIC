@@ -1,0 +1,37 @@
+# Experimental Hinf path, original dynamic matrices; no LQR feedback gains.
+# Same 40cm/180deg/40cm references and nominal feedforward. Shadow until offline review.
+counts_per_rev 1325
+gyro_sign 1
+motor_sign 1
+encoder_sx_sign -1
+encoder_dx_sign 1
+wheel_model_sign -1
+pitch_model_sign 1
+pitch_reference_deg 0.320
+shadow_only 1
+wheel_radius_m 0.032
+wheel_track_m 0.16444
+max_differential_pwm 20
+
+path_mode 2
+path_distance_m 0.40
+path_turn_deg 180
+turn_differential_pwm 20
+yaw_gyro_sign 1
+yaw_fusion_tau_s 60
+ff_pitch_v -0.0080500636095931534
+ff_pitch_a 0.20191143734917472
+ff_common_v 1.3376073092333841
+ff_common_a 0.38816970025035558
+ff_diff_yaw_rate 0.1717181948260729
+ff_diff_yaw_accel 0.033799243943506786
+
+wheel_pwm_cap 20
+
+leg_duration_s 8
+turn_duration_s 7
+initial_hold_s 1.5
+between_hold_s 1
+final_hold_s 2
+
+turn_yaw_reserve_percent 5

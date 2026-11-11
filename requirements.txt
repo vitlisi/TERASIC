@@ -1,0 +1,9 @@
+# Full hardware, compiler, board, network and Wi-Fi requirements: docs/REQUIREMENTS.md
+# Reference PC: Ubuntu 22.04.5 LTS; Python 3.10.12; g++ 11.4.0 (C++98).
+# DE10-Nano: Linux 4.5.0 ARMv7; inspect the native g++ version on the board.
+# Wi-Fi: USB MT7601U 148f:7601, mt7601u.bin firmware, ConnMan; see the guide.
+# Tested PC simulation/report environment; create a fresh venv after download.
+mujoco==3.14.0
+numpy==2.2.6
+matplotlib==3.10.9
+reportlab==5.1.0

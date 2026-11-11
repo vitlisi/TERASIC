@@ -1,0 +1,19 @@
+{
+  "success": false,
+  "stop_reason": "finestra chiusa",
+  "free_time_s": 1.7700000000002358,
+  "final_ctrl": [
+    0.0,
+    0.0
+  ],
+  "samples": 497,
+  "final_battery_voltage_v": 12.0,
+  "final_pitch_deg": -0.9483478038288411,
+  "final_velocity_m_s": -0.025314487053606605,
+  "final_forward_y_m": -0.029593209328087986,
+  "tail_max_pitch_error_deg": 2.6382271087323055,
+  "tail_max_velocity_m_s": 0.029277704968154378,
+  "tail_position_range_m": 0.02959320932843606,
+  "max_abs_pwm_percent": 20.0,
+  "settled": false
+}

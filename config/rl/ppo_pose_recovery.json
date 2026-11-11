@@ -1,0 +1,12 @@
+{
+  "experiment": "rl_finetune_fixed_pose_recovery",
+  "initial_position_offset_range_m": [
+    -0.01,
+    0.01
+  ],
+  "initial_yaw_offset_range_deg": [
+    -2.0,
+    2.0
+  ],
+  "reset_offset_probability": 0.75
+}

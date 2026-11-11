@@ -1,0 +1,36 @@
+{
+  "source_archive": "/home/vittorio/Scaricati/H_inf_control.zip",
+  "archive_sha256": "06487eb51db125e8338c4d0ac0d4981258a2cb2208017f2eb93f27b07c8bff3a",
+  "files": [
+    {
+      "path": "design_hinf_2pwm.m",
+      "bytes": 3604,
+      "sha256": "89b2d75fbdc2f44d2ef7a12a624058205984bfdc51347e589cb6a278fe9de837"
+    },
+    {
+      "path": "terasic_hinf_parameters.m",
+      "bytes": 4977,
+      "sha256": "e49eb43a7d9a0b97588fafc3f88c686a0906412af4d79154dda4fca809b16351"
+    },
+    {
+      "path": "prepare_hinf_simscape.m",
+      "bytes": 3546,
+      "sha256": "654331a09cf5c3bc467d0f17d7b560d134240a9d652f9d46cb63fdc5e57f6381"
+    },
+    {
+      "path": "generated/hinf_2pwm.json",
+      "bytes": 5922,
+      "sha256": "c442a2031b72095f7ae8d6d3ea0fbb7102a065a021feb0e748aeb8c1a088940f"
+    },
+    {
+      "path": "generated/hinf_2pwm.mat",
+      "bytes": 15289,
+      "sha256": "532818e6e55b6825e53ad0687fb2d9b237498c09aaa4240894564ef5a0e6e397"
+    },
+    {
+      "path": "generated/Terasic_Hinf_2PWM.slx",
+      "bytes": 409370,
+      "sha256": "2f8d0255c9bc7a303fd4936381c40679c5706b112f5b613d87419cb7702a02df"
+    }
+  ]
+}

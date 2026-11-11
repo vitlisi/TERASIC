@@ -1,0 +1,15 @@
+{
+  "run_id": "20261110T085924Z_c046a7e7",
+  "controller": "pd",
+  "case": "stand",
+  "exit_code": 1,
+  "stribeck_enabled": true,
+  "friction_compensation": "OFF",
+  "real_core": false,
+  "note": "PD routes are independent Python controllers; these are not real-PD core parity claims.",
+  "figures": "/home/vittorio/terasic_robot/deliverables/final_campaign/02_pd_real/simulation_preview/20261110T085924Z_c046a7e7",
+  "exports": [
+    "pd_20261110_095925_3bbae0c9.pdf",
+    "pd_20261110_095925_3bbae0c9.svg"
+  ]
+}

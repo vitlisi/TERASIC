@@ -1,0 +1,138 @@
+[
+  {
+    "wheel": "sx",
+    "direction": "forward",
+    "start_condition": "cold",
+    "real": {
+      "first_regular_pwm_percent": 4.0,
+      "speed_at_first_regular_rad_s": 0.790291087150489
+    },
+    "nominal": {
+      "first_regular_pwm_percent": 3.0,
+      "speed_at_first_regular_rad_s": 0.18515098560786725
+    },
+    "stribeck": {
+      "first_regular_pwm_percent": 4.0,
+      "speed_at_first_regular_rad_s": 0.8346391739198953
+    }
+  },
+  {
+    "wheel": "sx",
+    "direction": "forward",
+    "start_condition": "moving",
+    "real": {
+      "first_regular_pwm_percent": 3.0,
+      "speed_at_first_regular_rad_s": 0.41011171343326175
+    },
+    "nominal": {
+      "first_regular_pwm_percent": 3.0,
+      "speed_at_first_regular_rad_s": 0.19340328838084403
+    },
+    "stribeck": {
+      "first_regular_pwm_percent": 3.0,
+      "speed_at_first_regular_rad_s": 0.4101711692369126
+    }
+  },
+  {
+    "wheel": "sx",
+    "direction": "reverse",
+    "start_condition": "cold",
+    "real": {
+      "first_regular_pwm_percent": 4.5,
+      "speed_at_first_regular_rad_s": 0.9125547840785612
+    },
+    "nominal": {
+      "first_regular_pwm_percent": 3.5,
+      "speed_at_first_regular_rad_s": 0.38083964250965985
+    },
+    "stribeck": {
+      "first_regular_pwm_percent": 4.5,
+      "speed_at_first_regular_rad_s": 0.9484050210198532
+    }
+  },
+  {
+    "wheel": "sx",
+    "direction": "reverse",
+    "start_condition": "moving",
+    "real": {
+      "first_regular_pwm_percent": 3.5,
+      "speed_at_first_regular_rad_s": 0.6425138814103545
+    },
+    "nominal": {
+      "first_regular_pwm_percent": 3.0,
+      "speed_at_first_regular_rad_s": 0.1882282907515972
+    },
+    "stribeck": {
+      "first_regular_pwm_percent": 3.5,
+      "speed_at_first_regular_rad_s": 0.6406228820495535
+    }
+  },
+  {
+    "wheel": "dx",
+    "direction": "forward",
+    "start_condition": "cold",
+    "real": {
+      "first_regular_pwm_percent": 5.0,
+      "speed_at_first_regular_rad_s": 0.9007807030740425
+    },
+    "nominal": {
+      "first_regular_pwm_percent": 3.5,
+      "speed_at_first_regular_rad_s": 0.3793860844409238
+    },
+    "stribeck": {
+      "first_regular_pwm_percent": 5.0,
+      "speed_at_first_regular_rad_s": 0.9690359656730198
+    }
+  },
+  {
+    "wheel": "dx",
+    "direction": "forward",
+    "start_condition": "moving",
+    "real": {
+      "first_regular_pwm_percent": 4.5,
+      "speed_at_first_regular_rad_s": 0.7564374897427447
+    },
+    "nominal": {
+      "first_regular_pwm_percent": 3.0,
+      "speed_at_first_regular_rad_s": 0.1890124848761049
+    },
+    "stribeck": {
+      "first_regular_pwm_percent": 3.5,
+      "speed_at_first_regular_rad_s": 0.35555033556286036
+    }
+  },
+  {
+    "wheel": "dx",
+    "direction": "reverse",
+    "start_condition": "cold",
+    "real": {
+      "first_regular_pwm_percent": 6.0,
+      "speed_at_first_regular_rad_s": 1.057229582294341
+    },
+    "nominal": {
+      "first_regular_pwm_percent": 3.5,
+      "speed_at_first_regular_rad_s": 0.3793926905949956
+    },
+    "stribeck": {
+      "first_regular_pwm_percent": 6.0,
+      "speed_at_first_regular_rad_s": 1.261554543779152
+    }
+  },
+  {
+    "wheel": "dx",
+    "direction": "reverse",
+    "start_condition": "moving",
+    "real": {
+      "first_regular_pwm_percent": 4.0,
+      "speed_at_first_regular_rad_s": 0.43459776723432353
+    },
+    "nominal": {
+      "first_regular_pwm_percent": 3.0,
+      "speed_at_first_regular_rad_s": 0.18857040101717054
+    },
+    "stribeck": {
+      "first_regular_pwm_percent": 4.0,
+      "speed_at_first_regular_rad_s": 0.5920739214531491
+    }
+  }
+]

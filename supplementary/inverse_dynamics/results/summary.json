@@ -1,0 +1,688 @@
+{
+  "method": "Planar rigid-body pitch moment balance; no-slip axle acceleration from raw encoder counts plus body pitch; total effective axle torque, not separate wheel torques.",
+  "parameters": {
+    "reference_equilibrium_rad": -0.015128734346650059,
+    "mass": 0.77166,
+    "cy": 0.0005162633802451857,
+    "cz": 0.03671390223673638,
+    "ixx": 0.0009771524578254195,
+    "payload_mass_kg": 0.02,
+    "payload_height_m": 0.1
+  },
+  "fit_performed": false,
+  "hardware_commands": 0,
+  "profile_sha256": "9b2b606adba1ee7a6bad4cf5b4642377703970dd293e5b041335ad334de42521",
+  "trials": {
+    "latest": {
+      "source": "/home/vittorio/terasic_robot/logs/terasic_reale/robots/robot01/stribeck_loaded_validation_20261109_01/run01/raw/reale.csv",
+      "sha256": "a631d9aab7acc986a01678baaab1e161cf1cb42e13689140d1a5bee25f892e46",
+      "metrics": {
+        "window_s": [
+          2,
+          9
+        ],
+        "body_torque_rms_Nm": 0.018882718401741955,
+        "predicted_body_torque_rms_Nm": 0.02382528976985645,
+        "center_residual_rms_Nm": 0.037043199224398485,
+        "static_interval_distance_rms_Nm": 0.03178211237794547,
+        "moving_samples": 108,
+        "moving_residual_rms_Nm": 0.03996236169277705,
+        "correlation": -0.49765559538364257
+      },
+      "filter_sensitivity": {
+        "7": {
+          "window_s": [
+            2,
+            9
+          ],
+          "body_torque_rms_Nm": 0.02222626579325201,
+          "predicted_body_torque_rms_Nm": 0.02580612341471653,
+          "center_residual_rms_Nm": 0.04169957385188071,
+          "static_interval_distance_rms_Nm": 0.036493014100301445,
+          "moving_samples": 192,
+          "moving_residual_rms_Nm": 0.05797679251519545,
+          "correlation": -0.504447307749742
+        },
+        "11": {
+          "window_s": [
+            2,
+            9
+          ],
+          "body_torque_rms_Nm": 0.018882718401741955,
+          "predicted_body_torque_rms_Nm": 0.02382528976985645,
+          "center_residual_rms_Nm": 0.037043199224398485,
+          "static_interval_distance_rms_Nm": 0.03178211237794547,
+          "moving_samples": 108,
+          "moving_residual_rms_Nm": 0.03996236169277705,
+          "correlation": -0.49765559538364257
+        },
+        "15": {
+          "window_s": [
+            2,
+            9
+          ],
+          "body_torque_rms_Nm": 0.01526280446305361,
+          "predicted_body_torque_rms_Nm": 0.020696740410122223,
+          "center_residual_rms_Nm": 0.029402403575860256,
+          "static_interval_distance_rms_Nm": 0.02376756923268159,
+          "moving_samples": 70,
+          "moving_residual_rms_Nm": 0.04225802257747906,
+          "correlation": -0.32117719169295134
+        }
+      },
+      "parameter_sensitivity": [
+        {
+          "case": "nominal",
+          "metrics": {
+            "window_s": [
+              2,
+              9
+            ],
+            "body_torque_rms_Nm": 0.018882718401741955,
+            "predicted_body_torque_rms_Nm": 0.02382528976985645,
+            "center_residual_rms_Nm": 0.037043199224398485,
+            "static_interval_distance_rms_Nm": 0.03178211237794547,
+            "moving_samples": 108,
+            "moving_residual_rms_Nm": 0.03996236169277705,
+            "correlation": -0.49765559538364257
+          }
+        },
+        {
+          "case": "no_assumed_payload",
+          "metrics": {
+            "window_s": [
+              2,
+              9
+            ],
+            "body_torque_rms_Nm": 0.017186634280660668,
+            "predicted_body_torque_rms_Nm": 0.02382528976985645,
+            "center_residual_rms_Nm": 0.035702915600381184,
+            "static_interval_distance_rms_Nm": 0.03035142299385537,
+            "moving_samples": 108,
+            "moving_residual_rms_Nm": 0.03810451264874755,
+            "correlation": -0.5028261099556957
+          }
+        },
+        {
+          "case": "mass_minus10",
+          "metrics": {
+            "window_s": [
+              2,
+              9
+            ],
+            "body_torque_rms_Nm": 0.017612048810027457,
+            "predicted_body_torque_rms_Nm": 0.02382528976985645,
+            "center_residual_rms_Nm": 0.03589339335612554,
+            "static_interval_distance_rms_Nm": 0.03055741038566483,
+            "moving_samples": 108,
+            "moving_residual_rms_Nm": 0.0384479948690372,
+            "correlation": -0.48891535919728774
+          }
+        },
+        {
+          "case": "mass_plus10",
+          "metrics": {
+            "window_s": [
+              2,
+              9
+            ],
+            "body_torque_rms_Nm": 0.020160812546858285,
+            "predicted_body_torque_rms_Nm": 0.02382528976985645,
+            "center_residual_rms_Nm": 0.03820458150924802,
+            "static_interval_distance_rms_Nm": 0.03301358566069715,
+            "moving_samples": 108,
+            "moving_residual_rms_Nm": 0.04148341763522891,
+            "correlation": -0.5051079360012937
+          }
+        },
+        {
+          "case": "com_height_minus10",
+          "metrics": {
+            "window_s": [
+              2,
+              9
+            ],
+            "body_torque_rms_Nm": 0.01701777113497645,
+            "predicted_body_torque_rms_Nm": 0.02382528976985645,
+            "center_residual_rms_Nm": 0.03549932008872607,
+            "static_interval_distance_rms_Nm": 0.030135193265916238,
+            "moving_samples": 108,
+            "moving_residual_rms_Nm": 0.03782925325325854,
+            "correlation": -0.49728183690803524
+          }
+        },
+        {
+          "case": "com_height_plus10",
+          "metrics": {
+            "window_s": [
+              2,
+              9
+            ],
+            "body_torque_rms_Nm": 0.020886521251498615,
+            "predicted_body_torque_rms_Nm": 0.02382528976985645,
+            "center_residual_rms_Nm": 0.03871031931627972,
+            "static_interval_distance_rms_Nm": 0.03354854091489087,
+            "moving_samples": 108,
+            "moving_residual_rms_Nm": 0.04225178575382079,
+            "correlation": -0.49640809737488467
+          }
+        },
+        {
+          "case": "inertia_minus20",
+          "metrics": {
+            "window_s": [
+              2,
+              9
+            ],
+            "body_torque_rms_Nm": 0.0176712429907532,
+            "predicted_body_torque_rms_Nm": 0.02382528976985645,
+            "center_residual_rms_Nm": 0.03623941530170448,
+            "static_interval_distance_rms_Nm": 0.030920678818631687,
+            "moving_samples": 108,
+            "moving_residual_rms_Nm": 0.03883184755261019,
+            "correlation": -0.5144104485085708
+          }
+        },
+        {
+          "case": "inertia_plus20",
+          "metrics": {
+            "window_s": [
+              2,
+              9
+            ],
+            "body_torque_rms_Nm": 0.020123873228190783,
+            "predicted_body_torque_rms_Nm": 0.02382528976985645,
+            "center_residual_rms_Nm": 0.03788444258810086,
+            "static_interval_distance_rms_Nm": 0.032680010849004515,
+            "moving_samples": 108,
+            "moving_residual_rms_Nm": 0.041158879934368106,
+            "correlation": -0.48221012282864095
+          }
+        },
+        {
+          "case": "alignment_minus0p5",
+          "metrics": {
+            "window_s": [
+              2,
+              9
+            ],
+            "body_torque_rms_Nm": 0.01908194255660098,
+            "predicted_body_torque_rms_Nm": 0.02382528976985645,
+            "center_residual_rms_Nm": 0.03719167582495392,
+            "static_interval_distance_rms_Nm": 0.031903853686625565,
+            "moving_samples": 108,
+            "moving_residual_rms_Nm": 0.04048381016034911,
+            "correlation": -0.497651271375376
+          }
+        },
+        {
+          "case": "alignment_plus0p5",
+          "metrics": {
+            "window_s": [
+              2,
+              9
+            ],
+            "body_torque_rms_Nm": 0.01899325168859414,
+            "predicted_body_torque_rms_Nm": 0.02382528976985645,
+            "center_residual_rms_Nm": 0.03705271752677764,
+            "static_interval_distance_rms_Nm": 0.03178477254485533,
+            "moving_samples": 108,
+            "moving_residual_rms_Nm": 0.03958225004112836,
+            "correlation": -0.4976472647622909
+          }
+        }
+      ],
+      "logged_position_reconstruction_max_error_m": 1.0117202026236477e-09
+    },
+    "independent_earlier": {
+      "source": "/home/vittorio/terasic_robot/logs/terasic_reale/robots/robot01/stribeck_compensation_20261109_01/run01/raw/reale.csv",
+      "sha256": "f0b54b6db679ce3c0e75bb90cc7d38ae6c28452af290624b9d9ea8e6cccfaf0b",
+      "metrics": {
+        "window_s": [
+          2,
+          9
+        ],
+        "body_torque_rms_Nm": 0.012392346115252442,
+        "predicted_body_torque_rms_Nm": 0.019749739518684722,
+        "center_residual_rms_Nm": 0.02553927994265739,
+        "static_interval_distance_rms_Nm": 0.018941635631482833,
+        "moving_samples": 75,
+        "moving_residual_rms_Nm": 0.0303065112389479,
+        "correlation": -0.21827046012089033
+      },
+      "filter_sensitivity": {
+        "7": {
+          "window_s": [
+            2,
+            9
+          ],
+          "body_torque_rms_Nm": 0.01527927002771563,
+          "predicted_body_torque_rms_Nm": 0.022218360501236423,
+          "center_residual_rms_Nm": 0.02916961406930457,
+          "static_interval_distance_rms_Nm": 0.02220145447059999,
+          "moving_samples": 111,
+          "moving_residual_rms_Nm": 0.0370269170064215,
+          "correlation": -0.17909096084596499
+        },
+        "11": {
+          "window_s": [
+            2,
+            9
+          ],
+          "body_torque_rms_Nm": 0.012392346115252442,
+          "predicted_body_torque_rms_Nm": 0.019749739518684722,
+          "center_residual_rms_Nm": 0.02553927994265739,
+          "static_interval_distance_rms_Nm": 0.018941635631482833,
+          "moving_samples": 75,
+          "moving_residual_rms_Nm": 0.0303065112389479,
+          "correlation": -0.21827046012089033
+        },
+        "15": {
+          "window_s": [
+            2,
+            9
+          ],
+          "body_torque_rms_Nm": 0.00941285819632879,
+          "predicted_body_torque_rms_Nm": 0.0178790168180575,
+          "center_residual_rms_Nm": 0.021675291608689938,
+          "static_interval_distance_rms_Nm": 0.014017357560865557,
+          "moving_samples": 33,
+          "moving_residual_rms_Nm": 0.013593931102033004,
+          "correlation": -0.17557203002310331
+        }
+      },
+      "parameter_sensitivity": [
+        {
+          "case": "nominal",
+          "metrics": {
+            "window_s": [
+              2,
+              9
+            ],
+            "body_torque_rms_Nm": 0.012392346115252442,
+            "predicted_body_torque_rms_Nm": 0.019749739518684722,
+            "center_residual_rms_Nm": 0.02553927994265739,
+            "static_interval_distance_rms_Nm": 0.018941635631482833,
+            "moving_samples": 75,
+            "moving_residual_rms_Nm": 0.0303065112389479,
+            "correlation": -0.21827046012089033
+          }
+        },
+        {
+          "case": "no_assumed_payload",
+          "metrics": {
+            "window_s": [
+              2,
+              9
+            ],
+            "body_torque_rms_Nm": 0.011281240232022946,
+            "predicted_body_torque_rms_Nm": 0.019749739518684722,
+            "center_residual_rms_Nm": 0.024818502052710387,
+            "static_interval_distance_rms_Nm": 0.018174914257100404,
+            "moving_samples": 75,
+            "moving_residual_rms_Nm": 0.02876677510951256,
+            "correlation": -0.22315239120402414
+          }
+        },
+        {
+          "case": "mass_minus10",
+          "metrics": {
+            "window_s": [
+              2,
+              9
+            ],
+            "body_torque_rms_Nm": 0.011543645223387591,
+            "predicted_body_torque_rms_Nm": 0.019749739518684722,
+            "center_residual_rms_Nm": 0.024914293768802956,
+            "static_interval_distance_rms_Nm": 0.018264135600600837,
+            "moving_samples": 75,
+            "moving_residual_rms_Nm": 0.02898235547864597,
+            "correlation": -0.21009867634467275
+          }
+        },
+        {
+          "case": "mass_plus10",
+          "metrics": {
+            "window_s": [
+              2,
+              9
+            ],
+            "body_torque_rms_Nm": 0.013245642952212434,
+            "predicted_body_torque_rms_Nm": 0.019749739518684722,
+            "center_residual_rms_Nm": 0.02617918875292243,
+            "static_interval_distance_rms_Nm": 0.019631625052099807,
+            "moving_samples": 75,
+            "moving_residual_rms_Nm": 0.03164173263439841,
+            "correlation": -0.22531762412332984
+          }
+        },
+        {
+          "case": "com_height_minus10",
+          "metrics": {
+            "window_s": [
+              2,
+              9
+            ],
+            "body_torque_rms_Nm": 0.011159933011251018,
+            "predicted_body_torque_rms_Nm": 0.019749739518684722,
+            "center_residual_rms_Nm": 0.024673104082935486,
+            "static_interval_distance_rms_Nm": 0.018025405055089438,
+            "moving_samples": 75,
+            "moving_residual_rms_Nm": 0.02848863534585254,
+            "correlation": -0.21792001761685573
+          }
+        },
+        {
+          "case": "com_height_plus10",
+          "metrics": {
+            "window_s": [
+              2,
+              9
+            ],
+            "body_torque_rms_Nm": 0.013719770174264855,
+            "predicted_body_torque_rms_Nm": 0.019749739518684722,
+            "center_residual_rms_Nm": 0.026482214822471695,
+            "static_interval_distance_rms_Nm": 0.01993523122725923,
+            "moving_samples": 75,
+            "moving_residual_rms_Nm": 0.032245432838457516,
+            "correlation": -0.21709730268611865
+          }
+        },
+        {
+          "case": "inertia_minus20",
+          "metrics": {
+            "window_s": [
+              2,
+              9
+            ],
+            "body_torque_rms_Nm": 0.011625946857525172,
+            "predicted_body_torque_rms_Nm": 0.019749739518684722,
+            "center_residual_rms_Nm": 0.025190421241682664,
+            "static_interval_distance_rms_Nm": 0.01855785313523461,
+            "moving_samples": 75,
+            "moving_residual_rms_Nm": 0.029480377732698553,
+            "correlation": -0.23422711744943567
+          }
+        },
+        {
+          "case": "inertia_plus20",
+          "metrics": {
+            "window_s": [
+              2,
+              9
+            ],
+            "body_torque_rms_Nm": 0.013177109310393446,
+            "predicted_body_torque_rms_Nm": 0.019749739518684722,
+            "center_residual_rms_Nm": 0.025915452596415513,
+            "static_interval_distance_rms_Nm": 0.019355788124664305,
+            "moving_samples": 75,
+            "moving_residual_rms_Nm": 0.031175478193448132,
+            "correlation": -0.20389258462127013
+          }
+        },
+        {
+          "case": "alignment_minus0p5",
+          "metrics": {
+            "window_s": [
+              2,
+              9
+            ],
+            "body_torque_rms_Nm": 0.012727496718073281,
+            "predicted_body_torque_rms_Nm": 0.019749739518684722,
+            "center_residual_rms_Nm": 0.026133446027938125,
+            "static_interval_distance_rms_Nm": 0.019383502074049826,
+            "moving_samples": 75,
+            "moving_residual_rms_Nm": 0.030994593899090137,
+            "correlation": -0.21826074295322784
+          }
+        },
+        {
+          "case": "alignment_plus0p5",
+          "metrics": {
+            "window_s": [
+              2,
+              9
+            ],
+            "body_torque_rms_Nm": 0.012526393071595306,
+            "predicted_body_torque_rms_Nm": 0.019749739518684722,
+            "center_residual_rms_Nm": 0.025165512497579038,
+            "static_interval_distance_rms_Nm": 0.018666236338859978,
+            "moving_samples": 75,
+            "moving_residual_rms_Nm": 0.02979982453973373,
+            "correlation": -0.21826827514836444
+          }
+        }
+      ],
+      "logged_position_reconstruction_max_error_m": 8.429695804237913e-10
+    },
+    "synthetic_sensor_control": {
+      "source": "/home/vittorio/terasic_robot/experiments/robot01_loaded_validation_20261109/matched_run01/revised_negative_compensated/simulation.csv",
+      "sha256": "a4bf80ef4adea11f6a1523ecc590ee8b2ebc05083a917e3ac803ca58393adbf5",
+      "metrics": {
+        "window_s": [
+          2,
+          9
+        ],
+        "body_torque_rms_Nm": 0.0012242428958433645,
+        "predicted_body_torque_rms_Nm": 0.024052520331128535,
+        "center_residual_rms_Nm": 0.024010363977393256,
+        "static_interval_distance_rms_Nm": 0.00042172226462442304,
+        "moving_samples": 150,
+        "moving_residual_rms_Nm": 0.0008815866033251395,
+        "correlation": 0.06030652983239289
+      },
+      "filter_sensitivity": {
+        "7": {
+          "window_s": [
+            2,
+            9
+          ],
+          "body_torque_rms_Nm": 0.0026275383607608977,
+          "predicted_body_torque_rms_Nm": 0.02474087692803104,
+          "center_residual_rms_Nm": 0.024402445911833198,
+          "static_interval_distance_rms_Nm": 0.0009563272106256209,
+          "moving_samples": 145,
+          "moving_residual_rms_Nm": 0.0020106559115459343,
+          "correlation": 0.18127057614454603
+        },
+        "11": {
+          "window_s": [
+            2,
+            9
+          ],
+          "body_torque_rms_Nm": 0.0012242428958433645,
+          "predicted_body_torque_rms_Nm": 0.024052520331128535,
+          "center_residual_rms_Nm": 0.024010363977393256,
+          "static_interval_distance_rms_Nm": 0.00042172226462442304,
+          "moving_samples": 150,
+          "moving_residual_rms_Nm": 0.0008815866033251395,
+          "correlation": 0.06030652983239289
+        },
+        "15": {
+          "window_s": [
+            2,
+            9
+          ],
+          "body_torque_rms_Nm": 0.0007559028443171638,
+          "predicted_body_torque_rms_Nm": 0.02664146784255608,
+          "center_residual_rms_Nm": 0.026595530634825115,
+          "static_interval_distance_rms_Nm": 0.00026634130691918583,
+          "moving_samples": 143,
+          "moving_residual_rms_Nm": 0.0005552995766334904,
+          "correlation": 0.07505528020942895
+        }
+      },
+      "parameter_sensitivity": [
+        {
+          "case": "nominal",
+          "metrics": {
+            "window_s": [
+              2,
+              9
+            ],
+            "body_torque_rms_Nm": 0.0012242428958433645,
+            "predicted_body_torque_rms_Nm": 0.024052520331128535,
+            "center_residual_rms_Nm": 0.024010363977393256,
+            "static_interval_distance_rms_Nm": 0.00042172226462442304,
+            "moving_samples": 150,
+            "moving_residual_rms_Nm": 0.0008815866033251395,
+            "correlation": 0.06030652983239289
+          }
+        },
+        {
+          "case": "no_assumed_payload",
+          "metrics": {
+            "window_s": [
+              2,
+              9
+            ],
+            "body_torque_rms_Nm": 0.0011627914904040046,
+            "predicted_body_torque_rms_Nm": 0.024052520331128535,
+            "center_residual_rms_Nm": 0.02401941488287433,
+            "static_interval_distance_rms_Nm": 0.00043754238882510256,
+            "moving_samples": 150,
+            "moving_residual_rms_Nm": 0.0009216703488131702,
+            "correlation": 0.06081219274114124
+          }
+        },
+        {
+          "case": "mass_minus10",
+          "metrics": {
+            "window_s": [
+              2,
+              9
+            ],
+            "body_torque_rms_Nm": 0.0011244661733782854,
+            "predicted_body_torque_rms_Nm": 0.024052520331128535,
+            "center_residual_rms_Nm": 0.024012450227382805,
+            "static_interval_distance_rms_Nm": 0.00043286406203830183,
+            "moving_samples": 150,
+            "moving_residual_rms_Nm": 0.0009087343687577839,
+            "correlation": 0.059426237165277396
+          }
+        },
+        {
+          "case": "mass_plus10",
+          "metrics": {
+            "window_s": [
+              2,
+              9
+            ],
+            "body_torque_rms_Nm": 0.0013244965734463307,
+            "predicted_body_torque_rms_Nm": 0.024052520331128535,
+            "center_residual_rms_Nm": 0.024008718515226252,
+            "static_interval_distance_rms_Nm": 0.00041412871500239783,
+            "moving_samples": 150,
+            "moving_residual_rms_Nm": 0.0008619612535722361,
+            "correlation": 0.06103216308701249
+          }
+        },
+        {
+          "case": "com_height_minus10",
+          "metrics": {
+            "window_s": [
+              2,
+              9
+            ],
+            "body_torque_rms_Nm": 0.0011764070685606539,
+            "predicted_body_torque_rms_Nm": 0.024052520331128535,
+            "center_residual_rms_Nm": 0.024024790646913718,
+            "static_interval_distance_rms_Nm": 0.0004560766243028051,
+            "moving_samples": 150,
+            "moving_residual_rms_Nm": 0.000962060704427231,
+            "correlation": 0.06026928908574013
+          }
+        },
+        {
+          "case": "com_height_plus10",
+          "metrics": {
+            "window_s": [
+              2,
+              9
+            ],
+            "body_torque_rms_Nm": 0.0013992937630522085,
+            "predicted_body_torque_rms_Nm": 0.024052520331128535,
+            "center_residual_rms_Nm": 0.02400302445775967,
+            "static_interval_distance_rms_Nm": 0.00046321424940853987,
+            "moving_samples": 150,
+            "moving_residual_rms_Nm": 0.0009615814094057064,
+            "correlation": 0.0601830493479704
+          }
+        },
+        {
+          "case": "inertia_minus20",
+          "metrics": {
+            "window_s": [
+              2,
+              9
+            ],
+            "body_torque_rms_Nm": 0.0011804468857717838,
+            "predicted_body_torque_rms_Nm": 0.024052520331128535,
+            "center_residual_rms_Nm": 0.02400891875232901,
+            "static_interval_distance_rms_Nm": 0.00041852651960134053,
+            "moving_samples": 150,
+            "moving_residual_rms_Nm": 0.0008773295420076121,
+            "correlation": 0.061907042206111755
+          }
+        },
+        {
+          "case": "inertia_plus20",
+          "metrics": {
+            "window_s": [
+              2,
+              9
+            ],
+            "body_torque_rms_Nm": 0.0012699359781298135,
+            "predicted_body_torque_rms_Nm": 0.024052520331128535,
+            "center_residual_rms_Nm": 0.024011989253298085,
+            "static_interval_distance_rms_Nm": 0.0004270638789561567,
+            "moving_samples": 150,
+            "moving_residual_rms_Nm": 0.0008902446113935855,
+            "correlation": 0.05872872244749966
+          }
+        },
+        {
+          "case": "alignment_minus0p5",
+          "metrics": {
+            "window_s": [
+              2,
+              9
+            ],
+            "body_torque_rms_Nm": 0.002697746986195794,
+            "predicted_body_torque_rms_Nm": 0.024052520331128535,
+            "center_residual_rms_Nm": 0.024071672083293173,
+            "static_interval_distance_rms_Nm": 0.0012450352824760987,
+            "moving_samples": 150,
+            "moving_residual_rms_Nm": 0.0026220207144555694,
+            "correlation": 0.060307507461249694
+          }
+        },
+        {
+          "case": "alignment_plus0p5",
+          "metrics": {
+            "window_s": [
+              2,
+              9
+            ],
+            "body_torque_rms_Nm": 0.0027360881986627098,
+            "predicted_body_torque_rms_Nm": 0.024052520331128535,
+            "center_residual_rms_Nm": 0.0241933146977585,
+            "static_interval_distance_rms_Nm": 0.001197195776986968,
+            "moving_samples": 150,
+            "moving_residual_rms_Nm": 0.0025389028320276326,
+            "correlation": 0.06030430081626282
+          }
+        }
+      ],
+      "logged_position_reconstruction_max_error_m": 1.0408340855860843e-17
+    }
+  },
+  "input_sha256": {
+    "models/verifica.xml": "d2e22f32f5c8d2fe645a0c8d43bf3e9364eebd1289685898a6c4b4190a19a5ec",
+    "config/controllers/lqr_mimo.txt": "0c25a815be367283719facedd982de2d9e774f1c49a8f26b0213719b138becc5",
+    "scripts/twin_payload.py": "6a59ff3f875755d9725f0db7b535f6d4177e5f5e2e5413a00ef39de3edcb3f70",
+    "src_python/stribeck_motor.py": "c21c384c4a2485f0267b5d852243c421f8bb656f27c557ca66c62e35234574cf",
+    "config/mujoco_robot01_stribeck.json": "9b2b606adba1ee7a6bad4cf5b4642377703970dd293e5b041335ad334de42521"
+  },
+  "code_sha256": "7b4ebdd38f7cb1ec9a880d5029f566eb733ec64ee7e4c56d4e2c28877784974b"
+}

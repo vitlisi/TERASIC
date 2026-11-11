@@ -1,0 +1,73 @@
+{
+  "source_archive": "/home/vittorio/Scaricati/Simulink_Terasic (2).zip",
+  "archive_sha256": "863d12bdd709f6c70bbe2eb186a962ae2e739476a68a94097c4c2ee5af41a915",
+  "files": [
+    {
+      "path": "storico_1PWM/init_terasic_1PWM.m",
+      "sha256": "ecee61a4e79c52502024bbb99b0622967ae677d573f292530a72b57984b79abc",
+      "bytes": 14902,
+      "archive_path": "MuJoco&Simscape/init_terasic_1PWM.m"
+    },
+    {
+      "path": "init_terasic_2PWM.m",
+      "sha256": "1d046a75fc23210b0bfebcf82bf7b4a897bd7594623934b51195e64c5e7f3486",
+      "bytes": 7176,
+      "archive_path": "MuJoco&Simscape/init_terasic_2PWM.m"
+    },
+    {
+      "path": "STL_NEW - Copia/BATTERY_BOX.STL",
+      "sha256": "a65375b3fc8e4b2d2427bae5622ad95d436bad0841d93bff58ad4c252863685a",
+      "bytes": 161484,
+      "archive_path": "MuJoco&Simscape/STL_NEW - Copia/BATTERY_BOX.STL"
+    },
+    {
+      "path": "STL_NEW - Copia/BATTERY_PACK.STL",
+      "sha256": "85f3868ea3db46fd529dc3fcd19c94b28b5a8266d2860ec3aeeeb243d0b86134",
+      "bytes": 161484,
+      "archive_path": "MuJoco&Simscape/STL_NEW - Copia/BATTERY_PACK.STL"
+    },
+    {
+      "path": "STL_NEW - Copia/SKELETON_COMPLETE.STL",
+      "sha256": "dbdc4b37aa25940d997994f5a8f22bb7e2d1362cd18406ce560c27cd669c337d",
+      "bytes": 5000084,
+      "archive_path": "MuJoco&Simscape/STL_NEW - Copia/SKELETON_COMPLETE.STL"
+    },
+    {
+      "path": "STL_NEW - Copia/wheel_complete_simulation.STL",
+      "sha256": "e1eb979e971f8254af2d6054eff89cbcf4316d6e50c6e573a49c327e2de1afa2",
+      "bytes": 260584,
+      "archive_path": "MuJoco&Simscape/STL_NEW - Copia/wheel_complete_simulation.STL"
+    },
+    {
+      "path": "storico_1PWM/Terasic_Simscape_linmod_1PWM.slx",
+      "sha256": "6fc40b1def5d75b772560cb84597c9fd5ffc2957b82d850b80b37c61bafbc351",
+      "bytes": 323779,
+      "archive_path": "MuJoco&Simscape/Terasic_Simscape_linmod_1PWM.slx"
+    },
+    {
+      "path": "Terasic_Simscape_linmod_2PWM.slx",
+      "sha256": "11103a2230e261a8a437ba179d63dcfe87216004b06e7d867d8de911d267a3f5",
+      "bytes": 322186,
+      "archive_path": "MuJoco&Simscape/Terasic_Simscape_linmod_2PWM.slx"
+    },
+    {
+      "path": "storico_1PWM/Terasic_Simscape_LQR_1PWM.slx",
+      "sha256": "b35ce5f6493fb5e957277b71472b4fcfe0d4e254c6d16a1a306c2cca8f9395e7",
+      "bytes": 361042,
+      "archive_path": "MuJoco&Simscape/Terasic_Simscape_LQR_1PWM.slx"
+    },
+    {
+      "path": "Terasic_Simscape_LQR_2PWM.slx",
+      "sha256": "0f70ce97ae48c9a48b8cdec6765b1dff9c100bf788aa1d9fe7d543d255965957",
+      "bytes": 357478,
+      "archive_path": "MuJoco&Simscape/Terasic_Simscape_LQR_2PWM.slx"
+    },
+    {
+      "path": "Terasic_Simscape_PD_PID.slx",
+      "sha256": "6d2e1b6d47de4da6ba3e22bccb4154dd072163bbf3f12b91036f83be08750040",
+      "bytes": 359464,
+      "archive_path": "MuJoco&Simscape/Terasic_Simscape_PD_PID.slx"
+    }
+  ],
+  "note": "Sorgenti originali; escluse cache slprj/slxc, backup asv e documenti non necessari alla simulazione. Nessuno script MATLAB eseguito."
+}

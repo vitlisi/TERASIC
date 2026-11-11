@@ -1,0 +1,75 @@
+{
+  "applied_utc": "2026-11-09T16:08:28.670118+00:00",
+  "deleted_files": 17730,
+  "deleted_bytes": 2620515685,
+  "permanent_data_deletion": true,
+  "temporary_source_staging": "maintenance/cleanup_20261109/source_staging",
+  "source_verification_pending": false,
+  "completed_utc": "2026-11-09T16:25:56.226763+00:00",
+  "temporary_source_staging_removed": true,
+  "source_staging_bytes_removed": 1577231,
+  "restored_required_source_dependencies": [
+    "scripts/analyze_lqr_encoder.py",
+    "scripts/audit_lqr_model.py",
+    "scripts/hinf/screen_real_hinf.py",
+    "scripts/run_pd_offline.sh"
+  ],
+  "final_original_plan_deleted_files": 17726,
+  "final_original_plan_deleted_bytes": 2620493747,
+  "additional_obsolete_sources_removed": [
+    "diagnostics/loaded_motor_parameters.py",
+    "diagnostics/report_loaded_balance.py",
+    "src_cpp/terasic_reale/PIANO_20261028.md",
+    "config/controllers/VALORI_LQR_ATTUALI.md"
+  ],
+  "cache_files_removed": 11272,
+  "cache_bytes_removed": 113778093,
+  "cache_directories_removed": 1236,
+  "hardware_contacted": false,
+  "additional_board_records_removal": {
+    "utc": "2026-11-09T16:26:37.672811+00:00",
+    "files": [
+      {
+        "path": "config/robots/robot02/lqr_fermo_reference.txt",
+        "bytes": 1215
+      },
+      {
+        "path": "config/robots/robot02/ssh_config",
+        "bytes": 376
+      },
+      {
+        "path": "config/robots/robot02/inventory.txt",
+        "bytes": 2034
+      },
+      {
+        "path": "config/robots/robot02/wifi_driver_check.txt",
+        "bytes": 1613
+      },
+      {
+        "path": "config/robots/robot02/README.md",
+        "bytes": 1273
+      },
+      {
+        "path": "config/robots/robot02/known_hosts",
+        "bytes": 110
+      },
+      {
+        "path": "config/robots/robot02/steps_reference/parameters_frozen.json",
+        "bytes": 549
+      },
+      {
+        "path": "config/robots/robot02/steps_reference/reference.config.txt",
+        "bytes": 977
+      }
+    ],
+    "bytes": 8147,
+    "note": "User requested removal of Robot01/Robot02 records. Historical Robot01 directories were already deleted; remaining Robot02 setup/reference folder removed. Active calibrated motor inputs preserved."
+  },
+  "digital_twin_historical_recovery_exception": {
+    "reason": "User subsequently requested original digital-twin SVGs without new acquisitions. Selected raw copies recovered read-only from original board.",
+    "new_hardware_acquisitions": 0,
+    "files": 2639,
+    "bytes": 46172805,
+    "manifest": "logs/final_campaign/01_digital_twin/historical_inputs/inputs_manifest.json"
+  }
+}

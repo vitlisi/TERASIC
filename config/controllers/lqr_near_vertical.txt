@@ -1,0 +1,32 @@
+# Prova LQR vicino alla verticale: durata/PWM impostati dal launcher.
+# wheel_convention=physical_sx_dx_v2; SX=left, DX=right in forward direction.
+# First operator-executed 2-PWM active trial: 3 s, 15% per wheel, differential max 3%.
+# Physical shadow sequence checked; real closed-loop MIMO not yet validated.
+# State order [position_m,pitch_rad,yaw_rad,velocity_m_s,pitch_rate_rad_s,yaw_rate_rad_s].
+counts_per_rev 1325
+gyro_sign 1
+motor_sign 1
+encoder_sx_sign -1
+encoder_dx_sign 1
+wheel_model_sign -1
+pitch_model_sign 1
+pitch_reference_deg 0.320
+shadow_only 0
+wheel_radius_m 0.032
+wheel_track_m 0.16444
+max_differential_pwm 3
+k_sx_position -268.11279655116948
+k_sx_pitch -736.56418653400476
+k_sx_yaw -56.223050731996516
+k_sx_velocity -363.20016517660633
+k_sx_pitch_rate -22.413600037069319
+k_sx_yaw_rate -12.142332171090555
+k_dx_position -268.11279655116948
+k_dx_pitch -736.56418653400476
+k_dx_yaw 56.223050731996516
+k_dx_velocity -363.20016517660633
+k_dx_pitch_rate -22.413600037069319
+k_dx_yaw_rate 12.142332171090555
+
+# Limite piu stretto SOLO per questa prova; riferimento fisso invariato.
+startup_max_error_deg 0.5

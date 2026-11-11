@@ -1,0 +1,81 @@
+{
+  "status": "Candidates only; consult hardware-trial.log for on-board result",
+  "compiler": "11.4.0",
+  "modules": [
+    {
+      "path": "crypto/arc4.ko",
+      "sha256": "ac7f2b2ed4551393c12e90c8c2715ad4f526028e73cc88e8d3e707a10c7e7acb",
+      "vermagic": "4.5.0 SMP mod_unload ARMv7 p2v8"
+    },
+    {
+      "path": "crypto/ccm.ko",
+      "sha256": "a7e6d0c5f954d74b6cfeec682d1cf76d5eeb02ee968b584a6c80834f8b71e0ba",
+      "vermagic": "4.5.0 SMP mod_unload ARMv7 p2v8"
+    },
+    {
+      "path": "crypto/ctr.ko",
+      "sha256": "764b2eee447e3488402a77d4385d8f385e1b9100a56d575afdc59070e1f5d4c7",
+      "vermagic": "4.5.0 SMP mod_unload ARMv7 p2v8"
+    },
+    {
+      "path": "crypto/drbg.ko",
+      "sha256": "ba3e66050c562eac566a9c23391a4e720c454d7cffb61431a791c0b32d05dd50",
+      "vermagic": "4.5.0 SMP mod_unload ARMv7 p2v8"
+    },
+    {
+      "path": "crypto/echainiv.ko",
+      "sha256": "e78c713e599f2031aa243b0815f48d5b674348b699c7965f40f2d4aacfed979e",
+      "vermagic": "4.5.0 SMP mod_unload ARMv7 p2v8"
+    },
+    {
+      "path": "crypto/gcm.ko",
+      "sha256": "6ab2677bcc88f2726adc3960d5ee8c8d0a29a736a20fa258940eb3e2872fbde4",
+      "vermagic": "4.5.0 SMP mod_unload ARMv7 p2v8"
+    },
+    {
+      "path": "crypto/gf128mul.ko",
+      "sha256": "9bb3c45ce70e9a526d96fb130866e9408a5bc4987c61bef86b70e762d58fb8a9",
+      "vermagic": "4.5.0 SMP mod_unload ARMv7 p2v8"
+    },
+    {
+      "path": "crypto/ghash-generic.ko",
+      "sha256": "d1630bae16aeb1b9a290cb4eeaad0da3df9fdb6a4ca327c61ec1369c9c0013cb",
+      "vermagic": "4.5.0 SMP mod_unload ARMv7 p2v8"
+    },
+    {
+      "path": "crypto/hmac.ko",
+      "sha256": "2362946d6870619141c5e90af0fa6d1d8ba1b30afb67d2bab47ffa4c1095f585",
+      "vermagic": "4.5.0 SMP mod_unload ARMv7 p2v8"
+    },
+    {
+      "path": "crypto/jitterentropy_rng.ko",
+      "sha256": "a880a0fc0e76cc136b8a289d58e1437b32be1839fd1f879f33eb8ee7f5405bc6",
+      "vermagic": "4.5.0 SMP mod_unload ARMv7 p2v8"
+    },
+    {
+      "path": "crypto/seqiv.ko",
+      "sha256": "abbe83a859d356253bcc0badbdd2c22de9793395b3beca872195bbf2fc4a8886",
+      "vermagic": "4.5.0 SMP mod_unload ARMv7 p2v8"
+    },
+    {
+      "path": "crypto/sha256_generic.ko",
+      "sha256": "31d08a58e24c7e5fe4e18f3463d735303a64f149f07f0e1bf249b2aae21c014d",
+      "vermagic": "4.5.0 SMP mod_unload ARMv7 p2v8"
+    },
+    {
+      "path": "net/wireless/cfg80211.ko",
+      "sha256": "9ad3a13ea352108f1021b15bfedce1064ccbe022cff5d21c753c16433c2d8ed4",
+      "vermagic": "4.5.0 SMP mod_unload ARMv7 p2v8"
+    },
+    {
+      "path": "net/mac80211/mac80211.ko",
+      "sha256": "252da935ecccda500edc727299a7eb46fed6c37a579d9622064894331966c13c",
+      "vermagic": "4.5.0 SMP mod_unload ARMv7 p2v8"
+    },
+    {
+      "path": "drivers/net/wireless/mediatek/mt7601u/mt7601u.ko",
+      "sha256": "428501d3f178da52afaecca9620f7c12e9bbba56d4b00a3f143cd292742be05c",
+      "vermagic": "4.5.0 SMP mod_unload ARMv7 p2v8"
+    }
+  ]
+}

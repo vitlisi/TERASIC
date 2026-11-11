@@ -1,0 +1,19 @@
+{
+  "success": true,
+  "stop_reason": "durata completata",
+  "free_time_s": 0.9999999999999787,
+  "final_ctrl": [
+    0.0,
+    0.0
+  ],
+  "samples": 420,
+  "final_battery_voltage_v": 12.0,
+  "final_pitch_deg": -1.2245209441426317,
+  "final_velocity_m_s": -0.03179709995301554,
+  "final_forward_y_m": -0.02013289071423703,
+  "tail_max_pitch_error_deg": 2.6382271087323055,
+  "tail_max_velocity_m_s": 0.03179709995301554,
+  "tail_position_range_m": 0.020132890714585103,
+  "max_abs_pwm_percent": 20.0,
+  "settled": false
+}

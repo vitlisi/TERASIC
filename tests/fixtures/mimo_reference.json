@@ -1,0 +1,26 @@
+{
+  "K_pwm_percent": [
+    [
+      -268.1127965511695,
+      -736.5641865340048,
+      -56.223050731996516,
+      -363.20016517660633,
+      -22.41360003706932,
+      -12.142332171090555
+    ],
+    [
+      -268.1127965511695,
+      -736.5641865340048,
+      56.223050731996516,
+      -363.20016517660633,
+      -22.41360003706932,
+      12.142332171090555
+    ]
+  ],
+  "provenance": {
+    "source": "logs/lqr/real_mimo_candidate_20261019/candidate.json",
+    "source_sha256": "b051e6206dded2a3f2fb28a7b0722a7fa24e15b490932ff55aedcfa548744d3a",
+    "purpose": "Fixed numerical reference; not results of new validation.",
+    "hardware_validated": false
+  }
+}

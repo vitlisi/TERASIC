@@ -1,0 +1,382 @@
+{
+  "partial": false,
+  "evaluated_finalists": 8,
+  "expected_finalists": 8,
+  "uncertainty_bounds": {
+    "armature": 0.02,
+    "damping": 0.02,
+    "joint_friction": 0.02,
+    "motor": 0.02
+  },
+  "comparison": {
+    "baseline": {
+      "origin": "baseline",
+      "rank": [
+        11,
+        0.0,
+        13.69897059173054
+      ],
+      "survived": 11,
+      "stabilized": 0,
+      "mean_metrics": {
+        "cost": 8.929472859797372,
+        "position_rms_m": 0.0267911381351176,
+        "pitch_rms_deg": 0.7900661264089134,
+        "pwm_rms_percent": 43.56488957715223,
+        "saturation_fraction": 0.6140909090909091,
+        "tail_max_pitch_error_deg": 1.0016937769800407
+      }
+    },
+    "ga_provvisorio": {
+      "origin": "generation_10",
+      "rank": [
+        11,
+        0.0,
+        0.7814819390874341
+      ],
+      "survived": 11,
+      "stabilized": 0,
+      "mean_metrics": {
+        "cost": 0.5076020849609127,
+        "position_rms_m": 0.003998117664104223,
+        "pitch_rms_deg": 0.6665769115842631,
+        "pwm_rms_percent": 5.172682125996998,
+        "saturation_fraction": 0.0,
+        "tail_max_pitch_error_deg": 0.7156880717595555
+      }
+    }
+  },
+  "common_scenarios": [
+    {
+      "name": "selection_00",
+      "seed": 20000,
+      "encoder_noise_seed": 4294987296,
+      "motor_scale": [
+        1.0,
+        1.0
+      ],
+      "armature_scale": [
+        1.0,
+        1.0
+      ],
+      "damping_scale": [
+        1.0,
+        1.0
+      ],
+      "joint_friction_scale": [
+        1.0,
+        1.0
+      ],
+      "friction_scale": 1.0,
+      "chassis_inertia_scale": 1.0,
+      "imu_noise_scale": [
+        1.0,
+        1.0
+      ],
+      "encoder_noise_std_counts": 0.0,
+      "nominal_physics": true,
+      "noise_note": "Zero-mean Gaussian sensor noise; IMU injected before sensor filters; encoder position noise differentiated and filtered."
+    },
+    {
+      "name": "selection_01",
+      "seed": 20001,
+      "encoder_noise_seed": 4294987297,
+      "motor_scale": [
+        1.0010715770792349,
+        1.016079941902355
+      ],
+      "armature_scale": [
+        0.98094643388771,
+        1.0074566616921
+      ],
+      "damping_scale": [
+        1.0073729317335849,
+        0.9862879846961108
+      ],
+      "joint_friction_scale": [
+        0.9820738933659579,
+        0.9805203590621134
+      ],
+      "friction_scale": 1.0,
+      "chassis_inertia_scale": 1.0,
+      "imu_noise_scale": [
+        1.0,
+        1.0
+      ],
+      "encoder_noise_std_counts": 0.6092576817150455,
+      "nominal_physics": false,
+      "noise_note": "Zero-mean Gaussian sensor noise; IMU injected before sensor filters; encoder position noise differentiated and filtered."
+    },
+    {
+      "name": "selection_02",
+      "seed": 20002,
+      "encoder_noise_seed": 4294987298,
+      "motor_scale": [
+        1.0133927623672523,
+        0.989130930158886
+      ],
+      "armature_scale": [
+        0.9961396535232853,
+        1.0159698329099398
+      ],
+      "damping_scale": [
+        1.0049165157281599,
+        1.012272487129905
+      ],
+      "joint_friction_scale": [
+        0.9825286414442439,
+        1.0111217460223048
+      ],
+      "friction_scale": 1.0,
+      "chassis_inertia_scale": 1.0,
+      "imu_noise_scale": [
+        1.0,
+        1.0
+      ],
+      "encoder_noise_std_counts": 0.12994138793148194,
+      "nominal_physics": false,
+      "noise_note": "Zero-mean Gaussian sensor noise; IMU injected before sensor filters; encoder position noise differentiated and filtered."
+    },
+    {
+      "name": "selection_03",
+      "seed": 20003,
+      "encoder_noise_seed": 4294987299,
+      "motor_scale": [
+        1.019012449143112,
+        0.9851272957357514
+      ],
+      "armature_scale": [
+        1.0195856776544219,
+        0.9876635614177374
+      ],
+      "damping_scale": [
+        0.986024283914288,
+        1.014799233495221
+      ],
+      "joint_friction_scale": [
+        1.0011923791427932,
+        0.9811686556435315
+      ],
+      "friction_scale": 1.0,
+      "chassis_inertia_scale": 1.0,
+      "imu_noise_scale": [
+        1.0,
+        1.0
+      ],
+      "encoder_noise_std_counts": 0.182864358844657,
+      "nominal_physics": false,
+      "noise_note": "Zero-mean Gaussian sensor noise; IMU injected before sensor filters; encoder position noise differentiated and filtered."
+    },
+    {
+      "name": "selection_04",
+      "seed": 20004,
+      "encoder_noise_seed": 4294987300,
+      "motor_scale": [
+        0.9851677391997427,
+        1.006128133966695
+      ],
+      "armature_scale": [
+        0.9943118128526593,
+        1.004957614988454
+      ],
+      "damping_scale": [
+        0.9909222335029322,
+        0.9864988556953107
+      ],
+      "joint_friction_scale": [
+        1.0173661770860707,
+        1.0048292843312412
+      ],
+      "friction_scale": 1.0,
+      "chassis_inertia_scale": 1.0,
+      "imu_noise_scale": [
+        1.0,
+        1.0
+      ],
+      "encoder_noise_std_counts": 0.5647841998630789,
+      "nominal_physics": false,
+      "noise_note": "Zero-mean Gaussian sensor noise; IMU injected before sensor filters; encoder position noise differentiated and filtered."
+    },
+    {
+      "name": "selection_05",
+      "seed": 20005,
+      "encoder_noise_seed": 4294987301,
+      "motor_scale": [
+        0.9975140004556264,
+        1.010477597078225
+      ],
+      "armature_scale": [
+        0.9801011924378327,
+        0.9884233637363712
+      ],
+      "damping_scale": [
+        1.0100512918436775,
+        0.987008704623445
+      ],
+      "joint_friction_scale": [
+        0.9910971262693632,
+        0.9800277188478168
+      ],
+      "friction_scale": 1.0,
+      "chassis_inertia_scale": 1.0,
+      "imu_noise_scale": [
+        1.0,
+        1.0
+      ],
+      "encoder_noise_std_counts": 0.9558534695820337,
+      "nominal_physics": false,
+      "noise_note": "Zero-mean Gaussian sensor noise; IMU injected before sensor filters; encoder position noise differentiated and filtered."
+    },
+    {
+      "name": "selection_06",
+      "seed": 20006,
+      "encoder_noise_seed": 4294987302,
+      "motor_scale": [
+        1.0063356969455612,
+        0.997131312558001
+      ],
+      "armature_scale": [
+        0.9983960645113107,
+        1.0080941012355527
+      ],
+      "damping_scale": [
+        1.016114931082121,
+        1.000455501176683
+      ],
+      "joint_friction_scale": [
+        1.011501205360702,
+        1.005842860500765
+      ],
+      "friction_scale": 1.0,
+      "chassis_inertia_scale": 1.0,
+      "imu_noise_scale": [
+        1.0,
+        1.0
+      ],
+      "encoder_noise_std_counts": 0.17098784677684198,
+      "nominal_physics": false,
+      "noise_note": "Zero-mean Gaussian sensor noise; IMU injected before sensor filters; encoder position noise differentiated and filtered."
+    },
+    {
+      "name": "selection_07",
+      "seed": 20007,
+      "encoder_noise_seed": 4294987303,
+      "motor_scale": [
+        1.005490040304548,
+        1.0143537752536413
+      ],
+      "armature_scale": [
+        0.9860908504053475,
+        1.0079852988345306
+      ],
+      "damping_scale": [
+        1.0178711336001673,
+        1.0120387972462126
+      ],
+      "joint_friction_scale": [
+        1.0122790758171236,
+        0.9841920900369958
+      ],
+      "friction_scale": 1.0,
+      "chassis_inertia_scale": 1.0,
+      "imu_noise_scale": [
+        1.0,
+        1.0
+      ],
+      "encoder_noise_std_counts": 0.43767100736224585,
+      "nominal_physics": false,
+      "noise_note": "Zero-mean Gaussian sensor noise; IMU injected before sensor filters; encoder position noise differentiated and filtered."
+    },
+    {
+      "name": "selection_08",
+      "seed": 20008,
+      "encoder_noise_seed": 4294987304,
+      "motor_scale": [
+        1.019169694597915,
+        0.9893751627046671
+      ],
+      "armature_scale": [
+        0.9886079403154586,
+        1.0167934801909675
+      ],
+      "damping_scale": [
+        0.9906606924749218,
+        1.0169448008872837
+      ],
+      "joint_friction_scale": [
+        0.983841003493816,
+        1.0176577698296385
+      ],
+      "friction_scale": 1.0,
+      "chassis_inertia_scale": 1.0,
+      "imu_noise_scale": [
+        1.0,
+        1.0
+      ],
+      "encoder_noise_std_counts": 0.3504306891194685,
+      "nominal_physics": false,
+      "noise_note": "Zero-mean Gaussian sensor noise; IMU injected before sensor filters; encoder position noise differentiated and filtered."
+    },
+    {
+      "name": "selection_09",
+      "seed": 20009,
+      "encoder_noise_seed": 4294987305,
+      "motor_scale": [
+        0.9931104195634922,
+        0.9966546047124509
+      ],
+      "armature_scale": [
+        0.9817739457647342,
+        0.9910311473852492
+      ],
+      "damping_scale": [
+        1.015858168525686,
+        1.0137450569290811
+      ],
+      "joint_friction_scale": [
+        0.9939711378742694,
+        1.008376972962756
+      ],
+      "friction_scale": 1.0,
+      "chassis_inertia_scale": 1.0,
+      "imu_noise_scale": [
+        1.0,
+        1.0
+      ],
+      "encoder_noise_std_counts": 0.44763137908528006,
+      "nominal_physics": false,
+      "noise_note": "Zero-mean Gaussian sensor noise; IMU injected before sensor filters; encoder position noise differentiated and filtered."
+    },
+    {
+      "name": "selection_10",
+      "seed": 20010,
+      "encoder_noise_seed": 4294987306,
+      "motor_scale": [
+        0.9869847447663893,
+        0.9951699750999817
+      ],
+      "armature_scale": [
+        1.0089515689534008,
+        1.0009065661602548
+      ],
+      "damping_scale": [
+        1.0183998896977922,
+        1.0019474325218212
+      ],
+      "joint_friction_scale": [
+        1.0091822708784228,
+        1.0023987127973883
+      ],
+      "friction_scale": 1.0,
+      "chassis_inertia_scale": 1.0,
+      "imu_noise_scale": [
+        1.0,
+        1.0
+      ],
+      "encoder_noise_std_counts": 0.29216409830013296,
+      "nominal_physics": false,
+      "noise_note": "Zero-mean Gaussian sensor noise; IMU injected before sensor filters; encoder position noise differentiated and filtered."
+    }
+  ],
+  "note": "Selection-stage results only; not final validation. No time-series CSVs were retained for this stage."
+}

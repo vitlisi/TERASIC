@@ -1,0 +1,1270 @@
+{
+  "schema_version": 11,
+  "configuration": {
+    "headless": true,
+    "hide_ultrasonic_cone": false,
+    "ultrasonic_test_distance_m": null,
+    "ultrasonic_config": "/home/vittorio/terasic_robot/config/mujoco_ultrasonic_hcsr04.json",
+    "exit_on_stop": false,
+    "sensor": "imu",
+    "imu_model": "mpu6500",
+    "encoder_model": "motor",
+    "sensor_config": "/home/vittorio/terasic_robot/config/mujoco_sensors_mpu6500.json",
+    "sensor_seed": 30008,
+    "encoder_counts_per_rev": null,
+    "mode": "lqr-motion",
+    "hinf_config": "/home/vittorio/terasic_robot/models/hinf/simscape_2pwm_20261026.json",
+    "lqr_config": null,
+    "motor_friction_profile": "/home/vittorio/terasic_robot/config/mujoco_robot01_stribeck.json",
+    "legacy_motor_friction": false,
+    "feedback_delay_samples": 1,
+    "path_file": "/home/vittorio/terasic_robot/config/paths/curve_test.json",
+    "path_duration_s": null,
+    "path_obstacle": false,
+    "path_obstacle_progress": 0.65,
+    "path_obstacle_lateral_m": 0.0,
+    "path_obstacle_collision": false,
+    "path_obstacle_width_m": 0.2,
+    "path_obstacle_depth_m": 0.04,
+    "path_obstacle_height_m": 0.2,
+    "ultrasonic_stop_distance_m": null,
+    "move_distance_m": 0.0,
+    "move_start_s": 3.0,
+    "move_duration_s": 6.0,
+    "motion_profile": "straight",
+    "real_path_config": "/home/vittorio/terasic_robot/models/lqr/hardware_path_simple_40cm_28p5s_20261019.txt",
+    "kp": 83,
+    "kd": 3.74,
+    "kv": 8,
+    "kx": 2,
+    "max_pwm": 50.0,
+    "max_pitch_offset_deg": 3,
+    "filter_tau_s": 0.5,
+    "duration": 10.0,
+    "initial_pitch_deg": 0,
+    "desired_velocity": 0,
+    "pitch_limit_deg": 30,
+    "release_pitch_deg": 3.0,
+    "disturbance_torque_nm": 0,
+    "disturbance_force_y_n": 0,
+    "disturbance_start_s": 5,
+    "disturbance_duration_s": 0.5,
+    "disturbance_period_s": null,
+    "battery_voltage_v": null,
+    "battery_final_voltage_v": null,
+    "battery_discharge": false,
+    "battery_config": "/home/vittorio/terasic_robot/config/mujoco_battery_3s_3000mah.json",
+    "battery_initial_soc": 1.0,
+    "electronics_power_w": null,
+    "tag": "validation_08"
+  },
+  "controller": {
+    "kp": 83,
+    "kd": 3.74,
+    "kv": 8,
+    "kx": 2,
+    "max_pwm": 50.0,
+    "max_pitch_offset_deg": 3,
+    "filter_tau_s": 0.5,
+    "wheel_radius_m": 0.032,
+    "pwm_deadband_percent": 0.5,
+    "pwm_period_ticks": 50000
+  },
+  "controller_source": "six-state two-input MuJoCo LQR + quintic straight reference",
+  "equilibrium_pitch_deg": -0.8668126274376573,
+  "motor_model": "PWM torque + measured wheel/direction Stribeck friction; updated every physics step",
+  "mujoco_version": "3.14.0",
+  "physics_dt_s": 0.001,
+  "control_dt_s": 0.01,
+  "support_model": "temporary soft weld; motors off until release",
+  "calibration_reference": "known initial support angle; IMU bias measured there",
+  "physical_parameters": {
+    "body_mass_kg": [
+      0.0,
+      0.0,
+      0.75166,
+      0.049,
+      0.049
+    ],
+    "body_com_local_m": [
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.032
+      ],
+      [
+        0.0003,
+        0.00053,
+        0.03503
+      ],
+      [
+        -0.003,
+        0.0,
+        0.0
+      ],
+      [
+        0.003,
+        0.0,
+        0.0
+      ]
+    ],
+    "body_inertia_principal_kg_m2": [
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0014506510763995202,
+        0.0009691372647425215,
+        0.000894591498857957
+      ],
+      [
+        1.5745333333333333e-05,
+        1.5745333333333333e-05,
+        2.5088000000000004e-05
+      ],
+      [
+        1.5745333333333333e-05,
+        1.5745333333333333e-05,
+        2.5088000000000004e-05
+      ]
+    ],
+    "body_inertia_quat": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.4947565057571449,
+        0.4968160942219737,
+        0.5263423723321791,
+        0.48099217833634217
+      ],
+      [
+        0.7071067811865476,
+        0.0,
+        0.7071067811865475,
+        0.0
+      ],
+      [
+        0.7071067811865476,
+        0.0,
+        0.7071067811865475,
+        0.0
+      ]
+    ],
+    "joint_armature_kg_m2": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0007591133465137294,
+      0.0008265595701622739
+    ],
+    "joint_damping_Nm_s_rad": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.000767945467143176,
+      0.0009888062929549713
+    ],
+    "joint_frictionloss_Nm": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.007692831758014099,
+      0.007319237170739683
+    ],
+    "geom_friction": [
+      [
+        1.0,
+        0.005,
+        0.0001
+      ],
+      [
+        1.0,
+        0.005,
+        0.0001
+      ],
+      [
+        1.0,
+        0.005,
+        0.0001
+      ],
+      [
+        1.0,
+        0.005,
+        0.0001
+      ],
+      [
+        1.0,
+        0.005,
+        0.0001
+      ],
+      [
+        1.0,
+        0.005,
+        0.0001
+      ],
+      [
+        0.4,
+        0.005,
+        0.0001
+      ],
+      [
+        1.0,
+        0.005,
+        0.0001
+      ],
+      [
+        0.4,
+        0.005,
+        0.0001
+      ]
+    ],
+    "motor_stall_torque_Nm": 0.441,
+    "voltage_V": 12.0,
+    "actuator_gear": [
+      [
+        -0.4453769833670852,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        -0.43824150194567285,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    ]
+  },
+  "sha256": {
+    "models/verifica.xml": "d2e22f32f5c8d2fe645a0c8d43bf3e9364eebd1289685898a6c4b4190a19a5ec",
+    "src_python/mujoco_sim.py": "d3de1d954d9d6f0d8c0c19ef1d1e9a786a8ab6e9d07cf35da1a561edcc909f3d",
+    "src_python/balance_controller.py": "28449ca3eb93b68880de89d70eb740af9070924f10cf4725fcc902ebdb448cde",
+    "src_python/mujoco_robot.py": "28f9d3611cf0f524269cfaa0bb10c860cd9c655616e65163a092c1b410703708",
+    "models/meshes/SKELETON_COMPLETE.STL": "832b2fe88dca3ad7f49dcc1968f6e40669842e9fef9a879cb02e24aa0a1be0b2",
+    "models/meshes/wheel_complete_simulation.STL": "e1eb979e971f8254af2d6054eff89cbcf4316d6e50c6e573a49c327e2de1afa2",
+    "src_python/viewer_hud.py": "fb1e48a0fe5c5fc456b0a549505a226eb66a4afe1238549db928adb0bc12f8bb",
+    "config/mujoco_robot01_stribeck.json": "9b2b606adba1ee7a6bad4cf5b4642377703970dd293e5b041335ad334de42521",
+    "src_python/stribeck_motor.py": "c21c384c4a2485f0267b5d852243c421f8bb656f27c557ca66c62e35234574cf",
+    "src_python/lqr_controller.py": "eba5c99472803e84a31e230e0f632da6baa55a0b21d43c68909838490e2e1a09",
+    "models/lqr/matrices_common_pwm_corrected.json": "6a0788cddbaedebe5420a3591bf9fb3c15e2594aa5252300149002460c54eebc",
+    "src_python/ga_lqr.py": "8723ba34df9c53c9a34161c66c1ec9eecfac90a43bcc864c73717eb2b13e58b3",
+    "/home/vittorio/terasic_robot/config/mujoco_sensors_mpu6500.json": "48a318ae9dca31850f0b9bd298ea0c902f4420f6f5495f36ee419defedd53d76",
+    "/home/vittorio/terasic_robot/src_python/sensor_models.py": "5ad4b8bc655e06451d3e1eb007f443f7c779809b6d5e6c4a7cb0d41d2a209d12",
+    "src_python/motion_lqr.py": "ac70ef77bc969081fdcdecf1737d844aaef246d02943c8e03bbd14a0b5993171",
+    "/home/vittorio/terasic_robot/src_python/ultrasonic_model.py": "8f27bdcf42faa50e8778fbe670a509e405e4a01b4e2ffa8c0aa67409fd5211b9",
+    "/home/vittorio/terasic_robot/config/mujoco_ultrasonic_hcsr04.json": "94775036da42aab1ab0f6748cf418fb5c11be3dd8bd5f0c9823055f9e95ec4f4"
+  },
+  "motor_friction_profile": {
+    "schema_version": 1,
+    "robot": "robot01",
+    "kind": "conditional_stateful_motor_hypothesis",
+    "wheels": {
+      "sx": {
+        "branches": {
+          "forward": {
+            "damping_Nm_s_rad": 0.013096118130494582,
+            "coulomb_Nm": 0.005969154300425933,
+            "breakaway_Nm": 0.0158581814685,
+            "stribeck_velocity_rad_s": 0.27141347321737685,
+            "observed_start_intervals": [
+              {
+                "low_pwm": 4.0,
+                "high_pwm": 4.5,
+                "voltage_v": 11.334867800000005,
+                "midpoint_torque_Nm": 0.017703646645125005
+              },
+              {
+                "low_pwm": 4.5,
+                "high_pwm": 5.0,
+                "voltage_v": 11.4305362,
+                "midpoint_torque_Nm": 0.019953429754125
+              }
+            ],
+            "raw_breakaway_estimate_Nm": 0.018828538199625003,
+            "static_affine_fit": {
+              "method": "affine_voltage",
+              "slope_rad_s_per_equivalent_pwm": 0.3227101311921652,
+              "offset_rad_s": -0.45579569769813194,
+              "training_rms_rad_s": 0.010119235528351407
+            },
+            "red_breakaway_interval_Nm": [
+              0.014817994106999997,
+              0.016898368830000003
+            ]
+          },
+          "reverse": {
+            "damping_Nm_s_rad": 0.01296603056140318,
+            "coulomb_Nm": 0.006251823346934896,
+            "breakaway_Nm": 0.01771704588255,
+            "stribeck_velocity_rad_s": 0.3249207255238168,
+            "observed_start_intervals": [
+              {
+                "low_pwm": 4.0,
+                "high_pwm": 4.5,
+                "voltage_v": 11.38427202,
+                "midpoint_torque_Nm": 0.017780809861237496
+              },
+              {
+                "low_pwm": 4.0,
+                "high_pwm": 4.5,
+                "voltage_v": 11.367727759999998,
+                "midpoint_torque_Nm": 0.017754969795149993
+              }
+            ],
+            "raw_breakaway_estimate_Nm": 0.017767889828193745,
+            "static_affine_fit": {
+              "method": "affine_voltage",
+              "slope_rad_s_per_equivalent_pwm": 0.32594786661852787,
+              "offset_rad_s": -0.4821694131699104,
+              "training_rms_rad_s": 0.009551593327076698
+            },
+            "red_breakaway_interval_Nm": [
+              0.0168917261646,
+              0.0185423656005
+            ]
+          }
+        },
+        "total_inertia_kg_m2": 0.0007989617154130152,
+        "armature_kg_m2": 0.0007738737154130152,
+        "off_damping_Nm_s_rad": 0.0007744907639413714,
+        "off_frictionloss_Nm": 0.007745653426488699
+      },
+      "dx": {
+        "branches": {
+          "forward": {
+            "damping_Nm_s_rad": 0.013595767116136243,
+            "coulomb_Nm": 0.00893454371325122,
+            "breakaway_Nm": 0.0203074937685375,
+            "stribeck_velocity_rad_s": 0.2287673190263036,
+            "observed_start_intervals": [
+              {
+                "low_pwm": 5.5,
+                "high_pwm": 6.0,
+                "voltage_v": 11.34796608,
+                "midpoint_torque_Nm": 0.0239796708228
+              },
+              {
+                "low_pwm": 5.0,
+                "high_pwm": 5.5,
+                "voltage_v": 11.402961760000004,
+                "midpoint_torque_Nm": 0.022000589345700004
+              }
+            ],
+            "raw_breakaway_estimate_Nm": 0.02299013008425,
+            "static_affine_fit": {
+              "method": "affine_voltage",
+              "slope_rad_s_per_equivalent_pwm": 0.3108504260111989,
+              "offset_rad_s": -0.6571562779011701,
+              "training_rms_rad_s": 0.026489299683534993
+            },
+            "red_breakaway_interval_Nm": [
+              0.018530458302824997,
+              0.022084529234250003
+            ]
+          },
+          "reverse": {
+            "damping_Nm_s_rad": 0.013871232834417617,
+            "coulomb_Nm": 0.008102005754439137,
+            "breakaway_Nm": 0.024404466071999996,
+            "stribeck_velocity_rad_s": 0.33055799459572544,
+            "observed_start_intervals": [
+              {
+                "low_pwm": 6.5,
+                "high_pwm": 7.0,
+                "voltage_v": 11.316178399999997,
+                "midpoint_torque_Nm": 0.02807119504349999
+              },
+              {
+                "low_pwm": 5.5,
+                "high_pwm": 6.0,
+                "voltage_v": 11.454051399999999,
+                "midpoint_torque_Nm": 0.024203842364624997
+              }
+            ],
+            "raw_breakaway_estimate_Nm": 0.026137518704062494,
+            "static_affine_fit": {
+              "method": "affine_voltage",
+              "slope_rad_s_per_equivalent_pwm": 0.3046773167496499,
+              "offset_rad_s": -0.5840869266022453,
+              "training_rms_rad_s": 0.043719423470851705
+            },
+            "red_breakaway_interval_Nm": [
+              0.023207699823000003,
+              0.025601232320999992
+            ]
+          }
+        },
+        "total_inertia_kg_m2": 0.000850794457451705,
+        "armature_kg_m2": 0.0008257064574517049,
+        "off_damping_Nm_s_rad": 0.0009753386355337317,
+        "off_frictionloss_Nm": 0.007187197163551677
+      }
+    },
+    "torque_scale": "UNCHANGED nominal stall-torque/voltage conversion; absolute torque not measured",
+    "voltage": "Prescribed measured ADC supply, not SOC model",
+    "default_model_changed": true,
+    "source": "Existing distinct wheel/direction motor parameters; only breakaway and Stribeck velocity recalibrated on red grid.",
+    "fit_scope": "Fixed torque scale. J/Stribeck/static threshold grid fitted only on training pulse transitions; no current/torque identification.",
+    "parent_profile_sha256": "d76008a764c9568606e659b463a3555726d6048cccaab8ab9a13f8ee9710879a",
+    "calibration": {
+      "method": "Cold-start torque interval midpoint plus robust moving-equilibrium Stribeck velocity fit",
+      "fixed_terms": [
+        "inertia",
+        "damping",
+        "coulomb",
+        "off_dynamics",
+        "nominal_torque_scale"
+      ],
+      "branches": {
+        "sx/forward": {
+          "last_stalled_point": "cold_sx_forward_07",
+          "first_regular_point": "cold_sx_forward_08",
+          "breakaway_interval_Nm": [
+            0.014817994106999997,
+            0.016898368830000003
+          ],
+          "estimated_breakaway_Nm": 0.0158581814685,
+          "stribeck_velocity_rad_s": 0.27141347321737685,
+          "moving_points": 35,
+          "moving_source_keys": [
+            "moving_sx_forward_15",
+            "moving_sx_forward_27",
+            "moving_sx_forward_24",
+            "moving_sx_forward_31",
+            "moving_sx_forward_20",
+            "moving_sx_forward_37",
+            "moving_sx_forward_14",
+            "moving_sx_forward_28",
+            "moving_sx_forward_13",
+            "moving_sx_forward_33",
+            "moving_sx_forward_12",
+            "moving_sx_forward_34",
+            "moving_sx_forward_23",
+            "moving_sx_forward_22",
+            "moving_sx_forward_17",
+            "moving_sx_forward_08",
+            "moving_sx_forward_30",
+            "moving_sx_forward_11",
+            "moving_sx_forward_25",
+            "moving_sx_forward_19",
+            "moving_sx_forward_10",
+            "moving_sx_forward_39",
+            "moving_sx_forward_38",
+            "moving_sx_forward_07",
+            "moving_sx_forward_40",
+            "moving_sx_forward_29",
+            "moving_sx_forward_32",
+            "moving_sx_forward_35",
+            "moving_sx_forward_36",
+            "moving_sx_forward_18",
+            "moving_sx_forward_26",
+            "moving_sx_forward_21",
+            "moving_sx_forward_16",
+            "moving_sx_forward_09",
+            "moving_sx_forward_06"
+          ],
+          "includes_voltage_flagged_motion": true,
+          "weighted_cost": 15.443330726320374,
+          "observed_running_torque_interval_Nm": [
+            0.01069504729125,
+            0.012343336888049998
+          ],
+          "predicted_running_minimum_torque_Nm": 0.012330909781455115,
+          "running_stop_source_key": "moving_sx_forward_05",
+          "boundary_solution": false
+        },
+        "sx/reverse": {
+          "last_stalled_point": "cold_sx_reverse_08",
+          "first_regular_point": "cold_sx_reverse_09",
+          "breakaway_interval_Nm": [
+            0.0168917261646,
+            0.0185423656005
+          ],
+          "estimated_breakaway_Nm": 0.01771704588255,
+          "stribeck_velocity_rad_s": 0.3249207255238168,
+          "moving_points": 34,
+          "moving_source_keys": [
+            "moving_sx_reverse_15",
+            "moving_sx_reverse_27",
+            "moving_sx_reverse_24",
+            "moving_sx_reverse_31",
+            "moving_sx_reverse_20",
+            "moving_sx_reverse_37",
+            "moving_sx_reverse_14",
+            "moving_sx_reverse_28",
+            "moving_sx_reverse_13",
+            "moving_sx_reverse_33",
+            "moving_sx_reverse_12",
+            "moving_sx_reverse_34",
+            "moving_sx_reverse_23",
+            "moving_sx_reverse_22",
+            "moving_sx_reverse_17",
+            "moving_sx_reverse_08",
+            "moving_sx_reverse_30",
+            "moving_sx_reverse_11",
+            "moving_sx_reverse_25",
+            "moving_sx_reverse_19",
+            "moving_sx_reverse_10",
+            "moving_sx_reverse_39",
+            "moving_sx_reverse_38",
+            "moving_sx_reverse_07",
+            "moving_sx_reverse_40",
+            "moving_sx_reverse_29",
+            "moving_sx_reverse_32",
+            "moving_sx_reverse_35",
+            "moving_sx_reverse_36",
+            "moving_sx_reverse_18",
+            "moving_sx_reverse_26",
+            "moving_sx_reverse_21",
+            "moving_sx_reverse_16",
+            "moving_sx_reverse_09"
+          ],
+          "includes_voltage_flagged_motion": false,
+          "weighted_cost": 20.60014225182384,
+          "observed_running_torque_interval_Nm": [
+            0.010686040050000001,
+            0.0148032158148
+          ],
+          "predicted_running_minimum_torque_Nm": 0.013759792172771974,
+          "running_stop_source_key": "moving_sx_reverse_05",
+          "boundary_solution": false
+        },
+        "dx/forward": {
+          "last_stalled_point": "cold_dx_forward_09",
+          "first_regular_point": "cold_dx_forward_10",
+          "breakaway_interval_Nm": [
+            0.018530458302824997,
+            0.022084529234250003
+          ],
+          "estimated_breakaway_Nm": 0.0203074937685375,
+          "stribeck_velocity_rad_s": 0.2287673190263036,
+          "moving_points": 32,
+          "moving_source_keys": [
+            "moving_dx_forward_15",
+            "moving_dx_forward_27",
+            "moving_dx_forward_24",
+            "moving_dx_forward_31",
+            "moving_dx_forward_20",
+            "moving_dx_forward_37",
+            "moving_dx_forward_14",
+            "moving_dx_forward_28",
+            "moving_dx_forward_13",
+            "moving_dx_forward_33",
+            "moving_dx_forward_12",
+            "moving_dx_forward_34",
+            "moving_dx_forward_23",
+            "moving_dx_forward_22",
+            "moving_dx_forward_17",
+            "moving_dx_forward_30",
+            "moving_dx_forward_11",
+            "moving_dx_forward_25",
+            "moving_dx_forward_19",
+            "moving_dx_forward_10",
+            "moving_dx_forward_39",
+            "moving_dx_forward_38",
+            "moving_dx_forward_40",
+            "moving_dx_forward_29",
+            "moving_dx_forward_32",
+            "moving_dx_forward_35",
+            "moving_dx_forward_36",
+            "moving_dx_forward_18",
+            "moving_dx_forward_26",
+            "moving_dx_forward_21",
+            "moving_dx_forward_16",
+            "moving_dx_forward_09"
+          ],
+          "includes_voltage_flagged_motion": false,
+          "weighted_cost": 29.41353729510236,
+          "observed_running_torque_interval_Nm": [
+            0.014784200975250001,
+            0.018534511611
+          ],
+          "predicted_running_minimum_torque_Nm": 0.014784200896312725,
+          "running_stop_source_key": "moving_dx_forward_07_hold10",
+          "boundary_solution": false
+        },
+        "dx/reverse": {
+          "last_stalled_point": "cold_dx_reverse_11",
+          "first_regular_point": "cold_dx_reverse_12",
+          "breakaway_interval_Nm": [
+            0.023207699823000003,
+            0.025601232320999992
+          ],
+          "estimated_breakaway_Nm": 0.024404466071999996,
+          "stribeck_velocity_rad_s": 0.33055799459572544,
+          "moving_points": 33,
+          "moving_source_keys": [
+            "moving_dx_reverse_15",
+            "moving_dx_reverse_27",
+            "moving_dx_reverse_24",
+            "moving_dx_reverse_31",
+            "moving_dx_reverse_20",
+            "moving_dx_reverse_37",
+            "moving_dx_reverse_14",
+            "moving_dx_reverse_28",
+            "moving_dx_reverse_13",
+            "moving_dx_reverse_33",
+            "moving_dx_reverse_12",
+            "moving_dx_reverse_34",
+            "moving_dx_reverse_23",
+            "moving_dx_reverse_22",
+            "moving_dx_reverse_17",
+            "moving_dx_reverse_08",
+            "moving_dx_reverse_30",
+            "moving_dx_reverse_11",
+            "moving_dx_reverse_25",
+            "moving_dx_reverse_19",
+            "moving_dx_reverse_10",
+            "moving_dx_reverse_39",
+            "moving_dx_reverse_38",
+            "moving_dx_reverse_40",
+            "moving_dx_reverse_29",
+            "moving_dx_reverse_32",
+            "moving_dx_reverse_35",
+            "moving_dx_reverse_36",
+            "moving_dx_reverse_18",
+            "moving_dx_reverse_26",
+            "moving_dx_reverse_21",
+            "moving_dx_reverse_16",
+            "moving_dx_reverse_09"
+          ],
+          "includes_voltage_flagged_motion": false,
+          "weighted_cost": 76.99080248733476,
+          "observed_running_torque_interval_Nm": [
+            0.014779176882750001,
+            0.016976172990000003
+          ],
+          "predicted_running_minimum_torque_Nm": 0.016684365169614118,
+          "running_stop_source_key": "moving_dx_reverse_07",
+          "boundary_solution": false
+        }
+      },
+      "red_grid_is_training": true,
+      "independent_validation_performed": false,
+      "source_state_sha256": "c98d7a2bdb6ae92b9ebd8ba13aa7492a0e6f4e2daa63083de7a86eda54d038c7",
+      "code_sha256": "5a0392784c52e72d54617c1e6ce61d73ccc37e6f147775c2b10381e31075e137"
+    },
+    "parent_snapshot_sha256": "fd2a0bbc9462b63d6d9c7af30b1d978933a71f09bda69374c3d3f6d52be2beaf",
+    "selection_policy": "Default experimental Robot01 friction profile for new CLI simulations, requested 2026-11-09. Historical baseline reproduction must opt out explicitly.",
+    "loaded_validation_status": "FIDELITY_NOT_ESTABLISHED; an explicit test assumption, not a certified loaded model"
+  },
+  "runtime_motor_override": true,
+  "lqr_design": {
+    "full_state_order": [
+      "theta",
+      "psi",
+      "rho",
+      "theta_dot",
+      "psi_dot",
+      "rho_dot"
+    ],
+    "state_order": [
+      "theta",
+      "psi",
+      "rho",
+      "theta_dot",
+      "psi_dot",
+      "rho_dot"
+    ],
+    "input_order": [
+      "duty_sx",
+      "duty_dx"
+    ],
+    "output_order": [
+      "theta",
+      "psi",
+      "rho",
+      "theta_dot",
+      "psi_dot",
+      "rho_dot"
+    ],
+    "Ad": [
+      [
+        0.9999999999999999,
+        0.0027079076912247097,
+        -6.776263578034403e-16,
+        0.009284781796214276,
+        8.109395464596635e-06,
+        -2.6871558969850038e-05
+      ],
+      [
+        0.0,
+        1.004394958543037,
+        0.0,
+        -0.0002806361559717224,
+        0.01001421000634134,
+        -8.31539176925078e-06
+      ],
+      [
+        -4.846451208948189e-16,
+        2.391319787468386e-05,
+        0.9999999999999996,
+        -1.0130843151930698e-06,
+        7.398501684068519e-08,
+        0.008962574452603119
+      ],
+      [
+        -4.192283693316753e-15,
+        0.48929154775270856,
+        2.2146999894943767e-14,
+        0.8725806338908518,
+        0.00223101309295539,
+        -0.004665045493259086
+      ],
+      [
+        1.2131497038151708e-14,
+        0.7968380949125087,
+        -1.501486336505435e-13,
+        -0.050161232002742,
+        1.0038195686387006,
+        -0.0014343230122222821
+      ],
+      [
+        -4.237917593350078e-14,
+        0.004275667675824723,
+        6.001651947770345e-14,
+        -0.00017531674921049924,
+        2.0215433319463355e-05,
+        0.8179836180198347
+      ]
+    ],
+    "Bd_duty": [
+      [
+        -0.013009074270516199,
+        -0.012358507143971237
+      ],
+      [
+        -0.005078470627500886,
+        -0.004845720416504079
+      ],
+      [
+        -0.004260968717103757,
+        0.004020725849807733
+      ],
+      [
+        -2.316970341950612,
+        -2.202397699874736
+      ],
+      [
+        -0.9073325235538188,
+        -0.8662428022627325
+      ],
+      [
+        -0.7556154413823042,
+        0.7131627180972314
+      ]
+    ],
+    "C": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "D": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0
+      ]
+    ],
+    "Q": [
+      [
+        5.932407472385916,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        106.57991458840509,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        257.79006029330066,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.791203846199999,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0028378477957236,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        7.7929962734514975
+      ]
+    ],
+    "R": [
+      [
+        57.16342518681394,
+        0.0
+      ],
+      [
+        0.0,
+        80.95534879349024
+      ]
+    ],
+    "K_duty": [
+      [
+        0.18568437666422463,
+        -4.960718479673389,
+        -1.2138984511771052,
+        0.1561665209541876,
+        -0.6188407879725055,
+        -0.14842625488571864
+      ],
+      [
+        0.14608337058655343,
+        -4.134661877847203,
+        1.1692824032631857,
+        0.13008247762112832,
+        -0.5150828527679764,
+        0.1348648850170433
+      ]
+    ],
+    "K_pwm_percent": [
+      [
+        18.56843766642246,
+        -496.0718479673389,
+        -121.38984511771052,
+        15.61665209541876,
+        -61.88407879725055,
+        -14.842625488571864
+      ],
+      [
+        14.608337058655344,
+        -413.4661877847203,
+        116.92824032631857,
+        13.008247762112832,
+        -51.508285276797636,
+        13.48648850170433
+      ]
+    ],
+    "closed_loop_poles": [
+      [
+        0.6233265339481151,
+        0.0
+      ],
+      [
+        0.6768472377562295,
+        0.0
+      ],
+      [
+        0.9143509635684395,
+        0.0
+      ],
+      [
+        0.9740352573053875,
+        0.0
+      ],
+      [
+        0.9416685852337452,
+        0.0
+      ],
+      [
+        0.9499807109106163,
+        0.0
+      ]
+    ],
+    "open_loop_poles": [
+      [
+        1.086148598585184,
+        0.0
+      ],
+      [
+        1.0000000000000007,
+        4.8345719360749504e-15
+      ],
+      [
+        1.0000000000000007,
+        -4.8345719360749504e-15
+      ],
+      [
+        0.9374690821471845,
+        0.0
+      ],
+      [
+        0.8572042381761341,
+        0.0
+      ],
+      [
+        0.8179568601839182,
+        0.0
+      ]
+    ],
+    "equilibrium_pitch_deg": -0.8668126274376573,
+    "dt_s": 0.01,
+    "finite_difference_epsilon": 0.0001,
+    "controllability_rank": 6,
+    "nominal_step_residual": [
+      8.877933280533289e-10,
+      1.4818317180947949e-09,
+      -5.4349066414305e-10,
+      1.3608904793281828e-07,
+      2.2823364494012585e-07,
+      -7.915331838827449e-08
+    ],
+    "design_joint_frictionloss": 0,
+    "plant_joint_frictionloss": "unchanged",
+    "wheel_radius_m": 0.032,
+    "track_width_m": 0.16444,
+    "bryson_state_limits": [
+      0.625,
+      0.05235987755982989,
+      0.08726646259971647,
+      0.5,
+      0.5235987755982988,
+      0.5235987755982988
+    ],
+    "bryson_common_duty_limit": 0.15,
+    "method": "central differences of MuJoCo rollout; six-state no-slip lift/projection",
+    "output_note": "C/D describe estimated states, not raw ADC or encoder counts",
+    "simscape_used_for_gains": false,
+    "wheel_profiles": {
+      "sx": {
+        "armature_kg_m2": 0.0007738737154130152,
+        "damping_Nm_s_rad": 0.012138091610294525,
+        "frictionloss_Nm": 0.011570051645284919,
+        "off_damping_Nm_s_rad": 0.0007744907639413714,
+        "off_frictionloss_Nm": 0.007745653426488699
+      },
+      "dx": {
+        "armature_kg_m2": 0.0008257064574517049,
+        "damping_Nm_s_rad": 0.012752092055797665,
+        "frictionloss_Nm": 0.013911595412663312,
+        "off_damping_Nm_s_rad": 0.0009753386355337317,
+        "off_frictionloss_Nm": 0.007187197163551677
+      }
+    },
+    "input_penalty_scale": 1.0,
+    "ga": {
+      "genes_log10": [
+        0.364991007949951,
+        -0.5343273875112745,
+        0.2929609119409313,
+        -0.7037716015414484,
+        -0.5607720392086589,
+        0.32970171318406427,
+        0.4103307572526702,
+        0.5614580620439358
+      ],
+      "nominal_design_sha256": "f2c279eb32a9dca5cb84cb5c49bce04cf683151d9b0de5b876df47f734892991",
+      "feedback_delay_samples": 1,
+      "delayed_spectral_radius": 0.9745285172054687,
+      "policy": "fixed nominal Ad/Bd; diagonal Q0/R0 * 10**genes",
+      "protocol": {
+        "duration_s": 10.0,
+        "release_pitch_deg": 3.0,
+        "max_pwm": 50.0,
+        "feedback_delay_samples": 1,
+        "cost_weights": {
+          "pitch": 4.0,
+          "position": 1.0,
+          "yaw": 0.5,
+          "speed": 0.25,
+          "pwm": 0.05,
+          "slew": 0.02
+        }
+      },
+      "selection_rank": [
+        11,
+        0.0,
+        0.7814819390874341
+      ],
+      "selection_origin": "generation_10",
+      "policy_selection": "Generation winners + baseline; common selection bank; validation held out."
+    }
+  },
+  "yaw_estimation": "pitch-compensated gyro + differential encoder complementary filter",
+  "ga_scenario": {
+    "name": "validation_08",
+    "seed": 30008,
+    "encoder_noise_seed": 4294997304,
+    "motor_scale": [
+      1.0099251323516671,
+      0.9937449023711402
+    ],
+    "armature_scale": [
+      0.9809266439661823,
+      1.0010331912786559
+    ],
+    "damping_scale": [
+      0.9915489027075205,
+      1.0138081861320605
+    ],
+    "joint_friction_scale": [
+      0.9931804761243306,
+      1.0183715576716914
+    ],
+    "friction_scale": 1.0,
+    "chassis_inertia_scale": 1.0,
+    "imu_noise_scale": [
+      1.0,
+      1.0
+    ],
+    "encoder_noise_std_counts": 0.773399177990093,
+    "nominal_physics": false,
+    "noise_note": "Zero-mean Gaussian sensor noise; IMU injected before sensor filters; encoder position noise differentiated and filtered."
+  },
+  "lqr_design_origin": "frozen design supplied by GA evaluator",
+  "sensor_models": {
+    "configuration": {
+      "track_width_m": 0.16444,
+      "imu": {
+        "model": "MPU-6500",
+        "who_am_i": 112,
+        "i2c_address_7bit": 104,
+        "registers": {
+          "PWR_MGMT_1": 1,
+          "PWR_MGMT_2": 0,
+          "GYRO_CONFIG": 0,
+          "ACCEL_CONFIG": 0,
+          "CONFIG": 3,
+          "ACCEL_CONFIG2": 3,
+          "SMPLRT_DIV": 9
+        },
+        "internal_rate_hz": 1000,
+        "output_rate_hz": 100,
+        "accel_range_g": 2,
+        "gyro_range_deg_s": 250,
+        "accel_lsb_per_g": 16384,
+        "gyro_lsb_per_deg_s": 131,
+        "accel_bandwidth_hz": 41,
+        "gyro_bandwidth_hz": 41,
+        "accel_group_delay_s": 0.0118,
+        "gyro_group_delay_s": 0.0059,
+        "accel_noise_density_g_sqrt_hz": 0.00022,
+        "gyro_noise_density_deg_s_sqrt_hz": 0.01,
+        "accel_bias_g": [
+          0,
+          0,
+          0
+        ],
+        "gyro_bias_deg_s": [
+          0,
+          0,
+          0
+        ],
+        "provenance": "Registers match balance_lqr.cpp. MPU-6500 Register Map rev2.1 pp12-15 and Product Specification rev1.1 pp9-10 in bundled Datasheet/Sensor. DLPF approximated by first-order lowpass plus fractional delay matching low-frequency group delay; not exact proprietary filter. Register map gives accel noise 220 ug/sqrtHz; product spec gives 300 ug/sqrtHz under its conditions. Biases set to zero until measured. No thermal drift, I2C latency/jitter or DMP/magnetometer. Site pose remains existing CAD approximation."
+      },
+      "encoder": {
+        "motor_pulses_per_rev_per_channel": 11,
+        "quadrature_multiplier": 4,
+        "gear_ratio": 30,
+        "counter_bits": 16,
+        "counter_origin": 32768,
+        "counter_sign_from_joint": [
+          1,
+          -1
+        ],
+        "velocity_filter_tau_s": 0.05,
+        "provenance": "11 PPR is a provisional ASLONG JGB37-520B manufacturer reference, NOT verified on actual motors. FPGA motor_measure counts XOR(A,B) transitions (x4), saturates at 0/65535; output remains wheel-relative rad/rad_s after reduction. Opposite raw signs emulate documented SX/DX mounting; model joint sign remains +X for both. No missing pulses, backlash, A/B electrical waveform or FPGA input-filter latency simulated. Active bitstream and actual wheel CPR still need confirmation. Raw names now refer to physical left/right, with joint-to-counter signs [+1,-1], matching wheel map v2. Decoded joint angles are unchanged.",
+        "wheel_convention": "physical_sx_dx_v2"
+      }
+    },
+    "imu": "mpu6500",
+    "encoder": "motor",
+    "seed": 30008,
+    "counts_per_wheel_rev": 1320,
+    "encoder_cpr_hardware_validated": false,
+    "track_width_m": 0.16444,
+    "encoder_reset_phase": "calibration_end; no reset at release",
+    "gyro_frame": "imu site Y=-body X for pitch; Z must be transformed for world yaw",
+    "note": "Optional hardware-like approximation; no exact DLPF transfer function or real bias calibration"
+  },
+  "motion": {
+    "distance_m": 0.0,
+    "start_free_s": 3.0,
+    "duration_s": 6.0,
+    "heading_ref_rad": 0.0,
+    "frame": "local to release; forward +Y",
+    "feedback": "encoder angles/rates and calibrated IMU only; no MuJoCo pose",
+    "reference": "quintic distance with quasi-static linear-model pitch/duty feedforward",
+    "saturation_policy": "common PWM priority; differential uses remaining headroom",
+    "tolerances": {
+      "position_m": 0.01,
+      "lateral_m": 0.01,
+      "yaw_deg": 2.0,
+      "speed_m_s": 0.02,
+      "pitch_deg": 0.3
+    }
+  },
+  "feedback_delay_samples": 1,
+  "ultrasonic_model": {
+    "type": "HC-SR04 sampled geometric cone",
+    "configuration": {
+      "model": "HC-SR04",
+      "min_range_m": 0.02,
+      "max_range_m": 4.0,
+      "measuring_angle_deg": 15.0,
+      "angle_interpretation": "full_aperture",
+      "sample_period_s": 0.07,
+      "sound_speed_m_s": 340.0,
+      "radial_rings": 8,
+      "azimuth_samples": 48,
+      "datasheet": {
+        "path": "config/references/HCSR04.pdf",
+        "measuring_angle_text": "MeasuringAngle 15 degree; full angle versus half angle not specified",
+        "recommended_cycle": "over 60 ms",
+        "burst_cycles": 8,
+        "carrier_frequency_hz": 40000,
+        "trigger_min_us": 10,
+        "accuracy_claim_m": 0.003,
+        "supply_v": 5,
+        "current_a": 0.015,
+        "target_guidance": "Smooth planar target, area not less than 0.5 square meters"
+      },
+      "assumptions": {
+        "angle": "Interpret 15 degrees as full aperture by default; not resolved by this datasheet",
+        "rays": "385 geometric rays: axial plus 8 rings of 48; numerical discretization, not manufacturer data",
+        "return": "Nearest sampled visible surface, even below minimum range; no reflectivity threshold",
+        "timing": "70 ms selected to exceed recommended 60 ms; no flight delay or TTL simulation",
+        "accuracy": "3 mm claim is not a noise standard deviation; no invented noise distribution",
+        "acoustics": "No amplitude, diffraction, attenuation, specular reflection, multipath or material model"
+      }
+    },
+    "half_angle_deg": 7.5,
+    "ray_count": 385,
+    "axial_sensor": "ultrasonic_range",
+    "site": "ultrasonic_site",
+    "feedback_enabled": false,
+    "invalid_distance": "NaN",
+    "test_wall_distance_initial_m": null,
+    "limitations": "No noise, acoustic reflections, material response or flight delay; nearest sampled visible surface, echo width derived not TTL simulation"
+  },
+  "angle_bias_deg": 0.0058772215317043144,
+  "gyro_bias_deg_s": 0.006793893129770991,
+  "gyro_bias_xyz_rad_s": [
+    2.1316998497640646e-05,
+    0.00011857580414312628,
+    -0.00012124042895533128
+  ],
+  "actual_release_s": 3.1999999999997586,
+  "release_true_pitch_deg": 3.007377793769946,
+  "release_world_pose": [
+    5.988311345234182e-14,
+    -3.7740942377930157e-13,
+    -4.4026669205881616e-10
+  ]
+}

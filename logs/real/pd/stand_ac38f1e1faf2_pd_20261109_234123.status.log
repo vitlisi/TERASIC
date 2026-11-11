@@ -1,0 +1,6 @@
+wheel_convention=physical_sx_dx_v2
+Scheduling SCHED_FIFO, priorita' 10.
+Calibrazione IMU: tenere il robot fermo e verticale per 2 s.
+Calibrazione: postura non valida al campione 47: ax=1439 ay=388 az=16446 |a|=1.008 g pitch=-5.00 deg.
+Calibrazione annullata: tenere il robot piu' fermo e verticale.
+exit_code=1

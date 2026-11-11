@@ -1,0 +1,163 @@
+{
+  "schema_version": 1,
+  "version": "v005",
+  "robot_id": "robot01",
+  "created_utc": "2026-11-05T23:36:34.538877+00:00",
+  "status": "conditions_frozen_for_acquisition",
+  "sealed": true,
+  "scope": "step_1_only_no_motor_commands",
+  "robot02_data_used": false,
+  "pc": {
+    "os": "Ubuntu 22.04.5 LTS",
+    "compiler": "g++ Ubuntu 11.4.0-1ubuntu1~22.04.3 11.4.0",
+    "ssh": "OpenSSH_8.9p1 Ubuntu-3ubuntu0.18",
+    "system_python": {
+      "python": "3.10.12",
+      "packages": {
+        "mujoco": null,
+        "numpy": "1.26.4",
+        "matplotlib": "3.8.4",
+        "scipy": "1.8.0"
+      }
+    },
+    "simulation_venv": {
+      "executable": "env/bin/python",
+      "python": "3.10.12",
+      "packages": {
+        "mujoco": "3.14.0",
+        "numpy": "2.2.6",
+        "matplotlib": "3.10.9"
+      }
+    }
+  },
+  "physical_conditions": {
+    "operator_confirmation": "Reconfirmed battery only, charger disconnected, fixed frame and both wheels lifted/free immediately before this attempt.",
+    "battery_id": "operator_current_pack_identity_not_separately_confirmed",
+    "supply": "battery_only",
+    "charger_disconnected": true,
+    "frame_fixed": true,
+    "wheels_lifted": true,
+    "wheels_clear_of_cables": "wheels free confirmed; cable positions not separately measured",
+    "ambient_temperature_c": null,
+    "motor_thermal_state": "not measured; record prior use and rest before each acquisition",
+    "changes_since_historical_encoder_calibration": null
+  },
+  "robot_identity": {
+    "hostname": "socfpga",
+    "host_key_fingerprint": "SHA256:qnPWDpqlrS+IdRyt4iYbSUB/QCJx13A5XOPHJaCbjok",
+    "connection": "Wi-Fi",
+    "kernel": "Linux 4.5.0 #1 SMP Thu Jul 27 18:22:56 CST 2017 armv7l",
+    "bitstream_sha256": "cf852d08e106ee582e0b771b6d91fd950a6904723cc72eaceed909827ca75311",
+    "observed_address": "10.185.186.166",
+    "board_compiler": "g++ Linaro GCC 4.9-2014.11 4.9.3 20141031 prerelease",
+    "device_tree_sha256": "1f3f303447811d7de2186ac8e39ed190a5897c5650c25584b856322d7104a880",
+    "boot_script_sha256": "bc4c39c4eeda81a595a2716da0f10bfca79988f80092f140350bafd54c6f7386",
+    "fpga_kernel_state": "operating",
+    "wheel_map_matches_local": true,
+    "encoder_config_matches_local": true
+  },
+  "voltage": {
+    "reference_v": 11.78,
+    "adc_before_v": [
+      11.779
+    ],
+    "multimeter_v": null,
+    "proposed_plateau_tolerance_v": 0.3,
+    "tolerance_status": "new explicitly authorized experimental window; not a validated LUT accuracy bound",
+    "under_load_logging_required": true,
+    "adc_mean_v": 11.779,
+    "accepted_plateau_mean_range_v": [
+      11.48,
+      12.08
+    ],
+    "units_and_calibration": "nominal Terasic ADC scaling; no multimeter cross-check in this session"
+  },
+  "baseline": {
+    "controller": "none",
+    "lut": false,
+    "startup_pulse": false,
+    "forced_pwm_floor": false,
+    "observed_pwm": {
+      "sx": {
+        "period": 50000,
+        "high": 0,
+        "control": 6,
+        "run": false
+      },
+      "dx": {
+        "period": 50000,
+        "high": 0,
+        "control": 6,
+        "run": false
+      }
+    },
+    "no_control_or_motor_diagnostic_process_observed": true
+  },
+  "reference_encoder": {
+    "counts_per_rev": 1325,
+    "source": "historical calibration of the first robot; installed map/config hashes matched today; no new CPR measurement",
+    "sx_forward_sign": -1,
+    "dx_forward_sign": 1
+  },
+  "requested_acquisition": {
+    "sample_period_s": 0.01,
+    "velocity_filter_tau_s": 0.05,
+    "pwm_period_ticks": 50000,
+    "pwm_range": [
+      -20,
+      20
+    ],
+    "protocol_status": "software protocol/v002 qualified; new battery requires new pilot"
+  },
+  "files": {
+    "config/controllers/lqr_mimo.txt": {
+      "snapshot": "snapshot/config/controllers/lqr_mimo.txt",
+      "sha256": "0c25a815be367283719facedd982de2d9e774f1c49a8f26b0213719b138becc5"
+    },
+    "config/controllers/MAPPA_PWM.md": {
+      "snapshot": "snapshot/config/controllers/MAPPA_PWM.md",
+      "sha256": "3626f76e6297e0019900934c9f389d3253c88ad153afb883a96c073a1867a121"
+    },
+    "config/mujoco_motors_sx_dx_20261030.json": {
+      "snapshot": "snapshot/config/mujoco_motors_sx_dx_20261030.json",
+      "sha256": "f87fa812d88acf47c2b458b7d3bff7fbfad142219f2111650a402cc8a4ba1c1b"
+    },
+    "models/verifica.xml": {
+      "snapshot": "snapshot/models/verifica.xml",
+      "sha256": "d2e22f32f5c8d2fe645a0c8d43bf3e9364eebd1289685898a6c4b4190a19a5ec"
+    },
+    "src_python/wheel_dynamics.py": {
+      "snapshot": "snapshot/src_python/wheel_dynamics.py",
+      "sha256": "aad185248fe19c3f1c30f5b09ad13b14fc215f76cbd41deefe6b65bcf3becf32"
+    },
+    "src_cpp/terasic_reale/hardware/robot_wheel_map.h": {
+      "snapshot": "snapshot/src_cpp/terasic_reale/hardware/robot_wheel_map.h",
+      "sha256": "3a069102b117dcb3c85aadb2c127214c585ba81528e48763f0bc8ecc8b414245"
+    },
+    "src_cpp/terasic_reale/hardware/battery_status.cpp": {
+      "snapshot": "snapshot/src_cpp/terasic_reale/hardware/battery_status.cpp",
+      "sha256": "a6dbed02cdc320ec367501c5303bcea10c246079653aa8c6a474b84aed903137"
+    },
+    "diagnostics/fpga_readonly.cpp": {
+      "snapshot": "snapshot/diagnostics/fpga_readonly.cpp",
+      "sha256": "fb32ca292cea28b1ea2f0ecbd3d160b95d6888964a610afefc251996e245d3b7"
+    },
+    "scripts/inspect_robot_setup.sh": {
+      "snapshot": "snapshot/scripts/inspect_robot_setup.sh",
+      "sha256": "f8e884fb747a02cdc8d937b9e78ed00e49a1e5599b6d9dd9f3a7c28d31ae460a"
+    }
+  },
+  "sealed_utc": "2026-11-05T23:36:34.538877+00:00",
+  "evidence": {
+    "inherited_identity_version": "v004",
+    "battery_start.txt": "67dd907ec32f4b66398b620ff0dfff4dc8fe679914fb134002761c3d6b1c83a8"
+  },
+  "limitations": [
+    "Ambient and winding temperature not measured",
+    "Battery multimeter validation not performed in this session",
+    "CPR retained from historical calibration, not remeasured",
+    "Single start ADC reading, not a claim of constant voltage. Battery effects assessed with independent repeated reference commands; no voltage normalization."
+  ],
+  "previous_version": "v004",
+  "change_reason": "Operator authorized wider voltage band and improved transport for a new attempt. No constant OFF-voltage waiting."
+}

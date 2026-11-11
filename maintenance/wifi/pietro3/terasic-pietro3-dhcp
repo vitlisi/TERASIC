@@ -1,0 +1,18 @@
+#!/bin/sh
+# DHCP fallback only for the 3 Pietro WLAN; ConnMan keeps Wi-Fi credentials.
+pidfile=/run/terasic-pietro3-udhcpc.pid
+ssid=$(iw dev wlan0 link 2>/dev/null | sed -n 's/^[[:space:]]*SSID: //p')
+if [ "$ssid" != '3 Pietro' ]; then
+    if [ -f "$pidfile" ]; then
+        kill "$(cat "$pidfile")" 2>/dev/null
+        rm -f "$pidfile"
+    fi
+    exit 0
+fi
+if [ -f "$pidfile" ] && kill -0 "$(cat "$pidfile")" 2>/dev/null; then
+    exit 0
+fi
+if ifconfig wlan0 | grep 'inet addr:' | grep -qv 'inet addr:169.254.'; then
+    exit 0
+fi
+exec udhcpc -i wlan0 -b -t 3 -T 3 -p "$pidfile" -s /usr/local/sbin/terasic-pietro3-dhcp-event

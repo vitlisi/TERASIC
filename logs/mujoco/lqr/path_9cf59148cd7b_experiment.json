@@ -1,0 +1,18 @@
+{
+  "run_id": "20261109T205201Z_d63b4631",
+  "controller": "lqr",
+  "case": "path",
+  "exit_code": 0,
+  "stribeck_enabled": true,
+  "friction_compensation": "OFF",
+  "real_core": true,
+  "note": "PD routes are independent Python controllers; these are not real-PD core parity claims.",
+  "figures": "/home/vittorio/terasic_robot/deliverables/final_campaign/07_lqr_twin_comparison/path/20261109T205201Z_d63b4631",
+  "exports": [
+    "path/simulation.png",
+    "path/simulation_xy.svg",
+    "path/simulation_torque.svg",
+    "path/simulation.pdf",
+    "path/simulation.svg"
+  ]
+}

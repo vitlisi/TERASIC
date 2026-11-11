@@ -1,0 +1,39 @@
+{
+  "success": true,
+  "stop_reason": "durata completata",
+  "free_time_s": 9.999999999998366,
+  "final_ctrl": [
+    0.0,
+    0.0
+  ],
+  "samples": 1320,
+  "final_pitch_deg": -0.8531918630158989,
+  "final_velocity_m_s": 0.02549897747267818,
+  "final_forward_y_m": -0.029413918310701136,
+  "tail_max_pitch_error_deg": 0.9898161280626654,
+  "tail_max_velocity_m_s": 0.029826936330339535,
+  "tail_position_range_m": 0.0030437676872279128,
+  "max_abs_pwm_percent": 50.0,
+  "settled": false,
+  "final_distance_est_m": -0.029308675350086077,
+  "final_pose_est_m": [
+    3.3750279618228013e-05,
+    -0.029308595573499553
+  ],
+  "final_pose_true_m": [
+    -0.00014197280041498847,
+    -0.029413918310383702
+  ],
+  "final_yaw_est_deg": -0.008444281769604552,
+  "final_yaw_true_deg": -0.03671599657276186,
+  "tail_max_distance_error_m": 0.030380468656029412,
+  "tail_max_world_distance_error_m": 0.030497399322335136,
+  "tail_max_lateral_error_m": 0.00014197280041498847,
+  "tail_max_yaw_error_deg": 0.09168869870247913,
+  "tail_max_world_speed_m_s": 0.07412454666268811,
+  "peak_pitch_error_deg": 3.8874723041402146,
+  "motion_completed": false,
+  "pitch_error_rms_deg": 0.7670450262738042,
+  "pwm_motor_rms_percent": 43.43552750581026,
+  "saturation_fraction": 0.609
+}

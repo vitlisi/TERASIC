@@ -1,0 +1,10 @@
+/lib/modules/4.5.0/kernel/drivers/char/hw_random/rng-core.ko
+/lib/modules/4.5.0/kernel/drivers/misc/altera_sysid.ko
+/lib/modules/4.5.0/kernel/drivers/usb/gadget/legacy/g_mass_storage.ko
+/lib/modules/4.5.0/kernel/drivers/usb/gadget/libcomposite.ko
+/lib/modules/4.5.0/kernel/drivers/usb/gadget/function/usb_f_mass_storage.ko
+/lib/modules/4.5.0/kernel/crypto/hmac.ko
+/lib/modules/4.5.0/kernel/crypto/jitterentropy_rng.ko
+/lib/modules/4.5.0/kernel/crypto/sha256_generic.ko
+/lib/modules/4.5.0/kernel/crypto/drbg.ko
+/lib/modules/4.5.0/kernel/crypto/echainiv.ko

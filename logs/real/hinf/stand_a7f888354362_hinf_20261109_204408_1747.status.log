@@ -1,0 +1,66 @@
+Avvio: Mon Nov  9 20:44:08 UTC 2026
+Argomenti: run config/controllers/hinf_stand.txt 10 12
+Protocollo dichiarato: non specificato
+startup_protocol=inclined_initial_support_free_recovery; fixed_pitch_reference; gyro_bias_only
+Supporto iniziale: ruote a terra, telaio libero di staccarsi; sostenere prima dello stop.
+Configurazione:
+# wheel_convention=physical_sx_dx_v2; SX=left, DX=right in forward direction.
+# Hinf reale sperimentale: prove protette dallo stand; nessuna validazione generale.
+# Matrici incorporate nel binario, identiche all'export Simscape (non K LQR).
+# Initial inclined support only, wheels on ground, chassis free to recover.
+# Fixed pitch reference and gyro-bias calibration. Runtime baseline: CLI20, differential3.
+# Motors differ physically; the SX/DX profile belongs to MuJoCo, not a new real PWM compensation.
+counts_per_rev 1325
+gyro_sign 1
+motor_sign 1
+encoder_sx_sign -1
+encoder_dx_sign 1
+wheel_model_sign -1
+pitch_model_sign 1
+pitch_reference_deg 0.320
+shadow_only 0
+wheel_radius_m 0.032
+# Misura fisica corretta: 164.44 mm; vecchio export Hinf nominale .1644 m.
+wheel_track_m 0.16444
+max_differential_pwm 3
+1e9275c18fd963a8dd7b0f60f00d0e1781895ff9a7bfe5d5cb5ba325a0c82f63  /home/root/terasic_robot_final/build/robot/balance_hinf
+415447b6ae9cefec0ed70a5b18163a93a1d924dd76b4c5c88c2c2b7959b7380a  /home/root/terasic_robot_final/logs/final_campaign/08_hinf_twin_comparison/stand/real/runs/trial_001/hinf_20261109_204408_1747.config.txt
+
+Batteria PRIMA (a motori spenti): Mon Nov  9 20:44:08 UTC 2026
+wheel_convention=physical_sx_dx_v2
+ADC batteria: canale=1 campioni=16 raw_medio=2938.69 raw_min=2930 raw_max=2940
+Tensione pacco (scala nominale Terasic): 11.255 V [min 11.221, max 11.260]
+Percentuale di carica: non disponibile (nessun fuel gauge calibrato).
+Misura a motori spenti; confrontare una volta con un multimetro.
+exit_code_battery=0
+wheel_convention=physical_sx_dx_v2
+Scheduling SCHED_FIFO, priorita' 10.
+Avvio dal supporto iniziale: ruote a terra, recupero libero; il supporto non e' uno zero pitch.
+Calibrazione gyro: robot fermo 2 s; pitch entro +/-5 deg dal riferimento FISSO.
+Pitch iniziale assoluto=-3.537 deg; riferimento FISSO=0.320 deg; errore iniziale=-3.857 deg.
+Riferimento pitch=0.320 deg; bias gyro Y=1.561 deg/s.
+ARMATO Hinf: dinamico 12 stati, due PWM; durata=10 s limite=12.0% differenziale max=3.0%.
+Stati [s,psi,rho,v,psi_dot,rho_dot], SI; yaw solo encoder; origine posizione/yaw all'avvio, pitch rispetto a riferimento fisso.
+Hinf: ordine 12, Ts=0.01 s, ritardo misura=1, uscita export R/L, duty->percento.
+Controller JSON SHA256=c442a2031b72095f7ae8d6d3ea0fbb7102a065a021feb0e748aeb8c1a088940f; track fisico=0.164440 m. Non validato sul robot.
+Raggio nominale=0.032000 m carreggiata nominale=0.164440 m CPR=1325.000
+t=0.00 s | s=-0.0000 m v=+0.0000 m/s | pitch=-3.857 deg | yaw enc=+0.00 deg | delta SX=+0 DX=+0 | PWM richiesta SX=+0.00 DX=+0.00 applicata SX=+0.00 DX=+0.00
+t=1.00 s | s=+0.0175 m v=-0.0078 m/s | pitch=-2.263 deg | yaw enc=-0.16 deg | delta SX=-111 DX=+108 | PWM richiesta SX=-43.61 DX=-43.96 applicata SX=-12.00 DX=-12.00
+t=2.00 s | s=+0.0006 m v=+0.0537 m/s | pitch=-0.523 deg | yaw enc=+0.05 deg | delta SX=+9 DX=-8 | PWM richiesta SX=+22.99 DX=+24.98 applicata SX=+12.00 DX=+12.00
+t=3.00 s | s=-0.0167 m v=-0.0669 m/s | pitch=+2.091 deg | yaw enc=+1.80 deg | delta SX=+149 DX=-115 | PWM richiesta SX=+20.76 DX=+13.59 applicata SX=+12.00 DX=+12.00
+t=4.00 s | s=+0.0030 m v=+0.0412 m/s | pitch=-0.202 deg | yaw enc=-0.42 deg | delta SX=-10 DX=+2 | PWM richiesta SX=+1.85 DX=+5.32 applicata SX=+1.84 DX=+5.32
+t=5.00 s | s=-0.0184 m v=-0.0253 m/s | pitch=+0.162 deg | yaw enc=+1.48 deg | delta SX=+150 DX=-122 | PWM richiesta SX=-31.06 DX=-35.63 applicata SX=-12.00 DX=-12.00
+t=6.00 s | s=+0.0157 m v=+0.0139 m/s | pitch=-1.809 deg | yaw enc=-0.85 deg | delta SX=-104 DX=+88 | PWM richiesta SX=+8.87 DX=+11.58 applicata SX=+8.87 DX=+11.58
+Limite assetto/IMU/tempo superato: |a|=0.955 g az=15368 psi=-12.38 deg psi_acc=-11.10 deg gyro=-95.79 deg/s imu=2110 us. Arresto.
+Hinf terminato; RUN SX=0 DX=0.
+Encoder delta SX=+328 DX=-280.
+
+Batteria DOPO (a motori spenti): Mon Nov  9 20:44:18 UTC 2026
+wheel_convention=physical_sx_dx_v2
+ADC batteria: canale=1 campioni=16 raw_medio=2937.38 raw_min=2924 raw_max=2939
+Tensione pacco (scala nominale Terasic): 11.250 V [min 11.198, max 11.256]
+Percentuale di carica: non disponibile (nessun fuel gauge calibrato).
+Misura a motori spenti; confrontare una volta con un multimetro.
+exit_code_battery=0
+
+exit_code=1

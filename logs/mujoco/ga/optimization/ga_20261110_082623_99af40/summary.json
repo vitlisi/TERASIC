@@ -1,0 +1,29 @@
+{
+  "status": "complete",
+  "validation_improved": true,
+  "unique_evaluations": 61,
+  "best_training_rank": [
+    4,
+    0.0,
+    0.9788822230226728
+  ],
+  "baseline_training_rank": [
+    5,
+    0.0,
+    1.0550336799057323
+  ],
+  "validation": {
+    "baseline": [
+      11,
+      0.0,
+      1.0810775430888784
+    ],
+    "ga": [
+      11,
+      0.0,
+      1.0806013142398359
+    ]
+  },
+  "best_config": "/home/vittorio/terasic_robot/logs/final_campaign/09_ga/stand/optimization/ga_20261110_082623_99af40/best.json",
+  "note": "No active controller replaced. Validation covers only the declared simulated scenarios."
+}

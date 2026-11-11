@@ -1,0 +1,83 @@
+Avvio: Mon Nov  9 20:26:32 UTC 2026
+Argomenti: run config/controllers/lqr_path_40cm_28p5s.txt 28.5 20
+Protocollo dichiarato: non specificato
+startup_protocol=inclined_initial_support_free_recovery; fixed_pitch_reference; gyro_bias_only
+Supporto iniziale: ruote a terra, telaio libero di staccarsi; sostenere prima dello stop.
+Configurazione:
+# wheel_convention=physical_sx_dx_v2; SX=left, DX=right in forward direction.
+# Timed path40cm/180deg/40cm; no arrival gates. Same K and ff150.
+# Active baseline: initial inclined support, wheels on ground, free recovery.
+# Fixed pitch reference; gyro bias only. Effective limits match the successful 20% runs.
+counts_per_rev 1325
+gyro_sign 1
+motor_sign 1
+encoder_sx_sign -1
+encoder_dx_sign 1
+wheel_model_sign -1
+pitch_model_sign 1
+pitch_reference_deg 0.320
+shadow_only 0
+wheel_radius_m 0.032
+wheel_track_m 0.16444
+max_differential_pwm 20
+k_sx_position -268.11279655116948
+k_sx_pitch -736.56418653400476
+k_sx_yaw -56.223050731996516
+k_sx_velocity -363.20016517660633
+k_sx_pitch_rate -22.413600037069319
+k_sx_yaw_rate -12.142332171090555
+k_dx_position -268.11279655116948
+k_dx_pitch -736.56418653400476
+k_dx_yaw 56.223050731996516
+k_dx_velocity -363.20016517660633
+k_dx_pitch_rate -22.413600037069319
+k_dx_yaw_rate 12.142332171090555
+
+# Path only: smooth references and nominal feedforward, no extra feedback controller.
+path_mode 2
+path_distance_m 0.40
+path_turn_deg 180
+turn_differential_pwm 20
+yaw_gyro_sign 1
+yaw_fusion_tau_s 60
+ff_pitch_v -0.0080500636095931534
+ff_pitch_a 0.20191143734917472
+ff_common_v 1.3376073092333841
+ff_common_a 0.38816970025035558
+ff_diff_yaw_rate 0.1717181948260729
+ff_diff_yaw_accel 0.033799243943506786
+
+wheel_pwm_cap 20
+
+# Seven phases:1.5,8,1,7,1,8,2 seconds; total28.5s.
+leg_duration_s 8
+turn_duration_s 7
+initial_hold_s 1.5
+between_hold_s 1
+final_hold_s 2
+d1d180270a0c890ffc6d0312e05b9f607b43661372df80124623c18f5c93a2e7  /home/root/terasic_robot_final/build/robot/path_simple
+6afab3e999d329aab931168b15f9f7ccbc7a14ce7557ffcd60f58cbbafdc9b76  /home/root/terasic_robot_final/logs/final_campaign/06_lqr_real/path/real/runs/trial_002/lqr_path_simple_20261109_202632_1537.config.txt
+
+Batteria PRIMA (a motori spenti): Mon Nov  9 20:26:32 UTC 2026
+wheel_convention=physical_sx_dx_v2
+ADC batteria: canale=1 campioni=16 raw_medio=2956.56 raw_min=2948 raw_max=2958
+Tensione pacco (scala nominale Terasic): 11.323 V [min 11.290, max 11.329]
+Percentuale di carica: non disponibile (nessun fuel gauge calibrato).
+Misura a motori spenti; confrontare una volta con un multimetro.
+exit_code_battery=0
+wheel_convention=physical_sx_dx_v2
+Scheduling SCHED_FIFO, priorita' 10.
+Avvio dal supporto iniziale: ruote a terra, recupero libero; il supporto non e' uno zero pitch.
+Calibrazione gyro: robot fermo 2 s; pitch entro +/-5 deg dal riferimento FISSO.
+Calibrazione: postura non valida al campione 63: ax=1392 ay=-554 az=16661 |a|=1.021 g pitch=-4.78 deg.
+Calibrazione annullata: tenere il robot piu' fermo e verticale.
+
+Batteria DOPO (a motori spenti): Mon Nov  9 20:26:33 UTC 2026
+wheel_convention=physical_sx_dx_v2
+ADC batteria: canale=1 campioni=16 raw_medio=2956.06 raw_min=2941 raw_max=2958
+Tensione pacco (scala nominale Terasic): 11.321 V [min 11.263, max 11.329]
+Percentuale di carica: non disponibile (nessun fuel gauge calibrato).
+Misura a motori spenti; confrontare una volta con un multimetro.
+exit_code_battery=0
+
+exit_code=1

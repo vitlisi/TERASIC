@@ -1,0 +1,17 @@
+{
+  "source": "/home/vittorio/Scaricati/Terasic_Simscape_LQR_2PWM_DISTURBED.slx.zip",
+  "sha256": "07973a42f895d2761985e91890a60471183aee78ed8d3d390bc06f20a429509a",
+  "note": "Il file ricevuto e gia un contenitore SLX, non uno ZIP con un ulteriore SLX. Copia byte per byte con estensione .slx.",
+  "parameter_exports": [
+    {
+      "source": "/home/vittorio/Scaricati/simscape_parameters.json",
+      "path": "simscape_parameters.json",
+      "sha256": "7228ac8343aafdeeecac7f4147c0928a2080fa9c636918ccb77f09a6256aa878"
+    },
+    {
+      "source": "/home/vittorio/Scaricati/simscape_parameters.mat",
+      "path": "simscape_parameters.mat",
+      "sha256": "3318fff3696f95b2565ad28c677cbfbac306a4352fe415f2301554a65a89c906"
+    }
+  ]
+}

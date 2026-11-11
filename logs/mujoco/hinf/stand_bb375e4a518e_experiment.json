@@ -1,0 +1,18 @@
+{
+  "run_id": "20261109T225011Z_d7026260",
+  "controller": "hinf",
+  "case": "stand",
+  "exit_code": 0,
+  "stribeck_enabled": true,
+  "friction_compensation": "OFF",
+  "real_core": true,
+  "note": "PD routes are independent Python controllers; these are not real-PD core parity claims.",
+  "figures": "/home/vittorio/terasic_robot/deliverables/final_campaign/08_hinf_twin_comparison/stand/20261109T225011Z_d7026260",
+  "exports": [
+    "hinf/simulation.png",
+    "hinf/simulation_xy.svg",
+    "hinf/simulation_torque.svg",
+    "hinf/simulation.pdf",
+    "hinf/simulation.svg"
+  ]
+}

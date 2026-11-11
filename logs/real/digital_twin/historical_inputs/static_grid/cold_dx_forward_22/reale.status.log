@@ -1,0 +1,10 @@
+protocol_id=robot01_static_point_v1 wheel=dx direction=forward mode=cold pwm=11.0 hold_s=3.00 warmup_pwm=0 warmup_s=0.0 duration_s=7.00 compensation=OFF period=50000 sample_hz=100
+progress t=0.00 stage=0 pwm=0.0 V=0.000
+progress t=1.00 stage=2 pwm=11.0 V=11.528
+progress t=2.00 stage=2 pwm=11.0 V=11.516
+progress t=3.00 stage=2 pwm=11.0 V=11.516
+progress t=4.00 stage=3 pwm=0.0 V=11.524
+progress t=5.00 stage=3 pwm=0.0 V=11.528
+progress t=6.00 stage=3 pwm=0.0 V=11.528
+progress t=7.00 stage=3 pwm=0.0 V=11.528
+samples=701 final_control_sx=6 final_control_dx=6 reason=none watchdog=0 result=COMPLETED

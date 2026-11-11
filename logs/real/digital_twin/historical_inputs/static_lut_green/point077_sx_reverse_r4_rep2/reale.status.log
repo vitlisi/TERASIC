@@ -1,0 +1,14 @@
+protocol_id=robot01_green_moving_v1_guarded wheel=sx direction=reverse mode=moving pwm=-4.7 hold_s=3.00 warmup_pwm=-8 warmup_s=3.0 duration_s=10.00 compensation=FROZEN_MOVING_LUT period=50000 sample_hz=100 live_adc_min_v=11.20
+lut_sha256=f736fbf6f1e187b7bdee74425277b3b34625cc6849c841e10320677366b48800 virtual_command=-4.000000000 target_velocity_rad_s=-1.073262650
+progress t=0.00 stage=0 pwm=0.0 V=0.000
+progress t=1.00 stage=1 pwm=-8.0 V=11.302
+progress t=2.00 stage=1 pwm=-8.0 V=11.298
+progress t=3.00 stage=1 pwm=-8.0 V=11.298
+progress t=4.00 stage=2 pwm=-4.7 V=11.298
+progress t=5.00 stage=2 pwm=-4.7 V=11.298
+progress t=6.00 stage=2 pwm=-4.7 V=11.302
+progress t=7.00 stage=3 pwm=0.0 V=11.298
+progress t=8.00 stage=3 pwm=0.0 V=11.302
+progress t=9.00 stage=3 pwm=0.0 V=11.302
+progress t=10.00 stage=3 pwm=0.0 V=11.302
+samples=1001 final_control_sx=6 final_control_dx=6 reason=none watchdog=0 result=COMPLETED

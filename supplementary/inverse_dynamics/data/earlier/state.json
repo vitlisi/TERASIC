@@ -1,0 +1,20 @@
+{
+  "started_utc": "2026-11-09T12:01:06.252968+00:00",
+  "host": "10.185.186.166",
+  "binary_sha256": "7f7e10d46a86487258dfe8e140bc88776798f361ca632cbfb853e3e0848fa6a4",
+  "remote_work": "/home/root/terasic_robot/experiments/robot01_lut_prof/protocol/v017_stribeck_compensation_20261109",
+  "cap_percent": 20,
+  "live_min_v": 11.2,
+  "mode": "run",
+  "duration_s": 10,
+  "config_sha256": "0c25a815be367283719facedd982de2d9e774f1c49a8f26b0213719b138becc5",
+  "compensation": "STRIBECK_MODEL_MATCHING_BOUNDED_0.5",
+  "status": "measured",
+  "hardware_command_count": 1,
+  "off_voltage_v": 11.39,
+  "remote_folder": "/home/root/terasic_robot/experiments/robot01_lut_prof/protocol/v017_stribeck_compensation_20261109/floor/run01_e3080c810e7f4173aa49f4ffaa260c45",
+  "session_id": "e3080c810e7f4173aa49f4ffaa260c45",
+  "transport_returncode": 0,
+  "remote_tar_sha256": "da8845916dc6ee548bd8ebeed2ad1553541792ab71976bdf6a3215f7dde593e7",
+  "finished_utc": "2026-11-09T12:01:20.077678+00:00"
+}

@@ -1,0 +1,20 @@
+# Experimental structured gain tuning; original gamma not applicable.
+# wheel_convention=physical_sx_dx_v2; SX=left, DX=right in forward direction.
+# Hinf reale sperimentale: prove protette dallo stand; nessuna validazione generale.
+# Matrici sperimentali nel binario: common0.35 /pitch-rate0.5, derivate dall’export Simscape.
+# Initial inclined support only, wheels on ground, chassis free to recover.
+# Fixed pitch reference and gyro-bias calibration. Prova sperimentale: CLI15, differential3.
+# Motors differ physically; the SX/DX profile belongs to MuJoCo, not a new real PWM compensation.
+counts_per_rev 1325
+gyro_sign 1
+motor_sign 1
+encoder_sx_sign -1
+encoder_dx_sign 1
+wheel_model_sign -1
+pitch_model_sign 1
+pitch_reference_deg 0.320
+shadow_only 0
+wheel_radius_m 0.032
+# Misura fisica corretta: 164.44 mm; vecchio export Hinf nominale .1644 m.
+wheel_track_m 0.16444
+max_differential_pwm 3

@@ -1,0 +1,3312 @@
+{
+  "cold_dx_forward_00": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_02/points/cold_dx_forward_00_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_02/static_point_20261105_233842_3426",
+    "size_checks": {
+      "reale.csv": 68188,
+      "point.txt": 306,
+      "reale.status.log": 596,
+      "reale.config.txt": 977
+    }
+  },
+  "cold_dx_forward_02": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_02/points/cold_dx_forward_02_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_02/static_point_20261106_002051_2163",
+    "size_checks": {
+      "reale.csv": 68788,
+      "point.txt": 306,
+      "reale.status.log": 596,
+      "reale.config.txt": 977
+    }
+  },
+  "cold_dx_forward_03": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_02/points/cold_dx_forward_03_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_02/static_point_20261105_234616_4819",
+    "size_checks": {
+      "reale.csv": 68788,
+      "point.txt": 306,
+      "reale.status.log": 596,
+      "reale.config.txt": 977
+    }
+  },
+  "cold_dx_forward_05": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_02/points/cold_dx_forward_05_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_02/static_point_20261106_095919_1468",
+    "size_checks": {
+      "reale.csv": 69088,
+      "point.txt": 306,
+      "reale.status.log": 596,
+      "reale.config.txt": 977
+    }
+  },
+  "cold_dx_forward_07": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_02/points/cold_dx_forward_07_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_02/static_point_20261106_100437_1975",
+    "size_checks": {
+      "reale.csv": 69088,
+      "point.txt": 306,
+      "reale.status.log": 596,
+      "reale.config.txt": 977
+    }
+  },
+  "cold_dx_forward_08": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_02/points/cold_dx_forward_08_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_02/static_point_20261106_090737_1454",
+    "size_checks": {
+      "reale.csv": 69088,
+      "point.txt": 306,
+      "reale.status.log": 596,
+      "reale.config.txt": 977
+    }
+  },
+  "cold_dx_forward_10": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_02/points/cold_dx_forward_10_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_02/static_point_20261106_103940_2507",
+    "size_checks": {
+      "reale.csv": 69088,
+      "point.txt": 306,
+      "reale.status.log": 596,
+      "reale.config.txt": 977
+    }
+  },
+  "cold_dx_forward_11": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_02/points/cold_dx_forward_11_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_02/static_point_20261106_091133_2179",
+    "size_checks": {
+      "reale.csv": 69088,
+      "point.txt": 306,
+      "reale.status.log": 596,
+      "reale.config.txt": 977
+    }
+  },
+  "cold_dx_forward_12": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_02/points/cold_dx_forward_12_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_02/static_point_20261106_001647_1460",
+    "size_checks": {
+      "reale.csv": 69088,
+      "point.txt": 306,
+      "reale.status.log": 596,
+      "reale.config.txt": 977
+    }
+  },
+  "cold_dx_forward_13": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_02/points/cold_dx_forward_13_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_02/static_point_20261105_235119_5748",
+    "size_checks": {
+      "reale.csv": 69088,
+      "point.txt": 306,
+      "reale.status.log": 596,
+      "reale.config.txt": 977
+    }
+  },
+  "cold_dx_forward_14": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_02/points/cold_dx_forward_14_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_02/static_point_20261105_234847_5284",
+    "size_checks": {
+      "reale.csv": 69088,
+      "point.txt": 306,
+      "reale.status.log": 596,
+      "reale.config.txt": 977
+    }
+  },
+  "cold_dx_forward_15": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_02/points/cold_dx_forward_15_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_02/static_point_20261105_233958_3658",
+    "size_checks": {
+      "reale.csv": 69088,
+      "point.txt": 306,
+      "reale.status.log": 596,
+      "reale.config.txt": 977
+    }
+  },
+  "cold_dx_forward_17": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_02/points/cold_dx_forward_17_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_02/static_point_20261106_002327_2628",
+    "size_checks": {
+      "reale.csv": 69088,
+      "point.txt": 306,
+      "reale.status.log": 596,
+      "reale.config.txt": 977
+    }
+  },
+  "cold_dx_forward_19": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_02/points/cold_dx_forward_19_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_02/static_point_20261106_103825_2274",
+    "size_checks": {
+      "reale.csv": 69088,
+      "point.txt": 306,
+      "reale.status.log": 596,
+      "reale.config.txt": 977
+    }
+  },
+  "cold_dx_forward_20": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_02/points/cold_dx_forward_20_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_02/static_point_20261105_234501_4587",
+    "size_checks": {
+      "reale.csv": 69688,
+      "point.txt": 307,
+      "reale.status.log": 600,
+      "reale.config.txt": 977
+    }
+  },
+  "cold_dx_forward_22": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_02/points/cold_dx_forward_22_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_02/static_point_20261106_002209_2395",
+    "size_checks": {
+      "reale.csv": 69688,
+      "point.txt": 307,
+      "reale.status.log": 600,
+      "reale.config.txt": 977
+    }
+  },
+  "cold_dx_forward_23": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_02/points/cold_dx_forward_23_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_02/static_point_20261106_001932_1931",
+    "size_checks": {
+      "reale.csv": 69688,
+      "point.txt": 307,
+      "reale.status.log": 600,
+      "reale.config.txt": 977
+    }
+  },
+  "cold_dx_forward_24": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_02/points/cold_dx_forward_24_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_02/static_point_20261105_234229_4123",
+    "size_checks": {
+      "reale.csv": 69688,
+      "point.txt": 307,
+      "reale.status.log": 600,
+      "reale.config.txt": 977
+    }
+  },
+  "cold_dx_forward_25": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_02/points/cold_dx_forward_25_attempt02",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_02/static_point_20261106_103711_2042",
+    "size_checks": {
+      "reale.csv": 69688,
+      "point.txt": 307,
+      "reale.status.log": 600,
+      "reale.config.txt": 977
+    }
+  },
+  "cold_dx_forward_27": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_02/points/cold_dx_forward_27_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_02/static_point_20261105_234113_3890",
+    "size_checks": {
+      "reale.csv": 69688,
+      "point.txt": 307,
+      "reale.status.log": 600,
+      "reale.config.txt": 977
+    }
+  },
+  "cold_dx_forward_28": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_02/points/cold_dx_forward_28_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_02/static_point_20261105_235003_5516",
+    "size_checks": {
+      "reale.csv": 69688,
+      "point.txt": 307,
+      "reale.status.log": 600,
+      "reale.config.txt": 977
+    }
+  },
+  "cold_dx_forward_30": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_02/points/cold_dx_forward_30_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_02/static_point_20261106_090908_1715",
+    "size_checks": {
+      "reale.csv": 69688,
+      "point.txt": 307,
+      "reale.status.log": 600,
+      "reale.config.txt": 977
+    }
+  },
+  "cold_dx_forward_31": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_02/points/cold_dx_forward_31_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_02/static_point_20261105_234345_4355",
+    "size_checks": {
+      "reale.csv": 69688,
+      "point.txt": 307,
+      "reale.status.log": 600,
+      "reale.config.txt": 977
+    }
+  },
+  "cold_dx_forward_33": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_02/points/cold_dx_forward_33_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_02/static_point_20261105_235235_5981",
+    "size_checks": {
+      "reale.csv": 69688,
+      "point.txt": 307,
+      "reale.status.log": 600,
+      "reale.config.txt": 977
+    }
+  },
+  "cold_dx_forward_34": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_02/points/cold_dx_forward_34_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_02/static_point_20261106_001813_1699",
+    "size_checks": {
+      "reale.csv": 69688,
+      "point.txt": 307,
+      "reale.status.log": 600,
+      "reale.config.txt": 977
+    }
+  },
+  "cold_dx_forward_37": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_02/points/cold_dx_forward_37_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_02/static_point_20261105_234732_5052",
+    "size_checks": {
+      "reale.csv": 69688,
+      "point.txt": 307,
+      "reale.status.log": 600,
+      "reale.config.txt": 977
+    }
+  },
+  "cold_dx_forward_38": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_02/points/cold_dx_forward_38_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_02/static_point_20261106_100034_1701",
+    "size_checks": {
+      "reale.csv": 69688,
+      "point.txt": 307,
+      "reale.status.log": 600,
+      "reale.config.txt": 977
+    }
+  },
+  "cold_dx_forward_39": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_02/points/cold_dx_forward_39_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_02/static_point_20261106_104055_2739",
+    "size_checks": {
+      "reale.csv": 69688,
+      "point.txt": 307,
+      "reale.status.log": 600,
+      "reale.config.txt": 977
+    }
+  },
+  "cold_dx_reverse_00": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_02/points/cold_dx_reverse_00_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_02/static_point_20261105_233901_3484",
+    "size_checks": {
+      "reale.csv": 68488,
+      "point.txt": 306,
+      "reale.status.log": 600,
+      "reale.config.txt": 977
+    }
+  },
+  "cold_dx_reverse_02": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_02/points/cold_dx_reverse_02_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_02/static_point_20261106_002111_2221",
+    "size_checks": {
+      "reale.csv": 69388,
+      "point.txt": 306,
+      "reale.status.log": 600,
+      "reale.config.txt": 977
+    }
+  },
+  "cold_dx_reverse_03": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_02/points/cold_dx_reverse_03_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_02/static_point_20261105_234635_4878",
+    "size_checks": {
+      "reale.csv": 69388,
+      "point.txt": 306,
+      "reale.status.log": 600,
+      "reale.config.txt": 977
+    }
+  },
+  "cold_dx_reverse_05": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_02/points/cold_dx_reverse_05_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_02/static_point_20261106_095938_1526",
+    "size_checks": {
+      "reale.csv": 69688,
+      "point.txt": 306,
+      "reale.status.log": 600,
+      "reale.config.txt": 977
+    }
+  },
+  "cold_dx_reverse_07": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_02/points/cold_dx_reverse_07_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_02/static_point_20261106_100527_2092",
+    "size_checks": {
+      "reale.csv": 69688,
+      "point.txt": 306,
+      "reale.status.log": 600,
+      "reale.config.txt": 977
+    }
+  },
+  "cold_dx_reverse_08": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_02/points/cold_dx_reverse_08_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_02/static_point_20261106_090757_1512",
+    "size_checks": {
+      "reale.csv": 69688,
+      "point.txt": 306,
+      "reale.status.log": 600,
+      "reale.config.txt": 977
+    }
+  },
+  "cold_dx_reverse_08_hold6": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_02/points/cold_dx_reverse_08_hold6_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_02/static_point_20261106_090805_1541",
+    "size_checks": {
+      "reale.csv": 100289,
+      "point.txt": 306,
+      "reale.status.log": 729,
+      "reale.config.txt": 977
+    }
+  },
+  "cold_dx_reverse_10": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_02/points/cold_dx_reverse_10_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_02/static_point_20261106_103959_2565",
+    "size_checks": {
+      "reale.csv": 69688,
+      "point.txt": 306,
+      "reale.status.log": 600,
+      "reale.config.txt": 977
+    }
+  },
+  "cold_dx_reverse_11": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_02/points/cold_dx_reverse_11_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_02/static_point_20261106_091152_2237",
+    "size_checks": {
+      "reale.csv": 69688,
+      "point.txt": 306,
+      "reale.status.log": 600,
+      "reale.config.txt": 977
+    }
+  },
+  "cold_dx_reverse_12": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_02/points/cold_dx_reverse_12_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_02/static_point_20261106_001715_1525",
+    "size_checks": {
+      "reale.csv": 69688,
+      "point.txt": 306,
+      "reale.status.log": 600,
+      "reale.config.txt": 977
+    }
+  },
+  "cold_dx_reverse_13": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_02/points/cold_dx_reverse_13_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_02/static_point_20261105_235138_5807",
+    "size_checks": {
+      "reale.csv": 69688,
+      "point.txt": 306,
+      "reale.status.log": 600,
+      "reale.config.txt": 977
+    }
+  },
+  "cold_dx_reverse_14": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_02/points/cold_dx_reverse_14_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_02/static_point_20261105_234906_5342",
+    "size_checks": {
+      "reale.csv": 69688,
+      "point.txt": 306,
+      "reale.status.log": 600,
+      "reale.config.txt": 977
+    }
+  },
+  "cold_dx_reverse_15": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_02/points/cold_dx_reverse_15_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_02/static_point_20261105_234016_3716",
+    "size_checks": {
+      "reale.csv": 69688,
+      "point.txt": 306,
+      "reale.status.log": 600,
+      "reale.config.txt": 977
+    }
+  },
+  "cold_dx_reverse_17": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_02/points/cold_dx_reverse_17_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_02/static_point_20261106_002354_2686",
+    "size_checks": {
+      "reale.csv": 69688,
+      "point.txt": 306,
+      "reale.status.log": 600,
+      "reale.config.txt": 977
+    }
+  },
+  "cold_dx_reverse_19": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_02/points/cold_dx_reverse_19_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_02/static_point_20261106_103844_2332",
+    "size_checks": {
+      "reale.csv": 69688,
+      "point.txt": 306,
+      "reale.status.log": 600,
+      "reale.config.txt": 977
+    }
+  },
+  "cold_dx_reverse_20": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_02/points/cold_dx_reverse_20_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_02/static_point_20261105_234520_4645",
+    "size_checks": {
+      "reale.csv": 70288,
+      "point.txt": 307,
+      "reale.status.log": 604,
+      "reale.config.txt": 977
+    }
+  },
+  "cold_dx_reverse_22": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_02/points/cold_dx_reverse_22_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_02/static_point_20261106_002229_2454",
+    "size_checks": {
+      "reale.csv": 70288,
+      "point.txt": 307,
+      "reale.status.log": 604,
+      "reale.config.txt": 977
+    }
+  },
+  "cold_dx_reverse_23": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_02/points/cold_dx_reverse_23_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_02/static_point_20261106_001952_1989",
+    "size_checks": {
+      "reale.csv": 70288,
+      "point.txt": 307,
+      "reale.status.log": 604,
+      "reale.config.txt": 977
+    }
+  },
+  "cold_dx_reverse_24": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_02/points/cold_dx_reverse_24_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_02/static_point_20261105_234248_4181",
+    "size_checks": {
+      "reale.csv": 70288,
+      "point.txt": 307,
+      "reale.status.log": 604,
+      "reale.config.txt": 977
+    }
+  },
+  "cold_dx_reverse_25": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_02/points/cold_dx_reverse_25_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_02/static_point_20261106_103729_2100",
+    "size_checks": {
+      "reale.csv": 70288,
+      "point.txt": 307,
+      "reale.status.log": 604,
+      "reale.config.txt": 977
+    }
+  },
+  "cold_dx_reverse_27": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_02/points/cold_dx_reverse_27_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_02/static_point_20261105_234132_3949",
+    "size_checks": {
+      "reale.csv": 70288,
+      "point.txt": 307,
+      "reale.status.log": 604,
+      "reale.config.txt": 977
+    }
+  },
+  "cold_dx_reverse_28": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_02/points/cold_dx_reverse_28_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_02/static_point_20261105_235022_5574",
+    "size_checks": {
+      "reale.csv": 70288,
+      "point.txt": 307,
+      "reale.status.log": 604,
+      "reale.config.txt": 977
+    }
+  },
+  "cold_dx_reverse_30": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_02/points/cold_dx_reverse_30_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_02/static_point_20261106_090927_1773",
+    "size_checks": {
+      "reale.csv": 70288,
+      "point.txt": 307,
+      "reale.status.log": 604,
+      "reale.config.txt": 977
+    }
+  },
+  "cold_dx_reverse_31": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_02/points/cold_dx_reverse_31_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_02/static_point_20261105_234404_4413",
+    "size_checks": {
+      "reale.csv": 70288,
+      "point.txt": 307,
+      "reale.status.log": 604,
+      "reale.config.txt": 977
+    }
+  },
+  "cold_dx_reverse_33": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_02/points/cold_dx_reverse_33_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_02/static_point_20261105_235254_6039",
+    "size_checks": {
+      "reale.csv": 70288,
+      "point.txt": 307,
+      "reale.status.log": 604,
+      "reale.config.txt": 977
+    }
+  },
+  "cold_dx_reverse_34": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_02/points/cold_dx_reverse_34_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_02/static_point_20261106_001832_1757",
+    "size_checks": {
+      "reale.csv": 70288,
+      "point.txt": 307,
+      "reale.status.log": 604,
+      "reale.config.txt": 977
+    }
+  },
+  "cold_dx_reverse_37": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_02/points/cold_dx_reverse_37_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_02/static_point_20261105_234751_5110",
+    "size_checks": {
+      "reale.csv": 70288,
+      "point.txt": 307,
+      "reale.status.log": 604,
+      "reale.config.txt": 977
+    }
+  },
+  "cold_dx_reverse_38": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_02/points/cold_dx_reverse_38_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_02/static_point_20261106_100052_1759",
+    "size_checks": {
+      "reale.csv": 70288,
+      "point.txt": 307,
+      "reale.status.log": 604,
+      "reale.config.txt": 977
+    }
+  },
+  "cold_dx_reverse_39": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_02/points/cold_dx_reverse_39_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_02/static_point_20261106_104114_2797",
+    "size_checks": {
+      "reale.csv": 70288,
+      "point.txt": 307,
+      "reale.status.log": 604,
+      "reale.config.txt": 977
+    }
+  },
+  "cold_sx_forward_00": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_02/points/cold_sx_forward_00_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_02/static_point_20261105_233804_3310",
+    "size_checks": {
+      "reale.csv": 68188,
+      "point.txt": 306,
+      "reale.status.log": 596,
+      "reale.config.txt": 977
+    }
+  },
+  "cold_sx_forward_02": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_02/points/cold_sx_forward_02_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_02/static_point_20261106_002011_2047",
+    "size_checks": {
+      "reale.csv": 68788,
+      "point.txt": 306,
+      "reale.status.log": 596,
+      "reale.config.txt": 977
+    }
+  },
+  "cold_sx_forward_03": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_02/points/cold_sx_forward_03_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_02/static_point_20261105_234538_4703",
+    "size_checks": {
+      "reale.csv": 68788,
+      "point.txt": 306,
+      "reale.status.log": 596,
+      "reale.config.txt": 977
+    }
+  },
+  "cold_sx_forward_05": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_02/points/cold_sx_forward_05_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_02/static_point_20261106_104133_2855",
+    "size_checks": {
+      "reale.csv": 69088,
+      "point.txt": 306,
+      "reale.status.log": 596,
+      "reale.config.txt": 977
+    }
+  },
+  "cold_sx_forward_07": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_02/points/cold_sx_forward_07_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_02/static_point_20261106_100400_1859",
+    "size_checks": {
+      "reale.csv": 69088,
+      "point.txt": 306,
+      "reale.status.log": 596,
+      "reale.config.txt": 977
+    }
+  },
+  "cold_sx_forward_08": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_02/points/cold_sx_forward_08_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_02/static_point_20261106_002414_2744",
+    "size_checks": {
+      "reale.csv": 69088,
+      "point.txt": 306,
+      "reale.status.log": 596,
+      "reale.config.txt": 977
+    }
+  },
+  "cold_sx_forward_10": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_02/points/cold_sx_forward_10_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_02/static_point_20261106_103903_2391",
+    "size_checks": {
+      "reale.csv": 69088,
+      "point.txt": 306,
+      "reale.status.log": 596,
+      "reale.config.txt": 977
+    }
+  },
+  "cold_sx_forward_11": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_02/points/cold_sx_forward_11_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_02/static_point_20261106_090946_1831",
+    "size_checks": {
+      "reale.csv": 69088,
+      "point.txt": 306,
+      "reale.status.log": 596,
+      "reale.config.txt": 977
+    }
+  },
+  "cold_sx_forward_12": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_02/points/cold_sx_forward_12_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_02/static_point_20261105_235313_6097",
+    "size_checks": {
+      "reale.csv": 69088,
+      "point.txt": 306,
+      "reale.status.log": 596,
+      "reale.config.txt": 977
+    }
+  },
+  "cold_sx_forward_13": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_02/points/cold_sx_forward_13_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_02/static_point_20261105_235041_5632",
+    "size_checks": {
+      "reale.csv": 69088,
+      "point.txt": 306,
+      "reale.status.log": 596,
+      "reale.config.txt": 977
+    }
+  },
+  "cold_sx_forward_14": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_02/points/cold_sx_forward_14_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_02/static_point_20261105_234810_5168",
+    "size_checks": {
+      "reale.csv": 69088,
+      "point.txt": 306,
+      "reale.status.log": 596,
+      "reale.config.txt": 977
+    }
+  },
+  "cold_sx_forward_15": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_02/points/cold_sx_forward_15_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_02/static_point_20261105_233919_3542",
+    "size_checks": {
+      "reale.csv": 69088,
+      "point.txt": 306,
+      "reale.status.log": 596,
+      "reale.config.txt": 977
+    }
+  },
+  "cold_sx_forward_17": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_02/points/cold_sx_forward_17_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_02/static_point_20261106_002249_2512",
+    "size_checks": {
+      "reale.csv": 69088,
+      "point.txt": 306,
+      "reale.status.log": 596,
+      "reale.config.txt": 977
+    }
+  },
+  "cold_sx_forward_19": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_02/points/cold_sx_forward_19_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_02/static_point_20261106_103748_2158",
+    "size_checks": {
+      "reale.csv": 69088,
+      "point.txt": 306,
+      "reale.status.log": 596,
+      "reale.config.txt": 977
+    }
+  },
+  "cold_sx_forward_20": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_02/points/cold_sx_forward_20_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_02/static_point_20261105_234423_4471",
+    "size_checks": {
+      "reale.csv": 69688,
+      "point.txt": 307,
+      "reale.status.log": 600,
+      "reale.config.txt": 977
+    }
+  },
+  "cold_sx_forward_22": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_02/points/cold_sx_forward_22_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_02/static_point_20261106_002130_2279",
+    "size_checks": {
+      "reale.csv": 69688,
+      "point.txt": 307,
+      "reale.status.log": 600,
+      "reale.config.txt": 977
+    }
+  },
+  "cold_sx_forward_23": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_02/points/cold_sx_forward_23_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_02/static_point_20261106_001852_1815",
+    "size_checks": {
+      "reale.csv": 69688,
+      "point.txt": 307,
+      "reale.status.log": 600,
+      "reale.config.txt": 977
+    }
+  },
+  "cold_sx_forward_24": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_02/points/cold_sx_forward_24_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_02/static_point_20261105_234151_4007",
+    "size_checks": {
+      "reale.csv": 69688,
+      "point.txt": 307,
+      "reale.status.log": 600,
+      "reale.config.txt": 977
+    }
+  },
+  "cold_sx_forward_25": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_02/points/cold_sx_forward_25_attempt02",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_02/static_point_20261106_094833_1525",
+    "size_checks": {
+      "reale.csv": 69688,
+      "point.txt": 307,
+      "reale.status.log": 600,
+      "reale.config.txt": 977
+    }
+  },
+  "cold_sx_forward_27": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_02/points/cold_sx_forward_27_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_02/static_point_20261105_234035_3774",
+    "size_checks": {
+      "reale.csv": 69688,
+      "point.txt": 307,
+      "reale.status.log": 600,
+      "reale.config.txt": 977
+    }
+  },
+  "cold_sx_forward_28": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_02/points/cold_sx_forward_28_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_02/static_point_20261105_234925_5400",
+    "size_checks": {
+      "reale.csv": 69688,
+      "point.txt": 307,
+      "reale.status.log": 600,
+      "reale.config.txt": 977
+    }
+  },
+  "cold_sx_forward_30": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_02/points/cold_sx_forward_30_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_02/static_point_20261106_090828_1599",
+    "size_checks": {
+      "reale.csv": 69688,
+      "point.txt": 307,
+      "reale.status.log": 600,
+      "reale.config.txt": 977
+    }
+  },
+  "cold_sx_forward_31": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_02/points/cold_sx_forward_31_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_02/static_point_20261105_234307_4239",
+    "size_checks": {
+      "reale.csv": 69688,
+      "point.txt": 307,
+      "reale.status.log": 600,
+      "reale.config.txt": 977
+    }
+  },
+  "cold_sx_forward_33": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_02/points/cold_sx_forward_33_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_02/static_point_20261105_235157_5865",
+    "size_checks": {
+      "reale.csv": 69688,
+      "point.txt": 307,
+      "reale.status.log": 600,
+      "reale.config.txt": 977
+    }
+  },
+  "cold_sx_forward_34": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_02/points/cold_sx_forward_34_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_02/static_point_20261106_001734_1583",
+    "size_checks": {
+      "reale.csv": 69688,
+      "point.txt": 307,
+      "reale.status.log": 600,
+      "reale.config.txt": 977
+    }
+  },
+  "cold_sx_forward_37": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_02/points/cold_sx_forward_37_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_02/static_point_20261105_234654_4936",
+    "size_checks": {
+      "reale.csv": 69688,
+      "point.txt": 307,
+      "reale.status.log": 600,
+      "reale.config.txt": 977
+    }
+  },
+  "cold_sx_forward_38": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_02/points/cold_sx_forward_38_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_02/static_point_20261106_095956_1584",
+    "size_checks": {
+      "reale.csv": 69688,
+      "point.txt": 307,
+      "reale.status.log": 600,
+      "reale.config.txt": 977
+    }
+  },
+  "cold_sx_forward_39": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_02/points/cold_sx_forward_39_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_02/static_point_20261106_104018_2623",
+    "size_checks": {
+      "reale.csv": 69688,
+      "point.txt": 307,
+      "reale.status.log": 600,
+      "reale.config.txt": 977
+    }
+  },
+  "cold_sx_forward_40": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_02/points/cold_sx_forward_40_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_02/static_point_20261106_100545_2150",
+    "size_checks": {
+      "reale.csv": 69988,
+      "point.txt": 307,
+      "reale.status.log": 600,
+      "reale.config.txt": 977
+    }
+  },
+  "cold_sx_reverse_00": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_02/points/cold_sx_reverse_00_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_02/static_point_20261105_233823_3368",
+    "size_checks": {
+      "reale.csv": 68488,
+      "point.txt": 306,
+      "reale.status.log": 600,
+      "reale.config.txt": 977
+    }
+  },
+  "cold_sx_reverse_02": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_02/points/cold_sx_reverse_02_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_02/static_point_20261106_002030_2105",
+    "size_checks": {
+      "reale.csv": 69388,
+      "point.txt": 306,
+      "reale.status.log": 600,
+      "reale.config.txt": 977
+    }
+  },
+  "cold_sx_reverse_03": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_02/points/cold_sx_reverse_03_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_02/static_point_20261105_234557_4761",
+    "size_checks": {
+      "reale.csv": 69388,
+      "point.txt": 306,
+      "reale.status.log": 600,
+      "reale.config.txt": 977
+    }
+  },
+  "cold_sx_reverse_05": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_02/points/cold_sx_reverse_05_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_02/static_point_20261106_095900_1410",
+    "size_checks": {
+      "reale.csv": 69688,
+      "point.txt": 306,
+      "reale.status.log": 600,
+      "reale.config.txt": 977
+    }
+  },
+  "cold_sx_reverse_07": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_02/points/cold_sx_reverse_07_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_02/static_point_20261106_100418_1917",
+    "size_checks": {
+      "reale.csv": 69688,
+      "point.txt": 306,
+      "reale.status.log": 600,
+      "reale.config.txt": 977
+    }
+  },
+  "cold_sx_reverse_08": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_02/points/cold_sx_reverse_08_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_02/static_point_20261106_002433_2805",
+    "size_checks": {
+      "reale.csv": 69688,
+      "point.txt": 306,
+      "reale.status.log": 600,
+      "reale.config.txt": 977
+    }
+  },
+  "cold_sx_reverse_10": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_02/points/cold_sx_reverse_10_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_02/static_point_20261106_103922_2449",
+    "size_checks": {
+      "reale.csv": 69688,
+      "point.txt": 306,
+      "reale.status.log": 600,
+      "reale.config.txt": 977
+    }
+  },
+  "cold_sx_reverse_11": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_02/points/cold_sx_reverse_11_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_02/static_point_20261106_091005_1889",
+    "size_checks": {
+      "reale.csv": 69688,
+      "point.txt": 306,
+      "reale.status.log": 600,
+      "reale.config.txt": 977
+    }
+  },
+  "cold_sx_reverse_12": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_02/points/cold_sx_reverse_12_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_02/static_point_20261105_235332_6155",
+    "size_checks": {
+      "reale.csv": 69688,
+      "point.txt": 306,
+      "reale.status.log": 600,
+      "reale.config.txt": 977
+    }
+  },
+  "cold_sx_reverse_13": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_02/points/cold_sx_reverse_13_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_02/static_point_20261105_235100_5690",
+    "size_checks": {
+      "reale.csv": 69688,
+      "point.txt": 306,
+      "reale.status.log": 600,
+      "reale.config.txt": 977
+    }
+  },
+  "cold_sx_reverse_14": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_02/points/cold_sx_reverse_14_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_02/static_point_20261105_234828_5226",
+    "size_checks": {
+      "reale.csv": 69688,
+      "point.txt": 306,
+      "reale.status.log": 600,
+      "reale.config.txt": 977
+    }
+  },
+  "cold_sx_reverse_15": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_02/points/cold_sx_reverse_15_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_02/static_point_20261105_233938_3600",
+    "size_checks": {
+      "reale.csv": 69688,
+      "point.txt": 306,
+      "reale.status.log": 600,
+      "reale.config.txt": 977
+    }
+  },
+  "cold_sx_reverse_17": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_02/points/cold_sx_reverse_17_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_02/static_point_20261106_002308_2570",
+    "size_checks": {
+      "reale.csv": 69688,
+      "point.txt": 306,
+      "reale.status.log": 600,
+      "reale.config.txt": 977
+    }
+  },
+  "cold_sx_reverse_19": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_02/points/cold_sx_reverse_19_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_02/static_point_20261106_103807_2216",
+    "size_checks": {
+      "reale.csv": 69688,
+      "point.txt": 306,
+      "reale.status.log": 600,
+      "reale.config.txt": 977
+    }
+  },
+  "cold_sx_reverse_20": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_02/points/cold_sx_reverse_20_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_02/static_point_20261105_234442_4529",
+    "size_checks": {
+      "reale.csv": 70288,
+      "point.txt": 307,
+      "reale.status.log": 604,
+      "reale.config.txt": 977
+    }
+  },
+  "cold_sx_reverse_22": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_02/points/cold_sx_reverse_22_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_02/static_point_20261106_002150_2337",
+    "size_checks": {
+      "reale.csv": 70288,
+      "point.txt": 307,
+      "reale.status.log": 604,
+      "reale.config.txt": 977
+    }
+  },
+  "cold_sx_reverse_23": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_02/points/cold_sx_reverse_23_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_02/static_point_20261106_001912_1873",
+    "size_checks": {
+      "reale.csv": 70288,
+      "point.txt": 307,
+      "reale.status.log": 604,
+      "reale.config.txt": 977
+    }
+  },
+  "cold_sx_reverse_24": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_02/points/cold_sx_reverse_24_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_02/static_point_20261105_234210_4065",
+    "size_checks": {
+      "reale.csv": 70288,
+      "point.txt": 307,
+      "reale.status.log": 604,
+      "reale.config.txt": 977
+    }
+  },
+  "cold_sx_reverse_25": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_02/points/cold_sx_reverse_25_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_02/static_point_20261106_094937_1591",
+    "size_checks": {
+      "reale.csv": 70288,
+      "point.txt": 307,
+      "reale.status.log": 604,
+      "reale.config.txt": 977
+    }
+  },
+  "cold_sx_reverse_27": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_02/points/cold_sx_reverse_27_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_02/static_point_20261105_234054_3832",
+    "size_checks": {
+      "reale.csv": 70288,
+      "point.txt": 307,
+      "reale.status.log": 604,
+      "reale.config.txt": 977
+    }
+  },
+  "cold_sx_reverse_28": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_02/points/cold_sx_reverse_28_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_02/static_point_20261105_234944_5458",
+    "size_checks": {
+      "reale.csv": 70288,
+      "point.txt": 307,
+      "reale.status.log": 604,
+      "reale.config.txt": 977
+    }
+  },
+  "cold_sx_reverse_30": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_02/points/cold_sx_reverse_30_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_02/static_point_20261106_090848_1657",
+    "size_checks": {
+      "reale.csv": 70288,
+      "point.txt": 307,
+      "reale.status.log": 604,
+      "reale.config.txt": 977
+    }
+  },
+  "cold_sx_reverse_31": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_02/points/cold_sx_reverse_31_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_02/static_point_20261105_234326_4297",
+    "size_checks": {
+      "reale.csv": 70288,
+      "point.txt": 307,
+      "reale.status.log": 604,
+      "reale.config.txt": 977
+    }
+  },
+  "cold_sx_reverse_33": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_02/points/cold_sx_reverse_33_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_02/static_point_20261105_235216_5923",
+    "size_checks": {
+      "reale.csv": 70288,
+      "point.txt": 307,
+      "reale.status.log": 604,
+      "reale.config.txt": 977
+    }
+  },
+  "cold_sx_reverse_34": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_02/points/cold_sx_reverse_34_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_02/static_point_20261106_001754_1641",
+    "size_checks": {
+      "reale.csv": 70288,
+      "point.txt": 307,
+      "reale.status.log": 604,
+      "reale.config.txt": 977
+    }
+  },
+  "cold_sx_reverse_37": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_02/points/cold_sx_reverse_37_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_02/static_point_20261105_234713_4994",
+    "size_checks": {
+      "reale.csv": 70288,
+      "point.txt": 307,
+      "reale.status.log": 604,
+      "reale.config.txt": 977
+    }
+  },
+  "cold_sx_reverse_38": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_02/points/cold_sx_reverse_38_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_02/static_point_20261106_100015_1643",
+    "size_checks": {
+      "reale.csv": 70288,
+      "point.txt": 307,
+      "reale.status.log": 604,
+      "reale.config.txt": 977
+    }
+  },
+  "cold_sx_reverse_39": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_02/points/cold_sx_reverse_39_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_02/static_point_20261106_104036_2681",
+    "size_checks": {
+      "reale.csv": 70288,
+      "point.txt": 307,
+      "reale.status.log": 604,
+      "reale.config.txt": 977
+    }
+  },
+  "moving_dx_forward_00": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_02/points/moving_dx_forward_00_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_02/static_point_20261105_233850_3455",
+    "size_checks": {
+      "reale.csv": 88788,
+      "point.txt": 308,
+      "reale.status.log": 683,
+      "reale.config.txt": 977
+    }
+  },
+  "moving_dx_forward_02": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_02/points/moving_dx_forward_02_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_02/static_point_20261106_002100_2192",
+    "size_checks": {
+      "reale.csv": 89388,
+      "point.txt": 308,
+      "reale.status.log": 683,
+      "reale.config.txt": 977
+    }
+  },
+  "moving_dx_forward_03": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_02/points/moving_dx_forward_03_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_02/static_point_20261105_234625_4848",
+    "size_checks": {
+      "reale.csv": 89388,
+      "point.txt": 308,
+      "reale.status.log": 683,
+      "reale.config.txt": 977
+    }
+  },
+  "moving_dx_forward_05": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_02/points/moving_dx_forward_05_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_02/static_point_20261106_095927_1497",
+    "size_checks": {
+      "reale.csv": 89688,
+      "point.txt": 308,
+      "reale.status.log": 683,
+      "reale.config.txt": 977
+    }
+  },
+  "moving_dx_forward_07": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_02/points/moving_dx_forward_07_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_02/static_point_20261106_100445_2004",
+    "size_checks": {
+      "reale.csv": 89688,
+      "point.txt": 308,
+      "reale.status.log": 683,
+      "reale.config.txt": 977
+    }
+  },
+  "moving_dx_forward_07_hold10": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_02/points/moving_dx_forward_07_hold10_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_02/static_point_20261106_100509_2062",
+    "size_checks": {
+      "reale.csv": 160289,
+      "point.txt": 309,
+      "reale.status.log": 980,
+      "reale.config.txt": 977
+    }
+  },
+  "moving_dx_forward_07_hold6": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_02/points/moving_dx_forward_07_hold6_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_02/static_point_20261106_100456_2033",
+    "size_checks": {
+      "reale.csv": 119889,
+      "point.txt": 308,
+      "reale.status.log": 811,
+      "reale.config.txt": 977
+    }
+  },
+  "moving_dx_forward_08": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_02/points/moving_dx_forward_08_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_02/static_point_20261106_090746_1483",
+    "size_checks": {
+      "reale.csv": 89688,
+      "point.txt": 308,
+      "reale.status.log": 683,
+      "reale.config.txt": 977
+    }
+  },
+  "moving_dx_forward_10": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_02/points/moving_dx_forward_10_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_02/static_point_20261106_103949_2536",
+    "size_checks": {
+      "reale.csv": 89688,
+      "point.txt": 308,
+      "reale.status.log": 683,
+      "reale.config.txt": 977
+    }
+  },
+  "moving_dx_forward_11": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_02/points/moving_dx_forward_11_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_02/static_point_20261106_091142_2208",
+    "size_checks": {
+      "reale.csv": 89688,
+      "point.txt": 308,
+      "reale.status.log": 683,
+      "reale.config.txt": 977
+    }
+  },
+  "moving_dx_forward_12": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_02/points/moving_dx_forward_12_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_02/static_point_20261106_001656_1489",
+    "size_checks": {
+      "reale.csv": 89688,
+      "point.txt": 308,
+      "reale.status.log": 683,
+      "reale.config.txt": 977
+    }
+  },
+  "moving_dx_forward_13": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_02/points/moving_dx_forward_13_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_02/static_point_20261105_235128_5777",
+    "size_checks": {
+      "reale.csv": 89688,
+      "point.txt": 308,
+      "reale.status.log": 683,
+      "reale.config.txt": 977
+    }
+  },
+  "moving_dx_forward_14": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_02/points/moving_dx_forward_14_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_02/static_point_20261105_234855_5313",
+    "size_checks": {
+      "reale.csv": 89688,
+      "point.txt": 308,
+      "reale.status.log": 683,
+      "reale.config.txt": 977
+    }
+  },
+  "moving_dx_forward_15": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_02/points/moving_dx_forward_15_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_02/static_point_20261105_234006_3687",
+    "size_checks": {
+      "reale.csv": 89688,
+      "point.txt": 308,
+      "reale.status.log": 683,
+      "reale.config.txt": 977
+    }
+  },
+  "moving_dx_forward_17": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_02/points/moving_dx_forward_17_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_02/static_point_20261106_002339_2657",
+    "size_checks": {
+      "reale.csv": 89688,
+      "point.txt": 308,
+      "reale.status.log": 683,
+      "reale.config.txt": 977
+    }
+  },
+  "moving_dx_forward_19": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_02/points/moving_dx_forward_19_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_02/static_point_20261106_103834_2303",
+    "size_checks": {
+      "reale.csv": 89688,
+      "point.txt": 308,
+      "reale.status.log": 683,
+      "reale.config.txt": 977
+    }
+  },
+  "moving_dx_forward_20": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_02/points/moving_dx_forward_20_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_02/static_point_20261105_234509_4616",
+    "size_checks": {
+      "reale.csv": 90288,
+      "point.txt": 309,
+      "reale.status.log": 687,
+      "reale.config.txt": 977
+    }
+  },
+  "moving_dx_forward_22": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_02/points/moving_dx_forward_22_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_02/static_point_20261106_002218_2424",
+    "size_checks": {
+      "reale.csv": 90288,
+      "point.txt": 309,
+      "reale.status.log": 687,
+      "reale.config.txt": 977
+    }
+  },
+  "moving_dx_forward_23": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_02/points/moving_dx_forward_23_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_02/static_point_20261106_001941_1960",
+    "size_checks": {
+      "reale.csv": 90288,
+      "point.txt": 309,
+      "reale.status.log": 687,
+      "reale.config.txt": 977
+    }
+  },
+  "moving_dx_forward_24": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_02/points/moving_dx_forward_24_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_02/static_point_20261105_234238_4152",
+    "size_checks": {
+      "reale.csv": 90288,
+      "point.txt": 309,
+      "reale.status.log": 687,
+      "reale.config.txt": 977
+    }
+  },
+  "moving_dx_forward_25": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_02/points/moving_dx_forward_25_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_02/static_point_20261106_103719_2071",
+    "size_checks": {
+      "reale.csv": 90288,
+      "point.txt": 309,
+      "reale.status.log": 687,
+      "reale.config.txt": 977
+    }
+  },
+  "moving_dx_forward_27": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_02/points/moving_dx_forward_27_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_02/static_point_20261105_234122_3919",
+    "size_checks": {
+      "reale.csv": 90288,
+      "point.txt": 309,
+      "reale.status.log": 687,
+      "reale.config.txt": 977
+    }
+  },
+  "moving_dx_forward_28": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_02/points/moving_dx_forward_28_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_02/static_point_20261105_235012_5545",
+    "size_checks": {
+      "reale.csv": 90288,
+      "point.txt": 309,
+      "reale.status.log": 687,
+      "reale.config.txt": 977
+    }
+  },
+  "moving_dx_forward_30": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_02/points/moving_dx_forward_30_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_02/static_point_20261106_090916_1744",
+    "size_checks": {
+      "reale.csv": 90288,
+      "point.txt": 309,
+      "reale.status.log": 687,
+      "reale.config.txt": 977
+    }
+  },
+  "moving_dx_forward_31": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_02/points/moving_dx_forward_31_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_02/static_point_20261105_234354_4384",
+    "size_checks": {
+      "reale.csv": 90288,
+      "point.txt": 309,
+      "reale.status.log": 687,
+      "reale.config.txt": 977
+    }
+  },
+  "moving_dx_forward_33": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_02/points/moving_dx_forward_33_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_02/static_point_20261105_235244_6010",
+    "size_checks": {
+      "reale.csv": 90288,
+      "point.txt": 309,
+      "reale.status.log": 687,
+      "reale.config.txt": 977
+    }
+  },
+  "moving_dx_forward_34": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_02/points/moving_dx_forward_34_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_02/static_point_20261106_001822_1728",
+    "size_checks": {
+      "reale.csv": 90288,
+      "point.txt": 309,
+      "reale.status.log": 687,
+      "reale.config.txt": 977
+    }
+  },
+  "moving_dx_forward_37": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_02/points/moving_dx_forward_37_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_02/static_point_20261105_234740_5081",
+    "size_checks": {
+      "reale.csv": 90288,
+      "point.txt": 309,
+      "reale.status.log": 687,
+      "reale.config.txt": 977
+    }
+  },
+  "moving_dx_forward_38": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_02/points/moving_dx_forward_38_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_02/static_point_20261106_100042_1730",
+    "size_checks": {
+      "reale.csv": 90288,
+      "point.txt": 309,
+      "reale.status.log": 687,
+      "reale.config.txt": 977
+    }
+  },
+  "moving_dx_forward_39": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_02/points/moving_dx_forward_39_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_02/static_point_20261106_104104_2768",
+    "size_checks": {
+      "reale.csv": 90288,
+      "point.txt": 309,
+      "reale.status.log": 687,
+      "reale.config.txt": 977
+    }
+  },
+  "moving_dx_reverse_00": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_02/points/moving_dx_reverse_00_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_02/static_point_20261105_233909_3513",
+    "size_checks": {
+      "reale.csv": 89488,
+      "point.txt": 308,
+      "reale.status.log": 690,
+      "reale.config.txt": 977
+    }
+  },
+  "moving_dx_reverse_02": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_02/points/moving_dx_reverse_02_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_02/static_point_20261106_002120_2250",
+    "size_checks": {
+      "reale.csv": 90388,
+      "point.txt": 308,
+      "reale.status.log": 690,
+      "reale.config.txt": 977
+    }
+  },
+  "moving_dx_reverse_03": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_02/points/moving_dx_reverse_03_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_02/static_point_20261105_234644_4907",
+    "size_checks": {
+      "reale.csv": 90388,
+      "point.txt": 308,
+      "reale.status.log": 690,
+      "reale.config.txt": 977
+    }
+  },
+  "moving_dx_reverse_05": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_02/points/moving_dx_reverse_05_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_02/static_point_20261106_095946_1555",
+    "size_checks": {
+      "reale.csv": 90688,
+      "point.txt": 308,
+      "reale.status.log": 690,
+      "reale.config.txt": 977
+    }
+  },
+  "moving_dx_reverse_07": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_02/points/moving_dx_reverse_07_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_02/static_point_20261106_100535_2121",
+    "size_checks": {
+      "reale.csv": 90688,
+      "point.txt": 308,
+      "reale.status.log": 690,
+      "reale.config.txt": 977
+    }
+  },
+  "moving_dx_reverse_08": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_02/points/moving_dx_reverse_08_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_02/static_point_20261106_090817_1570",
+    "size_checks": {
+      "reale.csv": 90688,
+      "point.txt": 308,
+      "reale.status.log": 690,
+      "reale.config.txt": 977
+    }
+  },
+  "moving_dx_reverse_10": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_02/points/moving_dx_reverse_10_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_02/static_point_20261106_104007_2594",
+    "size_checks": {
+      "reale.csv": 90688,
+      "point.txt": 308,
+      "reale.status.log": 690,
+      "reale.config.txt": 977
+    }
+  },
+  "moving_dx_reverse_11": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_02/points/moving_dx_reverse_11_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_02/static_point_20261106_091201_2266",
+    "size_checks": {
+      "reale.csv": 90688,
+      "point.txt": 308,
+      "reale.status.log": 690,
+      "reale.config.txt": 977
+    }
+  },
+  "moving_dx_reverse_12": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_02/points/moving_dx_reverse_12_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_02/static_point_20261106_001724_1554",
+    "size_checks": {
+      "reale.csv": 90688,
+      "point.txt": 308,
+      "reale.status.log": 690,
+      "reale.config.txt": 977
+    }
+  },
+  "moving_dx_reverse_13": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_02/points/moving_dx_reverse_13_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_02/static_point_20261105_235147_5836",
+    "size_checks": {
+      "reale.csv": 90688,
+      "point.txt": 308,
+      "reale.status.log": 690,
+      "reale.config.txt": 977
+    }
+  },
+  "moving_dx_reverse_14": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_02/points/moving_dx_reverse_14_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_02/static_point_20261105_234915_5371",
+    "size_checks": {
+      "reale.csv": 90688,
+      "point.txt": 308,
+      "reale.status.log": 690,
+      "reale.config.txt": 977
+    }
+  },
+  "moving_dx_reverse_15": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_02/points/moving_dx_reverse_15_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_02/static_point_20261105_234025_3745",
+    "size_checks": {
+      "reale.csv": 90688,
+      "point.txt": 308,
+      "reale.status.log": 690,
+      "reale.config.txt": 977
+    }
+  },
+  "moving_dx_reverse_17": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_02/points/moving_dx_reverse_17_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_02/static_point_20261106_002403_2715",
+    "size_checks": {
+      "reale.csv": 90688,
+      "point.txt": 308,
+      "reale.status.log": 690,
+      "reale.config.txt": 977
+    }
+  },
+  "moving_dx_reverse_19": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_02/points/moving_dx_reverse_19_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_02/static_point_20261106_103852_2362",
+    "size_checks": {
+      "reale.csv": 90688,
+      "point.txt": 308,
+      "reale.status.log": 690,
+      "reale.config.txt": 977
+    }
+  },
+  "moving_dx_reverse_20": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_02/points/moving_dx_reverse_20_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_02/static_point_20261105_234528_4674",
+    "size_checks": {
+      "reale.csv": 91288,
+      "point.txt": 309,
+      "reale.status.log": 694,
+      "reale.config.txt": 977
+    }
+  },
+  "moving_dx_reverse_22": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_02/points/moving_dx_reverse_22_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_02/static_point_20261106_002238_2483",
+    "size_checks": {
+      "reale.csv": 91288,
+      "point.txt": 309,
+      "reale.status.log": 694,
+      "reale.config.txt": 977
+    }
+  },
+  "moving_dx_reverse_23": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_02/points/moving_dx_reverse_23_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_02/static_point_20261106_002000_2018",
+    "size_checks": {
+      "reale.csv": 91288,
+      "point.txt": 309,
+      "reale.status.log": 694,
+      "reale.config.txt": 977
+    }
+  },
+  "moving_dx_reverse_24": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_02/points/moving_dx_reverse_24_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_02/static_point_20261105_234257_4210",
+    "size_checks": {
+      "reale.csv": 91288,
+      "point.txt": 309,
+      "reale.status.log": 694,
+      "reale.config.txt": 977
+    }
+  },
+  "moving_dx_reverse_25": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_02/points/moving_dx_reverse_25_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_02/static_point_20261106_103738_2129",
+    "size_checks": {
+      "reale.csv": 91288,
+      "point.txt": 309,
+      "reale.status.log": 694,
+      "reale.config.txt": 977
+    }
+  },
+  "moving_dx_reverse_27": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_02/points/moving_dx_reverse_27_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_02/static_point_20261105_234141_3978",
+    "size_checks": {
+      "reale.csv": 91288,
+      "point.txt": 309,
+      "reale.status.log": 694,
+      "reale.config.txt": 977
+    }
+  },
+  "moving_dx_reverse_28": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_02/points/moving_dx_reverse_28_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_02/static_point_20261105_235031_5603",
+    "size_checks": {
+      "reale.csv": 91288,
+      "point.txt": 309,
+      "reale.status.log": 694,
+      "reale.config.txt": 977
+    }
+  },
+  "moving_dx_reverse_30": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_02/points/moving_dx_reverse_30_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_02/static_point_20261106_090936_1802",
+    "size_checks": {
+      "reale.csv": 91288,
+      "point.txt": 309,
+      "reale.status.log": 694,
+      "reale.config.txt": 977
+    }
+  },
+  "moving_dx_reverse_31": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_02/points/moving_dx_reverse_31_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_02/static_point_20261105_234412_4442",
+    "size_checks": {
+      "reale.csv": 91288,
+      "point.txt": 309,
+      "reale.status.log": 694,
+      "reale.config.txt": 977
+    }
+  },
+  "moving_dx_reverse_33": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_02/points/moving_dx_reverse_33_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_02/static_point_20261105_235303_6068",
+    "size_checks": {
+      "reale.csv": 91288,
+      "point.txt": 309,
+      "reale.status.log": 694,
+      "reale.config.txt": 977
+    }
+  },
+  "moving_dx_reverse_34": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_02/points/moving_dx_reverse_34_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_02/static_point_20261106_001841_1786",
+    "size_checks": {
+      "reale.csv": 91288,
+      "point.txt": 309,
+      "reale.status.log": 694,
+      "reale.config.txt": 977
+    }
+  },
+  "moving_dx_reverse_37": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_02/points/moving_dx_reverse_37_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_02/static_point_20261105_234759_5139",
+    "size_checks": {
+      "reale.csv": 91288,
+      "point.txt": 309,
+      "reale.status.log": 694,
+      "reale.config.txt": 977
+    }
+  },
+  "moving_dx_reverse_38": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_02/points/moving_dx_reverse_38_attempt02",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_02/static_point_20261106_100349_1830",
+    "size_checks": {
+      "reale.csv": 91288,
+      "point.txt": 309,
+      "reale.status.log": 694,
+      "reale.config.txt": 977
+    }
+  },
+  "moving_dx_reverse_39": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_02/points/moving_dx_reverse_39_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_02/static_point_20261106_104122_2826",
+    "size_checks": {
+      "reale.csv": 91288,
+      "point.txt": 309,
+      "reale.status.log": 694,
+      "reale.config.txt": 977
+    }
+  },
+  "moving_sx_forward_00": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_02/points/moving_sx_forward_00_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_02/static_point_20261105_233812_3339",
+    "size_checks": {
+      "reale.csv": 88788,
+      "point.txt": 308,
+      "reale.status.log": 683,
+      "reale.config.txt": 977
+    }
+  },
+  "moving_sx_forward_02": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_02/points/moving_sx_forward_02_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_02/static_point_20261106_002019_2076",
+    "size_checks": {
+      "reale.csv": 89388,
+      "point.txt": 308,
+      "reale.status.log": 683,
+      "reale.config.txt": 977
+    }
+  },
+  "moving_sx_forward_03": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_02/points/moving_sx_forward_03_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_02/static_point_20261105_234547_4732",
+    "size_checks": {
+      "reale.csv": 89388,
+      "point.txt": 308,
+      "reale.status.log": 683,
+      "reale.config.txt": 977
+    }
+  },
+  "moving_sx_forward_05": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_02/points/moving_sx_forward_05_attempt02",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_02/static_point_20261106_095850_1381",
+    "size_checks": {
+      "reale.csv": 89688,
+      "point.txt": 308,
+      "reale.status.log": 683,
+      "reale.config.txt": 977
+    }
+  },
+  "moving_sx_forward_07": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_02/points/moving_sx_forward_07_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_02/static_point_20261106_100408_1888",
+    "size_checks": {
+      "reale.csv": 89688,
+      "point.txt": 308,
+      "reale.status.log": 683,
+      "reale.config.txt": 977
+    }
+  },
+  "moving_sx_forward_08": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_02/points/moving_sx_forward_08_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_02/static_point_20261106_002422_2776",
+    "size_checks": {
+      "reale.csv": 89688,
+      "point.txt": 308,
+      "reale.status.log": 683,
+      "reale.config.txt": 977
+    }
+  },
+  "moving_sx_forward_10": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_02/points/moving_sx_forward_10_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_02/static_point_20261106_103911_2420",
+    "size_checks": {
+      "reale.csv": 89688,
+      "point.txt": 308,
+      "reale.status.log": 683,
+      "reale.config.txt": 977
+    }
+  },
+  "moving_sx_forward_11": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_02/points/moving_sx_forward_11_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_02/static_point_20261106_090955_1860",
+    "size_checks": {
+      "reale.csv": 89688,
+      "point.txt": 308,
+      "reale.status.log": 683,
+      "reale.config.txt": 977
+    }
+  },
+  "moving_sx_forward_12": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_02/points/moving_sx_forward_12_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_02/static_point_20261105_235321_6126",
+    "size_checks": {
+      "reale.csv": 89688,
+      "point.txt": 308,
+      "reale.status.log": 683,
+      "reale.config.txt": 977
+    }
+  },
+  "moving_sx_forward_13": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_02/points/moving_sx_forward_13_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_02/static_point_20261105_235050_5661",
+    "size_checks": {
+      "reale.csv": 89688,
+      "point.txt": 308,
+      "reale.status.log": 683,
+      "reale.config.txt": 977
+    }
+  },
+  "moving_sx_forward_14": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_02/points/moving_sx_forward_14_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_02/static_point_20261105_234818_5197",
+    "size_checks": {
+      "reale.csv": 89688,
+      "point.txt": 308,
+      "reale.status.log": 683,
+      "reale.config.txt": 977
+    }
+  },
+  "moving_sx_forward_15": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_02/points/moving_sx_forward_15_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_02/static_point_20261105_233928_3571",
+    "size_checks": {
+      "reale.csv": 89688,
+      "point.txt": 308,
+      "reale.status.log": 683,
+      "reale.config.txt": 977
+    }
+  },
+  "moving_sx_forward_17": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_02/points/moving_sx_forward_17_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_02/static_point_20261106_002257_2541",
+    "size_checks": {
+      "reale.csv": 89688,
+      "point.txt": 308,
+      "reale.status.log": 683,
+      "reale.config.txt": 977
+    }
+  },
+  "moving_sx_forward_19": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_02/points/moving_sx_forward_19_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_02/static_point_20261106_103756_2187",
+    "size_checks": {
+      "reale.csv": 89688,
+      "point.txt": 308,
+      "reale.status.log": 683,
+      "reale.config.txt": 977
+    }
+  },
+  "moving_sx_forward_20": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_02/points/moving_sx_forward_20_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_02/static_point_20261105_234431_4500",
+    "size_checks": {
+      "reale.csv": 90288,
+      "point.txt": 309,
+      "reale.status.log": 687,
+      "reale.config.txt": 977
+    }
+  },
+  "moving_sx_forward_22": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_02/points/moving_sx_forward_22_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_02/static_point_20261106_002139_2308",
+    "size_checks": {
+      "reale.csv": 90288,
+      "point.txt": 309,
+      "reale.status.log": 687,
+      "reale.config.txt": 977
+    }
+  },
+  "moving_sx_forward_23": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_02/points/moving_sx_forward_23_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_02/static_point_20261106_001901_1844",
+    "size_checks": {
+      "reale.csv": 90288,
+      "point.txt": 309,
+      "reale.status.log": 687,
+      "reale.config.txt": 977
+    }
+  },
+  "moving_sx_forward_24": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_02/points/moving_sx_forward_24_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_02/static_point_20261105_234200_4036",
+    "size_checks": {
+      "reale.csv": 90288,
+      "point.txt": 309,
+      "reale.status.log": 687,
+      "reale.config.txt": 977
+    }
+  },
+  "moving_sx_forward_25": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_02/points/moving_sx_forward_25_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_02/static_point_20261106_094855_1554",
+    "size_checks": {
+      "reale.csv": 90288,
+      "point.txt": 309,
+      "reale.status.log": 687,
+      "reale.config.txt": 977
+    }
+  },
+  "moving_sx_forward_27": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_02/points/moving_sx_forward_27_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_02/static_point_20261105_234044_3803",
+    "size_checks": {
+      "reale.csv": 90288,
+      "point.txt": 309,
+      "reale.status.log": 687,
+      "reale.config.txt": 977
+    }
+  },
+  "moving_sx_forward_28": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_02/points/moving_sx_forward_28_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_02/static_point_20261105_234934_5429",
+    "size_checks": {
+      "reale.csv": 90288,
+      "point.txt": 309,
+      "reale.status.log": 687,
+      "reale.config.txt": 977
+    }
+  },
+  "moving_sx_forward_30": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_02/points/moving_sx_forward_30_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_02/static_point_20261106_090837_1628",
+    "size_checks": {
+      "reale.csv": 90288,
+      "point.txt": 309,
+      "reale.status.log": 687,
+      "reale.config.txt": 977
+    }
+  },
+  "moving_sx_forward_31": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_02/points/moving_sx_forward_31_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_02/static_point_20261105_234316_4268",
+    "size_checks": {
+      "reale.csv": 90288,
+      "point.txt": 309,
+      "reale.status.log": 687,
+      "reale.config.txt": 977
+    }
+  },
+  "moving_sx_forward_33": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_02/points/moving_sx_forward_33_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_02/static_point_20261105_235206_5894",
+    "size_checks": {
+      "reale.csv": 90288,
+      "point.txt": 309,
+      "reale.status.log": 687,
+      "reale.config.txt": 977
+    }
+  },
+  "moving_sx_forward_34": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_02/points/moving_sx_forward_34_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_02/static_point_20261106_001743_1612",
+    "size_checks": {
+      "reale.csv": 90288,
+      "point.txt": 309,
+      "reale.status.log": 687,
+      "reale.config.txt": 977
+    }
+  },
+  "moving_sx_forward_37": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_02/points/moving_sx_forward_37_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_02/static_point_20261105_234703_4965",
+    "size_checks": {
+      "reale.csv": 90288,
+      "point.txt": 309,
+      "reale.status.log": 687,
+      "reale.config.txt": 977
+    }
+  },
+  "moving_sx_forward_38": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_02/points/moving_sx_forward_38_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_02/static_point_20261106_100005_1613",
+    "size_checks": {
+      "reale.csv": 90288,
+      "point.txt": 309,
+      "reale.status.log": 687,
+      "reale.config.txt": 977
+    }
+  },
+  "moving_sx_forward_39": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_02/points/moving_sx_forward_39_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_02/static_point_20261106_104026_2652",
+    "size_checks": {
+      "reale.csv": 90288,
+      "point.txt": 309,
+      "reale.status.log": 687,
+      "reale.config.txt": 977
+    }
+  },
+  "moving_sx_forward_40": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_03/points/moving_sx_forward_40_attempt02",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_03/static_point_20261106_101453_2379",
+    "size_checks": {
+      "reale.csv": 90588,
+      "point.txt": 310,
+      "reale.status.log": 687,
+      "reale.config.txt": 977
+    }
+  },
+  "moving_sx_reverse_00": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_02/points/moving_sx_reverse_00_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_02/static_point_20261105_233831_3397",
+    "size_checks": {
+      "reale.csv": 89488,
+      "point.txt": 308,
+      "reale.status.log": 690,
+      "reale.config.txt": 977
+    }
+  },
+  "moving_sx_reverse_02": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_02/points/moving_sx_reverse_02_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_02/static_point_20261106_002039_2134",
+    "size_checks": {
+      "reale.csv": 90388,
+      "point.txt": 308,
+      "reale.status.log": 690,
+      "reale.config.txt": 977
+    }
+  },
+  "moving_sx_reverse_03": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_02/points/moving_sx_reverse_03_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_02/static_point_20261105_234606_4790",
+    "size_checks": {
+      "reale.csv": 90388,
+      "point.txt": 308,
+      "reale.status.log": 690,
+      "reale.config.txt": 977
+    }
+  },
+  "moving_sx_reverse_05": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_02/points/moving_sx_reverse_05_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_02/static_point_20261106_095908_1439",
+    "size_checks": {
+      "reale.csv": 90688,
+      "point.txt": 308,
+      "reale.status.log": 690,
+      "reale.config.txt": 977
+    }
+  },
+  "moving_sx_reverse_07": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_02/points/moving_sx_reverse_07_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_02/static_point_20261106_100427_1946",
+    "size_checks": {
+      "reale.csv": 90688,
+      "point.txt": 308,
+      "reale.status.log": 690,
+      "reale.config.txt": 977
+    }
+  },
+  "moving_sx_reverse_08": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_02/points/moving_sx_reverse_08_attempt02",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_02/static_point_20261106_090727_1425",
+    "size_checks": {
+      "reale.csv": 90688,
+      "point.txt": 308,
+      "reale.status.log": 690,
+      "reale.config.txt": 977
+    }
+  },
+  "moving_sx_reverse_10": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_02/points/moving_sx_reverse_10_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_02/static_point_20261106_103930_2478",
+    "size_checks": {
+      "reale.csv": 90688,
+      "point.txt": 308,
+      "reale.status.log": 690,
+      "reale.config.txt": 977
+    }
+  },
+  "moving_sx_reverse_11": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_02/points/moving_sx_reverse_11_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_02/static_point_20261106_091014_1918",
+    "size_checks": {
+      "reale.csv": 90688,
+      "point.txt": 308,
+      "reale.status.log": 690,
+      "reale.config.txt": 977
+    }
+  },
+  "moving_sx_reverse_12": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_02/points/moving_sx_reverse_12_attempt02",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_02/static_point_20261106_001636_1431",
+    "size_checks": {
+      "reale.csv": 90688,
+      "point.txt": 308,
+      "reale.status.log": 690,
+      "reale.config.txt": 977
+    }
+  },
+  "moving_sx_reverse_13": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_02/points/moving_sx_reverse_13_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_02/static_point_20261105_235109_5719",
+    "size_checks": {
+      "reale.csv": 90688,
+      "point.txt": 308,
+      "reale.status.log": 690,
+      "reale.config.txt": 977
+    }
+  },
+  "moving_sx_reverse_14": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_02/points/moving_sx_reverse_14_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_02/static_point_20261105_234837_5255",
+    "size_checks": {
+      "reale.csv": 90688,
+      "point.txt": 308,
+      "reale.status.log": 690,
+      "reale.config.txt": 977
+    }
+  },
+  "moving_sx_reverse_15": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_02/points/moving_sx_reverse_15_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_02/static_point_20261105_233947_3629",
+    "size_checks": {
+      "reale.csv": 90688,
+      "point.txt": 308,
+      "reale.status.log": 690,
+      "reale.config.txt": 977
+    }
+  },
+  "moving_sx_reverse_17": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_02/points/moving_sx_reverse_17_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_02/static_point_20261106_002317_2599",
+    "size_checks": {
+      "reale.csv": 90688,
+      "point.txt": 308,
+      "reale.status.log": 690,
+      "reale.config.txt": 977
+    }
+  },
+  "moving_sx_reverse_19": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_02/points/moving_sx_reverse_19_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_02/static_point_20261106_103815_2245",
+    "size_checks": {
+      "reale.csv": 90688,
+      "point.txt": 308,
+      "reale.status.log": 690,
+      "reale.config.txt": 977
+    }
+  },
+  "moving_sx_reverse_20": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_02/points/moving_sx_reverse_20_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_02/static_point_20261105_234450_4558",
+    "size_checks": {
+      "reale.csv": 91288,
+      "point.txt": 309,
+      "reale.status.log": 694,
+      "reale.config.txt": 977
+    }
+  },
+  "moving_sx_reverse_22": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_02/points/moving_sx_reverse_22_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_02/static_point_20261106_002159_2366",
+    "size_checks": {
+      "reale.csv": 91288,
+      "point.txt": 309,
+      "reale.status.log": 694,
+      "reale.config.txt": 977
+    }
+  },
+  "moving_sx_reverse_23": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_02/points/moving_sx_reverse_23_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_02/static_point_20261106_001921_1902",
+    "size_checks": {
+      "reale.csv": 91288,
+      "point.txt": 309,
+      "reale.status.log": 694,
+      "reale.config.txt": 977
+    }
+  },
+  "moving_sx_reverse_24": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_02/points/moving_sx_reverse_24_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_02/static_point_20261105_234219_4094",
+    "size_checks": {
+      "reale.csv": 91288,
+      "point.txt": 309,
+      "reale.status.log": 694,
+      "reale.config.txt": 977
+    }
+  },
+  "moving_sx_reverse_25": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_02/points/moving_sx_reverse_25_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_02/static_point_20261106_095006_1621",
+    "size_checks": {
+      "reale.csv": 91288,
+      "point.txt": 309,
+      "reale.status.log": 694,
+      "reale.config.txt": 977
+    }
+  },
+  "moving_sx_reverse_27": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_02/points/moving_sx_reverse_27_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_02/static_point_20261105_234103_3861",
+    "size_checks": {
+      "reale.csv": 91288,
+      "point.txt": 309,
+      "reale.status.log": 694,
+      "reale.config.txt": 977
+    }
+  },
+  "moving_sx_reverse_28": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_02/points/moving_sx_reverse_28_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_02/static_point_20261105_234953_5487",
+    "size_checks": {
+      "reale.csv": 91288,
+      "point.txt": 309,
+      "reale.status.log": 694,
+      "reale.config.txt": 977
+    }
+  },
+  "moving_sx_reverse_30": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_02/points/moving_sx_reverse_30_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_02/static_point_20261106_090857_1686",
+    "size_checks": {
+      "reale.csv": 91288,
+      "point.txt": 309,
+      "reale.status.log": 694,
+      "reale.config.txt": 977
+    }
+  },
+  "moving_sx_reverse_31": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_02/points/moving_sx_reverse_31_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_02/static_point_20261105_234335_4326",
+    "size_checks": {
+      "reale.csv": 91288,
+      "point.txt": 309,
+      "reale.status.log": 694,
+      "reale.config.txt": 977
+    }
+  },
+  "moving_sx_reverse_33": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_02/points/moving_sx_reverse_33_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_02/static_point_20261105_235225_5952",
+    "size_checks": {
+      "reale.csv": 91288,
+      "point.txt": 309,
+      "reale.status.log": 694,
+      "reale.config.txt": 977
+    }
+  },
+  "moving_sx_reverse_34": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_02/points/moving_sx_reverse_34_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_02/static_point_20261106_001802_1670",
+    "size_checks": {
+      "reale.csv": 91288,
+      "point.txt": 309,
+      "reale.status.log": 694,
+      "reale.config.txt": 977
+    }
+  },
+  "moving_sx_reverse_37": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_02/points/moving_sx_reverse_37_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_02/static_point_20261105_234721_5023",
+    "size_checks": {
+      "reale.csv": 91288,
+      "point.txt": 309,
+      "reale.status.log": 694,
+      "reale.config.txt": 977
+    }
+  },
+  "moving_sx_reverse_38": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_02/points/moving_sx_reverse_38_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_02/static_point_20261106_100023_1672",
+    "size_checks": {
+      "reale.csv": 91288,
+      "point.txt": 309,
+      "reale.status.log": 694,
+      "reale.config.txt": 977
+    }
+  },
+  "moving_sx_reverse_39": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_02/points/moving_sx_reverse_39_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_02/static_point_20261106_104045_2710",
+    "size_checks": {
+      "reale.csv": 91288,
+      "point.txt": 309,
+      "reale.status.log": 694,
+      "reale.config.txt": 977
+    }
+  },
+  "cold_dx_forward_01": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_03/points/cold_dx_forward_01_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_03/static_point_20261106_102522_4324",
+    "size_checks": {
+      "reale.csv": 68788,
+      "point.txt": 307,
+      "reale.status.log": 596,
+      "reale.config.txt": 977
+    }
+  },
+  "cold_dx_forward_04": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_03/points/cold_dx_forward_04_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_03/static_point_20261106_103518_5267",
+    "size_checks": {
+      "reale.csv": 69088,
+      "point.txt": 307,
+      "reale.status.log": 596,
+      "reale.config.txt": 977
+    }
+  },
+  "cold_dx_forward_06": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_03/points/cold_dx_forward_06_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_03/static_point_20261106_103403_5035",
+    "size_checks": {
+      "reale.csv": 69088,
+      "point.txt": 307,
+      "reale.status.log": 596,
+      "reale.config.txt": 977
+    }
+  },
+  "cold_dx_forward_09": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_03/points/cold_dx_forward_09_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_03/static_point_20261106_102752_4789",
+    "size_checks": {
+      "reale.csv": 69088,
+      "point.txt": 307,
+      "reale.status.log": 596,
+      "reale.config.txt": 977
+    }
+  },
+  "cold_dx_forward_16": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_03/points/cold_dx_forward_16_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_03/static_point_20261106_102637_4557",
+    "size_checks": {
+      "reale.csv": 69088,
+      "point.txt": 307,
+      "reale.status.log": 596,
+      "reale.config.txt": 977
+    }
+  },
+  "cold_dx_forward_18": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_03/points/cold_dx_forward_18_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_03/static_point_20261106_102137_3628",
+    "size_checks": {
+      "reale.csv": 69088,
+      "point.txt": 307,
+      "reale.status.log": 596,
+      "reale.config.txt": 977
+    }
+  },
+  "cold_dx_forward_21": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_03/points/cold_dx_forward_21_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_03/static_point_20261106_102407_4092",
+    "size_checks": {
+      "reale.csv": 69688,
+      "point.txt": 308,
+      "reale.status.log": 600,
+      "reale.config.txt": 977
+    }
+  },
+  "cold_dx_forward_26": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_03/points/cold_dx_forward_26_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_03/static_point_20261106_102252_3860",
+    "size_checks": {
+      "reale.csv": 69688,
+      "point.txt": 308,
+      "reale.status.log": 600,
+      "reale.config.txt": 977
+    }
+  },
+  "cold_dx_forward_29": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_03/points/cold_dx_forward_29_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_03/static_point_20261106_101637_2699",
+    "size_checks": {
+      "reale.csv": 69688,
+      "point.txt": 308,
+      "reale.status.log": 600,
+      "reale.config.txt": 977
+    }
+  },
+  "cold_dx_forward_32": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_03/points/cold_dx_forward_32_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_03/static_point_20261106_101752_2931",
+    "size_checks": {
+      "reale.csv": 69688,
+      "point.txt": 308,
+      "reale.status.log": 600,
+      "reale.config.txt": 977
+    }
+  },
+  "cold_dx_forward_35": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_03/points/cold_dx_forward_35_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_03/static_point_20261106_101907_3163",
+    "size_checks": {
+      "reale.csv": 69688,
+      "point.txt": 308,
+      "reale.status.log": 600,
+      "reale.config.txt": 977
+    }
+  },
+  "cold_dx_forward_36": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_03/points/cold_dx_forward_36_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_03/static_point_20261106_102022_3395",
+    "size_checks": {
+      "reale.csv": 69688,
+      "point.txt": 308,
+      "reale.status.log": 600,
+      "reale.config.txt": 977
+    }
+  },
+  "cold_dx_forward_40": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_03/points/cold_dx_forward_40_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_03/static_point_20261106_101522_2467",
+    "size_checks": {
+      "reale.csv": 69988,
+      "point.txt": 308,
+      "reale.status.log": 600,
+      "reale.config.txt": 977
+    }
+  },
+  "cold_dx_reverse_01": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_03/points/cold_dx_reverse_01_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_03/static_point_20261106_102540_4383",
+    "size_checks": {
+      "reale.csv": 69388,
+      "point.txt": 307,
+      "reale.status.log": 600,
+      "reale.config.txt": 977
+    }
+  },
+  "cold_dx_reverse_04": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_03/points/cold_dx_reverse_04_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_03/static_point_20261106_103537_5326",
+    "size_checks": {
+      "reale.csv": 69688,
+      "point.txt": 307,
+      "reale.status.log": 600,
+      "reale.config.txt": 977
+    }
+  },
+  "cold_dx_reverse_06": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_03/points/cold_dx_reverse_06_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_03/static_point_20261106_103421_5093",
+    "size_checks": {
+      "reale.csv": 69688,
+      "point.txt": 307,
+      "reale.status.log": 600,
+      "reale.config.txt": 977
+    }
+  },
+  "cold_dx_reverse_09": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_03/points/cold_dx_reverse_09_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_03/static_point_20261106_102810_4847",
+    "size_checks": {
+      "reale.csv": 69688,
+      "point.txt": 307,
+      "reale.status.log": 600,
+      "reale.config.txt": 977
+    }
+  },
+  "cold_dx_reverse_16": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_03/points/cold_dx_reverse_16_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_03/static_point_20261106_102655_4615",
+    "size_checks": {
+      "reale.csv": 69688,
+      "point.txt": 307,
+      "reale.status.log": 600,
+      "reale.config.txt": 977
+    }
+  },
+  "cold_dx_reverse_18": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_03/points/cold_dx_reverse_18_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_03/static_point_20261106_102155_3686",
+    "size_checks": {
+      "reale.csv": 69688,
+      "point.txt": 307,
+      "reale.status.log": 600,
+      "reale.config.txt": 977
+    }
+  },
+  "cold_dx_reverse_21": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_03/points/cold_dx_reverse_21_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_03/static_point_20261106_102425_4150",
+    "size_checks": {
+      "reale.csv": 70288,
+      "point.txt": 308,
+      "reale.status.log": 604,
+      "reale.config.txt": 977
+    }
+  },
+  "cold_dx_reverse_26": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_03/points/cold_dx_reverse_26_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_03/static_point_20261106_102311_3918",
+    "size_checks": {
+      "reale.csv": 70288,
+      "point.txt": 308,
+      "reale.status.log": 604,
+      "reale.config.txt": 977
+    }
+  },
+  "cold_dx_reverse_29": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_03/points/cold_dx_reverse_29_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_03/static_point_20261106_101655_2757",
+    "size_checks": {
+      "reale.csv": 70288,
+      "point.txt": 308,
+      "reale.status.log": 604,
+      "reale.config.txt": 977
+    }
+  },
+  "cold_dx_reverse_32": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_03/points/cold_dx_reverse_32_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_03/static_point_20261106_101811_2989",
+    "size_checks": {
+      "reale.csv": 70288,
+      "point.txt": 308,
+      "reale.status.log": 604,
+      "reale.config.txt": 977
+    }
+  },
+  "cold_dx_reverse_35": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_03/points/cold_dx_reverse_35_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_03/static_point_20261106_101926_3221",
+    "size_checks": {
+      "reale.csv": 70288,
+      "point.txt": 308,
+      "reale.status.log": 604,
+      "reale.config.txt": 977
+    }
+  },
+  "cold_dx_reverse_36": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_03/points/cold_dx_reverse_36_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_03/static_point_20261106_102040_3454",
+    "size_checks": {
+      "reale.csv": 70288,
+      "point.txt": 308,
+      "reale.status.log": 604,
+      "reale.config.txt": 977
+    }
+  },
+  "cold_dx_reverse_40": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_03/points/cold_dx_reverse_40_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_03/static_point_20261106_101541_2525",
+    "size_checks": {
+      "reale.csv": 70588,
+      "point.txt": 308,
+      "reale.status.log": 604,
+      "reale.config.txt": 977
+    }
+  },
+  "cold_sx_forward_01": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_03/points/cold_sx_forward_01_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_03/static_point_20261106_102444_4208",
+    "size_checks": {
+      "reale.csv": 68788,
+      "point.txt": 307,
+      "reale.status.log": 596,
+      "reale.config.txt": 977
+    }
+  },
+  "cold_sx_forward_04": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_03/points/cold_sx_forward_04_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_03/static_point_20261106_103440_5151",
+    "size_checks": {
+      "reale.csv": 69088,
+      "point.txt": 307,
+      "reale.status.log": 596,
+      "reale.config.txt": 977
+    }
+  },
+  "cold_sx_forward_06": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_03/points/cold_sx_forward_06_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_03/static_point_20261106_102829_4905",
+    "size_checks": {
+      "reale.csv": 69088,
+      "point.txt": 307,
+      "reale.status.log": 596,
+      "reale.config.txt": 977
+    }
+  },
+  "cold_sx_forward_09": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_03/points/cold_sx_forward_09_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_03/static_point_20261106_102714_4673",
+    "size_checks": {
+      "reale.csv": 69088,
+      "point.txt": 307,
+      "reale.status.log": 596,
+      "reale.config.txt": 977
+    }
+  },
+  "cold_sx_forward_16": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_03/points/cold_sx_forward_16_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_03/static_point_20261106_102559_4441",
+    "size_checks": {
+      "reale.csv": 69088,
+      "point.txt": 307,
+      "reale.status.log": 596,
+      "reale.config.txt": 977
+    }
+  },
+  "cold_sx_forward_18": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_03/points/cold_sx_forward_18_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_03/static_point_20261106_102059_3512",
+    "size_checks": {
+      "reale.csv": 69088,
+      "point.txt": 307,
+      "reale.status.log": 596,
+      "reale.config.txt": 977
+    }
+  },
+  "cold_sx_forward_21": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_03/points/cold_sx_forward_21_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_03/static_point_20261106_102329_3976",
+    "size_checks": {
+      "reale.csv": 69688,
+      "point.txt": 308,
+      "reale.status.log": 600,
+      "reale.config.txt": 977
+    }
+  },
+  "cold_sx_forward_26": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_03/points/cold_sx_forward_26_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_03/static_point_20261106_102214_3744",
+    "size_checks": {
+      "reale.csv": 69688,
+      "point.txt": 308,
+      "reale.status.log": 600,
+      "reale.config.txt": 977
+    }
+  },
+  "cold_sx_forward_29": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_03/points/cold_sx_forward_29_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_03/static_point_20261106_101559_2583",
+    "size_checks": {
+      "reale.csv": 69688,
+      "point.txt": 308,
+      "reale.status.log": 600,
+      "reale.config.txt": 977
+    }
+  },
+  "cold_sx_forward_32": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_03/points/cold_sx_forward_32_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_03/static_point_20261106_101714_2815",
+    "size_checks": {
+      "reale.csv": 69688,
+      "point.txt": 308,
+      "reale.status.log": 600,
+      "reale.config.txt": 977
+    }
+  },
+  "cold_sx_forward_35": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_03/points/cold_sx_forward_35_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_03/static_point_20261106_101829_3047",
+    "size_checks": {
+      "reale.csv": 69688,
+      "point.txt": 308,
+      "reale.status.log": 600,
+      "reale.config.txt": 977
+    }
+  },
+  "cold_sx_forward_36": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_03/points/cold_sx_forward_36_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_03/static_point_20261106_101944_3279",
+    "size_checks": {
+      "reale.csv": 69688,
+      "point.txt": 308,
+      "reale.status.log": 600,
+      "reale.config.txt": 977
+    }
+  },
+  "cold_sx_reverse_01": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_03/points/cold_sx_reverse_01_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_03/static_point_20261106_102503_4266",
+    "size_checks": {
+      "reale.csv": 69388,
+      "point.txt": 307,
+      "reale.status.log": 600,
+      "reale.config.txt": 977
+    }
+  },
+  "cold_sx_reverse_04": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_03/points/cold_sx_reverse_04_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_03/static_point_20261106_103459_5209",
+    "size_checks": {
+      "reale.csv": 69688,
+      "point.txt": 307,
+      "reale.status.log": 600,
+      "reale.config.txt": 977
+    }
+  },
+  "cold_sx_reverse_06": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_03/points/cold_sx_reverse_06_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_03/static_point_20261106_103344_4977",
+    "size_checks": {
+      "reale.csv": 69688,
+      "point.txt": 307,
+      "reale.status.log": 600,
+      "reale.config.txt": 977
+    }
+  },
+  "cold_sx_reverse_09": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_03/points/cold_sx_reverse_09_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_03/static_point_20261106_102733_4731",
+    "size_checks": {
+      "reale.csv": 69688,
+      "point.txt": 307,
+      "reale.status.log": 600,
+      "reale.config.txt": 977
+    }
+  },
+  "cold_sx_reverse_16": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_03/points/cold_sx_reverse_16_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_03/static_point_20261106_102618_4499",
+    "size_checks": {
+      "reale.csv": 69688,
+      "point.txt": 307,
+      "reale.status.log": 600,
+      "reale.config.txt": 977
+    }
+  },
+  "cold_sx_reverse_18": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_03/points/cold_sx_reverse_18_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_03/static_point_20261106_102118_3570",
+    "size_checks": {
+      "reale.csv": 69688,
+      "point.txt": 307,
+      "reale.status.log": 600,
+      "reale.config.txt": 977
+    }
+  },
+  "cold_sx_reverse_21": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_03/points/cold_sx_reverse_21_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_03/static_point_20261106_102348_4034",
+    "size_checks": {
+      "reale.csv": 70288,
+      "point.txt": 308,
+      "reale.status.log": 604,
+      "reale.config.txt": 977
+    }
+  },
+  "cold_sx_reverse_26": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_03/points/cold_sx_reverse_26_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_03/static_point_20261106_102233_3802",
+    "size_checks": {
+      "reale.csv": 70288,
+      "point.txt": 308,
+      "reale.status.log": 604,
+      "reale.config.txt": 977
+    }
+  },
+  "cold_sx_reverse_29": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_03/points/cold_sx_reverse_29_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_03/static_point_20261106_101618_2641",
+    "size_checks": {
+      "reale.csv": 70288,
+      "point.txt": 308,
+      "reale.status.log": 604,
+      "reale.config.txt": 977
+    }
+  },
+  "cold_sx_reverse_32": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_03/points/cold_sx_reverse_32_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_03/static_point_20261106_101733_2873",
+    "size_checks": {
+      "reale.csv": 70288,
+      "point.txt": 308,
+      "reale.status.log": 604,
+      "reale.config.txt": 977
+    }
+  },
+  "cold_sx_reverse_35": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_03/points/cold_sx_reverse_35_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_03/static_point_20261106_101848_3105",
+    "size_checks": {
+      "reale.csv": 70288,
+      "point.txt": 308,
+      "reale.status.log": 604,
+      "reale.config.txt": 977
+    }
+  },
+  "cold_sx_reverse_36": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_03/points/cold_sx_reverse_36_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_03/static_point_20261106_102003_3337",
+    "size_checks": {
+      "reale.csv": 70288,
+      "point.txt": 308,
+      "reale.status.log": 604,
+      "reale.config.txt": 977
+    }
+  },
+  "cold_sx_reverse_40": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_03/points/cold_sx_reverse_40_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_03/static_point_20261106_101503_2408",
+    "size_checks": {
+      "reale.csv": 70588,
+      "point.txt": 308,
+      "reale.status.log": 604,
+      "reale.config.txt": 977
+    }
+  },
+  "moving_dx_forward_01": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_03/points/moving_dx_forward_01_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_03/static_point_20261106_102530_4354",
+    "size_checks": {
+      "reale.csv": 89388,
+      "point.txt": 309,
+      "reale.status.log": 683,
+      "reale.config.txt": 977
+    }
+  },
+  "moving_dx_forward_04": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_03/points/moving_dx_forward_04_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_03/static_point_20261106_103526_5296",
+    "size_checks": {
+      "reale.csv": 89688,
+      "point.txt": 309,
+      "reale.status.log": 683,
+      "reale.config.txt": 977
+    }
+  },
+  "moving_dx_forward_06": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_03/points/moving_dx_forward_06_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_03/static_point_20261106_103411_5064",
+    "size_checks": {
+      "reale.csv": 89688,
+      "point.txt": 309,
+      "reale.status.log": 683,
+      "reale.config.txt": 977
+    }
+  },
+  "moving_dx_forward_09": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_03/points/moving_dx_forward_09_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_03/static_point_20261106_102800_4818",
+    "size_checks": {
+      "reale.csv": 89688,
+      "point.txt": 309,
+      "reale.status.log": 683,
+      "reale.config.txt": 977
+    }
+  },
+  "moving_dx_forward_16": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_03/points/moving_dx_forward_16_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_03/static_point_20261106_102645_4586",
+    "size_checks": {
+      "reale.csv": 89688,
+      "point.txt": 309,
+      "reale.status.log": 683,
+      "reale.config.txt": 977
+    }
+  },
+  "moving_dx_forward_18": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_03/points/moving_dx_forward_18_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_03/static_point_20261106_102145_3657",
+    "size_checks": {
+      "reale.csv": 89688,
+      "point.txt": 309,
+      "reale.status.log": 683,
+      "reale.config.txt": 977
+    }
+  },
+  "moving_dx_forward_21": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_03/points/moving_dx_forward_21_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_03/static_point_20261106_102415_4121",
+    "size_checks": {
+      "reale.csv": 90288,
+      "point.txt": 310,
+      "reale.status.log": 687,
+      "reale.config.txt": 977
+    }
+  },
+  "moving_dx_forward_26": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_03/points/moving_dx_forward_26_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_03/static_point_20261106_102300_3889",
+    "size_checks": {
+      "reale.csv": 90288,
+      "point.txt": 310,
+      "reale.status.log": 687,
+      "reale.config.txt": 977
+    }
+  },
+  "moving_dx_forward_29": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_03/points/moving_dx_forward_29_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_03/static_point_20261106_101645_2728",
+    "size_checks": {
+      "reale.csv": 90288,
+      "point.txt": 310,
+      "reale.status.log": 687,
+      "reale.config.txt": 977
+    }
+  },
+  "moving_dx_forward_32": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_03/points/moving_dx_forward_32_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_03/static_point_20261106_101800_2960",
+    "size_checks": {
+      "reale.csv": 90288,
+      "point.txt": 310,
+      "reale.status.log": 687,
+      "reale.config.txt": 977
+    }
+  },
+  "moving_dx_forward_35": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_03/points/moving_dx_forward_35_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_03/static_point_20261106_101915_3192",
+    "size_checks": {
+      "reale.csv": 90288,
+      "point.txt": 310,
+      "reale.status.log": 687,
+      "reale.config.txt": 977
+    }
+  },
+  "moving_dx_forward_36": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_03/points/moving_dx_forward_36_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_03/static_point_20261106_102030_3425",
+    "size_checks": {
+      "reale.csv": 90288,
+      "point.txt": 310,
+      "reale.status.log": 687,
+      "reale.config.txt": 977
+    }
+  },
+  "moving_dx_forward_40": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_03/points/moving_dx_forward_40_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_03/static_point_20261106_101530_2496",
+    "size_checks": {
+      "reale.csv": 90588,
+      "point.txt": 310,
+      "reale.status.log": 687,
+      "reale.config.txt": 977
+    }
+  },
+  "moving_dx_reverse_01": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_03/points/moving_dx_reverse_01_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_03/static_point_20261106_102549_4412",
+    "size_checks": {
+      "reale.csv": 90388,
+      "point.txt": 309,
+      "reale.status.log": 690,
+      "reale.config.txt": 977
+    }
+  },
+  "moving_dx_reverse_04": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_03/points/moving_dx_reverse_04_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_03/static_point_20261106_103545_5355",
+    "size_checks": {
+      "reale.csv": 90688,
+      "point.txt": 309,
+      "reale.status.log": 690,
+      "reale.config.txt": 977
+    }
+  },
+  "moving_dx_reverse_06": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_03/points/moving_dx_reverse_06_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_03/static_point_20261106_103430_5122",
+    "size_checks": {
+      "reale.csv": 90688,
+      "point.txt": 309,
+      "reale.status.log": 690,
+      "reale.config.txt": 977
+    }
+  },
+  "moving_dx_reverse_09": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_03/points/moving_dx_reverse_09_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_03/static_point_20261106_102819_4876",
+    "size_checks": {
+      "reale.csv": 90688,
+      "point.txt": 309,
+      "reale.status.log": 690,
+      "reale.config.txt": 977
+    }
+  },
+  "moving_dx_reverse_16": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_03/points/moving_dx_reverse_16_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_03/static_point_20261106_102704_4644",
+    "size_checks": {
+      "reale.csv": 90688,
+      "point.txt": 309,
+      "reale.status.log": 690,
+      "reale.config.txt": 977
+    }
+  },
+  "moving_dx_reverse_18": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_03/points/moving_dx_reverse_18_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_03/static_point_20261106_102204_3715",
+    "size_checks": {
+      "reale.csv": 90688,
+      "point.txt": 309,
+      "reale.status.log": 690,
+      "reale.config.txt": 977
+    }
+  },
+  "moving_dx_reverse_21": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_03/points/moving_dx_reverse_21_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_03/static_point_20261106_102434_4179",
+    "size_checks": {
+      "reale.csv": 91288,
+      "point.txt": 310,
+      "reale.status.log": 694,
+      "reale.config.txt": 977
+    }
+  },
+  "moving_dx_reverse_26": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_03/points/moving_dx_reverse_26_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_03/static_point_20261106_102319_3947",
+    "size_checks": {
+      "reale.csv": 91288,
+      "point.txt": 310,
+      "reale.status.log": 694,
+      "reale.config.txt": 977
+    }
+  },
+  "moving_dx_reverse_29": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_03/points/moving_dx_reverse_29_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_03/static_point_20261106_101704_2786",
+    "size_checks": {
+      "reale.csv": 91288,
+      "point.txt": 310,
+      "reale.status.log": 694,
+      "reale.config.txt": 977
+    }
+  },
+  "moving_dx_reverse_32": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_03/points/moving_dx_reverse_32_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_03/static_point_20261106_101819_3018",
+    "size_checks": {
+      "reale.csv": 91288,
+      "point.txt": 310,
+      "reale.status.log": 694,
+      "reale.config.txt": 977
+    }
+  },
+  "moving_dx_reverse_35": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_03/points/moving_dx_reverse_35_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_03/static_point_20261106_101934_3250",
+    "size_checks": {
+      "reale.csv": 91288,
+      "point.txt": 310,
+      "reale.status.log": 694,
+      "reale.config.txt": 977
+    }
+  },
+  "moving_dx_reverse_36": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_03/points/moving_dx_reverse_36_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_03/static_point_20261106_102049_3483",
+    "size_checks": {
+      "reale.csv": 91288,
+      "point.txt": 310,
+      "reale.status.log": 694,
+      "reale.config.txt": 977
+    }
+  },
+  "moving_dx_reverse_40": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_03/points/moving_dx_reverse_40_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_03/static_point_20261106_101549_2554",
+    "size_checks": {
+      "reale.csv": 91588,
+      "point.txt": 310,
+      "reale.status.log": 694,
+      "reale.config.txt": 977
+    }
+  },
+  "moving_sx_forward_01": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_03/points/moving_sx_forward_01_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_03/static_point_20261106_102453_4237",
+    "size_checks": {
+      "reale.csv": 89388,
+      "point.txt": 309,
+      "reale.status.log": 683,
+      "reale.config.txt": 977
+    }
+  },
+  "moving_sx_forward_04": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_03/points/moving_sx_forward_04_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_03/static_point_20261106_103449_5180",
+    "size_checks": {
+      "reale.csv": 89688,
+      "point.txt": 309,
+      "reale.status.log": 683,
+      "reale.config.txt": 977
+    }
+  },
+  "moving_sx_forward_06": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_03/points/moving_sx_forward_06_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_03/static_point_20261106_102838_4934",
+    "size_checks": {
+      "reale.csv": 89688,
+      "point.txt": 309,
+      "reale.status.log": 683,
+      "reale.config.txt": 977
+    }
+  },
+  "moving_sx_forward_09": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_03/points/moving_sx_forward_09_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_03/static_point_20261106_102723_4702",
+    "size_checks": {
+      "reale.csv": 89688,
+      "point.txt": 309,
+      "reale.status.log": 683,
+      "reale.config.txt": 977
+    }
+  },
+  "moving_sx_forward_16": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_03/points/moving_sx_forward_16_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_03/static_point_20261106_102608_4470",
+    "size_checks": {
+      "reale.csv": 89688,
+      "point.txt": 309,
+      "reale.status.log": 683,
+      "reale.config.txt": 977
+    }
+  },
+  "moving_sx_forward_18": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_03/points/moving_sx_forward_18_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_03/static_point_20261106_102108_3541",
+    "size_checks": {
+      "reale.csv": 89688,
+      "point.txt": 309,
+      "reale.status.log": 683,
+      "reale.config.txt": 977
+    }
+  },
+  "moving_sx_forward_21": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_03/points/moving_sx_forward_21_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_03/static_point_20261106_102338_4005",
+    "size_checks": {
+      "reale.csv": 90288,
+      "point.txt": 310,
+      "reale.status.log": 687,
+      "reale.config.txt": 977
+    }
+  },
+  "moving_sx_forward_26": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_03/points/moving_sx_forward_26_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_03/static_point_20261106_102223_3773",
+    "size_checks": {
+      "reale.csv": 90288,
+      "point.txt": 310,
+      "reale.status.log": 687,
+      "reale.config.txt": 977
+    }
+  },
+  "moving_sx_forward_29": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_03/points/moving_sx_forward_29_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_03/static_point_20261106_101608_2612",
+    "size_checks": {
+      "reale.csv": 90288,
+      "point.txt": 310,
+      "reale.status.log": 687,
+      "reale.config.txt": 977
+    }
+  },
+  "moving_sx_forward_32": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_03/points/moving_sx_forward_32_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_03/static_point_20261106_101722_2844",
+    "size_checks": {
+      "reale.csv": 90288,
+      "point.txt": 310,
+      "reale.status.log": 687,
+      "reale.config.txt": 977
+    }
+  },
+  "moving_sx_forward_35": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_03/points/moving_sx_forward_35_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_03/static_point_20261106_101838_3076",
+    "size_checks": {
+      "reale.csv": 90288,
+      "point.txt": 310,
+      "reale.status.log": 687,
+      "reale.config.txt": 977
+    }
+  },
+  "moving_sx_forward_36": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_03/points/moving_sx_forward_36_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_03/static_point_20261106_101953_3308",
+    "size_checks": {
+      "reale.csv": 90288,
+      "point.txt": 310,
+      "reale.status.log": 687,
+      "reale.config.txt": 977
+    }
+  },
+  "moving_sx_reverse_01": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_03/points/moving_sx_reverse_01_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_03/static_point_20261106_102511_4295",
+    "size_checks": {
+      "reale.csv": 90388,
+      "point.txt": 309,
+      "reale.status.log": 690,
+      "reale.config.txt": 977
+    }
+  },
+  "moving_sx_reverse_04": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_03/points/moving_sx_reverse_04_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_03/static_point_20261106_103507_5238",
+    "size_checks": {
+      "reale.csv": 90688,
+      "point.txt": 309,
+      "reale.status.log": 690,
+      "reale.config.txt": 977
+    }
+  },
+  "moving_sx_reverse_06": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_03/points/moving_sx_reverse_06_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_03/static_point_20261106_103352_5006",
+    "size_checks": {
+      "reale.csv": 90688,
+      "point.txt": 309,
+      "reale.status.log": 690,
+      "reale.config.txt": 977
+    }
+  },
+  "moving_sx_reverse_09": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_03/points/moving_sx_reverse_09_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_03/static_point_20261106_102741_4760",
+    "size_checks": {
+      "reale.csv": 90688,
+      "point.txt": 309,
+      "reale.status.log": 690,
+      "reale.config.txt": 977
+    }
+  },
+  "moving_sx_reverse_16": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_03/points/moving_sx_reverse_16_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_03/static_point_20261106_102626_4528",
+    "size_checks": {
+      "reale.csv": 90688,
+      "point.txt": 309,
+      "reale.status.log": 690,
+      "reale.config.txt": 977
+    }
+  },
+  "moving_sx_reverse_18": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_03/points/moving_sx_reverse_18_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_03/static_point_20261106_102126_3599",
+    "size_checks": {
+      "reale.csv": 90688,
+      "point.txt": 309,
+      "reale.status.log": 690,
+      "reale.config.txt": 977
+    }
+  },
+  "moving_sx_reverse_21": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_03/points/moving_sx_reverse_21_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_03/static_point_20261106_102356_4063",
+    "size_checks": {
+      "reale.csv": 91288,
+      "point.txt": 310,
+      "reale.status.log": 694,
+      "reale.config.txt": 977
+    }
+  },
+  "moving_sx_reverse_26": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_03/points/moving_sx_reverse_26_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_03/static_point_20261106_102241_3831",
+    "size_checks": {
+      "reale.csv": 91288,
+      "point.txt": 310,
+      "reale.status.log": 694,
+      "reale.config.txt": 977
+    }
+  },
+  "moving_sx_reverse_29": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_03/points/moving_sx_reverse_29_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_03/static_point_20261106_101626_2670",
+    "size_checks": {
+      "reale.csv": 91288,
+      "point.txt": 310,
+      "reale.status.log": 694,
+      "reale.config.txt": 977
+    }
+  },
+  "moving_sx_reverse_32": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_03/points/moving_sx_reverse_32_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_03/static_point_20261106_101741_2902",
+    "size_checks": {
+      "reale.csv": 91288,
+      "point.txt": 310,
+      "reale.status.log": 694,
+      "reale.config.txt": 977
+    }
+  },
+  "moving_sx_reverse_35": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_03/points/moving_sx_reverse_35_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_03/static_point_20261106_101856_3134",
+    "size_checks": {
+      "reale.csv": 91288,
+      "point.txt": 310,
+      "reale.status.log": 694,
+      "reale.config.txt": 977
+    }
+  },
+  "moving_sx_reverse_36": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_03/points/moving_sx_reverse_36_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_03/static_point_20261106_102011_3366",
+    "size_checks": {
+      "reale.csv": 91288,
+      "point.txt": 310,
+      "reale.status.log": 694,
+      "reale.config.txt": 977
+    }
+  },
+  "moving_sx_reverse_40": {
+    "original_local_folder": "logs/terasic_reale/robots/robot01/red_20261106_03/points/moving_sx_reverse_40_attempt01",
+    "recovered_folder": "/tmp/report-digital-twin-staging/recovered/experiments/robot01_lut_prof/protocol/v002/qualification/logs/terasic_reale/robots/robot01/red_20261106_03/static_point_20261106_101512_2437",
+    "size_checks": {
+      "reale.csv": 91588,
+      "point.txt": 310,
+      "reale.status.log": 694,
+      "reale.config.txt": 977
+    }
+  }
+}

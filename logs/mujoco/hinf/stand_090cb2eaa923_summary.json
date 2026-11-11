@@ -1,0 +1,29 @@
+{
+  "hardware_access": false,
+  "wheel_convention": "physical_sx_dx_v2",
+  "controller_export_sha256": "204a88660d7ffdb7ec3b43b971f59dee5c36365228c57790556253066ceaf500",
+  "controller_order": 12,
+  "voltage": 11.38,
+  "max_pwm": 15.0,
+  "initial_error_deg": -3.870367971592478,
+  "measurement_delay_samples": 1,
+  "samples": 40,
+  "fault": "attitude/IMU",
+  "imu_model": "mpu6500",
+  "seed": 0,
+  "motor_factor": 1.0,
+  "actuator_delay_samples": 0,
+  "completed_10s": false,
+  "fault_detail": [
+    "fused_pitch_12deg"
+  ],
+  "stabilized_last_2s": false,
+  "stabilization_criterion": "Completed10s; last2s true pitch max<1deg, estimated speed max<0.03m/s, encoder yaw max<5deg. Diagnostic criterion, not physical validation.",
+  "tail_max_true_pitch_error_deg": null,
+  "tail_true_pitch_rms_deg": null,
+  "tail_velocity_max_m_s": null,
+  "tail_gyro_rms_deg_s": null,
+  "saturated_fraction": 0.975,
+  "peak_raw_pwm_percent": 201.9593334168384,
+  "limitations": "Nominal plant; optional approximate MPU register/filter model. Motor factor and added delay are hypothetical. No identified motor torque map, supply sag, support contact or exact real IMU transfer function. Not physical validation."
+}

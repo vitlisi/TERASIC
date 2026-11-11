@@ -1,0 +1,19 @@
+{
+  "success": false,
+  "stop_reason": "limite pitch geometrico",
+  "free_time_s": 5.190000000001031,
+  "final_ctrl": [
+    0.0,
+    0.0
+  ],
+  "samples": 840,
+  "final_battery_voltage_v": 12.0,
+  "final_pitch_deg": -31.044225130104227,
+  "final_velocity_m_s": -0.29811871948186053,
+  "final_forward_y_m": -0.5192641276190222,
+  "tail_max_pitch_error_deg": 30.17741250266657,
+  "tail_max_velocity_m_s": 0.29811871948186053,
+  "tail_position_range_m": 0.5151541837785489,
+  "max_abs_pwm_percent": 20.0,
+  "settled": false
+}

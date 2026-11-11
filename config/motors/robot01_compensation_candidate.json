@@ -1,0 +1,410 @@
+{
+  "schema_version": 1,
+  "robot": "robot01",
+  "kind": "bounded_friction_model_matching_lut",
+  "branches": [
+    {
+      "wheel": "sx",
+      "direction": "forward",
+      "nodes": [
+        {
+          "speed_rad_s": 0,
+          "loss_difference_Nm": 0.004288129823215083
+        },
+        {
+          "speed_rad_s": 0.02,
+          "loss_difference_Nm": 0.00425373878614993
+        },
+        {
+          "speed_rad_s": 0.05,
+          "loss_difference_Nm": 0.004006055246982299
+        },
+        {
+          "speed_rad_s": 0.08,
+          "loss_difference_Nm": 0.003541882144953326
+        },
+        {
+          "speed_rad_s": 0.1,
+          "loss_difference_Nm": 0.0031286351082751357
+        },
+        {
+          "speed_rad_s": 0.15,
+          "loss_difference_Nm": 0.0018290648258062522
+        },
+        {
+          "speed_rad_s": 0.2,
+          "loss_difference_Nm": 0.0003362777162516272
+        },
+        {
+          "speed_rad_s": 0.25,
+          "loss_difference_Nm": -0.0011280415691046798
+        },
+        {
+          "speed_rad_s": 0.3,
+          "loss_difference_Nm": -0.002399033298816172
+        },
+        {
+          "speed_rad_s": 0.35,
+          "loss_difference_Nm": -0.0033907947918819957
+        },
+        {
+          "speed_rad_s": 0.4,
+          "loss_difference_Nm": -0.00409082223751782
+        },
+        {
+          "speed_rad_s": 0.5,
+          "loss_difference_Nm": -0.004789778909331811
+        },
+        {
+          "speed_rad_s": 0.6,
+          "loss_difference_Nm": -0.004951476188595917
+        },
+        {
+          "speed_rad_s": 0.8,
+          "loss_difference_Nm": -0.004832808781369408
+        },
+        {
+          "speed_rad_s": 1,
+          "loss_difference_Nm": -0.0046428582457821105
+        },
+        {
+          "speed_rad_s": 1.5,
+          "loss_difference_Nm": -0.004163857564558362
+        },
+        {
+          "speed_rad_s": 2,
+          "loss_difference_Nm": -0.003684844304458871
+        },
+        {
+          "speed_rad_s": 3,
+          "loss_difference_Nm": -0.0027268177842588136
+        },
+        {
+          "speed_rad_s": 4,
+          "loss_difference_Nm": -0.0017687912640587562
+        },
+        {
+          "speed_rad_s": 5,
+          "loss_difference_Nm": -0.0008107647438586989
+        },
+        {
+          "speed_rad_s": 6,
+          "loss_difference_Nm": 0.00014726177634135848
+        },
+        {
+          "speed_rad_s": 7,
+          "loss_difference_Nm": 0.0011052882965414158
+        }
+      ]
+    },
+    {
+      "wheel": "sx",
+      "direction": "reverse",
+      "nodes": [
+        {
+          "speed_rad_s": 0,
+          "loss_difference_Nm": 0.00614699423726508
+        },
+        {
+          "speed_rad_s": 0.02,
+          "loss_difference_Nm": 0.006120195422015357
+        },
+        {
+          "speed_rad_s": 0.05,
+          "loss_difference_Nm": 0.005920081883796476
+        },
+        {
+          "speed_rad_s": 0.08,
+          "loss_difference_Nm": 0.005538840494116669
+        },
+        {
+          "speed_rad_s": 0.1,
+          "loss_difference_Nm": 0.00519364047254801
+        },
+        {
+          "speed_rad_s": 0.15,
+          "loss_difference_Nm": 0.004070524854404495
+        },
+        {
+          "speed_rad_s": 0.2,
+          "loss_difference_Nm": 0.0026967453052362802
+        },
+        {
+          "speed_rad_s": 0.25,
+          "loss_difference_Nm": 0.001231513742038635
+        },
+        {
+          "speed_rad_s": 0.3,
+          "loss_difference_Nm": -0.00018161066660638009
+        },
+        {
+          "speed_rad_s": 0.35,
+          "loss_difference_Nm": -0.0014354442221809344
+        },
+        {
+          "speed_rad_s": 0.4,
+          "loss_difference_Nm": -0.0024682437066244393
+        },
+        {
+          "speed_rad_s": 0.5,
+          "loss_difference_Nm": -0.0038303561826292113
+        },
+        {
+          "speed_rad_s": 0.6,
+          "loss_difference_Nm": -0.004442620262902378
+        },
+        {
+          "speed_rad_s": 0.8,
+          "loss_difference_Nm": -0.004629169622060078
+        },
+        {
+          "speed_rad_s": 1,
+          "loss_difference_Nm": -0.004489406852401987
+        },
+        {
+          "speed_rad_s": 1.5,
+          "loss_difference_Nm": -0.004076319865324591
+        },
+        {
+          "speed_rad_s": 2,
+          "loss_difference_Nm": -0.0036623503961327117
+        },
+        {
+          "speed_rad_s": 3,
+          "loss_difference_Nm": -0.002834411445024056
+        },
+        {
+          "speed_rad_s": 4,
+          "loss_difference_Nm": -0.0020064724939154004
+        },
+        {
+          "speed_rad_s": 5,
+          "loss_difference_Nm": -0.0011785335428067447
+        },
+        {
+          "speed_rad_s": 6,
+          "loss_difference_Nm": -0.00035059459169808904
+        },
+        {
+          "speed_rad_s": 7,
+          "loss_difference_Nm": 0.0004773443594105666
+        }
+      ]
+    },
+    {
+      "wheel": "dx",
+      "direction": "forward",
+      "nodes": [
+        {
+          "speed_rad_s": 0,
+          "loss_difference_Nm": 0.006395898355874188
+        },
+        {
+          "speed_rad_s": 0.02,
+          "loss_difference_Nm": 0.006326178111051268
+        },
+        {
+          "speed_rad_s": 0.05,
+          "loss_difference_Nm": 0.0059075722974315245
+        },
+        {
+          "speed_rad_s": 0.08,
+          "loss_difference_Nm": 0.005154268543750279
+        },
+        {
+          "speed_rad_s": 0.1,
+          "loss_difference_Nm": 0.0045021420739125495
+        },
+        {
+          "speed_rad_s": 0.15,
+          "loss_difference_Nm": 0.0025482483192805702
+        },
+        {
+          "speed_rad_s": 0.2,
+          "loss_difference_Nm": 0.0004875326062975364
+        },
+        {
+          "speed_rad_s": 0.25,
+          "loss_difference_Nm": -0.0013208827396015122
+        },
+        {
+          "speed_rad_s": 0.3,
+          "loss_difference_Nm": -0.0026868427264571566
+        },
+        {
+          "speed_rad_s": 0.35,
+          "loss_difference_Nm": -0.0035870165860283692
+        },
+        {
+          "speed_rad_s": 0.4,
+          "loss_difference_Nm": -0.004104865803881702
+        },
+        {
+          "speed_rad_s": 0.5,
+          "loss_difference_Nm": -0.004459436631503164
+        },
+        {
+          "speed_rad_s": 0.6,
+          "loss_difference_Nm": -0.004459139935857191
+        },
+        {
+          "speed_rad_s": 0.8,
+          "loss_difference_Nm": -0.0043020560769816045
+        },
+        {
+          "speed_rad_s": 1,
+          "loss_difference_Nm": -0.0041333765818683445
+        },
+        {
+          "speed_rad_s": 1.5,
+          "loss_difference_Nm": -0.003711539108904225
+        },
+        {
+          "speed_rad_s": 2,
+          "loss_difference_Nm": -0.0032897015787349358
+        },
+        {
+          "speed_rad_s": 3,
+          "loss_difference_Nm": -0.0024460265183963575
+        },
+        {
+          "speed_rad_s": 4,
+          "loss_difference_Nm": -0.0016023514580577793
+        },
+        {
+          "speed_rad_s": 5,
+          "loss_difference_Nm": -0.0007586763977192011
+        },
+        {
+          "speed_rad_s": 6,
+          "loss_difference_Nm": 8.49986626193771e-05
+        },
+        {
+          "speed_rad_s": 7,
+          "loss_difference_Nm": 0.0009286737229579553
+        }
+      ]
+    },
+    {
+      "wheel": "dx",
+      "direction": "reverse",
+      "nodes": [
+        {
+          "speed_rad_s": 0,
+          "loss_difference_Nm": 0.010492870659336684
+        },
+        {
+          "speed_rad_s": 0.02,
+          "loss_difference_Nm": 0.010455684086194548
+        },
+        {
+          "speed_rad_s": 0.05,
+          "loss_difference_Nm": 0.01018007169140312
+        },
+        {
+          "speed_rad_s": 0.08,
+          "loss_difference_Nm": 0.009654971617224437
+        },
+        {
+          "speed_rad_s": 0.1,
+          "loss_difference_Nm": 0.009179057082348629
+        },
+        {
+          "speed_rad_s": 0.15,
+          "loss_difference_Nm": 0.007626895683285757
+        },
+        {
+          "speed_rad_s": 0.2,
+          "loss_difference_Nm": 0.005719244042827482
+        },
+        {
+          "speed_rad_s": 0.25,
+          "loss_difference_Nm": 0.003671368516907758
+        },
+        {
+          "speed_rad_s": 0.3,
+          "loss_difference_Nm": 0.001680051744287056
+        },
+        {
+          "speed_rad_s": 0.35,
+          "loss_difference_Nm": -0.00010452554813921583
+        },
+        {
+          "speed_rad_s": 0.4,
+          "loss_difference_Nm": -0.0015920868765657748
+        },
+        {
+          "speed_rad_s": 0.5,
+          "loss_difference_Nm": -0.003595722861815251
+        },
+        {
+          "speed_rad_s": 0.6,
+          "loss_difference_Nm": -0.004533583618496073
+        },
+        {
+          "speed_rad_s": 0.8,
+          "loss_difference_Nm": -0.004867661014496208
+        },
+        {
+          "speed_rad_s": 1,
+          "loss_difference_Nm": -0.004688720282222555
+        },
+        {
+          "speed_rad_s": 1.5,
+          "loss_difference_Nm": -0.004130878471695027
+        },
+        {
+          "speed_rad_s": 2,
+          "loss_difference_Nm": -0.0035713081009842683
+        },
+        {
+          "speed_rad_s": 3,
+          "loss_difference_Nm": -0.0024521673223643174
+        },
+        {
+          "speed_rad_s": 4,
+          "loss_difference_Nm": -0.0013330265437443648
+        },
+        {
+          "speed_rad_s": 5,
+          "loss_difference_Nm": -0.0002138857651244122
+        },
+        {
+          "speed_rad_s": 6,
+          "loss_difference_Nm": 0.0009052550134955404
+        },
+        {
+          "speed_rad_s": 7,
+          "loss_difference_Nm": 0.002024395792115493
+        }
+      ]
+    }
+  ],
+  "correction_cap_percent": 0.5,
+  "correction_rate_percent_s": 10,
+  "encoder_filter_s": 0.05,
+  "stationary_window_s": 0.1,
+  "request_persistence_s": 0.03,
+  "request_gate_percent": [
+    0.5,
+    1.5
+  ],
+  "identity_from_percent": 8,
+  "high_command_fade_percent": [
+    6,
+    8
+  ],
+  "voltage_interval_v": [
+    11.2,
+    12.1
+  ],
+  "physical_cap_percent": 20,
+  "differential_cap_percent": 3,
+  "nominal_torque_per_duty_per_volt_Nm": 0.03675,
+  "target": "Match the frozen operational wheel-loss reference; not a speed-command inverse or full friction cancellation.",
+  "profile_path": "experiments/robot01_stribeck_calibration_20261109/profile_frozen.json",
+  "profile_sha256": "fd2a0bbc9462b63d6d9c7af30b1d978933a71f09bda69374c3d3f6d52be2beaf",
+  "reference_sha256": "f87fa812d88acf47c2b458b7d3bff7fbfad142219f2111650a402cc8a4ba1c1b",
+  "hardware_validated": false,
+  "default_changed": false
+}

@@ -1,0 +1,70 @@
+socfpga
+armv7l
+  PID COMMAND
+    1 systemd
+    2 kthreadd
+    3 ksoftirqd/0
+    5 kworker/0:0H
+    7 rcu_sched
+    8 rcu_bh
+    9 migration/0
+   10 migration/1
+   11 ksoftirqd/1
+   13 kworker/1:0H
+   14 kdevtmpfs
+   15 netns
+  225 khungtaskd
+  226 writeback
+  228 crypto
+  229 kworker/0:1
+  230 bioset
+  232 kblockd
+  350 rpciod
+  364 kswapd0
+  365 vmstat
+  366 nfsiod
+  420 bioset
+  421 bioset
+  475 dwc2
+  484 kpsmoused
+  519 ipv6_addrconf
+  528 deferwq
+  529 bioset
+  531 mmcqd/0
+  538 jbd2/mmcblk0p2-
+  539 ext4-rsv-conver
+  559 systemd-journal
+  571 cfg80211
+  939 systemd-udevd
+  981 systemd-timesyn
+ 1029 syslogd
+ 1030 avahi-daemon
+ 1033 klogd
+ 1034 dbus-daemon
+ 1035 avahi-daemon
+ 1040 systemd-logind
+ 1046 connmand
+ 1069 kworker/1:1H
+ 1070 systemd-resolve
+ 1072 tcf-agent
+ 1076 wpa_supplicant
+ 1079 login
+ 1080 agetty
+ 1083 systemd
+ 1085 (sd-pam)
+ 1088 sh
+ 1135 kworker/0:1H
+ 1204 kworker/0:3
+ 1303 kworker/u4:1
+ 1305 kworker/u4:2
+ 1325 kworker/1:3
+ 1363 kworker/1:2
+ 1364 sshd
+ 1366 kworker/u4:0
+ 1368 sh
+ 1371 ps
+9cce27a2b7e33030d9c84f00e86439c507c37f820df522bdca405bf52935aa79  build/robot/pitch_pd
+wheel_convention=physical_sx_dx_v2
+Uso:
+  ./build/robot/pitch_pd observe secondi_1..30
+  ./build/robot/pitch_pd run gyro_sign_-1|1 motor_sign_-1|1 kp_0..5 kd_0..1 max_pwm_1..35 secondi_1..30

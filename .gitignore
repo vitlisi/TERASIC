@@ -1,0 +1,40 @@
+# Local environments, compiled programs and caches.
+env/
+build/
+__pycache__/
+*.py[cod]
+*.so
+*.o
+.pytest_cache/
+MUJOCO_LOG.TXT
+output/
+tmp/
+logs/.staging/
+
+# Local accounts, editor state and private agent configuration.
+.aws/
+.codex/
+.agents/
+.vscode/
+.env
+.env.*
+*.pem
+*.key
+
+# Backup archives and obsolete delivery bundles stay local.
+archives/
+deliverables/
+maintenance/vendor/
+maintenance/boot_original/
+
+# Historical executables stored beside source files.
+/balance_lqr_2
+/path_simple
+/lqr_endurance
+/pitch_pd
+/pitch_pd_fixed
+/battery_status
+/ultrasonic_live
+src_cpp/terasic_reale/controllers/pitch_pd
+src_cpp/terasic_reale/controllers/balance_lqr
+src_cpp/terasic_reale/hardware/robot_test

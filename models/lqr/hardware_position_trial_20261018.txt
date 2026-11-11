@@ -1,0 +1,18 @@
+# wheel_convention=physical_sx_dx_v2; SX=left, DX=right in forward direction.
+# First operator-executed active hold-zero trial: 3 s, max PWM 15%.
+# Position feedback not yet validated in closed loop on the real robot.
+# Gain units PWM%/[m,rad,m/s,rad/s]. Not optimal after empirical gyro retuning.
+shadow_only 0
+pitch_reference_deg 0.320
+counts_per_rev 1325
+wheel_radius_m 0.032
+gyro_sign 1
+motor_sign 1
+encoder_sx_sign -1
+encoder_dx_sign 1
+wheel_model_sign -1
+pitch_model_sign 1
+k_position -268.11279655116948
+k_pitch -736.56418653400476
+k_velocity -363.20016517660633
+k_pitch_rate -22.413600037069319

@@ -1,0 +1,126 @@
+<mujoco model="terasic_robot">
+    <compiler angle="degree" meshdir="meshes/"/>
+    <option timestep="0.001" gravity="0 0 -9.81"/>
+
+    <custom>
+        <!-- Ipotesi utente; stall torque alla RUOTA, da confermare con misure. -->
+        <numeric name="V_nom" data="12"/>
+        <numeric name="I_stall" data="1"/>
+        <numeric name="motor_gear" data="30"/>
+        <numeric name="motor_max_torque" data="0.441"/>
+        <numeric name="wheel_track_m" data="0.16444"/>
+    </custom>
+
+    <asset>
+        <!-- Texture e materiale per il pavimento -->
+        <texture name="grid" type="2d" builtin="checker" width="512" height="512" rgb1=".1 .2 .3" rgb2=".2 .3 .4"/>
+        <material name="grid_mat" texture="grid" texrepeat="2 2" reflectance=".2"/>
+        
+        <!-- Mesh esportate da SolidWorks con la terna corretta (Spazio Positivo) -->
+        <mesh name="corpo" file="SKELETON_COMPLETE.STL"/>
+        <mesh name="ruota" file="wheel_complete_simulation.STL"/>
+    </asset>
+
+    <worldbody>
+        <!-- Luce e Pavimento -->
+        <light diffuse=".8 .8 .8" pos="0 0 3" dir="0 0 -1"/>
+        <geom name="ground" type="plane" size="1.5 1.5 0.1" material="grid_mat"/>
+        <!-- Sostegno del personale: vincolo fisico temporaneo sul solo corpo. -->
+        <body name="operator_support" mocap="true" pos="0 0 0.032">
+            <site name="support_marker" size="0.008" rgba="1 0.8 0 0"/>
+        </body>
+
+        <!-- CORPO CENTRALE -->
+        <!-- Centro ruote a quota raggio; corpo libero, ruote a terra. -->
+        <body name="struttura_centrale" pos="0 0 0.032">
+            
+            <freejoint name="root"/>
+            
+            <!-- Skeleton con box batteria: 0.75166 kg, senza ruote e dongle Wi-Fi.
+                 COM e tensore centroidale L da DATI_SKELETON.pdf, FRAME, 2026-10-21.
+                 Prodotti d'inerzia CAD invertiti per la convenzione del tensore fisico;
+                 autovalori verificati contro il report CAD. Vedi README.md. -->
+            <inertial pos="0.00030 0.00053 0.03503" mass="0.75166" fullinertia="0.00089491303 0.00144961343 0.00096985338 -0.00000916748 0.00000389982 -0.00002057941"/>
+            
+            <!-- Mesh fantasma: puramente grafica. contype="0", conaffinity="0" e mass="0" disabilitano fisica e collisioni -->
+            <geom type="mesh" mesh="corpo" rgba="0.2 0.6 0.8 1" contype="0" conaffinity="0" mass="0"/>
+
+            <!-- COLLISIONI INVISIBILI TELAIO E MOTORI -->
+            <!-- Colore rosso semitrasparente (rgba="1 0 0 0.3") per vederli durante il setup. -->
+            <!-- Quando hai trovato le misure perfette, cambia l'ultimo numero in 0 per renderli invisibili. -->
+            <geom name="coll_schede" type="box" size="0.06 0.037 0.037" pos="0 0 0.07" rgba="1 0 0 0.024" mass="0"/>
+            <geom name="coll_motori" type="box" size="0.062 0.02 0.023" pos="0 0 0.01" rgba="1 0 0 0.024" mass="0"/>
+            <geom name="coll_ultrasonic" type="box" size="0.025 0.008 0.012" pos="0 0.045 0.078" rgba="0 0 1 0.024" mass="0"/>
+            <!-- HC-SR04: emissione frontale +Y, 1 mm oltre il box esistente.
+                 +Z del site = +Y telaio. Posa approssimata dal box CAD.
+                 Oracle assiale; il cono HC-SR04 è campionato nel wrapper Python.
+                 Non è una simulazione di propagazione acustica. -->
+            <site name="ultrasonic_site" pos="0 0.054 0.078" zaxis="0 1 0"
+                  size="0.003" rgba="0 1 1 1"/>
+    
+    	    <!-- IMU: X locale = +Y telaio (avanti), Y locale = -X (pitch). -->
+	    <site name="imu_site" euler="0 0 90" pos="-0.02 -0.015 0.07" size="0.01" rgba="1 1 0 1"/>
+    
+            <!-- RUOTA SINISTRA -->
+            <!-- Centro cilindro: -0.07922 - 0.003 = -0.08222 m. -->
+            <body name="ruota_sx" pos="-0.07922 0 0">
+                <!-- Aggiunti parametri dinamici del motore: damping, armature e frictionloss -->
+                <joint name="perno_sx" type="hinge" axis="1 0 0" damping="0.0126" armature="0.005" frictionloss="0.01"/>
+                
+                <!-- Mesh visiva fantasma -->
+                <geom type="mesh" mesh="ruota" rgba="0.1 0.1 0.1 1" contype="0" conaffinity="0" mass="0"/>
+                <!-- Cilindro di collisione fisico con aggiunta del grip (attrito mattonelle) -->
+                <!-- Massa ruota 0.049 kg fornita dall'operatore; inerzia cilindro omogeneo. -->
+                <geom type="cylinder" size="0.032 0.014" mass="0.049" rgba="0 1 0 0.024" pos="-0.003 0 0" euler="0 90 0" friction="0.4 0.005 0.0001"/>
+            </body>
+
+            <!-- RUOTA DESTRA -->
+            <!-- Centro cilindro: +0.07922 + 0.003 = +0.08222 m; carreggiata 0.16444 m. -->
+            <body name="ruota_dx" pos="0.07922 0 0">
+                <!-- Aggiunti parametri dinamici del motore: damping, armature e frictionloss -->
+                <joint name="perno_dx" type="hinge" axis="1 0 0" damping="0.0126" armature="0.005" frictionloss="0.01"/>
+                
+                <!-- Mesh visiva fantasma ruotata -->
+                <geom type="mesh" mesh="ruota" rgba="0.1 0.1 0.1 1" euler="0 180 0" contype="0" conaffinity="0" mass="0"/>
+                <!-- Cilindro di collisione fisico con aggiunta del grip (attrito mattonelle) -->
+                <!-- Massa ruota 0.049 kg fornita dall'operatore; inerzia cilindro omogeneo. -->
+                <geom type="cylinder" size="0.032 0.014" mass="0.049" rgba="0 1 0 0.024" pos="0.003 0 0" euler="0 90 0" friction="0.4 0.005 0.0001"/>
+            </body>
+        </body>
+    </worldbody>
+
+    <equality>
+        <weld name="manual_support" body1="struttura_centrale" body2="operator_support"
+              relpose="0 0 0 1 0 0 0" active="false" solref="0.005 1"/>
+    </equality>
+
+    <!-- ATTUATORI -->
+    <!-- Collegano i motori logici ai giunti fisici -->
+    <actuator>
+        <!-- ctrl = duty normalizzato [-1,1]; tau_giunto = -0.441 * ctrl [Nm].
+             Il segno adatta avanzamento +Y e pitch IMU al telaio con assale X.
+             Il valore viene ricalcolato dai parametri custom dal runner. -->
+        <motor name="motore_sx" joint="perno_sx" gear="-0.441" ctrllimited="true" ctrlrange="-1 1"/>
+        <motor name="motore_dx" joint="perno_dx" gear="-0.441" ctrllimited="true" ctrlrange="-1 1"/>
+    </actuator>
+    
+    <!-- SENSORI -->
+    <sensor>
+    <!-- Legge l'accelerazione lineare (gravità e impatti) sul site dell'IMU -->
+    <accelerometer name="accel" site="imu_site"/>
+    <!-- Legge la velocità angolare (rotazione di caduta) sul site dell'IMU -->
+    <gyro name="giroscopio" site="imu_site"/>
+    <!-- Nessun cutoff: conservare -1 (nessun hit) e distanze fuori portata.
+         La validazione 0.02..4 m e il campionamento sono nel wrapper Python. -->
+    <rangefinder name="ultrasonic_range" site="ultrasonic_site"/>
+    
+     <!-- Oracle dei giunti ruota, rad/rad_s. La catena encoder motore/riduttore
+          quantizzata è opzionale in sensor_models.py, non in questi sensori. -->
+     <jointpos name="encoder_pos_sx" joint="perno_sx"/>
+     <jointvel name="encoder_vel_sx" joint="perno_sx"/>
+      
+        <!-- Encoder Ruota Destra -->
+     <jointpos name="encoder_pos_dx" joint="perno_dx"/>
+     <jointvel name="encoder_vel_dx" joint="perno_dx"/>
+    </sensor>
+</mujoco>

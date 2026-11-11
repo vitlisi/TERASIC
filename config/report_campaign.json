@@ -1,0 +1,459 @@
+{
+  "schema_version": 1,
+  "title": "Final report figure campaign",
+  "figure_language": "English",
+  "hysteresis_pwm_step_percentage_points": 0.5,
+  "time_policy": "Full recorded traces from first logged sample at t=0. Calibration is included whenever logged. Additional zooms never replace full plots. Missing startup/calibration records must be declared, not fabricated.",
+  "model_manifest": "config/final_campaign_model.json",
+  "raw_policy": "Raw records are immutable. Reuse a source acquisition by a recorded path and hash; never re-run hardware merely to fill a comparison folder.",
+  "export_formats": [
+    "svg",
+    "pdf",
+    "png"
+  ],
+  "metrics_policy": "Separate recovery, steady and full-record windows; record units and definitions. Use common support for paired error metrics, but retain both full traces in figures. Never claim independent real position truth or measured motor torque from model/odometry alone.",
+  "pd_outer_loop": "position_and_velocity_feedback",
+  "hardware_policy": "Preparation creates directories only; hardware starts only for an explicitly prepared and authorized physical configuration.",
+  "sections": [
+    {
+      "id": "01_digital_twin",
+      "title": "Digital twin and unloaded motor validation",
+      "cases": [
+        {
+          "id": "model_evolution",
+          "title": "Equal nominal motors versus calibrated Stribeck motors",
+          "platforms": [
+            "real",
+            "mujoco_nominal",
+            "mujoco_stribeck"
+          ],
+          "figures": [
+            "Full pulse response: applied PWM and left/right speed",
+            "Real minus simulated speed; full traces and separate transition zooms"
+          ],
+          "requirements": [
+            "Use existing historical acquisitions only; no new hardware test for this section.",
+            "New uncompensated real raised-wheel pulses",
+            "Same applied physical PWM, measured voltage and timestamps for both model variants",
+            "Nominal XML is the equal-motor hypothesis, not a recovered historical measurement"
+          ],
+          "existing_tools": [
+            "diagnostics/compare_freewheel.py",
+            "diagnostics/replay_stateful_motor.py"
+          ],
+          "reuse": [],
+          "input_source": "logs/real/digital_twin/historical_inputs/inputs_manifest.json",
+          "status": "Historical raw acquisitions recovered; regenerate with scripts/plot_digital_twin_report.py"
+        },
+        {
+          "id": "hysteresis_off",
+          "title": "Uncompensated raised-wheel hysteresis",
+          "platforms": [
+            "real",
+            "mujoco"
+          ],
+          "figures": [
+            "Steady wheel speed versus applied PWM, left and right",
+            "From-rest and prestarted branches, positive and negative directions",
+            "Near-threshold zoom and starting/stopping threshold summary"
+          ],
+          "requirements": [
+            "Use existing historical acquisitions only; no new hardware test for this section.",
+            "PWM increments 0.5 percentage points; not a 0.5 s sampling interval",
+            "Matched fixed-chassis, no-floor-contact simulation"
+          ],
+          "existing_tools": [
+            "src_python/stribeck_motor.py"
+          ],
+          "reuse": [],
+          "input_source": "logs/real/digital_twin/historical_inputs/inputs_manifest.json",
+          "status": "Historical raw acquisitions recovered; regenerate with scripts/plot_digital_twin_report.py"
+        },
+        {
+          "id": "pulses_off",
+          "title": "Raised-wheel PWM pulses, compensation OFF",
+          "platforms": [
+            "real",
+            "mujoco"
+          ],
+          "figures": [
+            "Applied PWM, wheel speed overlay and signed simulation-minus-real error",
+            "Complete acquisitions from t=0; separate low-PWM transition zooms"
+          ],
+          "requirements": [
+            "Use existing historical acquisitions only; no new hardware test for this section.",
+            "Nominal +/-4%, +/-6%, +/-8% pulses, both signs and repeat order declared",
+            "Current Stribeck physics, quantized encoder and same speed filter"
+          ],
+          "existing_tools": [
+            "diagnostics/replay_stateful_motor.py",
+            "diagnostics/compare_freewheel.py"
+          ],
+          "reuse": [],
+          "input_source": "logs/real/digital_twin/historical_inputs/inputs_manifest.json",
+          "status": "Historical raw acquisitions recovered; regenerate with scripts/plot_digital_twin_report.py"
+        },
+        {
+          "id": "pulses_on",
+          "title": "Raised-wheel PWM pulses, bounded compensation ON",
+          "platforms": [
+            "real",
+            "mujoco"
+          ],
+          "figures": [
+            "Nominal versus applied PWM",
+            "Real/simulated left/right speed and signed error",
+            "OFF/ON performance comparison and transition zooms"
+          ],
+          "requirements": [
+            "Use existing historical acquisitions only; no new hardware test for this section.",
+            "Exact same C++ bounded compensator on both platforms",
+            "Preserve requested/applied PWM, voltage and encoder counts"
+          ],
+          "existing_tools": [
+            "diagnostics/run_compensated_freewheel_trial.py",
+            "diagnostics/analyze_compensated_freewheel.py",
+            "diagnostics/plot_compensated_freewheel.py",
+            "diagnostics/simulate_compensated_freewheel.py"
+          ],
+          "reuse": [],
+          "input_source": "logs/real/digital_twin/historical_inputs/inputs_manifest.json",
+          "status": "Historical raw acquisitions recovered; regenerate with scripts/plot_digital_twin_report.py"
+        },
+        {
+          "id": "hysteresis_on",
+          "title": "Compensated raised-wheel hysteresis",
+          "platforms": [
+            "real",
+            "mujoco"
+          ],
+          "figures": [
+            "Speed versus nominal input and versus applied physical PWM",
+            "Real/simulated branches and OFF/ON comparison"
+          ],
+          "requirements": [
+            "Use existing historical acquisitions only; no new hardware test for this section.",
+            "Report physical quantization and bounded correction; compensation need not remove all hysteresis"
+          ],
+          "existing_tools": [
+            "diagnostics/stribeck_lut_compensation.h"
+          ],
+          "reuse": [],
+          "input_source": "logs/real/digital_twin/historical_inputs/inputs_manifest.json",
+          "status": "No complete compensated cold/pre-run grid exists. Use separate historical OFF-grid, moving-state static LUT and compensated pulse figures; do not fabricate a grid or acquire a new one."
+        }
+      ]
+    },
+    {
+      "id": "02_pd_real",
+      "title": "Real pitch PD",
+      "cases": [
+        {
+          "id": "stand",
+          "title": "Real pitch-only PD stabilization",
+          "platforms": [
+            "real"
+          ],
+          "figures": [
+            "Pitch/reference and pitch angular velocity",
+            "Left/right applied PWM, odometry position and velocity"
+          ],
+          "requirements": [
+            "New real trial with pitch-only PD; fixed gains, reference, limits and startup documented",
+            "Do not claim real ground-truth position from encoder odometry"
+          ],
+          "existing_tools": [
+            "scripts/run_pd_offline.sh"
+          ],
+          "reuse": []
+        }
+      ]
+    },
+    {
+      "id": "03_pd_outer_loop",
+      "title": "PD with outer position/velocity feedback",
+      "cases": [
+        {
+          "id": "stand",
+          "title": "Pitch PD plus outer encoder position/velocity loop",
+          "platforms": [
+            "real",
+            "mujoco"
+          ],
+          "figures": [
+            "Pitch and outer-loop pitch target",
+            "Position/velocity errors and applied PWM",
+            "Comparison with pitch-only PD under matched conditions"
+          ],
+          "requirements": [
+            "User confirmed position/velocity outer loop, separate from friction LUT",
+            "Python outer loop exists; equivalent real C++ implementation and parity checks still required",
+            "Same frozen Stribeck plant for both simulated controllers; same declared friction-compensation setting"
+          ],
+          "existing_tools": [
+            "src_python/balance_controller.py",
+            "src_python/mujoco_sim.py"
+          ],
+          "reuse": []
+        }
+      ]
+    },
+    {
+      "id": "04_lqr_simulation",
+      "title": "LQR stabilization in simulation",
+      "cases": [
+        {
+          "id": "stand",
+          "title": "LQR stabilization: MuJoCo and available Simulink export",
+          "platforms": [
+            "mujoco",
+            "simulink"
+          ],
+          "figures": [
+            "Pitch/reference, pitch angular velocity, odometry, applied PWM",
+            "Matched measured-state overlay if a compatible Simulink export is supplied"
+          ],
+          "requirements": [
+            "Same state/input units, controller gains, limits and initial conditions",
+            "MATLAB not found on this PC; Simulink run/export pending",
+            "Do not present analytic linear simulation as nonlinear Simulink/Stribeck validation"
+          ],
+          "existing_tools": [
+            "scripts/digital_twin.py",
+            "maintenance/matlab/design_balance_lqr.m"
+          ],
+          "reuse": []
+        }
+      ]
+    },
+    {
+      "id": "05_hinf_simulation",
+      "title": "H-infinity stabilization in simulation",
+      "cases": [
+        {
+          "id": "stand",
+          "title": "H-infinity stabilization: MuJoCo and available Simulink export",
+          "platforms": [
+            "mujoco",
+            "simulink"
+          ],
+          "figures": [
+            "Pitch/reference, pitch angular velocity, odometry, applied PWM",
+            "Matched measured-state overlay if a compatible Simulink export is supplied"
+          ],
+          "requirements": [
+            "Select baseline or retained tuned H-infinity variant explicitly",
+            "Same 12-state controller, measurement delay, state and wheel transforms",
+            "MATLAB not found on this PC; Simulink run/export pending"
+          ],
+          "existing_tools": [
+            "scripts/digital_twin.py",
+            "scripts/hinf/prepare_hinf_simscape.m"
+          ],
+          "reuse": []
+        }
+      ]
+    },
+    {
+      "id": "06_lqr_real",
+      "title": "Real LQR performance",
+      "cases": [
+        {
+          "id": "stand",
+          "title": "Real LQR stand stabilization",
+          "platforms": [
+            "real"
+          ],
+          "figures": [
+            "Full recovery and stabilization signals",
+            "Pitch/rate RMS, drift and PWM metrics with declared windows"
+          ],
+          "requirements": [
+            "New autonomous real trial",
+            "Pin controller and friction-compensation setting"
+          ],
+          "existing_tools": [
+            "scripts/run_lqr_mimo_logged.sh",
+            "diagnostics/run_guarded_balance_trial.py"
+          ],
+          "reuse": []
+        },
+        {
+          "id": "path",
+          "title": "Real LQR timed path",
+          "platforms": [
+            "real"
+          ],
+          "figures": [
+            "Full pitch/rate/PWM and path-reference tracking",
+            "Odometry trajectory and final odometry error"
+          ],
+          "requirements": [
+            "New real path trial; same controller/reference as MuJoCo",
+            "Real odometry is not independent slip/ground-truth validation"
+          ],
+          "existing_tools": [
+            "scripts/run_lqr_path_simple_logged.sh"
+          ],
+          "reuse": []
+        }
+      ]
+    },
+    {
+      "id": "07_lqr_twin_comparison",
+      "title": "Real versus MuJoCo LQR",
+      "cases": [
+        {
+          "id": "stand",
+          "title": "Matched LQR stand comparison",
+          "platforms": [
+            "real",
+            "mujoco"
+          ],
+          "figures": [
+            "Full signal overlay and signed errors",
+            "Separate time-window metrics and optional zooms"
+          ],
+          "requirements": [
+            "Reuse real LQR stand acquisition",
+            "Replay matched voltage/configuration, startup and compensation setting",
+            "Current ordinary twin does not automatically enable bounded compensation"
+          ],
+          "existing_tools": [
+            "scripts/digital_twin.py"
+          ],
+          "reuse": [
+            "06_lqr_real/stand",
+            "04_lqr_simulation/stand"
+          ]
+        },
+        {
+          "id": "path",
+          "title": "Matched LQR path comparison",
+          "platforms": [
+            "real",
+            "mujoco"
+          ],
+          "figures": [
+            "Full signal overlay and signed errors",
+            "Reference/odometry trajectory comparison and tracking metrics"
+          ],
+          "requirements": [
+            "Reuse real LQR path acquisition",
+            "Same reference timeline, limits, estimator and compensation setting"
+          ],
+          "existing_tools": [
+            "scripts/digital_twin.py"
+          ],
+          "reuse": [
+            "06_lqr_real/path"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "08_hinf_twin_comparison",
+      "title": "Real versus MuJoCo H-infinity",
+      "cases": [
+        {
+          "id": "stand",
+          "title": "Matched H-infinity stand comparison",
+          "platforms": [
+            "real",
+            "mujoco"
+          ],
+          "figures": [
+            "Full signal overlay and signed errors",
+            "Declared-window pitch/rate/PWM metrics"
+          ],
+          "requirements": [
+            "New real H-infinity stand acquisition",
+            "Select matching baseline/tuned core and configuration",
+            "Compensation integration is not automatic; verify before selecting ON"
+          ],
+          "existing_tools": [
+            "scripts/run_hinf_logged.sh",
+            "scripts/digital_twin.py"
+          ],
+          "reuse": [
+            "05_hinf_simulation/stand"
+          ]
+        },
+        {
+          "id": "path",
+          "title": "Matched H-infinity path comparison",
+          "platforms": [
+            "real",
+            "mujoco"
+          ],
+          "figures": [
+            "Full signal overlay and signed errors",
+            "Reference/odometry trajectory comparison and tracking metrics"
+          ],
+          "requirements": [
+            "New real H-infinity path acquisition",
+            "Verify matching core, path schedule, limits and compensation setting"
+          ],
+          "existing_tools": [
+            "scripts/run_hinf_path_logged.sh",
+            "scripts/digital_twin.py"
+          ],
+          "reuse": []
+        }
+      ]
+    },
+    {
+      "id": "09_ga",
+      "title": "GA-selected LQR versus baseline",
+      "cases": [
+        {
+          "id": "stand",
+          "title": "GA versus baseline: stand stabilization",
+          "platforms": [
+            "mujoco_baseline",
+            "mujoco_ga"
+          ],
+          "figures": [
+            "Full pitch/rate/PWM/odometry overlay",
+            "Common-window performance and saturation metrics"
+          ],
+          "requirements": [
+            "Retained transferred GA gains and one-sample feedback delay",
+            "Same physical model, initial conditions, voltage, noise seed, duration and PWM limits",
+            "State the chosen delay policy; do not attribute a delay difference solely to gain optimization",
+            "Report measured improvement or deterioration, without assuming GA wins"
+          ],
+          "existing_tools": [
+            "scripts/simulate_ga_twin.py",
+            "scripts/digital_twin.py",
+            "scripts/ga/compare_lqr_ga.py"
+          ],
+          "reuse": []
+        },
+        {
+          "id": "path",
+          "title": "GA versus baseline: timed path",
+          "platforms": [
+            "mujoco_baseline",
+            "mujoco_ga"
+          ],
+          "figures": [
+            "Full tracking/balance/PWM signals",
+            "Trajectory and common-metric comparison"
+          ],
+          "requirements": [
+            "Same path schedule and guidance/estimator conventions",
+            "Use retained GA-specific delayed core; no new optimization implicitly scheduled",
+            "Independent validation is distinct from selection/training performance"
+          ],
+          "existing_tools": [
+            "scripts/simulate_ga_twin.py",
+            "scripts/digital_twin.py"
+          ],
+          "reuse": []
+        }
+      ]
+    }
+  ],
+  "digital_twin_acquisition_policy": "Reuse recovered historical data only; no new physical acquisitions for report section 01."
+}

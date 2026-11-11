@@ -1,0 +1,17 @@
+{
+  "population": 12,
+  "generations": 10,
+  "ga_seed": 42,
+  "train_seed": 1000,
+  "validation_seed": 2000,
+  "train_scenarios": 5,
+  "validation_scenarios": 11,
+  "protocol": {
+    "duration_s": 10.0,
+    "release_pitch_deg": 3.0,
+    "max_pwm": 20.0,
+    "feedback_delay_samples": 1
+  },
+  "motor_parameters": "config/mujoco_motors_sx_dx_20261030.json",
+  "optimize_r": true
+}

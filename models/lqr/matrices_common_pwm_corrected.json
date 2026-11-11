@@ -1,0 +1,23 @@
+{
+  "matrix_source": "User message 2026-10-09, after damping-unit correction and common PWM linearization",
+  "state_mapping_verified": false,
+  "input_description": "One common PWM; normalized duty assumed from previous model, awaiting current IO confirmation",
+  "A": [
+    [0, 1, 0, 0, 0, 0],
+    [255.5775, 0, 0, 12.7225, 0, 12.7225],
+    [0, 0, 0, 1, 0, 0],
+    [-255.5775, 0, 0, -15.2299, 0, -12.7225],
+    [0, 0, 0, 0, 0, 1],
+    [-255.5775, 0, 0, -12.7225, 0, -15.2299]
+  ],
+  "B": [[0], [-890.5715], [0], [978.3312], [0], [978.3312]],
+  "C": [
+    [0, 0, 0.5, 0, 0.5, 0],
+    [0, -0.0098, 0, 0, 0, 0],
+    [0, 0, -0.1946, 0, 0.1946, 0],
+    [0, 0, 0, 0, 0, 0],
+    [0, -1, 0, 0, 0, 0],
+    [0, 0, 0, 0, 0, 0]
+  ],
+  "D": [[0], [9.236e-16], [0], [0], [0], [0]]
+}

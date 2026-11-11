@@ -1,0 +1,31 @@
+{
+  "model": "HC-SR04",
+  "min_range_m": 0.02,
+  "max_range_m": 4.0,
+  "measuring_angle_deg": 15.0,
+  "angle_interpretation": "full_aperture",
+  "sample_period_s": 0.07,
+  "sound_speed_m_s": 340.0,
+  "radial_rings": 8,
+  "azimuth_samples": 48,
+  "datasheet": {
+    "path": "config/references/HCSR04.pdf",
+    "measuring_angle_text": "MeasuringAngle 15 degree; full angle versus half angle not specified",
+    "recommended_cycle": "over 60 ms",
+    "burst_cycles": 8,
+    "carrier_frequency_hz": 40000,
+    "trigger_min_us": 10,
+    "accuracy_claim_m": 0.003,
+    "supply_v": 5,
+    "current_a": 0.015,
+    "target_guidance": "Smooth planar target, area not less than 0.5 square meters"
+  },
+  "assumptions": {
+    "angle": "Interpret 15 degrees as full aperture by default; not resolved by this datasheet",
+    "rays": "385 geometric rays: axial plus 8 rings of 48; numerical discretization, not manufacturer data",
+    "return": "Nearest sampled visible surface, even below minimum range; no reflectivity threshold",
+    "timing": "70 ms selected to exceed recommended 60 ms; no flight delay or TTL simulation",
+    "accuracy": "3 mm claim is not a noise standard deviation; no invented noise distribution",
+    "acoustics": "No amplitude, diffraction, attenuation, specular reflection, multipath or material model"
+  }
+}

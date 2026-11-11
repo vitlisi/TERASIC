@@ -1,0 +1,28 @@
+{
+  "mode": "run",
+  "logging_complete": true,
+  "flags": [],
+  "samples": 1000,
+  "initial_error_deg": -3.548,
+  "battery_min_v": 11.236595745,
+  "battery_max_v": 11.466382979,
+  "pitch_rms_deg": 0.32736562182092366,
+  "gyro_rms_deg_s": 10.438047719787772,
+  "position_span_mm": 7.725302,
+  "peak_physical_pwm": 20.0,
+  "window_s": [
+    2,
+    9
+  ],
+  "operator_autonomy_confirmation": true,
+  "speed_lut": false,
+  "K_changed": false,
+  "compensation": "STRIBECK_MODEL_MATCHING_BOUNDED_0.5",
+  "candidate_sha256": "85a1534241b010659e2a166021040f9a077e23cbe6487d6d4b4b5799ec63e7ea",
+  "replay_samples": 1000,
+  "exact_compensator_source_replayed": true,
+  "maximum_physical_replay_difference_percent": 0.0020000000000000018,
+  "maximum_omega_replay_difference_rad_s": 4.999040487119188e-10,
+  "maximum_compensation_percent": 0.5000000000000004,
+  "operator_confirmation_text": "S\u00ec, autonomo fino allo stop"
+}

@@ -1,0 +1,8 @@
+[Unit]
+Description=DHCP fallback for 3 Pietro Wi-Fi
+After=connman.service
+[Service]
+Type=oneshot
+ExecStart=/usr/local/sbin/terasic-pietro3-dhcp
+KillMode=process
+TimeoutStartSec=20

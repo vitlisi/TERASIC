@@ -1,0 +1,53 @@
+# Experimental GA a19988: fixed K, converted wheel-angle states to SI distance states.
+# One-sample feedback-error delay implemented in isolated GA executable; no LUT.
+# wheel_convention=physical_sx_dx_v2; SX=left, DX=right in forward direction.
+# Timed path40cm/180deg/40cm; no arrival gates. Same K and ff150.
+# Active baseline: initial inclined support, wheels on ground, free recovery.
+# Fixed pitch reference; gyro bias only. Effective limits match the successful 20% runs.
+counts_per_rev 1325
+gyro_sign 1
+motor_sign 1
+encoder_sx_sign -1
+encoder_dx_sign 1
+wheel_model_sign -1
+pitch_model_sign 1
+pitch_reference_deg 0.320
+shadow_only 0
+wheel_radius_m 0.032
+wheel_track_m 0.16444
+max_differential_pwm 20
+k_sx_position -581.92972153037499
+k_sx_pitch -477.10112969306022
+k_sx_yaw -121.44072439163465
+k_sx_velocity -488.67143888171489
+k_sx_pitch_rate -46.078756755772638
+k_sx_yaw_rate -14.853231168100272
+k_dx_position -458.02754687672592
+k_dx_pitch -398.71690293445613
+k_dx_yaw 116.8894327368192
+k_dx_velocity -407.16957923096021
+k_dx_pitch_rate -38.371893760748883
+k_dx_yaw_rate 13.478343868263124
+
+# Path only: smooth references and nominal feedforward, no extra feedback controller.
+path_mode 2
+path_distance_m 0.40
+path_turn_deg 180
+turn_differential_pwm 20
+yaw_gyro_sign 1
+yaw_fusion_tau_s 60
+ff_pitch_v -0.0080500636095931534
+ff_pitch_a 0.20191143734917472
+ff_common_v 1.3376073092333841
+ff_common_a 0.38816970025035558
+ff_diff_yaw_rate 0.1717181948260729
+ff_diff_yaw_accel 0.033799243943506786
+
+wheel_pwm_cap 20
+
+# Seven phases:1.5,8,1,7,1,8,2 seconds; total28.5s.
+leg_duration_s 8
+turn_duration_s 7
+initial_hold_s 1.5
+between_hold_s 1
+final_hold_s 2

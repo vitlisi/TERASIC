@@ -1,0 +1,2 @@
+Output: /home/vittorio/terasic_robot/logs/final_campaign/08_hinf_twin_comparison/path/analysis/yaw_reserve_sweep_20261110/reserve_9
+hinf-path: success=False, duration=11.13s, fault=attitude/IMU envelope

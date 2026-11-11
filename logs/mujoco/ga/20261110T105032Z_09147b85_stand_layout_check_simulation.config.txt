@@ -1,0 +1,30 @@
+# Experimental GA a19988: fixed K, converted wheel-angle states to SI distance states.
+# One-sample feedback-error delay implemented in isolated GA executable; no LUT.
+# wheel_convention=physical_sx_dx_v2; SX=left, DX=right in forward direction.
+# Reference trial 2026-10-28: autonomous stand recovery, 10 s, PWM cap20%, differential cap3%.
+# Demonstrated only for recorded negative start angles; not a general robustness guarantee.
+# State order [position_m,pitch_rad,yaw_rad,velocity_m_s,pitch_rate_rad_s,yaw_rate_rad_s].
+counts_per_rev 1325
+gyro_sign 1
+motor_sign 1
+encoder_sx_sign -1
+encoder_dx_sign 1
+wheel_model_sign -1
+pitch_model_sign 1
+pitch_reference_deg 0.320
+shadow_only 0
+wheel_radius_m 0.032
+wheel_track_m 0.16444
+max_differential_pwm 3
+k_sx_position -581.92972153037499
+k_sx_pitch -477.10112969306022
+k_sx_yaw -121.44072439163465
+k_sx_velocity -488.67143888171489
+k_sx_pitch_rate -46.078756755772638
+k_sx_yaw_rate -14.853231168100272
+k_dx_position -458.02754687672592
+k_dx_pitch -398.71690293445613
+k_dx_yaw 116.8894327368192
+k_dx_velocity -407.16957923096021
+k_dx_pitch_rate -38.371893760748883
+k_dx_yaw_rate 13.478343868263124

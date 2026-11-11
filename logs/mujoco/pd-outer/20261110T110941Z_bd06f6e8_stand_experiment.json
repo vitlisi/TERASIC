@@ -1,0 +1,20 @@
+{
+  "run_id": "20261110T110941Z_bd06f6e8",
+  "controller": "pd-outer",
+  "case": "stand",
+  "label": null,
+  "exit_code": 1,
+  "stribeck_enabled": true,
+  "friction_compensation": "OFF",
+  "real_core": false,
+  "note": "PD routes are independent Python controllers, not firmware parity tests.",
+  "files": [
+    "/home/vittorio/terasic_robot/logs/mujoco/pd-outer/20261110T110941Z_bd06f6e8_stand_pd-outer_20261110_120942_e03b4055.csv",
+    "/home/vittorio/terasic_robot/logs/mujoco/pd-outer/20261110T110941Z_bd06f6e8_stand_pd-outer_20261110_120942_e03b4055.json",
+    "/home/vittorio/terasic_robot/logs/mujoco/pd-outer/20261110T110941Z_bd06f6e8_stand_pd-outer_20261110_120942_e03b4055.status.log"
+  ],
+  "figures": [
+    "/home/vittorio/terasic_robot/logs/mujoco/pd-outer/plot/20261110T110941Z_bd06f6e8_stand_pd-outer_20261110_120942_e03b4055.pdf",
+    "/home/vittorio/terasic_robot/logs/mujoco/pd-outer/plot/20261110T110941Z_bd06f6e8_stand_pd-outer_20261110_120942_e03b4055.svg"
+  ]
+}

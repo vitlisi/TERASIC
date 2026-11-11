@@ -1,0 +1,6 @@
+wheel_convention=physical_sx_dx_v2
+SW raw:       0x00000003
+Encoder SX:   32768
+Encoder DX:   34647
+Motore SX:    periodo=50000 alto=0 controllo=0x00000006
+Motore DX:    periodo=50000 alto=0 controllo=0x00000006

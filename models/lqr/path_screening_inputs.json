@@ -1,0 +1,43 @@
+{
+  "equilibrium_pitch_deg": -1.0688271118499948,
+  "K_pwm_percent": [
+    [
+      -268.1127965511695,
+      -736.5641865340048,
+      -56.223050731996516,
+      -363.20016517660633,
+      -22.41360003706932,
+      -12.142332171090555
+    ],
+    [
+      -268.1127965511695,
+      -736.5641865340048,
+      56.223050731996516,
+      -363.20016517660633,
+      -22.41360003706932,
+      12.142332171090555
+    ]
+  ],
+  "feedforward_coefficients": [
+    -0.008050063609593153,
+    0.20191143734917472,
+    0.8917382061555894,
+    0.3881697002503556,
+    0.1717181948260729,
+    0.033799243943506786
+  ],
+  "feedforward_order": [
+    "pitch_v",
+    "pitch_a",
+    "common_v",
+    "common_a",
+    "diff_yaw_rate",
+    "diff_yaw_accel"
+  ],
+  "provenance": {
+    "source": "logs/lqr/real_path_candidate_20261019/candidate.json",
+    "source_sha256": "b9e3cd4e25aee5a45efea32e30e63fb2277adc77618d74f7c27c1fd31e0d9373",
+    "purpose": "Fixed numerical reference; not results of new validation.",
+    "hardware_validated": false
+  }
+}

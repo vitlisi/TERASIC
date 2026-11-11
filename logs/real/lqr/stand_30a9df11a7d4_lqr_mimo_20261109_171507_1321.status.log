@@ -1,0 +1,78 @@
+Avvio: Mon Nov  9 17:15:07 UTC 2026
+Argomenti: run config/controllers/lqr_mimo.txt 10 20
+Protocollo dichiarato: non specificato
+startup_protocol=inclined_initial_support_free_recovery; fixed_pitch_reference; gyro_bias_only
+Supporto iniziale: ruote a terra, telaio libero di staccarsi; sostenere prima dello stop.
+Configurazione:
+# wheel_convention=physical_sx_dx_v2; SX=left, DX=right in forward direction.
+# Reference trial 2026-10-28: autonomous stand recovery, 10 s, PWM cap20%, differential cap3%.
+# Demonstrated only for recorded negative start angles; not a general robustness guarantee.
+# State order [position_m,pitch_rad,yaw_rad,velocity_m_s,pitch_rate_rad_s,yaw_rate_rad_s].
+counts_per_rev 1325
+gyro_sign 1
+motor_sign 1
+encoder_sx_sign -1
+encoder_dx_sign 1
+wheel_model_sign -1
+pitch_model_sign 1
+pitch_reference_deg 0.320
+shadow_only 0
+wheel_radius_m 0.032
+wheel_track_m 0.16444
+max_differential_pwm 3
+k_sx_position -268.11279655116948
+k_sx_pitch -736.56418653400476
+k_sx_yaw -56.223050731996516
+k_sx_velocity -363.20016517660633
+k_sx_pitch_rate -22.413600037069319
+k_sx_yaw_rate -12.142332171090555
+k_dx_position -268.11279655116948
+k_dx_pitch -736.56418653400476
+k_dx_yaw 56.223050731996516
+k_dx_velocity -363.20016517660633
+k_dx_pitch_rate -22.413600037069319
+k_dx_yaw_rate 12.142332171090555
+25320ecfd6db228e405b92e8548d1215c4b0d0e86e3adfc9bf1328dd733882d1  /home/root/terasic_robot_final/build/robot/balance_lqr_2
+0c25a815be367283719facedd982de2d9e774f1c49a8f26b0213719b138becc5  /home/root/terasic_robot_final/logs/final_campaign/06_lqr_real/stand/real/runs/trial_001/lqr_mimo_20261109_171507_1321.config.txt
+
+Batteria PRIMA (a motori spenti): Mon Nov  9 17:15:07 UTC 2026
+wheel_convention=physical_sx_dx_v2
+ADC batteria: canale=1 campioni=16 raw_medio=2992.75 raw_min=2983 raw_max=2994
+Tensione pacco (scala nominale Terasic): 11.462 V [min 11.424, max 11.466]
+Percentuale di carica: non disponibile (nessun fuel gauge calibrato).
+Misura a motori spenti; confrontare una volta con un multimetro.
+exit_code_battery=0
+wheel_convention=physical_sx_dx_v2
+Scheduling SCHED_FIFO, priorita' 10.
+Avvio dal supporto iniziale: ruote a terra, recupero libero; il supporto non e' uno zero pitch.
+Calibrazione gyro: robot fermo 2 s; pitch entro +/-5 deg dal riferimento FISSO.
+Pitch iniziale assoluto=-1.781 deg; riferimento FISSO=0.320 deg; errore iniziale=-2.101 deg.
+Riferimento pitch=0.320 deg; bias gyro Y=1.578 deg/s.
+ARMATO MIMO: unico K 2x6, due PWM; durata=10 s limite=20.0% differenziale max=3.0%.
+Stati [s,psi,rho,v,psi_dot,rho_dot], SI; yaw solo encoder; zero dopo calibrazione.
+K SX=[-268.112796551 -736.564186534 -56.223050732 -363.200165177 -22.4136000371 -12.1423321711]
+K DX=[-268.112796551 -736.564186534 56.223050732 -363.200165177 -22.4136000371 12.1423321711]
+Raggio nominale=0.032000 m carreggiata nominale=0.164440 m CPR=1325.000
+Limite errore iniziale configurato=5.000 deg.
+t=0.00 s | s=-0.0000 m v=-0.0000 m/s | pitch=-2.102 deg | yaw enc=+0.00 deg | delta SX=+0 DX=+0 | PWM richiesta SX=-27.03 DX=-27.03 applicata SX=-20.00 DX=-20.00
+t=1.00 s | s=+0.0029 m v=-0.0075 m/s | pitch=-0.069 deg | yaw enc=+0.05 deg | delta SX=-11 DX=+12 | PWM richiesta SX=-4.20 DX=-4.17 applicata SX=-4.20 DX=-4.17
+t=2.00 s | s=+0.0047 m v=-0.0024 m/s | pitch=-0.447 deg | yaw enc=+0.21 deg | delta SX=-23 DX=+27 | PWM richiesta SX=-5.81 DX=-7.27 applicata SX=-5.81 DX=-7.27
+t=3.00 s | s=+0.0039 m v=-0.0041 m/s | pitch=+0.057 deg | yaw enc=+0.48 deg | delta SX=-13 DX=+22 | PWM richiesta SX=+0.39 DX=-0.31 applicata SX=+0.00 DX=-0.00
+t=4.00 s | s=+0.0063 m v=+0.0006 m/s | pitch=-0.133 deg | yaw enc=+0.37 deg | delta SX=-31 DX=+38 | PWM richiesta SX=+0.52 DX=-0.36 applicata SX=+0.52 DX=-0.00
+t=5.00 s | s=+0.0056 m v=+0.0051 m/s | pitch=+0.095 deg | yaw enc=+0.63 deg | delta SX=-23 DX=+35 | PWM richiesta SX=+7.12 DX=+4.36 applicata SX=+7.12 DX=+4.36
+t=6.00 s | s=+0.0086 m v=+0.0105 m/s | pitch=-0.207 deg | yaw enc=+0.42 deg | delta SX=-46 DX=+54 | PWM richiesta SX=+3.70 DX=+2.73 applicata SX=+3.70 DX=+2.72
+t=7.00 s | s=+0.0066 m v=-0.0168 m/s | pitch=+0.072 deg | yaw enc=+0.48 deg | delta SX=-31 DX=+40 | PWM richiesta SX=-1.06 DX=-1.47 applicata SX=-1.05 DX=-1.47
+t=8.00 s | s=+0.0079 m v=-0.0049 m/s | pitch=-0.233 deg | yaw enc=+0.37 deg | delta SX=-42 DX=+49 | PWM richiesta SX=-2.98 DX=-3.52 applicata SX=-2.98 DX=-3.52
+t=9.00 s | s=+0.0086 m v=+0.0004 m/s | pitch=-0.303 deg | yaw enc=+0.42 deg | delta SX=-46 DX=+54 | PWM richiesta SX=-0.30 DX=-1.13 applicata SX=-0.00 DX=-1.13
+LQR terminato; RUN SX=0 DX=0.
+Encoder delta SX=-73 DX=+71.
+
+Batteria DOPO (a motori spenti): Mon Nov  9 17:15:20 UTC 2026
+wheel_convention=physical_sx_dx_v2
+ADC batteria: canale=1 campioni=16 raw_medio=2990.75 raw_min=2977 raw_max=2993
+Tensione pacco (scala nominale Terasic): 11.454 V [min 11.401, max 11.463]
+Percentuale di carica: non disponibile (nessun fuel gauge calibrato).
+Misura a motori spenti; confrontare una volta con un multimetro.
+exit_code_battery=0
+
+exit_code=0

@@ -1,0 +1,14 @@
+{
+  "accepted": true,
+  "flags": [],
+  "samples": 2601,
+  "duration_s": 26.000067526,
+  "replay_max_errors": {
+    "pwm": 0.0,
+    "speed": 5.071607578344128e-10,
+    "target": 5.240252676230739e-14,
+    "correction": 3.885780586188048e-16
+  },
+  "battery_min_v": 11.56212766,
+  "battery_max_v": 11.619574468
+}

@@ -1,0 +1,70 @@
+[
+  {
+    "reserve_percent": 0,
+    "success": true,
+    "fault": null,
+    "duration_s": 33.0,
+    "yaw_at_turn_end_deg": 48.20307862510682,
+    "final_yaw_deg": 161.96094222249351,
+    "final_xy_m": [
+      -0.37807495219256027,
+      0.4186810757198812
+    ],
+    "return_error_m": 0.5641227815301946,
+    "max_abs_pitch_deg": 2.9117860321632323,
+    "saturated_fraction": 0.8687878787878788,
+    "config": "logs/final_campaign/08_hinf_twin_comparison/path/analysis/yaw_reserve_sweep_20261110/reserve_0.txt",
+    "figure": "logs/final_campaign/08_hinf_twin_comparison/path/analysis/yaw_reserve_sweep_20261110/reserve_0/hinf-path/simulation.svg"
+  },
+  {
+    "reserve_percent": 3,
+    "success": true,
+    "fault": null,
+    "duration_s": 33.0,
+    "yaw_at_turn_end_deg": 85.55799863187573,
+    "final_yaw_deg": 180.05943531664047,
+    "final_xy_m": [
+      -0.3016989679072296,
+      0.14707089895693473
+    ],
+    "return_error_m": 0.33563688199643443,
+    "max_abs_pitch_deg": 2.9117860321632323,
+    "saturated_fraction": 0.8093939393939394,
+    "config": "logs/final_campaign/08_hinf_twin_comparison/path/analysis/yaw_reserve_sweep_20261110/reserve_3.txt",
+    "figure": "logs/final_campaign/08_hinf_twin_comparison/path/analysis/yaw_reserve_sweep_20261110/reserve_3/hinf-path/simulation.svg"
+  },
+  {
+    "reserve_percent": 6,
+    "success": true,
+    "fault": null,
+    "duration_s": 33.0,
+    "yaw_at_turn_end_deg": 164.5105943973517,
+    "final_yaw_deg": 180.10029907373888,
+    "final_xy_m": [
+      -0.005628961443578664,
+      -0.00900182153918488
+    ],
+    "return_error_m": 0.010616873266486138,
+    "max_abs_pitch_deg": 2.9117860321632323,
+    "saturated_fraction": 0.6475757575757576,
+    "config": "logs/final_campaign/08_hinf_twin_comparison/path/analysis/yaw_reserve_sweep_20261110/reserve_6.txt",
+    "figure": "logs/final_campaign/08_hinf_twin_comparison/path/analysis/yaw_reserve_sweep_20261110/reserve_6/hinf-path/simulation.svg"
+  },
+  {
+    "reserve_percent": 9,
+    "success": false,
+    "fault": "attitude/IMU envelope",
+    "duration_s": 11.13,
+    "yaw_at_turn_end_deg": 0.15264919090639403,
+    "final_yaw_deg": 0.15264919090639403,
+    "final_xy_m": [
+      0.0047247551017838944,
+      0.3949086961669561
+    ],
+    "return_error_m": 0.39493695904417087,
+    "max_abs_pitch_deg": 11.33821807386857,
+    "saturated_fraction": 0.5876010781671159,
+    "config": "logs/final_campaign/08_hinf_twin_comparison/path/analysis/yaw_reserve_sweep_20261110/reserve_9.txt",
+    "figure": "logs/final_campaign/08_hinf_twin_comparison/path/analysis/yaw_reserve_sweep_20261110/reserve_9/hinf-path/simulation.svg"
+  }
+]

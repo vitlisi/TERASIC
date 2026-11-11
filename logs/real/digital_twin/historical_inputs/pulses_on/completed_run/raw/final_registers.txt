@@ -1,0 +1,5 @@
+SW raw:       0x00000003
+Encoder SX:   32470
+Encoder DX:   32793
+Motore SX:    periodo=50000 alto=0 controllo=0x00000006
+Motore DX:    periodo=50000 alto=0 controllo=0x00000006

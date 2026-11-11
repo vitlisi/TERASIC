@@ -1,0 +1,11 @@
+wheel_convention=physical_sx_dx_v2
+Scheduling SCHED_FIFO, priorita' 10.
+Calibrazione IMU: tenere il robot fermo e verticale per 2 s.
+Pitch iniziale assoluto=-0.061 deg; riferimento FISSO=0.320 deg; errore iniziale=-0.381 deg.
+Riferimento pitch=0.320 deg; bias gyro Y=1.513 deg/s.
+PD ARMATO: sign_gyro=+1 sign_motore=+1 Kp=5.000 Kd=0.800 limite=15.0% durata=10 s.
+PD outer: Kx=2.000 deg/m Kv=8.000 deg/(m/s); target offset clipped to +/-3 deg; CPR=1325 radius=0.032 m.
+Limite assetto/IMU/tempo superato: |a|=0.940 g az=15305 theta=-12.02 deg theta_acc=-6.55 deg gyro=-85.80 deg/s imu=2105 us. Arresto.
+PD terminato; RUN SX=0 DX=0.
+Encoder delta SX=+789 DX=-656.
+exit_code=1

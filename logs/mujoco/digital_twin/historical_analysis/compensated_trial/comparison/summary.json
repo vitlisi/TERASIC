@@ -1,0 +1,76 @@
+{
+  "fixture": {
+    "fixture": "kinematic fixed chassis, axle height 0.30m, no ground contact",
+    "armature_scale": 1.0,
+    "torque_per_duty_per_volt_Nm": 0.03675,
+    "J_equivalent_kg_m2": [
+      0.0007989617154130152,
+      0.000850794457451705
+    ],
+    "armature_kg_m2": [
+      0.0007738737154130152,
+      0.0008257064574517049
+    ],
+    "damping_Nm_s_rad": [
+      0.012138091610294525,
+      0.012752092055797665
+    ],
+    "frictionloss_Nm": [
+      0.011570051645284919,
+      0.013911595412663312
+    ],
+    "wheel_profiles": {
+      "sx": {
+        "armature_kg_m2": 0.0007738737154130152,
+        "damping_Nm_s_rad": 0.012138091610294525,
+        "frictionloss_Nm": 0.011570051645284919,
+        "off_damping_Nm_s_rad": 0.0007744907639413714,
+        "off_frictionloss_Nm": 0.007745653426488699
+      },
+      "dx": {
+        "armature_kg_m2": 0.0008257064574517049,
+        "damping_Nm_s_rad": 0.012752092055797665,
+        "frictionloss_Nm": 0.013911595412663312,
+        "off_damping_Nm_s_rad": 0.0009753386355337317,
+        "off_frictionloss_Nm": 0.007187197163551677
+      }
+    },
+    "backlash_modelled": false,
+    "controller": "none: open-loop PWM",
+    "nv": 2,
+    "max_contacts": 0,
+    "max_chassis_translation_m": 0.0,
+    "max_chassis_rotation_matrix_difference": 0.0,
+    "encoder_counts_per_rev": 1325,
+    "encoder_filter_s": 0.05,
+    "physical_dt_max_s": 0.001,
+    "controller_rate_hz": 100,
+    "compensation_enabled": true
+  },
+  "metrics": {
+    "sx": {
+      "speed_rmse_rad_s": 0.04496404856769058,
+      "speed_mae_rad_s": 0.024898807879634506,
+      "speed_max_absolute_error_rad_s": 0.325830708317285
+    },
+    "dx": {
+      "speed_rmse_rad_s": 0.06936031042017884,
+      "speed_mae_rad_s": 0.028160200388113392,
+      "speed_max_absolute_error_rad_s": 0.5543381211127401
+    }
+  },
+  "real_analysis": {
+    "accepted": true,
+    "flags": [],
+    "samples": 2601,
+    "duration_s": 26.000067526,
+    "replay_max_errors": {
+      "pwm": 0.0,
+      "speed": 5.071607578344128e-10,
+      "target": 5.240252676230739e-14,
+      "correction": 3.885780586188048e-16
+    },
+    "battery_min_v": 11.56212766,
+    "battery_max_v": 11.619574468
+  }
+}

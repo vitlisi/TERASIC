@@ -1,0 +1,11 @@
+{
+  "mode": "observe",
+  "duration_requested_s": 3,
+  "samples": 300,
+  "motors_enabled": false,
+  "encoder_motion": false,
+  "performance_trial": false,
+  "final_OFF_verified": true,
+  "scope": "README CLI/telemetry observation only; calibration appears in status, not as CSV samples.",
+  "deployed_binary_sha256": "9cce27a2b7e33030d9c84f00e86439c507c37f820df522bdca405bf52935aa79"
+}

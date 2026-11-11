@@ -1,0 +1,113 @@
+clc
+clear
+% =========================================================================
+% Parametri Digital Twin - Terasic Self-Balancing Robot
+% File di inizializzazione per Simulink / Simscape Multibody
+% =========================================================================
+
+%% 1. Environmental parameters
+g = 9.81; % gravity acceleration [m/s^2]
+
+%% 2. Chassis parameters (Skeleton)
+chassis_mass = 0.741; % mass of the central body [kg]
+chassis_com = [-0.00018, 0.00065, 0.03484]; % Centre of Mass [x, y, z] in [m]
+
+% Inertia Matric (with respect to CoM) [kg*m^2]
+% Moments of Inertia [Ixx, Iyy, Izz]
+chassis_I_diag = [0.000885, 0.001438, 0.000958];
+% Products of Inertia [Ixy, Ixz, Iyz]
+chassis_I_prod = [0.000010, -0.000009, 0.000022];
+
+%% 3. Wheel geometry and position
+wheel_mass = 0.049; % wheel mass [Kg]
+wheel_radius = 0.032; % Raggio ruota [m]
+wheel_thickness = 0.028; % Spessore totale ruota [m]
+wheel_offset_x = 0.082; % Distanza delle ruote dall'origine (asse X) [m]
+wheel_track = 0.1644; % distance between centre of wheels [m]
+
+%% 4. Motor Parameters ASLONG JGB37-520B and Joints (Revolute Joint)
+motor_max_torque = 0.441; % Coppia di stallo / Limite meccanico (Saturation) [N*m] (4.5 Kg*cm)
+joint_damping = 0.0126; % Damping Coefficient (Smorzamento viscoso) [N*m/(rad/s)], STIMATO (vedi formula tau_stall/w_vuoto = 0.441/(333*2*pi/60))
+joint_friction = 0.01;  % Breakaway Friction Torque (Attrito statico al distacco) [N*m], STIMATO
+rotor_inertia = 0.005;  % Inerzia del rotore riflessa (per blocco Inertia aggiuntivo) [kg*m^2], STIMATO
+
+%% 5. Parametri Contatto Sforzo-Spaziale (Grip Ruota-Pavimento)
+mu_static = 0.6; % Coefficiente di attrito statico (Superficie media: mattonelle/legno)
+mu_kinematic = 0.5; % Coefficiente di attrito dinamico/cinematico
+
+%% 6. PWM to Torque computation
+%%% ASLONG Aslong JGB37-520B 12V, MODEL 1210, data sheet: from Hardware_Manual
+I_stall = 1; % Stall Current from Aslong Data Sheet (for MODEL 1210) and Hardware_Manual is 1 A.
+V_nom = 12; % nominal voltage [V]
+R = V_nom/I_stall; % internal resistence [\ohm]
+gear = 30; % motor gear, 1:30 
+k_t = motor_max_torque/(gear*I_stall); % torque constant [N*m/A]
+
+%% 7. State computation
+
+dt = 0.01;
+% load("lin_sys.mat")
+% A = LinearAnalysisToolProject.Results.Data.Value.A;
+% B = LinearAnalysisToolProject.Results.Data.Value.B;
+% C = LinearAnalysisToolProject.Results.Data.Value.C;
+% D = LinearAnalysisToolProject.Results.Data.Value.D;
+
+%% 7. State computation & Linearization
+model = 'Terasic_Simscape_linmod'; % we use the model for the linearization (without Spatial Contact forces, with a revolute joint instead of a 6-DoF joint) 
+
+% Carica il modello in memoria senza aprirne la finestra grafica
+load_system(model);
+
+% 1. Configurazione avanzata dell'Operating Point Specification
+opspec = operspec(model);
+
+% % Ciclo su tutti gli stati per bloccare la caduta libera e gli stati discreti
+% for i = 1:length(opspec.States)
+%     blkName = opspec.States(i).Block;
+% 
+%     % Blocca il giunto 6-DOF: forza velocità iniziali a 0 e derivate stazionarie a 0
+%     if contains(blkName, '6_DOF_Joint1')
+%         opspec.States(i).SteadyState = 1; % Pretendi derivata nulla al trim
+%     end
+% 
+%     % Congela gli stati dei blocchi di ritardo discreti (Unit Delay / Filtri)
+%     if contains(blkName, 'Unit Delay') || contains(blkName, 'State_computation')
+%         opspec.States(i).Known = 1;      % Stato noto
+%         opspec.States(i).SteadyState = 0; % Non cercare stazionarietà su blocchi discreti
+%     end
+% end
+
+% Silenzia i report prolissi e trova il punto di equilibrio
+opt = findopOptions('DisplayReport', 'off');
+op = findop(model, opspec, opt);
+
+% 2. Recupera i punti d'analisi IO (Input/Output linearization points)
+io = getlinio(model);
+
+% 3. Linearizzazione al punto di equilibrio calcolato
+sys_raw = linearize(model, io, op);
+
+% 4. Riduzione agli stati fisici effettivi (Rimuove Unit Delay e poli/zeri non osservabili)
+sys_clean = minreal(sys_raw);
+
+% 5. Estrazione e visualizzazione delle matrici LTI pulite
+[A, B, C, D] = ssdata(sys_clean);
+
+clc;
+fprintf('=== Risultato Linearizzazione ===\n');
+fprintf('Dimensione della matrice A: %dx%d\n', size(A,1), size(A,2));
+fprintf('Dimensione della matrice B: %dx%d\n\n', size(B,1), size(B,2));
+
+disp('Matrice A:');
+disp(A);
+
+disp('Matrice B:');
+disp(B);
+
+disp('Matrice C:');
+disp(C);
+
+disp('Matrice D:');
+disp(D);
+
+eig(A) % eigenvalues test, we would have a instable equilibrium point (at least one eigenvalue with positive sign).

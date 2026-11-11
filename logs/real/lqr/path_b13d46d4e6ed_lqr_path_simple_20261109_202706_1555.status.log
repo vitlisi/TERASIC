@@ -1,0 +1,133 @@
+Avvio: Mon Nov  9 20:27:06 UTC 2026
+Argomenti: run config/controllers/lqr_path_40cm_28p5s.txt 28.5 20
+Protocollo dichiarato: non specificato
+startup_protocol=inclined_initial_support_free_recovery; fixed_pitch_reference; gyro_bias_only
+Supporto iniziale: ruote a terra, telaio libero di staccarsi; sostenere prima dello stop.
+Configurazione:
+# wheel_convention=physical_sx_dx_v2; SX=left, DX=right in forward direction.
+# Timed path40cm/180deg/40cm; no arrival gates. Same K and ff150.
+# Active baseline: initial inclined support, wheels on ground, free recovery.
+# Fixed pitch reference; gyro bias only. Effective limits match the successful 20% runs.
+counts_per_rev 1325
+gyro_sign 1
+motor_sign 1
+encoder_sx_sign -1
+encoder_dx_sign 1
+wheel_model_sign -1
+pitch_model_sign 1
+pitch_reference_deg 0.320
+shadow_only 0
+wheel_radius_m 0.032
+wheel_track_m 0.16444
+max_differential_pwm 20
+k_sx_position -268.11279655116948
+k_sx_pitch -736.56418653400476
+k_sx_yaw -56.223050731996516
+k_sx_velocity -363.20016517660633
+k_sx_pitch_rate -22.413600037069319
+k_sx_yaw_rate -12.142332171090555
+k_dx_position -268.11279655116948
+k_dx_pitch -736.56418653400476
+k_dx_yaw 56.223050731996516
+k_dx_velocity -363.20016517660633
+k_dx_pitch_rate -22.413600037069319
+k_dx_yaw_rate 12.142332171090555
+
+# Path only: smooth references and nominal feedforward, no extra feedback controller.
+path_mode 2
+path_distance_m 0.40
+path_turn_deg 180
+turn_differential_pwm 20
+yaw_gyro_sign 1
+yaw_fusion_tau_s 60
+ff_pitch_v -0.0080500636095931534
+ff_pitch_a 0.20191143734917472
+ff_common_v 1.3376073092333841
+ff_common_a 0.38816970025035558
+ff_diff_yaw_rate 0.1717181948260729
+ff_diff_yaw_accel 0.033799243943506786
+
+wheel_pwm_cap 20
+
+# Seven phases:1.5,8,1,7,1,8,2 seconds; total28.5s.
+leg_duration_s 8
+turn_duration_s 7
+initial_hold_s 1.5
+between_hold_s 1
+final_hold_s 2
+d1d180270a0c890ffc6d0312e05b9f607b43661372df80124623c18f5c93a2e7  /home/root/terasic_robot_final/build/robot/path_simple
+6afab3e999d329aab931168b15f9f7ccbc7a14ce7557ffcd60f58cbbafdc9b76  /home/root/terasic_robot_final/logs/final_campaign/06_lqr_real/path/real/runs/trial_002/lqr_path_simple_20261109_202706_1555.config.txt
+
+Batteria PRIMA (a motori spenti): Mon Nov  9 20:27:06 UTC 2026
+wheel_convention=physical_sx_dx_v2
+ADC batteria: canale=1 campioni=16 raw_medio=2954.88 raw_min=2945 raw_max=2956
+Tensione pacco (scala nominale Terasic): 11.317 V [min 11.279, max 11.321]
+Percentuale di carica: non disponibile (nessun fuel gauge calibrato).
+Misura a motori spenti; confrontare una volta con un multimetro.
+exit_code_battery=0
+wheel_convention=physical_sx_dx_v2
+Scheduling SCHED_FIFO, priorita' 10.
+Avvio dal supporto iniziale: ruote a terra, recupero libero; il supporto non e' uno zero pitch.
+Calibrazione gyro: robot fermo 2 s; pitch entro +/-5 deg dal riferimento FISSO.
+Pitch iniziale assoluto=-3.412 deg; riferimento FISSO=0.320 deg; errore iniziale=-3.732 deg.
+Riferimento pitch=0.320 deg; bias gyro Y=1.584 deg/s.
+Bias gyro X=0.904427 Z=1.200000 deg/s; yaw_sign=1 tau_fusione=60.0 s.
+ARMATO MIMO: unico K 2x6, due PWM; durata profilo=28.5 s limite=20.0% differenziale max=20.0%.
+Stati [s,psi,rho,v,psi_dot,rho_dot], SI; yaw gyro+encoder; zero dopo calibrazione.
+K SX=[-268.112796551 -736.564186534 -56.223050732 -363.200165177 -22.4136000371 -12.1423321711]
+K DX=[-268.112796551 -736.564186534 56.223050732 -363.200165177 -22.4136000371 12.1423321711]
+Raggio nominale=0.032000 m carreggiata nominale=0.164440 m CPR=1325.000
+PATH mode=2 distanza_per_tratto=0.400 m rotazione=180.0 deg; differenziale in svolta max=20.0%
+PATH SEMPLICE: +40.0cm, rotazione+180.0deg, +40.0cm dalla ripartenza. Durata profilo28.5s.
+Tempi: fermo1.5s, avanti8.0s, fermo1.0s, svolta7.0s, fermo1.0s, avanti8.0s, fermo2.0s.
+Nessun gate di arrivo o pausa per tracking. PWM max20.0% per ruota. Alla fine BILANCIAMENTO ATTIVO; sostenere poi Ctrl+C.
+Norma accelerazione: un outlier esclude solo la correzione accel,3 consecutivi fermano; altri arresti invariati.
+Riferimento longitudinale: ripartenza dalla posizione misurata a ogni fase.
+fase=0 target s=0.0000 m yaw=0.0 deg | yaw_enc=+0.00 yaw_gyro=+0.00 deg | t=0.00 s | s=+0.0000 m v=-0.0005 m/s | pitch=-3.730 deg | yaw fuso=+0.00 deg | delta SX=+0 DX=+0 | PWM richiesta SX=-48.51 DX=-48.52 applicata SX=-20.00 DX=-20.00
+XY stimato=(+0.0,+0.0)cm | XY ideale=(0,+0.0)cm
+fase=0 target s=0.0000 m yaw=0.0 deg | yaw_enc=+0.21 yaw_gyro=-0.01 deg | t=1.00 s | s=-0.0032 m v=-0.0019 m/s | pitch=-0.039 deg | yaw fuso=-0.00 deg | delta SX=+37 DX=-33 | PWM richiesta SX=-2.38 DX=-2.35 applicata SX=-2.38 DX=-2.35
+XY stimato=(+0.0,-0.3)cm | XY ideale=(0,+0.0)cm
+fase=1 target s=-0.0007 m yaw=0.0 deg | yaw_enc=+0.21 yaw_gyro=-0.24 deg | t=1.50 s | s=-0.0007 m v=+0.0026 m/s | pitch=-0.074 deg | yaw fuso=-0.23 deg | delta SX=+20 DX=-16 | PWM richiesta SX=-1.21 DX=-0.87 applicata SX=-1.21 DX=-0.87
+XY stimato=(+0.0,-0.1)cm | XY ideale=(0,+0.0)cm
+fase=1 target s=0.0002 m yaw=0.0 deg | yaw_enc=+0.16 yaw_gyro=-0.32 deg | t=2.00 s | s=-0.0037 m v=+0.0022 m/s | pitch=+0.369 deg | yaw fuso=-0.31 deg | delta SX=+41 DX=-38 | PWM richiesta SX=+2.64 DX=+3.24 applicata SX=+2.64 DX=+3.24
+XY stimato=(+0.0,-0.4)cm | XY ideale=(0,+0.1)cm
+fase=1 target s=0.0188 m yaw=0.0 deg | yaw_enc=+0.16 yaw_gyro=-0.60 deg | t=3.00 s | s=+0.0024 m v=+0.0100 m/s | pitch=+1.329 deg | yaw fuso=-0.57 deg | delta SX=+4 DX=-1 | PWM richiesta SX=+3.87 DX=+7.27 applicata SX=+3.87 DX=+7.27
+XY stimato=(+0.0,+0.2)cm | XY ideale=(0,+2.0)cm
+fase=1 target s=0.0713 m yaw=0.0 deg | yaw_enc=-0.32 yaw_gyro=-1.06 deg | t=4.00 s | s=+0.0297 m v=+0.0632 m/s | pitch=+1.562 deg | yaw fuso=-1.03 deg | delta SX=-179 DX=+173 | PWM richiesta SX=+9.23 DX=+11.07 applicata SX=+9.23 DX=+11.07
+XY stimato=(+0.1,+3.0)cm | XY ideale=(0,+7.2)cm
+fase=1 target s=0.1529 m yaw=0.0 deg | yaw_enc=+0.11 yaw_gyro=-0.74 deg | t=5.00 s | s=+0.1205 m v=+0.0860 m/s | pitch=+0.846 deg | yaw fuso=-0.69 deg | delta SX=-776 DX=+778 | PWM richiesta SX=+11.61 DX=+12.91 applicata SX=+11.61 DX=+12.91
+XY stimato=(+0.2,+12.0)cm | XY ideale=(0,+15.4)cm
+fase=1 target s=0.2457 m yaw=0.0 deg | yaw_enc=-0.32 yaw_gyro=-1.19 deg | t=6.00 s | s=+0.2185 m v=+0.0791 m/s | pitch=+0.609 deg | yaw fuso=-1.13 deg | delta SX=-1427 DX=+1421 | PWM richiesta SX=+9.82 DX=+12.20 applicata SX=+9.82 DX=+12.19
+XY stimato=(+0.3,+21.8)cm | XY ideale=(0,+24.6)cm
+fase=1 target s=0.3273 m yaw=0.0 deg | yaw_enc=-0.21 yaw_gyro=-0.99 deg | t=7.00 s | s=+0.2762 m v=+0.0501 m/s | pitch=+1.280 deg | yaw fuso=-0.91 deg | delta SX=-1804 DX=+1800 | PWM richiesta SX=+7.52 DX=+8.08 applicata SX=+7.52 DX=+8.08
+XY stimato=(+0.5,+27.6)cm | XY ideale=(0,+32.8)cm
+fase=1 target s=0.3798 m yaw=0.0 deg | yaw_enc=-0.32 yaw_gyro=-1.11 deg | t=8.00 s | s=+0.3341 m v=+0.0506 m/s | pitch=+0.499 deg | yaw fuso=-1.03 deg | delta SX=-2189 DX=+2183 | PWM richiesta SX=+7.26 DX=+9.21 applicata SX=+7.26 DX=+9.21
+XY stimato=(+0.5,+33.4)cm | XY ideale=(0,+38.0)cm
+fase=1 target s=0.3984 m yaw=0.0 deg | yaw_enc=-0.37 yaw_gyro=-1.18 deg | t=9.00 s | s=+0.3737 m v=+0.0109 m/s | pitch=+0.180 deg | yaw fuso=-1.08 deg | delta SX=-2452 DX=+2445 | PWM richiesta SX=-2.16 DX=-0.68 applicata SX=-2.16 DX=-0.68
+XY stimato=(+0.6,+37.4)cm | XY ideale=(0,+39.9)cm
+fase=2 target s=0.3993 m yaw=0.0 deg | yaw_enc=+1.32 yaw_gyro=-0.07 deg | t=9.50 s | s=+0.3712 m v=-0.0036 m/s | pitch=+0.580 deg | yaw fuso=+0.04 deg | delta SX=-2418 DX=+2443 | PWM richiesta SX=-1.31 DX=-1.45 applicata SX=-1.31 DX=-1.44
+XY stimato=(+0.6,+37.1)cm | XY ideale=(0,+40.0)cm
+fase=2 target s=0.3993 m yaw=0.0 deg | yaw_enc=+1.22 yaw_gyro=-0.51 deg | t=10.00 s | s=+0.3746 m v=+0.0060 m/s | pitch=+0.650 deg | yaw fuso=-0.40 deg | delta SX=-2441 DX=+2464 | PWM richiesta SX=+4.04 DX=+2.93 applicata SX=+4.04 DX=+2.93
+XY stimato=(+0.6,+37.5)cm | XY ideale=(0,+40.0)cm
+fase=3 target s=0.3748 m yaw=0.0 deg | yaw_enc=+1.27 yaw_gyro=-0.37 deg | t=10.50 s | s=+0.3748 m v=+0.0006 m/s | pitch=+0.821 deg | yaw fuso=-0.24 deg | delta SX=-2441 DX=+2465 | PWM richiesta SX=+10.99 DX=+11.46 applicata SX=+10.99 DX=+11.46
+XY stimato=(+0.6,+37.5)cm | XY ideale=(0,+40.0)cm
+fase=3 target s=0.3748 m yaw=0.6 deg | yaw_enc=+3.23 yaw_gyro=+1.14 deg | t=11.00 s | s=+0.3714 m v=-0.0076 m/s | pitch=+0.086 deg | yaw fuso=+1.29 deg | delta SX=-2403 DX=+2464 | PWM richiesta SX=-4.14 DX=-1.81 applicata SX=-4.14 DX=-1.81
+XY stimato=(+0.6,+37.1)cm | XY ideale=(0,+40.0)cm
+fase=3 target s=0.3748 m yaw=12.5 deg | yaw_enc=+14.33 yaw_gyro=+11.56 deg | t=12.00 s | s=+0.3782 m v=+0.0141 m/s | pitch=-0.527 deg | yaw fuso=+11.74 deg | delta SX=-2345 DX=+2616 | PWM richiesta SX=-9.58 DX=+6.98 applicata SX=-9.58 DX=+6.98
+XY stimato=(+0.5,+37.8)cm | XY ideale=(0,+40.0)cm
+fase=3 target s=0.3748 m yaw=44.3 deg | yaw_enc=+46.37 yaw_gyro=+42.88 deg | t=13.00 s | s=+0.3608 m v=+0.0223 m/s | pitch=+1.174 deg | yaw fuso=+43.11 deg | delta SX=-1921 DX=+2798 | PWM richiesta SX=-11.35 DX=+30.14 applicata SX=-1.21 DX=+20.00
+XY stimato=(+1.2,+36.2)cm | XY ideale=(0,+40.0)cm
+Limite assetto/IMU/tempo superato: accel_bad=0 |a|=1.017 g az=15978 psi=6.55 deg psi_acc=15.25 deg gyro=64.71 deg/s imu=2114 us. Arresto.
+LQR terminato; RUN SX=0 DX=0.
+ESITO: profilo_temporale_terminato=0; XY stimato=(+0.0423,+0.3435)m.
+Encoder delta SX=-1508 DX=+2714.
+
+Batteria DOPO (a motori spenti): Mon Nov  9 20:27:23 UTC 2026
+wheel_convention=physical_sx_dx_v2
+ADC batteria: canale=1 campioni=16 raw_medio=2952.38 raw_min=2939 raw_max=2955
+Tensione pacco (scala nominale Terasic): 11.307 V [min 11.256, max 11.317]
+Percentuale di carica: non disponibile (nessun fuel gauge calibrato).
+Misura a motori spenti; confrontare una volta con un multimetro.
+exit_code_battery=0
+
+exit_code=1

@@ -1,0 +1,249 @@
+{
+  "policy": "User explicitly chose permanent deletion of old data and excluded experiments. Preserve runtime, frozen motor model, controller configuration, safety tests and minimal inverse-dynamics supplementary evidence.",
+  "relocated_files": [
+    {
+      "original": "experiments/robot01_stribeck_calibration_20261109/profile_frozen.json",
+      "retained": "config/motors/robot01_compensation_source_profile.json",
+      "sha256": "fd2a0bbc9462b63d6d9c7af30b1d978933a71f09bda69374c3d3f6d52be2beaf",
+      "bytes": 13881
+    },
+    {
+      "original": "experiments/robot01_stribeck_compensation_20261109/preparation/candidate_frozen.json",
+      "retained": "config/motors/robot01_compensation_candidate.json",
+      "sha256": "85a1534241b010659e2a166021040f9a077e23cbe6487d6d4b4b5799ec63e7ea",
+      "bytes": 10578
+    },
+    {
+      "original": "experiments/ga_reale_20261104/lqr_ga_stand.txt",
+      "retained": "config/controllers/ga_stand.txt",
+      "sha256": "4d0acc5699452f72555157f7e39599fd4c3a6c3f3176473add73b59288db9603",
+      "bytes": 1144
+    },
+    {
+      "original": "experiments/ga_reale_20261104/lqr_ga_path.txt",
+      "retained": "config/controllers/ga_path.txt",
+      "sha256": "5c633dd6c372e5ccc0d05971f819d27c743026d6847040e6bcd7b66bcbde6077",
+      "bytes": 1659
+    },
+    {
+      "original": "experiments/ga_reale_20261104/source_best.json",
+      "retained": "config/ga/real_transfer_source_best.json",
+      "sha256": "810a4e7fcdef155e00179f16c4a2bdd59534243803079940c6cb9c7270f07f08",
+      "bytes": 6969
+    },
+    {
+      "original": "experiments/ga_reale_20261104/provenance.json",
+      "retained": "config/ga/real_transfer_provenance.json",
+      "sha256": "30ed59c450b3fc2ea78ceb0f234b9749302b4509b8cedcafaaeddb9423573f80",
+      "bytes": 1184
+    },
+    {
+      "original": "experiments/hinf_taratura_reale_20261104/candidate_g035_r050.json",
+      "retained": "config/controllers/hinf_g035_r050.json",
+      "sha256": "204a88660d7ffdb7ec3b43b971f59dee5c36365228c57790556253066ceaf500",
+      "bytes": 8480
+    },
+    {
+      "original": "experiments/hinf_taratura_reale_20261104/hinf_g035_r050_stand.txt",
+      "retained": "config/controllers/hinf_g035_r050_stand.txt",
+      "sha256": "79120fb467e377598ec8f63dc58b4ed184d83be4a41635752b9e075e13b8fdfd",
+      "bytes": 898
+    },
+    {
+      "original": "experiments/hinf_taratura_reale_20261104/hinf_g035_r050_path.txt",
+      "retained": "config/controllers/hinf_g035_r050_path.txt",
+      "sha256": "f8f1f51ef0c700ec7fd9816e95efc34972f9975fc863b8d6f27ddf2d82619c08",
+      "bytes": 845
+    },
+    {
+      "original": "experiments/robot01_stribeck_compensation_20261109/preparation/arm_qualification.json",
+      "retained": "config/qualification/lqr_stribeck_arm.json",
+      "sha256": "6919bfc3e9c330e4b61d544d9ca5322c5d7f2a8d56fb7f56d78ecee5ca376609",
+      "bytes": 4089
+    },
+    {
+      "original": "experiments/robot01_lut_prof/protocol/v014_guarded_balance_preparation/arm_qualification.json",
+      "retained": "config/qualification/lqr_guarded_arm.json",
+      "sha256": "b6214b8deccb2e6a647ac3f1f1b13991838ce590a6f96b45c50325d74be94409",
+      "bytes": 505
+    },
+    {
+      "original": "experiments/robot01_compensated_freewheel_20261109/preparation/arm_qualification.json",
+      "retained": "config/qualification/freewheel_compensated_arm.json",
+      "sha256": "76bbfe0efcab1308f85e73a18d45a632a71c9c979f7110446959cfe3d535ef6b",
+      "bytes": 2379
+    },
+    {
+      "original": "experiments/robot01_compensated_freewheel_imu_20261109/preparation/arm_qualification.json",
+      "retained": "config/qualification/freewheel_imu_arm.json",
+      "sha256": "90a91c06ddf3946e1f187ae2472f74cdccca64235da82c1dc93c2eb4ce0ad4d2",
+      "bytes": 2502
+    },
+    {
+      "original": "logs/terasic_reale/robots/robot01/stribeck_compensation_20261109_01/run01/raw/reale.csv",
+      "retained": "supplementary/inverse_dynamics/data/earlier/raw/reale.csv",
+      "sha256": "f0b54b6db679ce3c0e75bb90cc7d38ae6c28452af290624b9d9ea8e6cccfaf0b",
+      "bytes": 361470
+    },
+    {
+      "original": "logs/terasic_reale/robots/robot01/stribeck_compensation_20261109_01/run01/raw/reale.status.log",
+      "retained": "supplementary/inverse_dynamics/data/earlier/raw/reale.status.log",
+      "sha256": "3bbad226145644fbd7db10bce1f4285428b2d79e85335ff9731223d312954d62",
+      "bytes": 2933
+    },
+    {
+      "original": "logs/terasic_reale/robots/robot01/stribeck_compensation_20261109_01/run01/raw/final_registers.txt",
+      "retained": "supplementary/inverse_dynamics/data/earlier/raw/final_registers.txt",
+      "sha256": "629d30dca14250637076c6aa4c2be2115a6c78bed8f44256a32c4183af763558",
+      "bytes": 212
+    },
+    {
+      "original": "logs/terasic_reale/robots/robot01/stribeck_compensation_20261109_01/run01/analysis.json",
+      "retained": "supplementary/inverse_dynamics/data/earlier/analysis.json",
+      "sha256": "a47d73b6262e100f6f7eab69f57786eaabd56ed7f4f995958f93b6193e0740b2",
+      "bytes": 1052
+    },
+    {
+      "original": "logs/terasic_reale/robots/robot01/stribeck_compensation_20261109_01/run01/state.json",
+      "retained": "supplementary/inverse_dynamics/data/earlier/state.json",
+      "sha256": "f18ae1145623829b490157f920b7eefd84a109b70f50872d53de443349128077",
+      "bytes": 987
+    },
+    {
+      "original": "logs/terasic_reale/robots/robot01/stribeck_loaded_validation_20261109_01/run01/raw/reale.csv",
+      "retained": "supplementary/inverse_dynamics/data/later/raw/reale.csv",
+      "sha256": "a631d9aab7acc986a01678baaab1e161cf1cb42e13689140d1a5bee25f892e46",
+      "bytes": 363532
+    },
+    {
+      "original": "logs/terasic_reale/robots/robot01/stribeck_loaded_validation_20261109_01/run01/raw/reale.status.log",
+      "retained": "supplementary/inverse_dynamics/data/later/raw/reale.status.log",
+      "sha256": "c9ba912a47564da7a9fa3232dafdbe263898de9724b5f32ae6faf162085c356a",
+      "bytes": 2930
+    },
+    {
+      "original": "logs/terasic_reale/robots/robot01/stribeck_loaded_validation_20261109_01/run01/raw/final_registers.txt",
+      "retained": "supplementary/inverse_dynamics/data/later/raw/final_registers.txt",
+      "sha256": "b3aa2ba898008feafa5803d3cbe13b2cc06b37bb18059ecc7bbb88e87fb8a615",
+      "bytes": 212
+    },
+    {
+      "original": "logs/terasic_reale/robots/robot01/stribeck_loaded_validation_20261109_01/run01/analysis.json",
+      "retained": "supplementary/inverse_dynamics/data/later/analysis.json",
+      "sha256": "73029ebbb2cbbdfbc535d04a51756b826a6f61b4e9da4f83ca6b7baab5308ee9",
+      "bytes": 917
+    },
+    {
+      "original": "logs/terasic_reale/robots/robot01/stribeck_loaded_validation_20261109_01/run01/state.json",
+      "retained": "supplementary/inverse_dynamics/data/later/state.json",
+      "sha256": "afcbf48098e8066c0c904d4c6403f82abd9c9ba6fd14a1a88adfdbf65e2097c8",
+      "bytes": 988
+    },
+    {
+      "original": "experiments/robot01_loaded_validation_20261109/matched_run01/revised_negative_compensated/simulation.csv",
+      "retained": "supplementary/inverse_dynamics/data/synthetic_control.csv",
+      "sha256": "a4bf80ef4adea11f6a1523ecc590ee8b2ebc05083a917e3ac803ca58393adbf5",
+      "bytes": 705860
+    },
+    {
+      "original": "experiments/robot01_inverse_dynamics_20261109/analysis04/independent_earlier_inverse_torque.svg",
+      "retained": "supplementary/inverse_dynamics/results/independent_earlier_inverse_torque.svg",
+      "sha256": "8fbd6ff5a283d33a1c42bfed0b8000a8faba87bb8e000c6cc60d572324a91670",
+      "bytes": 339689
+    },
+    {
+      "original": "experiments/robot01_inverse_dynamics_20261109/analysis04/summary.json",
+      "retained": "supplementary/inverse_dynamics/results/summary.json",
+      "sha256": "e94546255d0351ac63a34450267ef3096610616f76d67bc23208bb6cce7537c0",
+      "bytes": 24824
+    },
+    {
+      "original": "experiments/robot01_inverse_dynamics_20261109/analysis04/synthetic_sensor_control_inverse_torque.svg",
+      "retained": "supplementary/inverse_dynamics/results/synthetic_sensor_control_inverse_torque.svg",
+      "sha256": "b0c4d16c0516ab1fd6ed21addc71b7f10efaf859ceae87d945b7e170dd5a8232",
+      "bytes": 330665
+    },
+    {
+      "original": "experiments/robot01_inverse_dynamics_20261109/analysis04/independent_earlier_torques.csv",
+      "retained": "supplementary/inverse_dynamics/results/independent_earlier_torques.csv",
+      "sha256": "ed80821840140c3af2b3aa5a77a7422fb91e522161c5e6472eeedd87a203c165",
+      "bytes": 206981
+    },
+    {
+      "original": "experiments/robot01_inverse_dynamics_20261109/analysis04/latest_inverse_torque.png",
+      "retained": "supplementary/inverse_dynamics/results/latest_inverse_torque.png",
+      "sha256": "039ca2f13f7dbf94b281da455680a7991f7ff13ec3daa698c0a477734ec27eca",
+      "bytes": 662695
+    },
+    {
+      "original": "experiments/robot01_inverse_dynamics_20261109/analysis04/latest_inverse_torque.svg",
+      "retained": "supplementary/inverse_dynamics/results/latest_inverse_torque.svg",
+      "sha256": "8f11e3a42d7b99a06b2b13a349b43771ac3fadd8dc7258a48e57330101428b3e",
+      "bytes": 335410
+    },
+    {
+      "original": "experiments/robot01_inverse_dynamics_20261109/analysis04/synthetic_sensor_control_inverse_torque.png",
+      "retained": "supplementary/inverse_dynamics/results/synthetic_sensor_control_inverse_torque.png",
+      "sha256": "a7597ee56931519a96bf8389a86c7f4ac0081357843cc244cffb4f6e3f3f5124",
+      "bytes": 485318
+    },
+    {
+      "original": "experiments/robot01_inverse_dynamics_20261109/analysis04/synthetic_sensor_control_torques.csv",
+      "retained": "supplementary/inverse_dynamics/results/synthetic_sensor_control_torques.csv",
+      "sha256": "3af92361781ab910219181c8f4c2109f0ae1210e44c621e32fdd92dad8aa859a",
+      "bytes": 203482
+    },
+    {
+      "original": "experiments/robot01_inverse_dynamics_20261109/analysis04/latest_torques.csv",
+      "retained": "supplementary/inverse_dynamics/results/latest_torques.csv",
+      "sha256": "93c32b09e17c5006293ebb2d82cbb9ee70567845477fc4ac5748be4361e78c8d",
+      "bytes": 206612
+    },
+    {
+      "original": "experiments/robot01_inverse_dynamics_20261109/analysis04/independent_earlier_inverse_torque.png",
+      "retained": "supplementary/inverse_dynamics/results/independent_earlier_inverse_torque.png",
+      "sha256": "1a3cef646df952aaa8ce10eadfa6be07456c08723da3091627d419c89fa44e64",
+      "bytes": 664240
+    },
+    {
+      "original": "experiments/robot01_inverse_dynamics_20261109/README.md",
+      "retained": "supplementary/inverse_dynamics/original_method.md",
+      "sha256": "b42c3133d1155fe101e678c65b3a7c2ec0c62ed4aa17cb81ee8009141b95eeef",
+      "bytes": 6898
+    },
+    {
+      "original": "diagnostics/inverse_body_torque.py",
+      "retained": "supplementary/inverse_dynamics/source_snapshot/inverse_body_torque.py",
+      "sha256": "7b4ebdd38f7cb1ec9a880d5029f566eb733ec64ee7e4c56d4e2c28877784974b",
+      "bytes": 9806
+    },
+    {
+      "original": "experiments/robot01_timing_study_20261109/README.md",
+      "retained": "supplementary/inverse_dynamics/exploratory_limitations.md",
+      "sha256": "54e007df7c72dc90e3bdc70e7c363985b5e601189247b3d0eab1fa346b372a81",
+      "bytes": 989,
+      "original_sha256": "c56f83e810a5ebb06c1cfac14875d8df9b64ef7c28adbdbb692bd9fef20b866f",
+      "transformation": "Documentation rewritten to remove dead historical links and state the stopped-study limitations. Numerical data/results are unchanged."
+    },
+    {
+      "original": "experiments/robot01_timing_study_20261109/final_report_complete/metrics.csv",
+      "retained": "supplementary/inverse_dynamics/exploratory_metrics.csv",
+      "sha256": "f71810c2a02e0adbc6f2ec05ccb7dbdccadec99c15295fd997f4916105bdfb31",
+      "bytes": 487
+    }
+  ],
+  "protected_sha256": {
+    "config/mujoco_robot01_stribeck.json": "9b2b606adba1ee7a6bad4cf5b4642377703970dd293e5b041335ad334de42521",
+    "config/mujoco_motors_sx_dx_20261030.json": "f87fa812d88acf47c2b458b7d3bff7fbfad142219f2111650a402cc8a4ba1c1b",
+    "config/mujoco_sensors_mpu6500.json": "48a318ae9dca31850f0b9bd298ea0c902f4420f6f5495f36ee419defedd53d76",
+    "config/mujoco_battery_3s_3000mah.json": "46915b8c16534b9bcf4f2dc9b75c54a378d91da58a32817bf00d9c28b707ad73",
+    "src_python/stribeck_motor.py": "c21c384c4a2485f0267b5d852243c421f8bb656f27c557ca66c62e35234574cf",
+    "models/verifica.xml": "d2e22f32f5c8d2fe645a0c8d43bf3e9364eebd1289685898a6c4b4190a19a5ec",
+    "diagnostics/stribeck_lut_compensation.h": "3c8e287c94807d386d72432c296950dc493c4fdf33cbf05082088db15626faac",
+    "diagnostics/stribeck_compensation_data.h": "afc30b129e705246a46f053f15987c6d3925c8765d1c57ff5b5b6c0d76a9d090",
+    "config/controllers/lqr_mimo.txt": "0c25a815be367283719facedd982de2d9e774f1c49a8f26b0213719b138becc5",
+    "config/controllers/lqr_path_40cm_28p5s.txt": "6afab3e999d329aab931168b15f9f7ccbc7a14ce7557ffcd60f58cbbafdc9b76",
+    "config/controllers/hinf_stand.txt": "415447b6ae9cefec0ed70a5b18163a93a1d924dd76b4c5c88c2c2b7959b7380a",
+    "config/controllers/hinf_path_40cm_28p5s.txt": "769bd8230bdfcbe28a639a15b1c596f7ba3903391b9421beb415fa29cdc6f9c1"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "name": "Piccolo percorso a S",
+  "frame": "local_to_release",
+  "units": "m",
+  "start_s": 1.0,
+  "travel_duration_s": 20.0,
+  "end_heading_deg": 0.0,
+  "waypoints_xy_m": [
+    [0.0, 0.0],
+    [0.0, 0.15],
+    [-0.08, 0.35],
+    [-0.08, 0.55],
+    [0.0, 0.75],
+    [0.0, 0.90]
+  ],
+  "guidance": {
+    "lateral_gain_rad_per_m": 4.0,
+    "max_heading_correction_deg": 20.0
+  },
+  "limits": {
+    "max_speed_m_s": null,
+    "max_yaw_rate_deg_s": null
+  },
+  "visual": {
+    "line_width_m": 0.004,
+    "rgba": [1.0, 0.75, 0.05, 0.9]
+  }
+}
